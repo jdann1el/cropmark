@@ -2,6 +2,12 @@
 
 # cropmark
 
+<p align="center"><a href="https://skills.sh/jdann1el/cropmark/cropmark"><img src="https://skills.sh/b/jdann1el/cropmark?style=flat-square" alt="skills.sh"></a> <img src="https://img.shields.io/badge/license-MIT-f4c430?style=flat-square" alt="MIT"> <img src="https://img.shields.io/badge/agents-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor%20%C2%B7%20OpenCode-111?style=flat-square" alt="agents"></p>
+
+```bash
+npx skills add jdann1el/cropmark -g
+```
+
 **An agent skill for portfolio-level social media design**: YouTube thumbnails, single posts and 4:5 carousels — made from scratch, or by upgrading a weak existing piece.
 
 Most AI-made social graphics look like "a template with a stock photo". cropmark encodes how studio designers actually work — one idea per frame told by the image, type with real contrast, brand elements used as graphics, carousels built as an argument — plus the engines and QA to ship it.
