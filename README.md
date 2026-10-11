@@ -1,68 +1,140 @@
-<p align="center"><img src="assets/banner.png" alt="cropmark" width="100%"></p>
+<p align="center">
+  <img src="assets/banner.png" alt="cropmark — portfolio-level social design for AI agents" width="100%" />
+</p>
 
-# cropmark
+<h1 align="center">cropmark</h1>
 
-<p align="center"><a href="https://skills.sh/jdann1el/cropmark/cropmark"><img src="https://skills.sh/b/jdann1el/cropmark?style=flat-square" alt="skills.sh"></a> <img src="https://img.shields.io/badge/license-MIT-f4c430?style=flat-square" alt="MIT"> <img src="https://img.shields.io/badge/agents-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor%20%C2%B7%20OpenCode-111?style=flat-square" alt="agents"></p>
+<p align="center">
+  <em>Your agent designs thumbnails, posts and carousels that could sit in a Behance portfolio, not a template with a stock photo.</em>
+</p>
 
-```bash
-npx skills add jdann1el/cropmark -g
-```
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat&logo=github&logoColor=white" alt="MIT License" /></a>
+  &nbsp;
+  <a href="https://github.com/vercel-labs/skills"><img src="https://img.shields.io/badge/Agent_Skills-compatible-24292f?style=flat" alt="Agent Skills compatible" /></a>
+  &nbsp;
+  <a href="#install"><img src="https://img.shields.io/badge/Claude_Code_%2F_Codex_%2F_Cursor-install-f4dc3c?style=flat" alt="Install" /></a>
+  &nbsp;
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/version-0.4.0-24292f?style=flat" alt="Version" /></a>
+</p>
 
-**An agent skill for portfolio-level social media design**: YouTube thumbnails, single posts and 4:5 carousels — made from scratch, or by upgrading a weak existing piece.
-
-Most AI-made social graphics look like "a template with a stock photo". cropmark encodes how studio designers actually work — one idea per frame told by the image, type with real contrast, brand elements used as graphics, carousels built as an argument — plus the engines and QA to ship it.
-
-<p align="center"><img src="examples/gallery.jpg" alt="examples made with cropmark" width="100%"></p>
-
-## What's inside
-Everything the agent loads lives in `skills/cropmark/`; the repo root only adds this README, examples and evals.
-| | |
-|---|---|
-| `skills/cropmark/SKILL.md` | Short router: what to read for each task + non-negotiables |
-| `formats/` | Thumbnail, post, carousel, other (story, X, square) — sizes, safe zones, feed tests |
-| `styles/` | 18 style cards distilled from current Behance work (cinematic stakes, UI hero, editorial maximal, zine collage, luxury real estate, product hero dark…) |
-| `techniques/` | Story in one frame, typography pairings, carousel system, upgrading, imagery |
-| `engines/pillow` | `cm.py`: grading, text with tracking/stroke/shadow, in-scene cards, sticky notes, tags, halftone, torn paper, cutout cleanup, before/after sheets |
-| `engines/html` | `render.mjs`: HTML/CSS → PNG with Playwright, panoramic carousels sliced automatically, bundled fonts injected |
-| `qa/` | `qa.py` (size, safe zones, badge zone, contrast, word count, feed previews) + rubric |
-| `adapters/` | Hark, Claude Code, Codex, generic |
-| `fonts/` | 20+ OFL fonts (Anton, Bebas Neue, DM Serif Display, Instrument Sans/Serif, Outfit, Pinyon Script, Caveat…) |
+<p align="center"><sub><a href="#install">Install</a> · <a href="#update">Update</a> · <a href="#what-it-makes">What it makes</a> · <a href="#before--after">Before / after</a> · <a href="#styles">Styles</a> · <a href="#how-it-works">How it works</a> · <a href="#results">Results</a> · <a href="#faq">FAQ</a></sub></p>
 
 ## Install
 
-**Any agent (Claude Code, Codex, Cursor, OpenCode…)** — via the open [`skills`](https://github.com/vercel-labs/skills) CLI:
 ```bash
-npx skills add jdann1el/cropmark -g      # install globally, pick your agents
-npx skills update                         # pull the latest version later
+npx skills add jdann1el/cropmark
 ```
 
-**Claude Code, as a plugin (can auto-update)**:
+The [`skills`](https://github.com/vercel-labs/skills) CLI asks which agents to install it for: Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Hermes and 70+ more. Add `-g` to install it for every project.
+
+**Claude Code plugin** (optional, the only way to get automatic updates):
+
 ```
 /plugin marketplace add jdann1el/cropmark
 /plugin install cropmark@cropmark
 ```
-Updates: `/plugin marketplace update cropmark`, or turn on auto-update in `/plugin` → Marketplaces → cropmark.
 
-**Manual (git)** — clone and point your agent at `skills/cropmark/SKILL.md`; update with `git pull`:
-```bash
-git clone https://github.com/jdann1el/cropmark.git
-ln -s "$PWD/cropmark/skills/cropmark" ~/.claude/skills/cropmark   # Claude Code
-ln -s "$PWD/cropmark/skills/cropmark" ~/.agents/skills/cropmark   # Codex
-```
+**Render engines** (one time, from the installed `cropmark/` folder):
 
-**Engines** (once, inside the installed `cropmark/` skill folder):
 ```bash
 pip install pillow
 cd engines/html && npm i && npx playwright install chromium
 ```
 
-Image generation is optional: with an image model the skill uses it for text-free bases; without one it falls back to user/stock photos or photo-free styles.
+## Update
+
+```bash
+npx skills update cropmark
+```
+
+Claude Code plugin: run `/plugin marketplace update cropmark`, or turn on auto-update in `/plugin` → Marketplaces → cropmark.
+
+## What it makes
+
+| Format | Size | What the skill handles |
+| --- | --- | --- |
+| **YouTube thumbnail** | 1280×720 | One idea told by the image, a 2–4 word hook, bottom-right kept clear for the timestamp, 320 px readability check |
+| **Post / ad** | 1080×1350 · 1080×1080 | Photo-led or type-led layouts, brand used as a graphic element, Instagram and LinkedIn crops |
+| **Carousel** | 4:5 slides | Built as an argument in chapters: cover, proof, payoff. Templated systems or one seamless panorama sliced into slides |
+| **Upgrade mode** | any | Takes an existing weak piece, diagnoses it and ships a before/after |
+
+Ask in plain words: *"make a thumbnail for my video about restoring a 1987 road bike"*, *"carousel: 4 signs you're burnt out, for a psychology studio"*, *"fix this post"*.
+
+## Before / after
+
+Same agent, same brief, same image model. Left: no skill. Right: cropmark.
+
+<p align="center"><img src="examples/before-after.jpg" alt="Three before/after pairs" width="100%" /></p>
+
+<p align="center"><img src="examples/gallery.jpg" alt="Pieces made with cropmark" width="100%" /></p>
+
+## Styles
+
+18 style cards distilled from current studio work. The skill picks one by niche, tone and goal, and never mixes two in one set.
+
+| Photo-led | Type-led | Commercial |
+| --- | --- | --- |
+| `cinematic-stakes` · `horror-mystery` · `food-hero` · `dark-food-punchline` · `luxury-realestate` · `seamless-panorama` | `editorial-maximal-yellow` · `zine-collage` · `type-behind-subject` · `cinematic-editorial` · `brand-color-block` · `brand-shape-mask` | `product-hero-dark` · `ui-hero` · `split-transformation` · `text-in-scene` · `surreal-object` · `promo-mid` |
+
+## How it works
+
+```
+brief → concept → style card → copy → image (no text) → render → QA → look at it at feed size
+```
+
+- **Router, not a wall of text.** `SKILL.md` is short and loads only the format, style and techniques the task needs.
+- **Text is never generated by the image model.** Bases come out clean; type is set with real fonts (20+ OFL fonts bundled).
+- **Two engines.** `engines/pillow/cm.py` for photo-led pieces (grading, in-scene cards, sticky notes, halftone, torn paper, cutout cleanup). `engines/html/render.mjs` for layout-heavy posts and carousels (HTML/CSS → PNG, panoramas sliced automatically).
+- **QA you can run.** `qa/qa.py` checks size, safe zones, the timestamp corner, contrast and word count, and outputs feed-size previews.
+- **No invented numbers.** Prices, stats and claims come from the brief or stay out.
+- **No image model? Still works.** It falls back to your photos, free stock or photo-free type styles.
+
+<details>
+<summary>Repo layout</summary>
+
+| Path | What |
+| --- | --- |
+| `skills/cropmark/SKILL.md` | Router and non-negotiables |
+| `skills/cropmark/formats/` | thumbnail, post, carousel, other (story, X, square) |
+| `skills/cropmark/styles/` | 18 style cards + `INDEX.md` |
+| `skills/cropmark/techniques/` | story in one frame, typography, carousel system, upgrade, imagery |
+| `skills/cropmark/engines/` | Pillow and HTML render engines |
+| `skills/cropmark/qa/` | `qa.py`, checklist, rubric |
+| `skills/cropmark/adapters/` | notes for Claude Code, Codex, generic agents |
+| `evals/` | the frozen briefs used to test the skill |
+
+</details>
 
 ## Results
-Baseline (same agent, no skill) vs cropmark on 12 frozen briefs: average 3.3 → 4.2 on a 7-criterion rubric, 11 of 12 pairs won (1 tie); unseen hold-out briefs 4.1. Self-scored — see `evals/`. Run your own: the briefs are there.
 
-## Principles
-1. Concept before pixels. 2. The image carries the story; text confirms it. 3. Type with character. 4. One focal point. 5. Generated images contain no text. 6. Never invent numbers, quotes or claims. 7. Look at every render at feed size before shipping.
+12 frozen briefs, same agent with and without the skill:
 
-## Credits & license
-MIT (code and docs). Fonts: SIL OFL 1.1. Styles were learned from public portfolios and rewritten as original guidance; no third-party images are included (sources in `refs/index.md`). Ideas, not code, from anthropics/skills `canvas-design`, op7418 guizang social cards and charlie947 social-media-skills.
+- **Blind human vote:** cropmark won 9 of 12 pairs, 1 tie.
+- **Rubric score** (7 criteria, self-scored): 3.3 → 4.2. Unseen hold-out briefs: 4.1.
+
+Both losses were thumbnails where the skill dropped all text; v0.3.1 fixed that rule. The briefs are in [`evals/`](evals/), so you can run your own comparison.
+
+## FAQ
+
+**Does it need an image generator?**
+No. It uses one if your agent has it (for text-free bases), otherwise your photos, free stock or type-only styles.
+
+**Why did the installer show a security warning?**
+The skill runs local scripts (Pillow, Playwright) to render images, which some automated scanners flag. It only reads its own folder and your assets, writes images to your output folder, and never installs anything without asking. The scripts are short: read them in `skills/cropmark/engines/`.
+
+**Can it copy a specific designer?**
+No. Styles describe patterns (layout, type contrast, depth), not anyone's work. No third-party images ship in the repo.
+
+**Languages?**
+The copy matches the brief: English, Spanish, Catalan and others.
+
+## Contributing
+
+Issues and PRs welcome: new style cards, format modules, engine fixes. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+[MIT](LICENSE) for code and docs. Bundled fonts keep their SIL OFL 1.1 licenses. Ideas, not code, from anthropics/skills `canvas-design`, op7418 guizang social cards and charlie947 social-media-skills.
+
+<p align="center"><sub>Made by <a href="https://github.com/jdann1el">@jdann1el</a> in Barcelona</sub></p>

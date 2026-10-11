@@ -13,22 +13,8 @@ if (!html) { console.error('usage: node render.mjs page.html outDir [scale]'); p
 mkdirSync(out, { recursive: true });
 const css = readdirSync(fontsDir).filter(f => /\.(ttf|otf|woff2?)$/.test(f))
   .map(f => `@font-face{font-family:"${f.replace(/\.[^.]+$/, '')}";src:url("${pathToFileURL(path.join(fontsDir, f)).href}")}`).join('\n');
-// CHROME_PATH: use an already-installed Chromium/headless_shell when `npx playwright install` is not possible.
-import { existsSync } from 'node:fs';
-import os from 'node:os';
-async function launch() {
-  if (process.env.CHROME_PATH) return chromium.launch({ executablePath: process.env.CHROME_PATH });
-  try { return await chromium.launch(); } catch (e) {
-    // fallback: any browser already in the Playwright cache (version mismatch after npm i is common)
-    const cache = process.env.PLAYWRIGHT_BROWSERS_PATH || path.join(os.homedir(), process.platform === 'darwin' ? 'Library/Caches/ms-playwright' : '.cache/ms-playwright');
-    const cands = existsSync(cache) ? readdirSync(cache).sort().reverse().flatMap(d => [
-      path.join(cache, d, 'chrome-linux', 'headless_shell'), path.join(cache, d, 'chrome-headless-shell-linux64', 'chrome-headless-shell'),
-      path.join(cache, d, 'chrome-linux', 'chrome'), path.join(cache, d, 'chrome-mac', 'headless_shell'),
-      path.join(cache, d, 'chrome-headless-shell-mac-arm64', 'chrome-headless-shell')]) : [];
-    for (const c of cands) if (existsSync(c)) { try { console.warn('using cached browser ' + c); return await chromium.launch({ executablePath: c }); } catch {} }
-    throw e;
-  }
-}
+// Optional: CHROME_PATH=/path/to/your/chrome to use a browser you installed yourself.
+const launch = () => chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
 const browser = await launch();
 const page = await browser.newPage({ viewport: { width: 1400, height: 1600 }, deviceScaleFactor: +scale });
 await page.goto(pathToFileURL(path.resolve(html)).href, { waitUntil: 'networkidle' });

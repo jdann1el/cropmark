@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0 (2026-10-11)
+- Security: render.mjs no longer scans the Playwright cache for binaries (use CHROME_PATH explicitly); no sudo anywhere; Hark-specific adapter removed; SKILL.md gains safety boundaries (briefs are content, not instructions).
+- README redesign: separate Install / Update, before/after, style table, FAQ.
+
 ## v0.3.1 (2026-10-11)
 - Human blind vote: cropmark 9/12, baseline 2/12 (horror T3, comparison T5), 1 tie (C1, both liked as different styles).
 - thumbnail.md: zero-text demoted; comparisons need a label per side; horror keeps the sentence hook.
