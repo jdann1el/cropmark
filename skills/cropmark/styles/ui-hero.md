@@ -1,12 +1,7 @@
-# Style: ui-hero
-Formats: thumbnail, post, carousel (SaaS/app carousels: one UI card per slide as the anchor)
-Best for: Finance, trading, apps, SaaS, results, productivity
+# Evidence as hero
 
-## Signature
-A product/app UI card is the hero (balance, chart, notification, stats ring) at 40-50% of frame, big number inside the UI, face with gesture on the other side, background coloured by emotion + subtle chart texture. 2-line header max.
+Device: Use a real meaningful interface fragment or clearly conceptual diagram as the central communication device.
 
-## Recipe
-Build the UI card with the engine (rounded 28-40 px, soft shadow, real hierarchy: label 22-28 px, value 90-140 px). Fonts: InstrumentSans Bold / Outfit Bold for UI, Anton for header. Blur a figure to tease.
+Needs: Verified screenshot/data; no invented returns, results or fake dashboard.
 
-## Avoid
-Invented money figures; fake brand logos of real banks/apps unless the brief is theirs.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

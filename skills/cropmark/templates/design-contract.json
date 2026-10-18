@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "frames": [{
+    "id": "example",
+    "size": [1080, 1350],
+    "margin": 64,
+    "elements": [
+      {"id": "headline", "box": [80, 100, 960, 300]},
+      {"id": "body", "box": [80, 350, 960, 550]},
+      {"id": "photo", "box": [0, 650, 1080, 1350], "bleed": true, "reason": "Full-bleed photographic field below safe text"}
+    ],
+    "alignments": [{"axis": "left", "elements": ["headline", "body"], "tolerance": 2}],
+    "gaps": [{"a": "headline", "b": "body", "axis": "y", "min": 32}],
+    "tokens": {"display_font": "actual file/family chosen for this set"}
+  }],
+  "shared_tokens": ["display_font"]
+}

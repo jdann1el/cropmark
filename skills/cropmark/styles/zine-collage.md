@@ -1,12 +1,7 @@
-# Style: zine-collage
-Formats: post, carousel
-Best for: Psychology, culture, art, education with personality, editorial accounts
+# Editorial assembly
 
-## Signature
-Flat bold colour field (pink, red, cobalt) + black-and-white torn-paper collage portrait/object with halftone/newsprint texture; one short sentence in clean sans; masthead line (Name · Field · ID) top and footer line (@ · contact · ©year) on every piece.
+Device: Use layering, crop and material changes to make a specific editorial argument.
 
-## Recipe
-Torn edge: engine mask with jittered polygon + paper shadow. Fonts: WorkSans/InstrumentSans Medium for text, small caps meta 18-22 px.
+Needs: Source images and a relationship between the layers; purposeful edges.
 
-## Avoid
-Gradients; glossy photos; long texts.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

@@ -1,6 +1,6 @@
 ---
 name: cropmark
-description: Create, improve or critique social graphics: thumbnails, posts, carousels, covers and brand campaigns, including faithful editable reconstruction of supplied references.
+description: "Create, improve or critique social graphics: thumbnails, posts, carousels, covers and brand campaigns, including faithful editable reconstruction of supplied references."
 ---
 
 # Cropmark — art direction for social graphics
