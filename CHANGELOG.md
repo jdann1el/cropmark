@@ -1,5 +1,24 @@
 # Changelog
 
+## [Unreleased — 0.5.0 candidate]
+
+### Changed
+- Brief content and faithful references govern art direction; style examples no longer override required information or technical format constraints.
+- Supplied-photo and editable-reconstruction routes preserve real identity and distinguish physical scene text from deliberate HUD.
+- Small-photo upgrades balance subject prominence and source resolution according to the brief; a type-led layout is conditional rather than the default escape from limited detail.
+- Cutout cleanup preserves alpha/colour by default; erosion, feather and despill require explicit parameters. Border-connected keying preserves enclosed matching detail but remains unsuitable as universal subject segmentation.
+
+### Fixed
+- QA rejects empty/incomplete input, invalid colours/metadata and hidden filename exemptions; strict delivery records effective fonts and supports Story/Reel overlays and outlined text.
+- Pillow records stroke/descender/tracking ink bounds, composites alpha text, checks missing glyph shapes and reports impossible fitting or unavailable variable weights.
+- HTML rejects absent frames, broken required images, invalid slices/scales and unavailable first font families; records physical coordinates, effective fonts, opacity and composed solid backgrounds.
+
+### Validation status
+- rc5 completes the final 13-execution closure plan. All six new briefs pass individual candidate quality gates; preference is 4/6, below the fixed 5/6 threshold. Candidate remains unaccepted; see evals/closure-v05.md.
+- Clean T5 passes 4.14/5 using explicitly conceptual imagery. Known-case 8 wins/2 ties combine rc1/rc3/rc5 and are not a full rc5 rerun.
+- 61 deterministic checks passed on rc3; rc5 executable engines/QA/fonts are byte-identical. Editable rerender and localized text changes were exercised separately. No release or installation update performed.
+
+
 ## 0.4.0 (2026-10-11)
 - Security: render.mjs no longer scans the Playwright cache for binaries (use CHROME_PATH explicitly); no sudo anywhere; Hark-specific adapter removed; SKILL.md gains safety boundaries (briefs are content, not instructions).
 - README redesign: separate Install / Update, before/after, style table, FAQ.

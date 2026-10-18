@@ -20,6 +20,10 @@
 
 <p align="center"><sub><a href="#install">Install</a> · <a href="#update">Update</a> · <a href="#what-it-makes">What it makes</a> · <a href="#before--after">Before / after</a> · <a href="#styles">Styles</a> · <a href="#how-it-works">How it works</a> · <a href="#results">Results</a> · <a href="#faq">FAQ</a></sub></p>
 
+## Local v0.5 candidate status
+
+The unreleased rc5 candidate completed its practical validation: 6/6 new briefs pass individual quality gates, but only 4/6 comparisons prefer it to v0.4 (required: 5/6). It remains unaccepted. See [validation outcome](evals/closure-v05.md); the released version and installation remain v0.4.
+
 ## Install
 
 ```bash
@@ -62,6 +66,8 @@ Claude Code plugin: run `/plugin marketplace update cropmark`, or turn on auto-u
 Ask in plain words: *"make a thumbnail for my video about restoring a 1987 road bike"*, *"carousel: 4 signs you're burnt out, for a psychology studio"*, *"fix this post"*.
 
 ## Before / after
+
+The images below are historical examples. They are not controlled evidence that the local v0.5 candidate outperforms v0.4 or matches Hark. The candidate is under the bounded protocol described in [evals](evals/README.md).
 
 Same agent, same brief, same image model. Left: no skill. Right: cropmark.
 
