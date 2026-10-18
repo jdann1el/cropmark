@@ -12,3 +12,6 @@ Overlap rule: the product/hand may cover ≤30 % of the giant word; every letter
 
 ## Avoid
 More than 2 brand colours; logo as the headline.
+
+## Product launches
+Keep the complete supplied product name in one coherent reading group before using decorative syllable breaks. Place the hero and type with deliberate clearance: an ice edge or product corner almost touching a letter is a distracting tangent, not useful overlap. Use overlap only when the name stays immediately identifiable at feed size; a clean separated layout is equally valid.

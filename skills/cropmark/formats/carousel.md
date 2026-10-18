@@ -1,4 +1,6 @@
 # Format: carousel (4:5, 1080x1350 per slide)
+
+Technical dimensions/safe zones apply; layout, word-count and style patterns below are suggestions. The content contract and faithful reference take precedence over aesthetic prescriptions. Typography-only work is valid when it serves the brief.
 LinkedIn: export as PDF. Instagram: same ratio on every slide. 4-10 slides (default 5-7). Per slide: headline ≤8 words, body ≤25 words. Feed test 360 px + a contact sheet of the whole set.
 
 ## Core idea

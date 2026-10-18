@@ -1,0 +1,98 @@
+{
+  "plan_executed": true,
+  "creative_runs": 13,
+  "model": "gpt-6.1-sol",
+  "effort": "low",
+  "new_cases": [
+    {
+      "case": "C01",
+      "candidate": "rc5",
+      "candidate_mean": 4.857143,
+      "v04_mean": 4.571429,
+      "candidate_pass": true,
+      "v04_pass": true,
+      "preference": "win",
+      "candidate_fidelity": null,
+      "report": "new-blind/C01/report.md"
+    },
+    {
+      "case": "C02",
+      "candidate": "rc5",
+      "candidate_mean": 4.714286,
+      "v04_mean": 4.857143,
+      "candidate_pass": true,
+      "v04_pass": true,
+      "preference": "win",
+      "candidate_fidelity": null,
+      "report": "new-blind/C02/report.md"
+    },
+    {
+      "case": "C03",
+      "candidate": "rc5",
+      "candidate_mean": 4.285714285714286,
+      "v04_mean": 4.428571428571429,
+      "candidate_pass": true,
+      "v04_pass": true,
+      "preference": "loss",
+      "candidate_fidelity": null,
+      "report": "new-blind/C03/report.md"
+    },
+    {
+      "case": "C04",
+      "candidate": "rc5",
+      "candidate_mean": 4.714286,
+      "v04_mean": 4.0,
+      "candidate_pass": true,
+      "v04_pass": true,
+      "preference": "win",
+      "candidate_fidelity": null,
+      "report": "new-blind/C04/report.md"
+    },
+    {
+      "case": "C05",
+      "candidate": "rc5",
+      "candidate_mean": 4.428571428571429,
+      "v04_mean": 4.428571428571429,
+      "candidate_pass": true,
+      "v04_pass": true,
+      "preference": "loss",
+      "candidate_fidelity": 4,
+      "report": "new-blind/C05/report.md"
+    },
+    {
+      "case": "C06",
+      "candidate": "rc5",
+      "candidate_mean": 4.571429,
+      "v04_mean": 4.142857,
+      "candidate_pass": true,
+      "v04_pass": false,
+      "preference": "win",
+      "candidate_fidelity": null,
+      "report": "new-blind/C06/report.md"
+    }
+  ],
+  "candidate_visual_passes": 6,
+  "candidate_wins": 4,
+  "candidate_losses": 2,
+  "candidate_ties": 0,
+  "win_threshold": 5,
+  "accepted": false,
+  "known_mixed_wins": 8,
+  "known_mixed_ties": 2,
+  "technical_checks_inherited": 61,
+  "native_image_calls": 3,
+  "observed_native_usage": {
+    "input_tokens": 6857926,
+    "cached_input_tokens": 6236672,
+    "output_tokens": 72667,
+    "reasoning_output_tokens": 3700,
+    "total_tokens": 6930593
+  },
+  "sum_native_execution_seconds": 1679.411,
+  "cost_limitations": "Native cumulative tokens include repeated context/cache, not a dollar cost or account quota. Duration sum is run-seconds, not wall-clock; two concurrent runs. Image backend/model/seed unexposed. Reviewer/coordinator consumption excluded.",
+  "claims_excluded": [
+    "Hark parity",
+    "statistical significance",
+    "full rc5 rerun of known cases"
+  ]
+}
