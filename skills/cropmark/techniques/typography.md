@@ -1,23 +1,13 @@
-# Typography (bundled OFL fonts in ../fonts)
-Choose type for the brief/reference and resolve it to an actual bundled file before rendering. Style font names are family suggestions, not guaranteed filenames. Keep one pairing per set; faithful copies follow their reference:
-| Pairing | Display | Support | Use |
-|---|---|---|---|
-| Loud condensed | Anton / BebasNeue / BigShoulders Bold | InstrumentSans | thumbnails V1, food punchlines, sport |
-| Editorial mix | Anton (caps) + InstrumentSerif Italic (lowercase) | InstrumentSans | agencies, opinion, MONA-like |
-| Luxury serif | DMSerifDisplay / Gloock caps + PinyonScript accent word | InstrumentSans caps tracked | real estate, hospitality |
-| Soft serif | DMSerifDisplay Italic / InstrumentSerif Italic | InstrumentSans / WorkSans | health, wellness, nutrition, psychology |
-| Geometric bold | Outfit Bold / BricolageGrotesque Bold | Outfit Regular | consumer brands, apps, ads |
-| Tech | Outfit Regular + Outfit Bold | GeistMono / InstrumentSans caps for specs | gadgets, SaaS, product hero |
-| Handwritten accent | Caveat / NothingYouCouldDo | — | sticky notes, one word max |
+# Typography as composition
 
-Rules
-- Bright accents (orange, yellow, lime) fail as small text on light grounds: use a darker tone of the accent for text, and ink-coloured text on accent pills. Keep the bright accent for shapes and big words (≥60 px).
-- Contrast is the premium signal: size ratio display:support ≥ 4:1; weight contrast (heavy vs light/italic) inside one headline block.
-- Tight display: tracking -0.02/-0.04em, leading 0.85-0.95 for caps; body leading 1.35-1.5.
-- Hard-break lines at meaning seams; avoid widows; ≤18 characters per line for slide titles.
-- Small text is calm: 20-24 px caps tracked +0.15-0.2em, or 28-32 px sentence case. Min 28 px body at 1080 wide.
-- Break a keyword by syllable only when the product/hand overlaps the break (it must look intentional).
-- Accents: test á é í ó ú ñ ç à è ò ï ü and · in every font you use (Anton, Bebas and DMSerif cover Latin-1; Pinyon covers Latin-1).
-- Colour of text = from the palette, never pure #000 on photos; white text on photo needs a calm zone or 2-6 % local shadow.
+Choose faces by the message, imagery and scale, not the sector alone. Start with display, support and metadata roles; one family can fill all three. The bundled OFL fonts are options, not an approved-taste whitelist. A supplied/licensed face may be used when available; keep its file and licence in the editable package and record the font actually rendered.
 
-Font resolution: inspect `fonts/` for exact stems. Pillow: `cm.font("InstrumentSans-Bold", size)`. HTML: `font-family: "InstrumentSans-Bold"` (file stem, not family plus CSS weight). Use available weight files; a declared Medium/Light does not imply those files exist. Record the file/effective font and verify the required glyphs. If a required reference font is unavailable, identify the closest available substitute and report the fidelity limit; do not silently substitute.
+Compare candidate headlines using the real copy: width, weight, rhythm, counters, punctuation and relation to the image. A condensed face saves width but may reduce warmth; an italic can change voice but does not automatically create editorial quality. Mixed families require a visible relationship. Stable roles across a set matter more than a fixed family count.
+
+Set the main mass confidently, then subordinate supporting copy. Use a small intentional scale; avoid a cluster of almost-equal sizes. For a 1080-wide post, body around 28–36 px is a useful starting point, with display sized for the composition; validate at 360 px. A short label can be smaller if still useful and readable. Required copy governs any suggested word count.
+
+Break lines at meaning seams. Adjust text measure, crop, layout and spacing before shrinking the headline; adjust tracking/leading for the actual face and words rather than applying universal tight settings. Preserve accent/descender clearance. Test the script and punctuation actually used; fallback glyphs can change both style and bounds.
+
+Use declared shared edges and an explicit spacing scale. Containers serving the same role keep equivalent padding; optical adjustments are checked against actual ink, not just CSS boxes. Separate independent blocks clearly; overlaps, cropped letters and staggered baselines need a compositional purpose and must preserve required reading.
+
+Inspect full size and feed: first read, secondary read, breaks, contrast and meaningful small copy. `../references/visual-rules.md` R03–R09 covers common failures and legitimate exceptions.
