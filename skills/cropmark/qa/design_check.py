@@ -12,7 +12,19 @@ import sys
 
 
 def number(x):
-    return isinstance(x, (int, float)) and not isinstance(x, bool) and math.isfinite(x)
+    if not isinstance(x, (int, float)) or isinstance(x, bool):
+        return False
+    try:
+        return math.isfinite(x)
+    except OverflowError:
+        return False
+
+
+def relationships(frame, key):
+    groups = frame.get(key, [])
+    if not isinstance(groups, list) or not all(isinstance(group, dict) for group in groups):
+        raise ValueError(f'{key}: expected an array of objects')
+    return groups
 
 
 def vector(x, n, name):
@@ -77,7 +89,7 @@ def check(data, root):
             if eid not in boxes: raise ValueError(f'unknown element {eid!r}')
             return boxes[eid]
 
-        for group in frame.get('alignments', []):
+        for group in relationships(frame, 'alignments'):
             axis = group.get('axis')
             if axis not in ('left', 'right', 'top', 'bottom', 'center_x', 'center_y'): raise ValueError('invalid alignment axis')
             members = group.get('elements')
@@ -92,7 +104,7 @@ def check(data, root):
                 return v-offsets.get(eid,0)
             coords = [coordinate(eid) for eid in members]
             record(max(coords)-min(coords) <= tol, fid, 'R05', f'{axis} alignment of {members}, tolerance {tol}')
-        for group in frame.get('padding', []):
+        for group in relationships(frame, 'padding'):
             outer = box(group.get('container'))
             children = group.get('children')
             if not isinstance(children, list) or not children: raise ValueError('padding needs children')
@@ -103,7 +115,7 @@ def check(data, root):
             if min(expected) < 0: raise ValueError('expected padding cannot be negative')
             tol = positive(group.get('tolerance', 2), 'tolerance', zero=True)
             record(all(abs(a-b) <= tol for a,b in zip(actual,expected)),fid,'R06',f'padding actual {actual}, expected {expected}')
-        for group in frame.get('gaps', []):
+        for group in relationships(frame, 'gaps'):
             a, b = box(group.get('a')), box(group.get('b'))
             axis = group.get('axis')
             if axis not in ('x','y'): raise ValueError('gap axis must be x or y')

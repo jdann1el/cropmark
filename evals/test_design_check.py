@@ -1,7 +1,10 @@
 """Behavioural checks for declared design relationships, including valid exceptions."""
 import copy
 import importlib.util
+import json
 from pathlib import Path
+import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -69,5 +72,38 @@ class DesignChecks(unittest.TestCase):
     def test_negative_spacing_invalid(self):
         self.data['frames'][0]['gaps'][0]['min']=-2
         with self.assertRaises(ValueError):self.check()
+
+    def run_cli(self, data):
+        with tempfile.TemporaryDirectory() as directory:
+            contract=Path(directory)/'contract.json'
+            contract.write_text(json.dumps(data))
+            return subprocess.run([sys.executable,'-B',str(Path(design.__file__)),str(contract)],
+                                  capture_output=True,text=True,timeout=10)
+
+    def assert_invalid_cli(self, data):
+        result=self.run_cli(data)
+        self.assertEqual(result.returncode,2,result.stdout+result.stderr)
+        self.assertIn('ERROR cropmark design contract:',result.stderr)
+        self.assertNotIn('Traceback',result.stderr)
+        self.assertEqual(result.stdout,'')
+
+    def test_cli_rejects_malformed_relationship_collections(self):
+        for key in ('alignments','padding','gaps'):
+            for value in ({},'',None,True,1,[None],['group']):
+                with self.subTest(key=key,value=value):
+                    data=copy.deepcopy(self.data)
+                    data['frames'][0][key]=value
+                    self.assert_invalid_cli(data)
+
+    def test_cli_accepts_explicit_empty_relationship_arrays(self):
+        for key in ('alignments','padding','gaps'):
+            self.data['frames'][0][key]=[]
+        result=self.run_cli(self.data)
+        self.assertEqual(result.returncode,0,result.stderr)
+        self.assertTrue(json.loads(result.stdout)['passed'])
+
+    def test_cli_rejects_unrepresentable_coordinates_without_traceback(self):
+        self.data['frames'][0]['size'][0]=10**1000
+        self.assert_invalid_cli(self.data)
 
 if __name__=='__main__':unittest.main()

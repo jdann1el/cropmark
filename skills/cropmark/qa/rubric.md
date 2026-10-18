@@ -12,4 +12,4 @@ Format lenses:
 
 Record: first read; idea/device; up to three problems with image/region and rule IDs; proposed corrections; what changed after viewing the next render. Correct idea before micro-detail. Three correction rounds maximum after the developed initial set; concept replacement counts. Stop early if no consequential observed defect remains, or a concrete tool/asset/permission block prevents correction. At the limit deliver with unresolved defects disclosed.
 
-Self-review is not release acceptance. For the current update, human blind comparison and an absolute reference-quality judgment control publication; see `../../../evals/art-direction/protocol.md`. Technical checks and high rubric averages alone cannot approve it. Routine client delivery follows the user's actual quality contract, not a fabricated benchmark claim.
+Self-review is not release acceptance. Technical checks and high rubric averages alone cannot establish human approval or comparative quality. Delivery and publication follow the user's actual quality contract; report any required approval that is still pending and do not fabricate benchmark claims.
