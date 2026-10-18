@@ -1,4 +1,6 @@
 # Format: single post / ad (1080x1350, 4:5)
+
+Technical dimensions/safe zones apply; layout, word-count and style patterns below are suggestions. The content contract and faithful reference take precedence over aesthetic prescriptions. Typography-only work is valid when it serves the brief.
 Spec: 1080x1350. Keep key content in the central 1012 px (IG grid shows 3:4). Margins 72-96 px sides, 80-112 top, 80-120 bottom. Feed test at 360 px wide. Headline ≤8 words; body ≤25 words; quote posts ≤15 words total. Min type at 1080 wide: body 28 px, meta 20 px.
 
 ## What separates portfolio posts from templates

@@ -1,5 +1,5 @@
 # Typography (bundled OFL fonts in ../fonts)
-Never set a headline in a default system font. If the chosen style card names fonts, use those (style wins); otherwise pick ONE pairing per set:
+Choose type for the brief/reference and resolve it to an actual bundled file before rendering. Style font names are family suggestions, not guaranteed filenames. Keep one pairing per set; faithful copies follow their reference:
 | Pairing | Display | Support | Use |
 |---|---|---|---|
 | Loud condensed | Anton / BebasNeue / BigShoulders Bold | InstrumentSans | thumbnails V1, food punchlines, sport |
@@ -19,3 +19,5 @@ Rules
 - Break a keyword by syllable only when the product/hand overlaps the break (it must look intentional).
 - Accents: test á é í ó ú ñ ç à è ò ï ü and · in every font you use (Anton, Bebas and DMSerif cover Latin-1; Pinyon covers Latin-1).
 - Colour of text = from the palette, never pure #000 on photos; white text on photo needs a calm zone or 2-6 % local shadow.
+
+Font resolution: inspect `fonts/` for exact stems. Pillow: `cm.font("InstrumentSans-Bold", size)`. HTML: `font-family: "InstrumentSans-Bold"` (file stem, not family plus CSS weight). Use available weight files; a declared Medium/Light does not imply those files exist. Record the file/effective font and verify the required glyphs. If a required reference font is unavailable, identify the closest available substitute and report the fidelity limit; do not silently substitute.

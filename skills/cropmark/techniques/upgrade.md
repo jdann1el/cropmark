@@ -1,8 +1,14 @@
-# Upgrading an existing weak piece
-1. Diagnose in one line (too much text, small subject, no focus, low contrast, generic stock, collage, typo, invented claims).
-2. Keep what the owner can't change: title/topic, brand colours/logo, real product, real face (for a client, never replace their face with AI).
-3. Decide the jump: V1 fix (same idea, better hierarchy and type) or V2 rethink (new story device). Default: deliver both as A/B when unsure.
-4. Change at most three things and make each visible at feed size: (a) story device, (b) text cut to ≤4 words or moved into the scene, (c) one accent + grade.
-5. If a reference image drags the composition back to the old layout, regenerate without it.
-5b. Recreating a "bad original" for a demo: system sans with drop shadow, centred, clutter drawn as simple shapes if no emoji font exists. Name it `*_original.*` (QA never fails it).
-6. Deliver a before/after sheet; never claim CTR gains (it's a hypothesis until A/B tested).
+# Improve an existing piece
+
+1. Diagnose the actual weakness: lost information, small subject, poor hierarchy, illegibility, incorrect claims, artefacts or a composition unrelated to the brief.
+2. Inventory what must survive: topic/title meaning, comparison contenders, brand, real identity/product, figures, schedule and CTA. Preserve useful baseline content even when changing the story device.
+3. Choose a focused improvement or a broader reinterpretation permitted by the brief. Make the important changes visible at feed size; do not replace missing information with generic intrigue. A/B is optional when requested or useful, not an automatic second deliverable.
+4. Shorten copy only if meaning survives. A lone “winner?” cannot identify a product comparison; vague horror words cannot replace the specific premise without visual support.
+5. Classify the source before choosing imagery: an identity-critical photograph requires the supplied real subject; an illustrative reference graphic supplies a concept/layout unless the brief requires its exact subjects. For identity-critical extraction follow `photography.md`; for faithful requests use `reconstruction.md`. A redesign may rebuild illustrative imagery when the brief permits reinterpretation, recording conceptual status and preserving required contender names without inventing hardware specifications. Rebuild the final from editable elements.
+6. Deliver a complete before/after using the actual input and new output. A deliberately poor demo reference is input, not a no-skill baseline execution. Never claim CTR gains from visual judgement alone.
+
+
+## When the weak reference contains a small photograph
+Measure the useful crop's native pixels before making it the hero. Preserve the comparison or subject information, not the old layout's scale. A crop enlarged well beyond its native resolution can remain visibly soft even when technical QA passes; sharpening does not recover missing detail.
+
+Choose the image scale and layout together according to the brief. When the photographed subjects carry the comparison or story, keep them recognizable and visually prominent at feed size; readable labels alone do not restore that role. A type-led layout fits a message-led brief, provided the photograph still performs its required job. Separate source photography from a baked reference graphic: rebuild its text/shapes rather than enlarging them. If source resolution cannot support the required prominence and finish, use a clearly identified conceptual reconstruction only when the brief permits it; a generated look-alike is not exact real-product or person photography. For identity-critical work, request a better source and report the block. Inspect subject recognition, hierarchy and image finish together before approving the upgrade. If the render is visibly soft at delivery scale or the required subject becomes a secondary inset, record that failure and use the next permitted refinement to change the asset/layout route. When neither a permitted reconstruction nor an adequate source is available, report that specific blocker; technical QA alone does not approve the piece.

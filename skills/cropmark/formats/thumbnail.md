@@ -1,5 +1,7 @@
 # Format: YouTube thumbnail (1280x720, 16:9)
 
+Technical dimensions/safe zones apply; layout, word-count and style patterns below are suggestions. The content contract and faithful reference take precedence over aesthetic prescriptions. Typography-only work is valid when it serves the brief.
+
 Spec: 1280x720 master (YouTube accepts up to 3840x2160, ≤2 MB on phone upload). Bottom-right ~18%x15% clear (duration badge). ≥40 px from edges. Feed test at 320 px wide (and 168 px for silhouette).
 
 Sources: own practice (2 training rounds, 17 niches), studied portfolios, and community thumbnail rules; own wording.
