@@ -11,9 +11,16 @@ def font(name, size, weight=None):
     """Bundled font by file stem ('Anton-Regular'); weight= sets the wght axis of variable fonts (e.g. Caveat-Variable)."""
     p = name if os.path.isabs(name) else os.path.join(FONTS, name if name.endswith('.ttf') else name + '.ttf')
     f = ImageFont.truetype(p, size)
-    if weight:
-        try: f.set_variation_by_axes([weight])
-        except Exception: pass
+    if weight is not None:
+        try:
+            axes=f.get_variation_axes()
+            weights=[i for i,a in enumerate(axes) if a['name'].lower() in (b'weight','weight')]
+            if not weights: raise ValueError('font has no weight axis')
+            idx=weights[0]
+            if not axes[idx]['minimum'] <= weight <= axes[idx]['maximum']: raise ValueError('weight outside font axis range')
+            values=[a['default'] for a in axes];values[idx]=weight
+            f.set_variation_by_axes(values)
+        except OSError as exc: raise ValueError('requested weight requires a variable weight font') from exc
     return f
 
 def reset():
@@ -57,9 +64,21 @@ def vignette(im, strength=0.45):
 def _line_w(f, s, tracking):
     return f.getlength(s) + tracking * f.size * max(0, len(s) - 1)
 
+def _check_glyphs(f, s):
+    """Reject the font's missing-glyph shape instead of silently drawing tofu."""
+    missing = f.getmask('\U0010ffff')
+    signature = (missing.size, bytes(missing))
+    absent = []
+    for c in set(s):
+        if c.isspace(): continue
+        mask = f.getmask(c)
+        if (mask.size, bytes(mask)) == signature: absent.append(f'U+{ord(c):04X}')
+    if absent: raise ValueError('Font lacks glyphs: ' + ', '.join(sorted(absent)))
+
 def text(im, xy, s, f, fill=(255, 255, 255), anchor='la', tracking=0.0, leading=1.0, stroke=0, stroke_fill=(0, 0, 0),
          shadow=None, align='left', role='text'):
     """Multi-line text ('\n'). tracking in em. shadow=(dx,dy,blur,alpha). Returns bbox."""
+    _check_glyphs(f, s)
     lines = s.split('\n'); lh = f.size * leading
     widths = [_line_w(f, l, tracking) for l in lines]; W = max(widths); H = lh * (len(lines) - 1) + f.size
     x, y = xy
@@ -67,33 +86,53 @@ def text(im, xy, s, f, fill=(255, 255, 255), anchor='la', tracking=0.0, leading=
     elif anchor[0] == 'r': x -= W
     if anchor[1] == 'm': y -= H / 2
     elif anchor[1] == 'b': y -= H
+    positions = []
+    for i, l in enumerate(lines):
+        lx = x + (W-widths[i])/2 if align == 'center' else x+W-widths[i] if align == 'right' else x
+        ly = y+i*lh
+        if tracking:
+            positions.extend((lx+f.getlength(l[:k])+tracking*f.size*k,ly,c) for k,c in enumerate(l))
+        elif l: positions.append((lx,ly,l))
     def draw_on(d, col, off=(0, 0), st=stroke):
-        for i, l in enumerate(lines):
-            lx = x + (W - widths[i]) / 2 if align == 'center' else x + (W - widths[i]) if align == 'right' else x
-            ly = y + i * lh
-            if tracking:
-                for k, c in enumerate(l):  # cumulative width keeps kerning
-                    cx = lx + f.getlength(l[:k]) + tracking * f.size * k
-                    d.text((cx + off[0], ly + off[1]), c, font=f, fill=col, stroke_width=st, stroke_fill=stroke_fill)
-            else:
-                d.text((lx + off[0], ly + off[1]), l, font=f, fill=col, stroke_width=st, stroke_fill=stroke_fill)
+        for px,py,part in positions:
+            sf = col if d.mode == 'L' else stroke_fill
+            d.text((px+off[0],py+off[1]),part,font=f,fill=col,stroke_width=st,stroke_fill=sf)
     if shadow:
         dx, dy, blur, alpha = shadow; layer = Image.new('L', im.size, 0); draw_on(ImageDraw.Draw(layer), 255, (dx, dy), stroke)
         layer = layer.filter(ImageFilter.GaussianBlur(blur)).point(lambda v: int(v * alpha))
         im.paste(Image.new('RGB', im.size, (0, 0, 0)), (0, 0), layer)
-    draw_on(ImageDraw.Draw(im), fill)
-    asc = f.getbbox('Ág')[1]
-    box = [int(x), int(y + asc), int(x + W), int(y + H)]
-    _BOXES.append({'role': role, 'text': s, 'box': box, 'fill': list(fill) if isinstance(fill, tuple) else fill, 'size': f.size}); return box
+    ink_layer=Image.new('RGBA',im.size,(0,0,0,0))
+    draw_on(ImageDraw.Draw(ink_layer),fill)
+    composed=Image.alpha_composite(im.convert('RGBA'),ink_layer)
+    im.paste(composed.convert(im.mode))
+    d = ImageDraw.Draw(im)
+    ink = [d.textbbox((px,py),part,font=f,stroke_width=stroke) for px,py,part in positions]
+    box = ([math.floor(min(b[0] for b in ink)), math.floor(min(b[1] for b in ink)),
+            math.ceil(max(b[2] for b in ink)), math.ceil(max(b[3] for b in ink))] if ink else [int(x),int(y),int(x),int(y)])
+    _BOXES.append({'role': role, 'text': s, 'box': box, 'fill': list(fill) if isinstance(fill, tuple) else fill,
+                   'size': f.size, 'font_path': str(f.path), 'stroke_width': stroke,
+                   'stroke_fill': list(stroke_fill) if isinstance(stroke_fill,tuple) else stroke_fill})
+    return box
 
-def fit(s, fontname, max_w, start=200, min_size=20, tracking=0.0):
+def fit(s, fontname, max_w, start=200, min_size=20, tracking=0.0, stroke=0):
     """Returns a FONT OBJECT (not a size) at the largest size where the widest line fits max_w."""
-    size = start
-    while size > min_size:
+    if not (math.isfinite(max_w) and max_w > 0 and start >= min_size > 0):
+        raise ValueError('fit requires positive width and start >= min_size > 0')
+    size = int(start)
+    while size >= min_size:
         f = font(fontname, size)
-        if max(_line_w(f, l, tracking) for l in s.split('\n')) <= max_w: return f
-        size -= 2
-    return font(fontname, min_size)
+        _check_glyphs(f,s)
+        def ink_width(line):
+            if not line: return 0
+            if tracking:
+                boxes=[f.getbbox(c,stroke_width=stroke) for c in line]
+                pos=[f.getlength(line[:k])+tracking*f.size*k for k in range(len(line))]
+                return max(p+b[2] for p,b in zip(pos,boxes))-min(p+b[0] for p,b in zip(pos,boxes))
+            b=f.getbbox(line,stroke_width=stroke)
+            return max(_line_w(f,line,tracking),b[2]-b[0])
+        if max(ink_width(l) for l in s.split('\n')) <= max_w: return f
+        size -= 1
+    raise ValueError(f'Text cannot fit width {max_w} at minimum size {min_size}')
 
 def rounded(im, box, radius=28, fill=(255, 255, 255), shadow=(0, 14, 28, 0.35), outline=None, width=0, role='shape'):
     if shadow:
@@ -105,7 +144,10 @@ def rounded(im, box, radius=28, fill=(255, 255, 255), shadow=(0, 14, 28, 0.35), 
 
 def card(im, xy, s, f, pad=(34, 22), fill=(255, 255, 255), color=(17, 17, 17), radius=28, icon=None, anchor='la'):
     """In-scene card (notification / label). icon=(rgb) draws a coloured dot badge."""
-    tw = _line_w(f, s, 0); th = f.size; iw = int(th * 1.1) + 18 if icon else 0
+    _check_glyphs(f,s)
+    if '\n' in s: raise ValueError('card/pill requires single-line text; use a text layout for multiline copy')
+    bb = f.getbbox(s)
+    tw,th = bb[2]-bb[0],bb[3]-bb[1]; iw = int(th * 1.1) + 18 if icon else 0
     W = tw + iw + pad[0] * 2; H = th + pad[1] * 2; x, y = xy
     if anchor[0] == 'm': x -= W / 2
     elif anchor[0] == 'r': x -= W
@@ -116,9 +158,13 @@ def card(im, xy, s, f, pad=(34, 22), fill=(255, 255, 255), color=(17, 17, 17), r
         r = th * 0.55; cx = x + pad[0] + r; cy = y + H / 2; ImageDraw.Draw(im).ellipse([cx - r, cy - r, cx + r, cy + r], fill=icon)
     bb = f.getbbox(s)  # exact ink box -> true vertical centring for any font
     ty = y + H / 2 - (bb[1] + bb[3]) / 2
-    ImageDraw.Draw(im).text((x + pad[0] + iw, ty), s, font=f, fill=color)
-    _BOXES.append({'role': 'card', 'text': s, 'box': [int(x + pad[0] + iw), int(ty + bb[1]), int(x + pad[0] + iw + tw), int(ty + bb[3])], 'fill': list(color), 'size': f.size})
-    _BOXES[-1]['bg'] = list(fill); return [int(x), int(y), int(x + W), int(y + H)]
+    ink_layer=Image.new('RGBA',im.size,(0,0,0,0))
+    ImageDraw.Draw(ink_layer).text((x + pad[0] + iw - bb[0], ty), s, font=f, fill=color)
+    im.paste(Image.alpha_composite(im.convert('RGBA'),ink_layer).convert(im.mode))
+    _BOXES.append({'role': 'card', 'text': s, 'box': [math.floor(x + pad[0] + iw), math.floor(ty + bb[1]), math.ceil(x + pad[0] + iw + tw), math.ceil(ty + bb[3])],
+                   'fill': list(color) if isinstance(color,tuple) else color, 'size': f.size, 'font_path': str(f.path)})
+    _BOXES[-1]['bg'] = list(fill) if isinstance(fill,tuple) else fill
+    return [math.floor(x),math.floor(y),math.ceil(x+W),math.ceil(y+H)]
 
 def pill(im, xy, s, f, fill=(255, 210, 0), color=(0, 0, 0), pad=(26, 12), anchor='la'):
     return card(im, xy, s, f, pad=pad, fill=fill, color=color, radius=999, anchor=anchor)
@@ -148,10 +194,28 @@ def torn_mask(size, jitter=7, seed=1):
     m = Image.new('L', size, 0); ImageDraw.Draw(m).polygon(pts, fill=255); return m
 
 def key_out(im, bg=None, tol=40, feather=2):
-    """Cut a subject generated on a flat background. Returns RGBA."""
-    im = im.convert('RGB'); bg = bg or im.getpixel((2, 2))
-    diff = ImageChops.difference(im, Image.new('RGB', im.size, bg)).convert('L').point(lambda v: 255 if v > tol else 0)
-    a = diff.filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.GaussianBlur(feather)); out = im.convert('RGBA'); out.putalpha(a); return out
+    """Key only matching background connected to the border; not semantic segmentation.
+
+    Enclosed matching detail is preserved. Matching subject detail connected to
+    the border is still ambiguous: use a subject mask or retain the photograph.
+    """
+    if not 0 <= tol <= 255 or feather < 0: raise ValueError('invalid key tolerance/feather')
+    out = im.convert('RGBA'); rgb=out.convert('RGB'); bg=bg if bg is not None else rgb.getpixel((0,0))
+    diff=ImageChops.difference(rgb,Image.new('RGB',rgb.size,bg))
+    r,g,b=diff.split(); largest=ImageChops.lighter(ImageChops.lighter(r,g),b)
+    candidates=largest.point(lambda v:255 if v <= tol else 0)
+    # Native flood fill marks only background candidates reachable from an edge.
+    w,h=candidates.size
+    for x in range(w):
+        for y in (0,h-1):
+            if candidates.getpixel((x,y)) == 255: ImageDraw.floodfill(candidates,(x,y),128)
+    for y in range(h):
+        for x in (0,w-1):
+            if candidates.getpixel((x,y)) == 255: ImageDraw.floodfill(candidates,(x,y),128)
+    a=candidates.point(lambda v:0 if v == 128 else 255)
+    if feather: a=a.filter(ImageFilter.GaussianBlur(feather))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'),a))
+    return out
 
 def paste(im, layer, xy, scale=1.0):
     if scale != 1: layer = layer.resize((int(layer.width * scale), int(layer.height * scale)), Image.LANCZOS)
@@ -164,6 +228,7 @@ def rotated(im, layer, xy, angle, role='shape'):
 
 def sticky(im, xy, s, f, angle=-5, paper=(255, 228, 92), ink=(30, 30, 30), pad=40, tape=True):
     """Handwritten sticky note (text-in-scene). Text box is recorded for QA."""
+    _check_glyphs(f,s)
     tw = max(_line_w(f, l, 0) for l in s.split('\n')); th = f.size * 1.1 * len(s.split('\n'))
     W, H = int(tw + pad * 2), int(th + pad * 2); L = Image.new('RGBA', (W + 40, H + 40), (0, 0, 0, 0))
     sh = Image.new('L', L.size, 0); ImageDraw.Draw(sh).rectangle([24, 28, W + 16, H + 20], fill=110); L.putalpha(0)
@@ -172,7 +237,7 @@ def sticky(im, xy, s, f, angle=-5, paper=(255, 228, 92), ink=(30, 30, 30), pad=4
     for i, l in enumerate(s.split('\n')): d.text((16 + pad, 16 + pad + i * f.size * 1.1), l, font=f, fill=ink)
     if tape: d.rectangle([W / 2 - 50 + 16, 4, W / 2 + 50 + 16, 34], fill=(240, 240, 230, 190))
     size = rotated(im, base, xy, angle, role=None)
-    _BOXES.append({'role': 'card', 'text': s, 'box': [int(xy[0]), int(xy[1]), int(xy[0] + size[0]), int(xy[1] + size[1])], 'fill': list(ink), 'bg': list(paper), 'size': f.size}); return size
+    _BOXES.append({'role': 'card', 'text': s, 'box': [int(xy[0]), int(xy[1]), int(xy[0] + size[0]), int(xy[1] + size[1])], 'fill': list(ink), 'bg': list(paper), 'size': f.size, 'font_path':str(f.path)}); return size
 
 def blur_region(im, box, radius=18):
     """Tease a value (ui-hero): blur only that region."""
@@ -182,27 +247,38 @@ def despill(layer, strength=1.0):
     """Remove green fringe from a keyed RGBA cutout (green-screen generations)."""
     r, g, b, a = layer.split()
     lim = ImageChops.lighter(r, b)
-    g2 = ImageChops.subtract(g, ImageChops.subtract(g, lim)) if strength >= 1 else g
+    if not 0 <= strength <= 1: raise ValueError('despill strength must be in [0,1]')
+    corrected=ImageChops.subtract(g,ImageChops.subtract(g,lim))
+    g2=Image.blend(g,corrected,strength)
     return Image.merge('RGBA', (r, g2, b, a))
 
-def clean_cutout(layer, key=None, tol=60, erode=3, feather=1.5):
-    """Fix a generated cutout: optional colour key, erode the alpha edge (kills green/olive fringes), despill, soften."""
+def clean_cutout(layer, key=None, tol=60, erode=0, feather=0, despill_strength=0):
+    """Preserve identity/alpha by default. Key/erosion/feather/despill are explicit.
+
+    These operations do not infer a subject mask and are unsafe as automatic
+    cleanup for hair, logos, translucent materials or matching subject colors.
+    """
+    if not isinstance(erode,int) or erode < 0 or feather < 0 or not 0 <= despill_strength <= 1:
+        raise ValueError('invalid cutout cleanup parameters')
     layer = layer.convert('RGBA')
     if key:
         k = key_out(layer.convert('RGB'), key, tol, 0); a = ImageChops.multiply(layer.split()[3], k.split()[3])
     else: a = layer.split()[3]
     if erode: a = a.filter(ImageFilter.MinFilter(erode * 2 + 1))
-    a = a.filter(ImageFilter.GaussianBlur(feather)); out = despill(layer); out.putalpha(a); return out
+    if feather: a=a.filter(ImageFilter.GaussianBlur(feather))
+    out=despill(layer,despill_strength) if despill_strength else layer.copy()
+    out.putalpha(a); return out
 
 def tag(im, xy, s, f, angle=-8, paper=(201, 164, 112), ink=(40, 28, 18), string=True):
     """Kraft hang tag with a hole + string (text-in-scene price/label tag). Box recorded for QA."""
+    _check_glyphs(f,s)
     tw = _line_w(f, s, 0); W, H = int(tw + f.size * 1.9), int(f.size * 2.1)
     L = Image.new('RGBA', (W + 30, H + 30), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     pts = [(15 + H * .45, 15), (15 + W, 15), (15 + W, 15 + H), (15 + H * .45, 15 + H), (15, 15 + H / 2)]
     d.polygon(pts, fill=paper + (255,)); r = f.size * .14; cx, cy = 15 + H * .5, 15 + H / 2
     d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(0, 0, 0, 0)); d.text((15 + H * .5 + r * 3, 15 + H / 2), s, font=f, fill=ink, anchor='lm')
     size = rotated(im, L, xy, angle, role=None)
-    _BOXES.append({'role': 'card', 'text': s, 'box': [int(xy[0]), int(xy[1]), int(xy[0] + size[0]), int(xy[1] + size[1])], 'fill': list(ink), 'bg': list(paper), 'size': f.size}); return size
+    _BOXES.append({'role': 'card', 'text': s, 'box': [int(xy[0]), int(xy[1]), int(xy[0] + size[0]), int(xy[1] + size[1])], 'fill': list(ink), 'bg': list(paper), 'size': f.size, 'font_path':str(f.path)}); return size
 
 def compare_sheet(pairs, out, label=('before', 'after'), w=640):
     """Before/after sheet: pairs = [(before_path, after_path, caption), ...]."""
@@ -217,10 +293,10 @@ def compare_sheet(pairs, out, label=('before', 'after'), w=640):
         S.paste(A, (20, y + 36)); S.paste(B, (w + 40, y + 36)); y += A.height + 60
     S.save(out, quality=90); return out
 
-def save(im, path, quality=92, boxes_dir=None):
+def save(im, path, quality=92, boxes_dir=None, *, text_free=False):
     os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     im.save(path, quality=quality) if path.lower().endswith(('.jpg', '.jpeg')) else im.save(path)
     bp = os.path.join(boxes_dir, os.path.basename(path)) if boxes_dir else path
     if boxes_dir: os.makedirs(boxes_dir, exist_ok=True)
-    json.dump({'size': im.size, 'boxes': _BOXES}, open(bp + '.boxes.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump({'size': im.size, 'boxes': _BOXES, 'text_free':text_free}, open(bp + '.boxes.json', 'w'), ensure_ascii=False, indent=1)
     return path
