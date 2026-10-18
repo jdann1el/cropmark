@@ -1,6 +1,6 @@
 # Visual rules — evidence before polish
 
-Apply these to actual renders. See `rulebook.html` for deliberately constructed teaching examples and `../../../docs/casebook.md` for provenance-backed observations. Teaching fixtures show a defect; they are not measured evidence that the skill improves an autonomous result.
+Apply these to actual renders. See `rulebook.html` for deliberately constructed teaching examples and `casebook.md` for provenance-backed observations. Teaching fixtures show a defect; they are not measured evidence that the skill improves an autonomous result.
 
 | ID | Look for | Required action and verification | Legitimate exception |
 | --- | --- | --- | --- |

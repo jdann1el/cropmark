@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased — art-direction candidate
+- Original work explores three concepts and two rendered sketches, then develops a representative piece before extending the set. Narrow edits and faithful copies take a short route.
+- Fourteen craft rules include visible defects, corrections and legitimate exceptions; the illustrated manual uses labelled teaching fixtures.
+- Adds a 21-project reference atlas, twelve provenance-backed case analyses and a bounded creative-flow diagram in Mermaid/SVG/PNG.
+- Campaign guidance and capability-aware model-portable stages replace sector-to-style defaults.
+- Optional declared-layout checker verifies margins, common axes, padding, gaps, font-file presence and set tokens, without claiming aesthetic detection.
+- Renderer, font files and strict QA stay byte-identical to rc5. No public release or installed-skill replacement. Human calibration and final holdouts remain release gates.
+
+
 ## [Unreleased — 0.5.0 candidate]
 
 ### Changed
