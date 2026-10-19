@@ -5,3 +5,5 @@ Map each piece to a role: establish the idea, demonstrate/prove it, give informa
 Develop a hero and one different role before expanding. The second piece must look related without being the first piece with new words. Compare all pieces as a contact sheet at 360 px wide, and each on its own. A recurring lockup supports identity; a recurring decorative footer does not substitute for it. A typographic campaign may use repetition deliberately; retain it when it is the concept and each piece carries distinct content.
 
 Apply brand assets as supplied. A social campaign can establish an applied visual system; a complete logo/identity programme is a separate brief. Preserve required facts and captions; do not fabricate offers to make a post denser.
+
+Brand presence does not require a standard bottom bar. First test the wordmark on the composition’s existing axes or quiet image region, with scale subordinate to the message. A separate strip is useful only when it carries a deliberate campaign function. Check the visible padding of both wordmark and caption groups; a serif headline and a small signature do not by themselves create a refined minimal system.

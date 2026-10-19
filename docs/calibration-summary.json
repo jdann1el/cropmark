@@ -1,27 +1,21 @@
 {
-  "status": "awaiting human calibration",
-  "runs": 18,
-  "final_images": 48,
+  "status": "initial candidate failed; revised candidate pending heldout validation",
+  "initial_runs": 18,
+  "initial_final_images": 48,
   "requested_model": "gpt-6.1-sol",
   "efforts": [
     "low",
     "high"
   ],
-  "conditions": [
-    "no design skill",
-    "rc5",
-    "art-direction-rc1"
+  "initial_candidate_acceptable": {
+    "low": 0,
+    "high": 1
+  },
+  "development_followup_runs": 6,
+  "guided_refinements": 2,
+  "human_missing_preference": [
+    "D3-low"
   ],
-  "human_results": null,
   "heldout_runs": 0,
-  "limits": [
-    "shared generated imagery; no autonomous sourcing tested",
-    "no live external references during runs",
-    "two low-effort candidate runs batch representative/set stages",
-    "exact served model and costs not independently exposed"
-  ],
-  "post_freeze_repairs": [
-    "qa/design_check.py",
-    "qa/rubric.md"
-  ]
+  "release_accepted": false
 }
