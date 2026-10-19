@@ -24,7 +24,7 @@
 
 This branch implements an art-direction workflow on the frozen rc5 rendering base. It adds three concepts/two visual sketches for original work, subject-specific reference analysis, fourteen observable craft rules with illustrated exceptions, a 21-project reference atlas, campaign guidance and optional declared-layout checks. The workflow and review loop adapt to available tools and explicit budget.
 
-**Not accepted for release.** The published/installed version remains v0.4; rc5's historical 4/6 result is not evidence for this new workflow. Current calibration compares no skill, frozen rc5 and a frozen candidate on three new development briefs at low/high effort. The first human calibration rejected art-direction-rc1 at low effort (0/3 acceptable) and accepted 1/3 at high effort. Subsequent development repairs address recorded process, padding, grouping and hierarchy failures; the six-brief held-out phase has completed all18 trials/48 PNGs and passed its technical file audit. Final human blind review and the publication gate remain pending. [Held-out scope](docs/heldout-results.md). [Calibration and repairs](docs/calibration-results.md). [Protocol](evals/art-direction/protocol.md).
+**Not accepted for release.** The published/installed version remains v0.4; rc5's historical 4/6 result is not evidence for this new workflow. Current calibration compares no skill, frozen rc5 and a frozen candidate on three new development briefs at low/high effort. The first human calibration rejected art-direction-rc1 at low effort (0/3 acceptable) and accepted 1/3 at high effort. Subsequent development repairs address recorded process, padding, grouping and hierarchy failures; the six-brief held-out phase has completed all18 trials/48 PNGs and passed its technical file audit. The final human ballot rejected rc2: 1/6 wins vs baseline, 2/6 vs rc5, 2/6 absolute approvals, and no approved carousel. Current measured-composition development remains unaccepted; its exposed H3 exercise reached the correction limit without coordinator approval of reference-level quality. [Held-out scope](docs/heldout-results.md). [Calibration and repairs](docs/calibration-results.md). [Protocol](evals/art-direction/protocol.md).
 
 - [Creative workflow](docs/visuals/creative-flow.svg) · [PNG](docs/visuals/creative-flow.png) · [editable Mermaid](docs/visuals/creative-flow.mmd)
 - [Visual rules](skills/cropmark/references/visual-rules.md) · [illustrated manual](skills/cropmark/references/rulebook.html)
@@ -122,7 +122,7 @@ brief + assets → subject inventory + references → 3 concepts → 2 visual sk
 
 ## Historical results
 
-The figures below describe earlier versions. Current art-direction quality awaits human calibration and held-out evaluation.
+The figures below describe earlier versions. Current art-direction rc2 failed human held-out evaluation; subsequent development has not demonstrated the required quality.
 
 12 frozen briefs, same agent with and without the skill:
 

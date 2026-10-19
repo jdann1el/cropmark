@@ -1,4 +1,4 @@
-# Frozen held-out validation — technical evidence, human gate pending
+# Frozen held-out validation — human gate FAIL
 
 Candidate art-direction-rc2 was frozen at cc36200d787d3500a56734052f669376f9b7e910 before six new briefs were authored. H1/H2 are thumbnails, H3/H4 four-frame carousels, H5/H6 three-post campaigns. Each ran once with no design skill, frozen rc5 and frozen rc2:18 trials,48 final PNGs. Native requested configuration:gpt-6.1-sol,low. Served telemetry and complete costs are unavailable.
 
@@ -8,7 +8,13 @@ The coordinator verified all frozen source/input/brief hashes, exact PNG counts 
 
 Quota interruptions preserve partial work and attempts; resumed workers continued the same trials. No result was discarded or rerun to seek a win. Worker records retain visual limitations, including a frozen-rc5 product carousel below its own visual shipping rubric at its correction limit. The coordinator did not improve weak held-out results after exposure.
 
-Final human review is pending. Anonymous labels are balanced across groups; every condition occupies A/B/C twice. The ballot asks all three pairwise preferences and absolute reference-quality approval separately. Blank votes remain pending; ties/neither are not wins. Release requires ≥5/6 candidate wins against EACH comparator, ≥5/6 absolute approvals, an approved case per family, and technical/editable correctness. No acceptance or claim of superiority is established yet.
+The final human ballot was supplied on 19 October 2026 and the frozen rc2 candidate **FAILS**: 1/6 wins against the no-skill baseline, 2/6 against rc5, and 2/6 absolute quality approvals (H1 and H6, with qualitative reservations). There is no approved carousel. Required thresholds remain ≥5/6 against EACH comparator, ≥5/6 absolute quality, and at least one approved result per family. A preferred result is not necessarily acceptable; H4 has a preferred condition but no absolute approval.
+
+Human ballot SHA256: `1d9c436a37a5d90b730c5460b0963e89bcc142c467e48f371e4a7129db941c24`. The user-supplied ballot, label map, score and frozen originals remain in the private evidence workspace. Blank votes and ties were not converted to wins. The original human notes remain separate from computed counts.
+
+H1–H6 are now exposed. Any reuse for reference analysis or corrections is development, never another held-out success. New source changes do not alter the frozen rc2 skill or its result. See [post-ballot composition audit](research/composition-client-audit-2026-10-19.md).
+
+The technical audit above checks supplied original bytes and reproducible edits. It does **not** prove proportional logo application, OCR fidelity, preservation of recognisable product parts, or photographic attractiveness. A follow-up manual audit found nonuniform logo resize calls and an already-cropped bread source; these qualify the previous technical scope rather than erase its recorded tests.
 
 `score_blind.py` consumes a user-supplied ballot, the separately stored label map and a technical report. The caller must verify human provenance; a JSON human flag is not proof. The script does not publish or merge. Seven unit tests cover threshold, ties, separate comparators, blank votes, technical failure and invalid maps/votes.
 

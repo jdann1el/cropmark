@@ -2,13 +2,14 @@
 
 ## Unreleased — art-direction candidate
 
-- Complete 18 frozen held-out trials/48 PNGs with passing technical file audits; final human blind acceptance remains pending. Add a seven-test ballot gate that preserves blanks/ties and counts each comparator independently.
+- Record the final human FAIL for rc2: 1/6 wins vs baseline, 2/6 vs rc5, 2/6 absolute approvals, no approved carousel. Preserve all18 trials/48 PNGs and passing technical file audits. The seven-test ballot gate preserves blanks/ties and counts each comparator independently.
+- Add development guidance for measured close-reference comparisons, crop roles, uniform logo scaling and fresh viewer critique. The exposed H3 exercise reaches its correction limit with reference-level quality unresolved; no improvement or acceptance claim.
 - Original work explores three concepts and two rendered sketches, then develops a representative piece before extending the set. Narrow edits and faithful copies take a short route.
 - Fourteen craft rules include visible defects, corrections and legitimate exceptions; the illustrated manual uses labelled teaching fixtures.
 - Adds a 21-project reference atlas, twelve provenance-backed case analyses and a bounded creative-flow diagram in Mermaid/SVG/PNG.
 - Campaign guidance and capability-aware model-portable stages replace sector-to-style defaults.
 - Optional declared-layout checker verifies margins, common axes, padding, gaps, font-file presence and set tokens, without claiming aesthetic detection.
-- Renderer, font files and strict QA stay byte-identical to rc5. No public release or installed-skill replacement. Human calibration and final holdouts remain release gates.
+- Renderer, font files and strict QA stay byte-identical to rc5. No public release or installed-skill replacement. Future release requires new briefs after the exposed development cases are resolved.
 
 
 ## [Unreleased — 0.5.0 candidate]
