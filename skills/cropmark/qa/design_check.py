@@ -107,19 +107,41 @@ def check(data, root):
         for group in relationships(frame, 'padding'):
             outer = box(group.get('container'))
             children = group.get('children')
-            if not isinstance(children, list) or not children: raise ValueError('padding needs children')
+            if not isinstance(children, list) or not children or not all(isinstance(eid,str) for eid in children):
+                raise ValueError('padding needs an array of child element names')
             cb = [box(eid) for eid in children]
             union = [min(b[0] for b in cb), min(b[1] for b in cb), max(b[2] for b in cb), max(b[3] for b in cb)]
             actual = [union[1]-outer[1], outer[2]-union[2], outer[3]-union[3], union[0]-outer[0]]
-            expected = vector(group.get('expected'), 4, 'padding.expected (top,right,bottom,left)')
-            if min(expected) < 0: raise ValueError('expected padding cannot be negative')
+            axes = group.get('balanced_axes', [])
+            if ('balanced_axes' in group and (not isinstance(axes,list) or not axes
+                    or any(axis not in ('x','y') for axis in axes) or len(set(axes)) != len(axes))):
+                raise ValueError('padding.balanced_axes must be a nonempty array of distinct x/y axes')
+            if 'expected' not in group and not axes:
+                raise ValueError('padding requires expected or balanced_axes')
+            expected = None
+            if 'expected' in group:
+                expected = vector(group['expected'], 4, 'padding.expected (top,right,bottom,left)')
+                if min(expected) < 0: raise ValueError('expected padding cannot be negative')
+            offsets = group.get('balance_offsets', {})
+            if not isinstance(offsets,dict) or any(axis not in axes or not number(value) for axis,value in offsets.items()):
+                raise ValueError('padding.balance_offsets must contain finite differences for balanced axes only')
+            if offsets: reason(group, 'reason')
             tol = positive(group.get('tolerance', 2), 'tolerance', zero=True)
-            record(all(abs(a-b) <= tol for a,b in zip(actual,expected)),fid,'R06',f'padding actual {actual}, expected {expected}')
+            record(min(actual) >= -tol,fid,'R06',f'children inside {group["container"]}, padding {actual}, tolerance {tol}')
+            if expected is not None:
+                record(all(abs(a-b) <= tol for a,b in zip(actual,expected)),fid,'R06',f'padding actual {actual}, expected {expected}')
+            for axis in axes:
+                difference = actual[3]-actual[1] if axis == 'x' else actual[0]-actual[2]
+                offset = offsets.get(axis,0)
+                record(abs(difference-offset) <= tol,fid,'R06',
+                       f'{axis} padding pair difference {difference}, optical difference {offset}, tolerance {tol}')
         for group in relationships(frame, 'gaps'):
             a, b = box(group.get('a')), box(group.get('b'))
             axis = group.get('axis')
             if axis not in ('x','y'): raise ValueError('gap axis must be x or y')
             minimum = positive(group.get('min'), 'gap.min', zero=True)
+            maximum = positive(group['max'], 'gap.max', zero=True) if 'max' in group else None
+            if maximum is not None and maximum < minimum: raise ValueError('gap.max must be at least gap.min')
             overlap = group.get('allow_overlap', False)
             if not isinstance(overlap,bool): raise ValueError('allow_overlap must be boolean')
             gap = b[0]-a[2] if axis == 'x' else b[1]-a[3]
@@ -127,6 +149,8 @@ def check(data, root):
                 reason(group,'reason')
                 record(True,fid,'R08',f'declared intentional overlap, measured gap {gap}; inspect readability')
             else: record(gap >= minimum,fid,'R07',f'{group["a"]} → {group["b"]}: gap {gap}, minimum {minimum}')
+            if maximum is not None:
+                record(gap <= maximum,fid,'R07',f'{group["a"]} → {group["b"]}: gap {gap}, maximum {maximum}')
         tokens = frame.get('tokens',{})
         if not isinstance(tokens,dict): raise ValueError('tokens must be an object')
         frame_tokens.append((fid,tokens))

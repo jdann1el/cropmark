@@ -22,7 +22,14 @@ def resource_targets(text):
         if re.search(r'\b(?:for example|e\.g\.|placeholder)\b', line, re.I):
             continue
         yield from re.findall(r'\]\(([^)]+)\)', line)
-        for target in re.findall(r'`([^`]+)`', line):
+        for match in re.finditer(r'`([^`]+)`', line):
+            target = match[1]
+            # Exempt only the output token immediately governed by a creation
+            # verb. Reading a resource later on the same line still requires it.
+            generated = ('/' not in target and re.search(
+                r'\b(?:save|write|create|generate)\s+$', line[:match.start()], re.I))
+            if generated:
+                continue
             # A bare path is a resource. Spaces, flags, calls and shell syntax
             # identify commands or code rather than a required package file.
             if re.fullmatch(r'[\w./-]+\.(?:md|html|json|py)(?:#[\w-]+)?', target):

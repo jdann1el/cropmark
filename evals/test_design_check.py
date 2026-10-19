@@ -106,4 +106,92 @@ class DesignChecks(unittest.TestCase):
         self.data['frames'][0]['size'][0]=10**1000
         self.assert_invalid_cli(self.data)
 
+    def note_panel(self):
+        self.data['frames'][0].update(margin=0,elements=[
+            {'id':'panel','box':[80,265,1000,960]},
+            {'id':'title','box':[136,330,651,514]},
+            {'id':'body','box':[138,615,697,779]}],alignments=[],gaps=[],
+            padding=[{'container':'panel','children':['title','body'],'balanced_axes':['y']}])
+        return self.data['frames'][0]
+
+    def test_real_note_panel_unbalanced_padding_fails_then_centred_ink_passes(self):
+        frame=self.note_panel()
+        report=self.check()
+        self.assertTrue(any(c['rule']=='R06' and c['status']=='FAIL' for c in report['checks']))
+        for element in frame['elements'][1:]:
+            element['box'][1]+=58
+            element['box'][3]+=58
+        self.assertTrue(self.check()['passed'])
+
+    def test_expected_asymmetric_padding_remains_valid(self):
+        frame=self.note_panel()
+        frame['padding'][0].pop('balanced_axes')
+        frame['padding'][0]['expected']=[65,303,181,56]
+        self.assertTrue(self.check()['passed'])
+
+    def test_expected_and_balanced_axes_both_apply(self):
+        frame=self.note_panel()
+        frame['padding'][0]['expected']=[65,303,181,56]
+        self.assertFalse(self.check()['passed'])
+
+    def test_balance_compares_both_requested_axes(self):
+        group=self.data['frames'][0]['padding'][0]
+        group.pop('expected');group['balanced_axes']=['x','y']
+        self.assertTrue(self.check()['passed'])
+        self.data['frames'][0]['elements'][1]['box'][0]-=8
+        self.assertTrue(any(c['rule']=='R06' and c['status']=='FAIL' for c in self.check()['checks']))
+
+    def test_optical_balance_offset_requires_reason_and_measured_difference(self):
+        frame=self.data['frames'][0]
+        group=frame['padding'][0];group.pop('expected');group['balanced_axes']=['y']
+        frame['elements'][1]['box'][1]+=8
+        self.assertFalse(self.check()['passed'])
+        group['balance_offsets']={'y':8}
+        with self.assertRaises(ValueError):self.check()
+        group['reason']='Rounded heading ink requires 8px more top clearance, inspected in render'
+        self.assertTrue(self.check()['passed'])
+        group['balance_offsets']['y']=4
+        self.assertFalse(self.check()['passed'])
+
+    def test_children_must_be_inside_container_even_if_balance_is_equal(self):
+        frame=self.data['frames'][0];frame['alignments']=[];frame['gaps']=[]
+        group=frame['padding'][0];group.pop('expected');group['balanced_axes']=['x','y']
+        frame['elements'][1]['box']=[77,77,1003,503]
+        self.assertFalse(self.check()['passed'])
+        frame['elements'][1]['box']=[79,79,1001,501]
+        self.assertTrue(self.check()['passed'])
+
+    def test_maximum_gap_rejects_excess_separation_and_preserves_overlap(self):
+        frame=self.data['frames'][0];frame['gaps'][0]['max']=36
+        self.assertFalse(self.check()['passed'])
+        frame['gaps'][0]['max']=40
+        self.assertTrue(self.check()['passed'])
+        frame['elements'][2]['box'][1]=200
+        frame['gaps'][0].update(allow_overlap=True,reason='Legible intentional layered title')
+        self.assertTrue(self.check()['passed'])
+        frame['elements'][2]['box'][1]=300
+        self.assertFalse(self.check()['passed'])
+
+    def test_cli_rejects_invalid_padding_balance_contracts(self):
+        invalid=[{}, {'balanced_axes':[]}, {'balanced_axes':'y'}, {'balanced_axes':None},
+                 {'balanced_axes':['z']}, {'balanced_axes':['y','y']}, {'balanced_axes':[{}]},
+                 {'balanced_axes':['y'],'balance_offsets':[]},
+                 {'balanced_axes':['y'],'balance_offsets':{'x':2},'reason':'visible correction'},
+                 {'balanced_axes':['y'],'balance_offsets':{'y':True},'reason':'visible correction'},
+                 {'balanced_axes':['y'],'balance_offsets':{'y':float('nan')},'reason':'visible correction'},
+                 {'balanced_axes':['y'],'balance_offsets':{'y':2}},
+                 {'expected':None}, {'expected':[-1,0,0,0]}]
+        for values in invalid:
+            with self.subTest(values=values):
+                data=copy.deepcopy(self.data)
+                data['frames'][0]['padding']=[{'container':'panel','children':['title','body'],**values}]
+                self.assert_invalid_cli(data)
+
+    def test_cli_rejects_invalid_maximum_gaps(self):
+        for maximum in (0,31,-1,True,'40',None,float('inf'),10**1000):
+            with self.subTest(maximum=maximum):
+                data=copy.deepcopy(self.data)
+                data['frames'][0]['gaps'][0]['max']=maximum
+                self.assert_invalid_cli(data)
+
 if __name__=='__main__':unittest.main()
