@@ -14,3 +14,7 @@ For supplied subjects whose identity or exact appearance the brief requires, use
 Open the cutout at full resolution on light and dark backgrounds, then inspect the final at feed size. Check silhouette, interior holes, fringe, pale residue, missing logo strokes, altered colour, translucent detail and contact/shadow consistency. Preserve the full useful subject unless the brief permits cropping.
 
 Store source, mask and processed layer separately. If the available assets/tools cannot support a faithful cutout, choose a composition retaining the photo and state the limitation. Synthetic tests or an attractive final do not establish universal photo-cutout accuracy.
+
+Before selecting a crop, identify the frame role and the subject parts that carry recognition/desire. Test the actual source-to-canvas mapping: a hero, a deliberate texture detail and a scene clue need different survival decisions. If the source already clips a required edge, disclose it or obtain a suitable authorized asset; `cover` cannot restore missing pixels. Keep a complete recognisable subject in the sequence where the brief needs it. See `../references/composition-study.md`.
+
+Preserve a supplied logo's proportions after any transparent trim: set one scale and derive the other dimension, allowing only unavoidable pixel rounding. Record source crop, rendered dimensions and visible ink anchor. Keeping the original file in the package does not prove that its displayed application is undistorted. Inspect the applied mark as well as its source hash.

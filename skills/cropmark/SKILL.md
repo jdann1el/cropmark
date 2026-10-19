@@ -22,7 +22,7 @@ Read `references/art-direction.md` for original work or a substantial redesign; 
 | Generated / found imagery | `techniques/imagery.md` |
 | Other ratios | `formats/other.md` |
 | Geometry / finishing | `references/visual-rules.md`; examples in `references/rulebook.html` |
-| References | `refs/atlas.md`; choose mechanisms, not a category preset |
+| References and visual critique | `references/composition-study.md` + `refs/atlas.md`; inspect comparable final pieces and their relationships |
 | Render | `engines/pillow/README.md` or `engines/html/README.md` |
 | Review and delivery | `qa/checklist.md` + `qa/rubric.md` |
 
@@ -33,6 +33,7 @@ Record required copy, facts, identity, count, dimensions, editability and permit
 - Before the first render of original work, save `direction.md`: three concept sentences and, for a set, the role of each planned frame. Use `templates/direction.md` or an equally compact record. Append actual sketch selection and representative-image review as those steps happen; do not reconstruct an omitted stage after rendering.
 - For original work: three subject-specific concepts → two visual sketches → choose → develop a representative piece → extend the set. Sketches must differ in idea or composition, not only colour. A supplied approved direction or a narrow edit follows the short route.
 - Inspect rendered sketches before choosing. State the message, visual device, available assets and why the chosen composition serves the audience. Keep rejected directions as process evidence, not extra deliverables.
+- For original work and redesign, trace a close reference's actual masses, ink gaps, logo role and crop before choosing coordinates. Compare the representative beside it at the same feed size using `references/composition-study.md`; resolve visible inferiority before extending the set. A generic mood reference and a self-score cannot establish this gate.
 - Type, labels, lines, shapes and effects have jobs: message, hierarchy, navigation, identity or deliberate composition. Apply `references/visual-rules.md` to observable defects; a font, colour or effect is not automatically a defect.
 - Add type, logos and required UI as controllable layers; keep identity-critical subjects as source pixels. Keep masks, source assets, actual fonts and transforms for reproduction.
 - Review actual full-size and feed renders, not intentions or self-scores. Initial developed result plus at most **three correction rounds for the whole set**; a concept change consumes a round. Fix the most consequential observed defect first. Record the image, defect, action and observed result.
