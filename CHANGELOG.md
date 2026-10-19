@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased — art-direction candidate
+
+- Complete 18 frozen held-out trials/48 PNGs with passing technical file audits; final human blind acceptance remains pending. Add a seven-test ballot gate that preserves blanks/ties and counts each comparator independently.
 - Original work explores three concepts and two rendered sketches, then develops a representative piece before extending the set. Narrow edits and faithful copies take a short route.
 - Fourteen craft rules include visible defects, corrections and legitimate exceptions; the illustrated manual uses labelled teaching fixtures.
 - Adds a 21-project reference atlas, twelve provenance-backed case analyses and a bounded creative-flow diagram in Mermaid/SVG/PNG.

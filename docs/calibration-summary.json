@@ -1,5 +1,5 @@
 {
-  "status": "initial candidate failed; revised candidate pending heldout validation",
+  "status": "revised candidate completed heldout technical audit; final human blind gate pending",
   "initial_runs": 18,
   "initial_final_images": 48,
   "requested_model": "gpt-6.1-sol",
@@ -16,6 +16,10 @@
   "human_missing_preference": [
     "D3-low"
   ],
-  "heldout_runs": 0,
-  "release_accepted": false
+  "heldout_runs": 18,
+  "release_accepted": false,
+  "heldout_final_images": 48,
+  "heldout_technical_pass": true,
+  "technical_tests": 103,
+  "heldout_human_gate": null
 }

@@ -31,4 +31,4 @@ Process tests also exposed batching before representative inspection and omissio
 
 Only the native requested model/effort configuration is recorded; independent served-model introspection, seeds, complete token counts and costs are unavailable. Calibration supplied two generated images once to every condition and prohibited live reference browsing, so autonomous resource sourcing was not tested. A common offline reference study bank will be available to all held-out conditions; it does not license third-party images as output assets.
 
-Human calibration has fixed the quality target and identified initial losses. The revised candidate still needs the six-new-brief,18-run held-out phase and final human gate. No publication acceptance is claimed.
+Human calibration has fixed the quality target and identified initial losses. The revised candidate has now completed the six-new-brief,18-run held-out phase with a passing technical file audit; its final human gate remains pending. See [heldout-results.md](heldout-results.md). No publication acceptance is claimed.
