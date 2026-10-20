@@ -56,3 +56,5 @@ Development calibration rejected the first art-direction candidate. Subsequent r
 - Added word-specific typographic silhouette/space diagnostics and separate integrity/function/appeal review statuses. Narrow changes remain unproven for release.
 - Retained a new type-led forward test: initial autonomous direction unresolved, later guided word/field system reproduced locally. Added exact image/region verification after a critic omission false positive; quality acceptance remains open.
 - Incorporated qualitative feedback without inventing acceptance votes; supporting type follows information roles, with outer-space review around the complete group. ALBA final guided correction remains visually unaccepted.
+- Preserved display-scale/placement freedom: a larger or lower headline may depart deliberately from support/footer anchors. Recorded the subsequent favorable ALBA/UMBRAL open readiness response without adding controlled wins.
+- Added optional visual-guide sketches with a real-font feasibility check and explicit reconstruction-loss review; boundedP1 supports local editability only. Fixed the next controlled recalibration’s equal tool ceilings before dispatch.

@@ -15,3 +15,9 @@ Full/feed inspected. Copied render is locally pixel-identical; time edit confine
 ## Transfer to the skill
 
 The narrow change makes size follow an actual information role rather than line order, and asks for top/bottom as well as left/right outer-space review. It does not require uniform type everywhere, equal margins for asymmetric briefs, a new ornament, or a font ban. Behavioral improvement on unseen work remains unproved. Final rc2 rejection, earlier development losses and the original controlled acceptance contract remain unchanged.
+
+## Subsequent direct readiness answer
+
+The human likes ALBA round3, with an explicit requirement that the headline can be larger and lower in other compositions. UMBRAL is okay in direct response to the reference-level question, so it is accepted for this open readiness review. The elevator was not mentioned in this reply; no additional vote is fabricated. Raw subsequent-chat evidence SHA-256: `d4c286f378be1ac6cb4ab3ee68e57cc260ab09c7e74b4452f1e9d2349351c17c`. This resolves the previous lack of readiness input without manufacturing a coded blind ballot or release approval.
+
+The skill now explicitly lets display scale/position depart from a quiet footer grid. ALBA’s78px anchors remain one observed local solution; no fourth correction is produced. A bounded new sketch-medium experiment investigates an untested process limitation, not another UMBRAL correction or a benchmark win.

@@ -11,6 +11,8 @@ Before any render, save three short concept sentences in the project’s directi
 
 Render the strongest two as rough visual compositions using available assets, real headline length and realistic type. Compare at feed size: what reads first; what story is visible; what distinguishes the subject; whether the assets can sustain the intended finish. Colour swaps are one concept. Select for fit, hierarchy, distinctiveness and feasible craft, then retain a one-line rejection reason for the alternative. Show routes and wait only if the user asks to select.
 
+When permitted generation can help explore composition, visual guides are an optional sketch medium; read `../techniques/visual-guides.md`. Choose the medium by available capabilities and the brief, then judge the actual editable reconstruction rather than the guide's finish.
+
 Stage boundary: render and inspect the two sketches before invoking a developed-set renderer. Do not batch speculative interiors or campaign posts alongside the sketches. A plan for the whole set is useful; generating all its finished frames here bypasses the comparison.
 
 ## 4. Develop before expanding

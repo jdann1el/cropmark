@@ -1,6 +1,6 @@
 {
   "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
-  "overall": "INCOMPLETE: rc2 rejected; newer human feedback positive but no explicit reference-level acceptance",
+  "overall": "INCOMPLETE: rc2 rejected; open readiness now favorable for ALBA base/UMBRAL, controlled recalibration and new frozen validation remain",
   "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
   "current_development": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993",
   "requirements": [
@@ -57,13 +57,14 @@
   ],
   "current_development_cases": {
     "H3": "exposed and coordinator-guided; correction3/3, quality unresolved/FAIL coordinator; fresh round2 extension-ready verdict preserved",
-    "N1": "round2 human improving but support hierarchy/outer margins unresolved; guided final round3 equal32px support and78px local outer anchors; technicalPASS,3/3 exhausted; final visual approval unverified",
+    "N1": "human likes final round3 base with explicit flexibility note: headline may be larger/lower;3/3 exhausted, no fourth render; fixed outer anchors are local, not skill defaults",
     "N2": "human far; native ready verdict preserved as disagreement;3/3 exhausted, development loss; no fourth revision",
     "N3": "round2 human positive direction, no new defect; unchanged2/3, function ready and comparative quality unverified; no explicit reference-level approval",
-    "N4": "human says broadly okay but missing something, unspecified;3/3 exhausted, retained; targeted music/type reference analysis for later transfer, not another correction or win"
+    "N4": "human says UMBRAL okay in direct response to reference-level question: accepted for open readiness only;3/3 exhausted; no controlled or release acceptance",
+    "P1": "bounded2nativeguide sketches→editable reconstruction completed3/3; local raw-guide/copy/edit checksPASS; fresh critique preserves glyph-weight loss and limited exchange specificity; no human/causal win"
   },
-  "next_required": "Visual judgment of ALBA final round3 and explicit readiness clarification remain open; N4 has unresolved unspecified appeal at3/3. No broad new benchmark until credible readiness. Preserve original controlled calibration/frozen validation requirements.",
-  "post_test_changes": "Role-consistent support size and group-level outer-space review; narrow guidance not forward-tested as a new release candidate.",
+  "next_required": "Controlled development recalibration on exposedD1–D3,3conditions at low+high, fixed equal guide-generation ceiling2/case and self-review only. Freeze candidate/inputs before dispatch, retain human judgments and later six-new-brief release gate.",
+  "post_test_changes": "Optional visual-guide sketch medium with actual real-font feasibility and reconstruction review; role/outer-space consistency preserves headline scale/position freedom.",
   "development3_human": {
     "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
     "counts": {
@@ -86,5 +87,14 @@
     "explicit_reference_level_votes": null,
     "qualitative_feedback_received": true,
     "heldout_acceptance": false
+  },
+  "development4_readiness_chat": {
+    "source_sha256": "d4c286f378be1ac6cb4ab3ee68e57cc260ab09c7e74b4452f1e9d2349351c17c",
+    "basis": "direct human answer to explicit reference-level question",
+    "ALBA": "favorable base with larger/lower-headline flexibility note",
+    "UMBRAL": "okay; open-readiness acceptance",
+    "ascensor": "not mentioned; no new vote inferred",
+    "controlled_comparison": false,
+    "release_approval": false
   }
 }
