@@ -1,6 +1,6 @@
 {
   "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
-  "overall": "INCOMPLETE: rc2 rejected; development3 human readiness FAIL0/3",
+  "overall": "INCOMPLETE: rc2 rejected; newer human feedback positive but no explicit reference-level acceptance",
   "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
   "current_development": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993",
   "requirements": [
@@ -57,13 +57,13 @@
   ],
   "current_development_cases": {
     "H3": "exposed and coordinator-guided; correction3/3, quality unresolved/FAIL coordinator; fresh round2 extension-ready verdict preserved",
-    "N1": "human close, below reference level; coordinator-guided round2 footer/brand refinement; technicalPASS; fresh function ready/appeal unverified;2/3 rounds,1image call",
+    "N1": "round2 human improving but support hierarchy/outer margins unresolved; guided final round3 equal32px support and78px local outer anchors; technicalPASS,3/3 exhausted; final visual approval unverified",
     "N2": "human far; native ready verdict preserved as disagreement;3/3 exhausted, development loss; no fourth revision",
-    "N3": "human close, below reference level; same-case round2 type hierarchy refinement; technicalPASS; fresh function ready/appeal unverified;2/3 rounds,2image calls",
-    "N4": "new open type-only music brief at454db0a; first autonomous pair familiar/extension withheld; coordinator-guided concept revision and4frame extension,3/3 rounds; technical copied-render/editPASS, internal function/system supported; human/reference level unverified"
+    "N3": "round2 human positive direction, no new defect; unchanged2/3, function ready and comparative quality unverified; no explicit reference-level approval",
+    "N4": "human says broadly okay but missing something, unspecified;3/3 exhausted, retained; targeted music/type reference analysis for later transfer, not another correction or win"
   },
-  "next_required": "Human visual readiness review of N1round2,N3round2,N4 complete set requested. Even favorable open review does not replace planned controlled calibration or frozen6brief release gate. No new18run release validation until credible readiness; all guided/exposed cases remain development.",
-  "post_test_changes": "Exact-version/region verification for concrete critic omission/clipping claims, after an observed false positive and factual retraction. No future reliability or release proof.",
+  "next_required": "Visual judgment of ALBA final round3 and explicit readiness clarification remain open; N4 has unresolved unspecified appeal at3/3. No broad new benchmark until credible readiness. Preserve original controlled calibration/frozen validation requirements.",
+  "post_test_changes": "Role-consistent support size and group-level outer-space review; narrow guidance not forward-tested as a new release candidate.",
   "development3_human": {
     "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
     "counts": {
@@ -78,6 +78,13 @@
     },
     "readiness": "FAIL: 0/3 reference-level human acceptance; open development only",
     "controlled_comparison": false,
+    "heldout_acceptance": false
+  },
+  "development4_chat": {
+    "source_sha256": "12713b94f18f47b6ac07f805064f3433ecc11528924ef17fb9fabba7a2201571",
+    "source": "direct human chat",
+    "explicit_reference_level_votes": null,
+    "qualitative_feedback_received": true,
     "heldout_acceptance": false
   }
 }

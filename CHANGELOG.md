@@ -55,3 +55,4 @@ Development calibration rejected the first art-direction candidate. Subsequent r
 - Recorded0/3 reference-level acceptance: ad/thumbnail close, type carousel far. Preserved exhausted carousel as a loss and original favorable critiques.
 - Added word-specific typographic silhouette/space diagnostics and separate integrity/function/appeal review statuses. Narrow changes remain unproven for release.
 - Retained a new type-led forward test: initial autonomous direction unresolved, later guided word/field system reproduced locally. Added exact image/region verification after a critic omission false positive; quality acceptance remains open.
+- Incorporated qualitative feedback without inventing acceptance votes; supporting type follows information roles, with outer-space review around the complete group. ALBA final guided correction remains visually unaccepted.
