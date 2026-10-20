@@ -1,6 +1,6 @@
 {
   "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
-  "overall": "INCOMPLETE: rc2 rejected, current development not human-accepted",
+  "overall": "INCOMPLETE: rc2 rejected; development3 human readiness FAIL0/3",
   "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
   "current_development": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993",
   "requirements": [
@@ -57,10 +57,26 @@
   ],
   "current_development_cases": {
     "H3": "exposed and coordinator-guided; correction3/3, quality unresolved/FAIL coordinator; fresh round2 extension-ready verdict preserved",
-    "N1": "new fictional single product ad;1nativeimagegen,1correction, local technicalPASS; fresh visible content/function ready, comparative finish provisional; no benchmark claim",
-    "N2": "new type-only4frame carousel; correction3/3, native representative/full-set critic ready; four relocated renders identical, localized edit verified; no human approval",
-    "N3": "new fictional horror thumbnail;2nativeimagegen calls,1correction; initial critic required larger hand, final critic ready for visual readability; local repeatability/title-edit verified; no human approval"
+    "N1": "human close, below reference level; coordinator-guided round2 footer/brand refinement; technicalPASS; fresh function ready/appeal unverified;2/3 rounds,1image call",
+    "N2": "human far; native ready verdict preserved as disagreement;3/3 exhausted, development loss; no fourth revision",
+    "N3": "human close, below reference level; same-case round2 type hierarchy refinement; technicalPASS; fresh function ready/appeal unverified;2/3 rounds,2image calls"
   },
-  "next_required": "Human visual readiness calibration of N1/N2/N3 requested; no new18-run validation until the bar is credible. This open review does not replace the controlled calibration or frozen6brief release gate.",
-  "post_test_changes": "Source-quality clarification after tested snapshot a8032e5; no newly evaluated release candidate"
+  "next_required": "Demonstrate stronger typographic composition on a genuinely new bounded development brief; retain N2 loss. Human reference-level judgment on refined cases remains necessary before broad validation. Open review does not replace controlled calibration or frozen6brief release gate.",
+  "post_test_changes": "Typography silhouette/space diagnostic and explicitly separate critic statuses after snapshot a8032e5. Not an accepted release candidate.",
+  "development3_human": {
+    "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
+    "counts": {
+      "far": 1,
+      "close": 2,
+      "reference": 0
+    },
+    "levels": {
+      "N1": "close",
+      "N2": "far",
+      "N3": "close"
+    },
+    "readiness": "FAIL: 0/3 reference-level human acceptance; open development only",
+    "controlled_comparison": false,
+    "heldout_acceptance": false
+  }
 }

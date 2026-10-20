@@ -50,3 +50,7 @@
 - Guidance: un-picturable news → show the benefit moment; accent-colour text contrast rule; stop rule (max 2 passes); ui-hero for SaaS carousels; tag/placard variants; bad-original recipe; QA meta min 18 px.
 
 Development calibration rejected the first art-direction candidate. Subsequent repairs require chronological direction records and declared checks for fitted panels/promised axes or gaps; add balanced padding, optical exceptions, containment and maximum gaps. Publication remains subject to the frozen held-out human gate.
+
+### Development3 human calibration
+- Recorded0/3 reference-level acceptance: ad/thumbnail close, type carousel far. Preserved exhausted carousel as a loss and original favorable critiques.
+- Added word-specific typographic silhouette/space diagnostics and separate integrity/function/appeal review statuses. Narrow changes remain unproven for release.
