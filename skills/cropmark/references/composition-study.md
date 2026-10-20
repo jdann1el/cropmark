@@ -6,6 +6,8 @@ Use this for original work, substantial redesign and visual critique. A tidy lay
 
 Inspect two actual finished pieces close to this task: communication goal, format, content density and available imagery. A bakery ad is a closer appetite benchmark than a studio branding board. A product advert and a quiet catalogue can both be good, but do different jobs. The atlas is a starting index; search beyond it when its examples do not match. A moodboard, title, author claim or search thumbnail is not an inspected final artwork. Record missing evidence honestly.
 
+Evaluate the comparator itself: published work, popularity and an author’s format claim do not establish craft quality or correct dimensions. Verify the actual frame, copy and relevant relationship; retain useful mechanisms while naming visible faults. A project with an unrelated attractive object is not a matched benchmark.
+
 Study mechanisms across references rather than averaging their styles. Keep the original frame separate from mockup borders and browser chrome. Do not compare a polished packaging photograph against a flat post without identifying that difference.
 
 ## Trace relationships before setting coordinates

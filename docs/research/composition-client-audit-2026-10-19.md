@@ -77,3 +77,13 @@ El coordinador discrepó sobre la suficiencia del atractivo y la integración de
 Se agotaron tres correcciones. El caso se detiene con límites conservados; no habrá una cuarta ronda encubierta, nueva puntuación independiente ni victoria atribuida. El feedback guiado contamina cualquier afirmación de comportamiento autónomo. La crítica detectó legibilidad y estructura con más claridad que una diferencia convincente de nivel: por eso el registro separa integridad, función y atractivo comparativo en lugar de colapsarlos en un único «ready».
 
 Las instrucciones nuevas están implementadas y validadas como recursos, pero **no han demostrado la mejora profesional requerida**. El siguiente desarrollo debe probar otra situación representativa antes de congelar una candidata. Una futura validación usará briefs nuevos; H1–H6 quedan consumidos como prueba y se conservan intactos.
+
+## Ensayo adicional N1: fotografía y composición
+
+Un productor independiente completó un anuncio individual nuevo para la panadería ficticia ALBA usando la skill actual, una llamada nativa de imagen para la foto conceptual y una corrección. La fuente conserva ambos extremos del croissant; el renderer usa la imagen completa con texto/firma editables. El coordinador confirmó reproducción idéntica del paquete copiado y edición localizada del horario. La crítica fresca aprueba integridad y composición funcional; considera el acabado creíble pero provisional para una sola representante. La marca es menos distintiva que las referencias. No demuestra mejora controlada, consistencia de campaña ni aceptación humana. Los PNG, fuentes, prompt, crítica y paquete quedan en el estudio local.
+
+## N2/N3 y límite de la crítica automática
+
+N2 es un carrusel tipográfico nuevo sobre el espacio: completó las 4 piezas en 3 correcciones; una crítica fresca de representantes y otra del conjunto encuentran agrupación/separación visibles y lectura íntegra. El coordinador constata un lenguaje todavía familiar y no lo convierte en nivel humano aprobado. N3 es una miniatura de ficción en un ascensor: la primera crítica detectó que la mano perdía reconocimiento a 168 px; la corrección nativa la hizo mayor. La revisión final confirma la lectura del gesto y del título, con incertidumbre sobre una escala exagerada. Entre N1/N3 hubo 3 llamadas nativas de imagen; no se usaron proveedores alternativos.
+
+El coordinador reprodujo los 6 PNG de N1/N2/N3 desde copias y comprobó ediciones localizadas. Los votos históricos no cambian. Se solicita una calibración humana abierta de estos 3 encargos antes de otro ensayo amplio: no es validación ciega, no produce preferencias entre condiciones ni satisface por sí sola el 5/6. La aceptación de portfolio permanece sin probar.

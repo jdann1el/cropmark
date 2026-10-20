@@ -1,0 +1,66 @@
+{
+  "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
+  "overall": "INCOMPLETE: rc2 rejected, current development not human-accepted",
+  "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
+  "current_development": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993",
+  "requirements": [
+    {
+      "id": "workflow",
+      "requirement": "Original3concepts/2sketches/representative before set; short route for faithful edits; max3rounds",
+      "implementation": "present",
+      "behavior": "mixed; N1 follows staged execution, exposed H3 still weak",
+      "status": "QUALITY NOT PROVEN"
+    },
+    {
+      "id": "rules",
+      "requirement": "14 illustrated defect/diagnosis/correction/check/exception rules, no universal font/palette ban",
+      "implementation": "present, resource validation passes",
+      "behavior": "geometric faults controlled; comparative appeal still unproved across formats",
+      "status": "QUALITY NOT PROVEN"
+    },
+    {
+      "id": "research",
+      "requirement": "21-project mechanism atlas; 12 provenance-aware cases; 3 historical before/after studies",
+      "implementation": "present, source/provenance limits retained",
+      "status": "DOCUMENTED; not evidence of efficacy"
+    },
+    {
+      "id": "diagram",
+      "requirement": "Editable creative-flow source, SVG and PNG including bounded correction loop",
+      "implementation": "Mermaid+HTML+SVG+1600x1800PNG updated for representative comparison before extension; self-check+visual inspection pass",
+      "status": "PASS artifact only"
+    },
+    {
+      "id": "compatibility",
+      "requirement": "Retain rc5 render interfaces, fonts and boxes metadata; reproducible editable delivery",
+      "implementation": "frozen hash validator passes; historical103tests; H3/N1 copied render+local edit evidence",
+      "status": "PASS within tested local scope"
+    },
+    {
+      "id": "calibration",
+      "requirement": "3development briefs, no skill/rc5/candidate, low and high effort; human fixes visual bar",
+      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted",
+      "status": "FAIL / OPEN"
+    },
+    {
+      "id": "heldout",
+      "requirement": "6new frozen briefs ×3conditions,18runs; ≥5/6 wins against each and ≥5/6 absolute, approved every family",
+      "evidence": "rc2 frozen run completed; human1/6vsbaseline,2/6vsrc5,2/6absolute, no carousel",
+      "status": "FAIL; H1-H6 consumed"
+    },
+    {
+      "id": "publication",
+      "requirement": "Release only after technical/editability and human gate pass",
+      "evidence": "PR#2 draft, no merge/release/install",
+      "status": "WITHHELD correctly; objective not achieved"
+    }
+  ],
+  "current_development_cases": {
+    "H3": "exposed and coordinator-guided; correction3/3, quality unresolved/FAIL coordinator; fresh round2 extension-ready verdict preserved",
+    "N1": "new fictional single product ad;1nativeimagegen,1correction, local technicalPASS; fresh visible content/function ready, comparative finish provisional; no benchmark claim",
+    "N2": "new type-only4frame carousel; correction3/3, native representative/full-set critic ready; four relocated renders identical, localized edit verified; no human approval",
+    "N3": "new fictional horror thumbnail;2nativeimagegen calls,1correction; initial critic required larger hand, final critic ready for visual readability; local repeatability/title-edit verified; no human approval"
+  },
+  "next_required": "Human visual readiness calibration of N1/N2/N3 requested; no new18-run validation until the bar is credible. This open review does not replace the controlled calibration or frozen6brief release gate.",
+  "post_test_changes": "Source-quality clarification after tested snapshot a8032e5; no newly evaluated release candidate"
+}
