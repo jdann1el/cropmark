@@ -2,7 +2,7 @@
   "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
   "overall": "INCOMPLETE: rc2 rejected; open readiness now favorable for ALBA base/UMBRAL, controlled recalibration and new frozen validation remain",
   "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
-  "current_development": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993",
+  "current_development": "2077f231c765572163a7554a4a0a16f84f1b0533",
   "requirements": [
     {
       "id": "workflow",
@@ -39,7 +39,7 @@
     {
       "id": "calibration",
       "requirement": "3development briefs, no skill/rc5/candidate, low and high effort; human fixes visual bar",
-      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted",
+      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted; recalibration-v3 production18runs/48PNGs and local technical audit complete, human review pending",
       "status": "FAIL / OPEN"
     },
     {
@@ -63,7 +63,7 @@
     "N4": "human says UMBRAL okay in direct response to reference-level question: accepted for open readiness only;3/3 exhausted; no controlled or release acceptance",
     "P1": "bounded2nativeguide sketches→editable reconstruction completed3/3; local raw-guide/copy/edit checksPASS; fresh critique preserves glyph-weight loss and limited exchange specificity; no human/causal win"
   },
-  "next_required": "Controlled development recalibration on exposedD1–D3,3conditions at low+high, fixed equal guide-generation ceiling2/case and self-review only. Freeze candidate/inputs before dispatch, retain human judgments and later six-new-brief release gate.",
+  "next_required": "Human blind calibration of all18 exposed D1–D3 runs at low+high, then only evidence-backed revisions and a new freeze before six genuinely new release-validation briefs. Preserve original thresholds and losses.",
   "post_test_changes": "Optional visual-guide sketch medium with actual real-font feasibility and reconstruction review; role/outer-space consistency preserves headline scale/position freedom.",
   "development3_human": {
     "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
@@ -96,5 +96,24 @@
     "ascensor": "not mentioned; no new vote inferred",
     "controlled_comparison": false,
     "release_approval": false
-  }
+  },
+  "controlled_recalibration_v3": {
+    "candidate_commit": "2077f231c765572163a7554a4a0a16f84f1b0533",
+    "status": "PRODUCTION AND LOCAL TECHNICAL AUDIT COMPLETE; human calibration pending",
+    "contract": "exposed D1–D3, all3conditions at requested low+high; equal optional2nativeguide calls; self-review only; inputs frozen",
+    "target_runs": 18,
+    "target_final_pngs": 48,
+    "completed_producer_runs": 18,
+    "coordinator_verified_runs": 18,
+    "coordinator_verified_final_pngs": 48,
+    "interruption": "Native quota interrupted D2 production before observable output; ordinary allowance verified restored; completed results retained",
+    "not_heldout": true,
+    "historical_results_not_pooled": true,
+    "reported_native_imagegen_calls": 0,
+    "blind_gallery": "private local review package; six groups with independent labels",
+    "human_votes": null,
+    "inputs_manifest_sha256": "33be534dba7f13681ed93777727fe157bacd244864d18c586b385a7f15eff370",
+    "results": "recalibration-v3-results.md"
+  },
+  "focused_development_snapshot": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993"
 }
