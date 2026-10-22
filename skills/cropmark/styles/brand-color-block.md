@@ -1,17 +1,7 @@
-# Style: brand-color-block
-Formats: post, carousel
-Best for: Consumer brands, drinks, food & beverage, retail with a strong colour
+# Brand field and reveal
 
-## Signature
-Three alternating templates: (a) flat brand colour + product/person cutout, (b) warm lifestyle photo crossed by a brand ribbon/swoosh, (c) product on white with a colour wave. A giant keyword broken by syllable (compar/tilhadas.) overlapped by the hand/product. Logo small and constant.
+Device: Use the brand colour/shape to reveal a meaningful scene or product relationship.
 
-## Recipe
-Fonts: Outfit Bold / BricolageGrotesque Bold for the giant word (tight tracking -0.03em, line-height .85), small caps 22-26 px for the rest. Ribbon = engine-drawn bezier in brand colour, leaving the canvas.
+Needs: Recognisable brand assets and an appropriate source image.
 
-Overlap rule: the product/hand may cover ≤30 % of the giant word; every letter must stay identifiable at 360 px.
-
-## Avoid
-More than 2 brand colours; logo as the headline.
-
-## Product launches
-Keep the complete supplied product name in one coherent reading group before using decorative syllable breaks. Place the hero and type with deliberate clearance: an ice edge or product corner almost touching a letter is a distracting tangent, not useful overlap. Use overlap only when the name stays immediately identifiable at feed size; a clean separated layout is equally valid.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

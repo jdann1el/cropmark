@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased — art-direction candidate
+
+- Record the final human FAIL for rc2: 1/6 wins vs baseline, 2/6 vs rc5, 2/6 absolute approvals, no approved carousel. Preserve all18 trials/48 PNGs and passing technical file audits. The seven-test ballot gate preserves blanks/ties and counts each comparator independently.
+- Add development guidance for measured close-reference comparisons, crop roles, uniform logo scaling and fresh viewer critique. The exposed H3 exercise reaches its correction limit with reference-level quality unresolved; no improvement or acceptance claim.
+- Original work explores three concepts and two rendered sketches, then develops a representative piece before extending the set. Narrow edits and faithful copies take a short route.
+- Fourteen craft rules include visible defects, corrections and legitimate exceptions; the illustrated manual uses labelled teaching fixtures.
+- Adds a 21-project reference atlas, twelve provenance-backed case analyses and a bounded creative-flow diagram in Mermaid/SVG/PNG.
+- Campaign guidance and capability-aware model-portable stages replace sector-to-style defaults.
+- Optional declared-layout checker verifies margins, common axes, padding, gaps, font-file presence and set tokens, without claiming aesthetic detection.
+- Renderer, font files and strict QA stay byte-identical to rc5. No public release or installed-skill replacement. Future release requires new briefs after the exposed development cases are resolved.
+
+
 ## [Unreleased — 0.5.0 candidate]
 
 ### Changed
@@ -36,3 +48,13 @@
 ## 0.3.0 (2026-10-11)
 - From hold-out eval v02: render.mjs auto-falls back to any cached Chromium; playwright pinned ~1.47; halftone gamma/max radius; torn_mask default jitter 7; clean_cutout(); tag(); compare_sheet captions; fit() doc.
 - Guidance: un-picturable news → show the benefit moment; accent-colour text contrast rule; stop rule (max 2 passes); ui-hero for SaaS carousels; tag/placard variants; bad-original recipe; QA meta min 18 px.
+
+Development calibration rejected the first art-direction candidate. Subsequent repairs require chronological direction records and declared checks for fitted panels/promised axes or gaps; add balanced padding, optical exceptions, containment and maximum gaps. Publication remains subject to the frozen held-out human gate.
+
+### Development3 human calibration
+- Recorded0/3 reference-level acceptance: ad/thumbnail close, type carousel far. Preserved exhausted carousel as a loss and original favorable critiques.
+- Added word-specific typographic silhouette/space diagnostics and separate integrity/function/appeal review statuses. Narrow changes remain unproven for release.
+- Retained a new type-led forward test: initial autonomous direction unresolved, later guided word/field system reproduced locally. Added exact image/region verification after a critic omission false positive; quality acceptance remains open.
+- Incorporated qualitative feedback without inventing acceptance votes; supporting type follows information roles, with outer-space review around the complete group. ALBA final guided correction remains visually unaccepted.
+- Preserved display-scale/placement freedom: a larger or lower headline may depart deliberately from support/footer anchors. Recorded the subsequent favorable ALBA/UMBRAL open readiness response without adding controlled wins.
+- Added optional visual-guide sketches with a real-font feasibility check and explicit reconstruction-loss review; boundedP1 supports local editability only. Fixed the next controlled recalibration’s equal tool ceilings before dispatch.

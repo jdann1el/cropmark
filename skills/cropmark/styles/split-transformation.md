@@ -1,12 +1,7 @@
-# Style: split-transformation
-Formats: thumbnail, post, carousel
-Best for: Restoration, detailing, makeup, fitness, renovation, retouching, cleaning
+# Matched contrast
 
-## Signature
-Vertical split (thumb) or stacked (portrait) before/after, difference exaggerated so it reads at 320 px; optional thin divider with glow; labels tiny or none.
+Device: Make before and after comparable through matched scale, viewpoint and useful labels.
 
-## Recipe
-Generate before and after as one image with a consistent camera angle ('left half rusty and broken, right half restored and gleaming, same angle'); if too subtle, composite two generations. Grade the 'after' warmer and sharper.
+Needs: Both actual states, or a disclosed conceptual illustration.
 
-## Avoid
-Subtle differences; text labels BEFORE/AFTER in giant type (let the image speak).
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

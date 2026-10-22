@@ -1,12 +1,7 @@
-# Style: cinematic-stakes
-Formats: thumbnail
-Best for: Vlogs, cars, challenges, adventure, drama
+# Scale and stakes
 
-## Signature
-Zero text. Huge subject in foreground cut by the frame edge, eyes to camera; hero object mid-ground; threat/context behind (lights, smoke, crowd, weather). Night or storm grade, one accent colour (red/blue lights, neon).
+Device: Make the subject, object and consequence read as a single situation, using depth and relative scale.
 
-## Recipe
-Prompt: 'cinematic hyperreal 16:9, three depth layers: [subject close-up left/right, cropped by frame], [hero object mid-ground], [threat background], volumetric light, high contrast, no text'. Optional: 1 tiny series mark.
+Needs: Action/context assets that honestly support the stakes.
 
-## Avoid
-Any headline text; flat lighting; subject smaller than 30%.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

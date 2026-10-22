@@ -1,12 +1,7 @@
-# Style: brand-shape-mask
-Formats: post, carousel
-Best for: Insurance, services, clinics, B2C brands with a symbol
+# Identity as a window
 
-## Signature
-Brand colour + white; photos masked inside the brand's geometric symbol (chevron, asterisk, circle) or rounded tiles; headline small-to-mid sans with 1-2 words in brand colour or bold; logo small bottom.
+Device: Use a recognisable brand silhouette to connect identity with a meaningful photo or object.
 
-## Recipe
-Engine: draw symbol path, paste photo with mask; tiles grid 2x2 with 24 px radius. Fonts: Outfit Regular/Bold.
+Needs: A supplied/authorised meaningful brand shape.
 
-## Avoid
-Shapes that don't come from the brand; stock smiling people without a story.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

@@ -1,12 +1,7 @@
-# Style: promo-mid
-Formats: post
-Best for: Local restaurants, delivery, retail promotions with a tight budget
+# Retail clarity
 
-## Signature
-Saturated red/yellow, product cutout big, display title, offer badge, ORDER NOW. Honest mid-tier: fast and effective, not premium.
+Device: Make product, supplied offer and action legible in an energetic coherent system.
 
-## Recipe
-Fonts: Anton/ArchivoBlack + Outfit. One badge max.
+Needs: Real offer/product. Commercial repetition is valid when useful; no automatic quality label.
 
-## Avoid
-Using it when the brief asks for premium.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

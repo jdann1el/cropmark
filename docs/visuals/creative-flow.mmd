@@ -1,0 +1,23 @@
+flowchart TD
+ A["Brief, audiencia y objetivo"] --> B["Contenido, identidad, recursos y herramientas"]
+ B --> C{"Tipo de trabajo"}
+ C -->|Original o replanteamiento| D["Inspeccionar referencias cercanas; trazar masas, grupos, ejes y recortes"]
+ D --> E["Tres conceptos diferentes"]
+ E --> F["Dos bocetos visuales"]
+ F --> G["Desarrollar pieza representativa; portada e interior exigente"]
+ C -->|Copia fiel o ajuste| H["Conservar referencia y diagnosticar el cambio"]
+ H --> G
+ G --> R["Comparar render y referencia al mismo tamaño de feed; crítica de cliente"]
+ R --> Q{"¿Sostiene la dirección?"}
+ Q -->|Sí| I["Extender el conjunto coherente"]
+ I --> J["Revisar conjunto completo: contenido, composición, atractivo y técnica"]
+ J --> K{"¿Cumple?"}
+ K -->|Sí| M["Entregar imágenes, fuentes y recursos editables"]
+ Q -->|No| T{"¿Quedan rondas y recursos útiles?"}
+ K -->|No| T
+ T -->|No: límite o bloqueo| N["Entregar estado y límites sin aprobación"]
+ T -->|Sí: idea o composición| D
+ T -->|Sí: acabado| L["Corregir defectos concretos"]
+ L --> R
+ %% Máximo tres rondas tras la primera propuesta; cambiar de concepto consume una.
+ %% Crítica fresca sin justificación del autor si hay delegación nativa autorizada; si no, revisión propia declarada.

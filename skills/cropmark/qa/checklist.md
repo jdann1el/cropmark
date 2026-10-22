@@ -1,14 +1,20 @@
-# Delivery QA — inspect the actual final files
+# Review the actual final PNGs
 
-Run `python qa/qa.py <thumb|post|carousel|story|reel> --strict --expected-count N <final files>` on outputs only. Keep poor references separate; filenames do not waive validation. Fix every FAIL/ERROR. A zero exit code covers only the reported technical checks.
+Run strict `qa.py` for the format and expected count. Inspect every full render, every feed preview (320 px thumbnail / 360 px post) and a contact sheet of the full set. Passing a command is technical evidence only.
 
-1. Complete requested set, exact dimensions, correct order and copy/data from the content contract. Every required item is present; input references are not counted as new output.
-2. Open every PNG at full resolution and at feed (320 px thumbnail / 360 px post). Check legibility, focus, contrast on the real background, stroke, descenders, accents and line breaks. Background-ring contrast estimates do not certify a photograph or gradient.
-3. Check safe zones and timestamp corner. Intentional decorative bleed is separate from required text/identity. Inspect readable stroke as well as fill; metadata is not proof that every visible pixel is contained.
-4. Compare supplied subjects to their sources. Check mask edges on light/dark, interior holes, printed logos, colour, hair, transparency and reflections. No unexplained substitutions of real subjects.
-5. Physical scene text follows its surface, light and occlusion. Keep it inside the intended panel; distinguish deliberately flat HUD. Rounded cards and tilted text alone do not establish perspective.
-6. Verify effective fonts and required glyphs. Empty text metadata requires explicit `text_free: true`; shapes-only metadata cannot account for visible text. Manually drawn text needs equally complete metadata.
-7. Truth: all claims and numbers are supplied; visual results, charts, UI confirmations, price cues and before/after do not imply evidence absent from the brief. Fictional interface examples must remain clearly conceptual.
-8. Set coherence and completeness: content, numbering and CTA survive across all slides. Variation is optional when a repeated grid serves the brief or fidelity target.
-9. Specificity: remove filler labels, interchangeable motifs and unreadable decorative microcopy. Check whether each device communicates something useful for this brief. No automatic bans on colours, fonts, pills or gradients.
-10. Score using `rubric.md`. Inspect faithful copies against their reference and verify a rerender plus an actual text edit from packaged sources. Initial result plus at most two refinements; disclose anything unresolved.
+1. Content: all required words, facts, identities and outputs survive; charts, gestures and before/after do not imply invented proof.
+2. First read: what is understood immediately, and which element leads? For typographic work, the words and their composition can carry the idea.
+3. Specificity: name the subject detail and visual device. A self-score is not evidence of a strong concept.
+4. Composition: crop, gaze, axes, safe zones, spacing, tangencies and intentional bleed/overlap. Apply `../references/visual-rules.md` R01–R14 to observed defects.
+5. Type: actual fonts and glyphs, meaningful breaks, clear roles, ink bounds and no clipped descenders; required copy remains readable at feed size.
+6. Image: identity preserved where required; masks, materials, light, scale, perspective and shadows coherent. Inspect critical edges on light/dark.
+7. Sequence: all slides work alone and as a family; variation and repetition serve their roles. Confirm brand, type and palette continuity.
+8. Correction: record image/region, defect, proposed action and observed effect. Re-inspect the whole set after a global change. Use at most three correction rounds after the initial developed set.
+9. Package: copy sources/assets/fonts into a new directory, rerender, compare pixels, then make one localised text change to prove editability. Declare external runtime dependencies and any rasterised parts.
+10. Report checks actually performed, the design rationale and remaining limitations. An unresolved visual gate remains unresolved at the iteration limit.
+
+For each main group, identify its containing region and promised anchor. Compare actual ink gaps: paired padding for centred lockups, shared edges for editorial blocks, proximity between linked phrases and separation between unrelated groups. Inspect brand scale and the reason for any strip/frame. Declare these relationships in design_check only where the composition actually promises them; an intentional asymmetry must remain visibly controlled.
+
+Fitted text panels and promised axes/gaps require a declared layout check. For a note/panel, register the outer box and all actual text-ink children, then check balanced top/bottom padding (and left/right when centred). Declare a maximum gap for linked copy where relevant. A failed check is corrected or disclosed; do not skip the contract or redefine its targets to make accidental geometry pass. Large asymmetric fields and intended overlaps keep their explicit, visually verified exception.
+
+Before declaring the visual pass, use `../references/composition-study.md`: inspect the representative beside a close finished reference at the same feed size, without its rationale. Record what the viewer understands/wants and where ours is weaker. Check actual crop survival, not just type safe zones; visible logo ink, not transparent raster bounds; linked phrase gaps, not only permissive maxima. A metadata PASS cannot override an unattractive subject presentation or unexplained graphic device.

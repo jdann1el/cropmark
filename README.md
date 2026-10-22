@@ -20,9 +20,17 @@
 
 <p align="center"><sub><a href="#install">Install</a> · <a href="#update">Update</a> · <a href="#what-it-makes">What it makes</a> · <a href="#before--after">Before / after</a> · <a href="#styles">Styles</a> · <a href="#how-it-works">How it works</a> · <a href="#results">Results</a> · <a href="#faq">FAQ</a></sub></p>
 
-## Local v0.5 candidate status
+## Art-direction candidate (unreleased)
 
-The unreleased rc5 candidate completed its practical validation: 6/6 new briefs pass individual quality gates, but only 4/6 comparisons prefer it to v0.4 (required: 5/6). It remains unaccepted. See [validation outcome](evals/closure-v05.md); the released version and installation remain v0.4.
+This branch implements an art-direction workflow on the frozen rc5 rendering base. It adds three concepts/two visual sketches for original work, subject-specific reference analysis, fourteen observable craft rules with illustrated exceptions, a 21-project reference atlas, campaign guidance and optional declared-layout checks. The workflow and review loop adapt to available tools and explicit budget.
+
+**Not accepted for release.** The published/installed version remains v0.4; rc5's historical 4/6 result is not evidence for this new workflow. Current calibration compares no skill, frozen rc5 and a frozen candidate on three new development briefs at low/high effort. The first human calibration rejected art-direction-rc1 at low effort (0/3 acceptable) and accepted 1/3 at high effort. Subsequent development repairs address recorded process, padding, grouping and hierarchy failures; the six-brief held-out phase has completed all18 trials/48 PNGs and passed its technical file audit. The final human ballot rejected rc2: 1/6 wins vs baseline, 2/6 vs rc5, 2/6 absolute approvals, and no approved carousel. Current measured-composition development remains unaccepted; its exposed H3 exercise reached the correction limit without coordinator approval of reference-level quality. [Held-out scope](docs/heldout-results.md). [Calibration and repairs](docs/calibration-results.md). [Protocol](evals/art-direction/protocol.md).
+
+- [Creative workflow](docs/visuals/creative-flow.svg) · [PNG](docs/visuals/creative-flow.png) · [editable Mermaid](docs/visuals/creative-flow.mmd)
+- [Visual rules](skills/cropmark/references/visual-rules.md) · [illustrated manual](skills/cropmark/references/rulebook.html)
+- [Reference atlas](skills/cropmark/refs/atlas.md) · [provenance-backed casebook](skills/cropmark/references/casebook.md)
+
+The install commands below refer to the public stable branch, not automatic acceptance of this candidate.
 
 ## Install
 
@@ -77,7 +85,7 @@ Same agent, same brief, same image model. Left: no skill. Right: cropmark.
 
 ## Styles
 
-18 style cards distilled from current studio work. The skill picks one by niche, tone and goal, and never mixes two in one set.
+18 retained card paths now describe optional mechanisms and resource needs. Original concepts are selected from the brief and inspected references; a campaign can combine mechanisms within one coherent visual system.
 
 | Photo-led | Type-led | Commercial |
 | --- | --- | --- |
@@ -86,7 +94,7 @@ Same agent, same brief, same image model. Left: no skill. Right: cropmark.
 ## How it works
 
 ```
-brief → concept → style card → copy → image (no text) → render → QA → look at it at feed size
+brief + assets → subject inventory + references → 3 concepts → 2 visual sketches → representative piece → complete set → inspect + correct (max 3 rounds) → editable delivery
 ```
 
 - **Router, not a wall of text.** `SKILL.md` is short and loads only the format, style and techniques the task needs.
@@ -94,7 +102,7 @@ brief → concept → style card → copy → image (no text) → render → QA 
 - **Two engines.** `engines/pillow/cm.py` for photo-led pieces (grading, in-scene cards, sticky notes, halftone, torn paper, cutout cleanup). `engines/html/render.mjs` for layout-heavy posts and carousels (HTML/CSS → PNG, panoramas sliced automatically).
 - **QA you can run.** `qa/qa.py` checks size, safe zones, the timestamp corner, contrast and word count, and outputs feed-size previews.
 - **No invented numbers.** Prices, stats and claims come from the brief or stay out.
-- **No image model? Still works.** It falls back to your photos, free stock or photo-free type styles.
+- **Capability-aware.** Use available honest assets or a deliberate typographic route when generation is absent; disclose any unverified visual checks.
 
 <details>
 <summary>Repo layout</summary>
@@ -112,7 +120,9 @@ brief → concept → style card → copy → image (no text) → render → QA 
 
 </details>
 
-## Results
+## Historical results
+
+The figures below describe earlier versions. Current art-direction rc2 failed human held-out evaluation; subsequent development has not demonstrated the required quality.
 
 12 frozen briefs, same agent with and without the skill:
 

@@ -1,0 +1,46 @@
+{
+  "status": "rc2 rejected by final human gate; measured-composition workflow remains unaccepted development",
+  "initial_runs": 18,
+  "initial_final_images": 48,
+  "requested_model": "gpt-6.1-sol",
+  "efforts": [
+    "low",
+    "high"
+  ],
+  "initial_candidate_acceptable": {
+    "low": 0,
+    "high": 1
+  },
+  "development_followup_runs": 6,
+  "guided_refinements": 2,
+  "human_missing_preference": [
+    "D3-low"
+  ],
+  "heldout_runs": 18,
+  "release_accepted": false,
+  "heldout_final_images": 48,
+  "heldout_technical_pass": true,
+  "technical_tests": 103,
+  "heldout_human_gate": {
+    "status": "FAIL",
+    "acceptance_gate_passed": false,
+    "wins": {
+      "baseline": 1,
+      "rc5": 2
+    },
+    "quality_approved": 2,
+    "approved_cases": [
+      "H1",
+      "H6"
+    ],
+    "family_approved": {
+      "thumbnail": true,
+      "carousel": false,
+      "campaign": true
+    },
+    "technical_pass": true,
+    "limits": "Counts the supplied ballot only. Caller must verify human provenance and technical evidence; this script does not publish or merge."
+  },
+  "consumed_cases": "H1-H6: exposed; reuse is development only",
+  "development_v3_quality": "H3: unresolved at three-round limit; no efficacy claim"
+}
