@@ -1,0 +1,342 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "logo",
+      "text": "NOCHE LENTA",
+      "box": [
+        170,
+        70,
+        359,
+        90
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 27,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "RITUALES DE DESCANSO",
+      "box": [
+        170,
+        108,
+        348,
+        118
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 14,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "brand-lockup",
+      "box": [
+        170,
+        70,
+        359,
+        118
+      ],
+      "label": "descriptor aligned left and narrower than wordmark"
+    },
+    {
+      "role": "illustration",
+      "text": "",
+      "box": [
+        107,
+        233,
+        973,
+        941
+      ],
+      "label": "roller blind, roller, textile, cord, window and light; original vector art"
+    },
+    {
+      "role": "window-light",
+      "text": "",
+      "box": [
+        125,
+        250,
+        955,
+        925
+      ],
+      "label": "last daylight revealed below descending rail"
+    },
+    {
+      "role": "headline",
+      "text": "Prueba una",
+      "box": [
+        170,
+        384,
+        552,
+        439
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 76,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "rutina sencilla",
+      "box": [
+        170,
+        472,
+        652,
+        527
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 76,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "para darle sitio",
+      "box": [
+        170,
+        560,
+        676,
+        632
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 76,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "al descanso.",
+      "box": [
+        170,
+        648,
+        579,
+        703
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 76,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "Deja una cosa lista para mañana;",
+      "box": [
+        170,
+        987,
+        612,
+        1015
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "después, apaga lo que te distrae.",
+      "box": [
+        170,
+        1029,
+        606,
+        1059
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "PRUEBA ESTA NOCHE",
+      "box": [
+        170,
+        1154,
+        610,
+        1172
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 24,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "navigation-arrow",
+      "text": "",
+      "box": [
+        634,
+        1153,
+        669,
+        1174
+      ],
+      "label": "CTA forward cue"
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": 4,
+    "revision": "R2",
+    "slide_role": "inner",
+    "frame_px": [
+      1080,
+      1350
+    ],
+    "direction": "artefact-in-scene",
+    "style_card": "text-in-scene",
+    "inventory_item": "last strip of light held by a roller blind",
+    "headline_size_px": 76,
+    "headline_pitch_px": 88,
+    "headline_ink_box_px": [
+      170,
+      384,
+      676,
+      703
+    ],
+    "headline_top_px": 384,
+    "headline_color": "#203331",
+    "fabric_color": "#f5efde",
+    "fabric_box_px": [
+      141,
+      275,
+      939,
+      845
+    ],
+    "blind_bottom_rail_y_px": 845,
+    "illustration_box_px": [
+      107,
+      233,
+      973,
+      941
+    ],
+    "illustration_source": "drawn in code; no third-party pixels",
+    "image_text_variable": "headline is printed directly on blind textile; rail descends over last light",
+    "textile_finish": "subtle woven grain and stitched lower hem",
+    "shared_left_edge_px": 170,
+    "brand_wordmark_ink_box_px": [
+      170,
+      70,
+      359,
+      90
+    ],
+    "descriptor_ink_box_px": [
+      170,
+      108,
+      348,
+      118
+    ],
+    "support_box_px": [
+      170,
+      987,
+      612,
+      1059
+    ],
+    "cta_ink_box_px": [
+      170,
+      1154,
+      610,
+      1172
+    ],
+    "tokens": {
+      "background": "#203331",
+      "headline": "#203331",
+      "fabric": "#f5efde",
+      "accent": "#d9c893"
+    },
+    "copy": {
+      "headline": [
+        "Prueba una",
+        "rutina sencilla",
+        "para darle sitio",
+        "al descanso."
+      ],
+      "support": [
+        "Deja una cosa lista para mañana;",
+        "después, apaga lo que te distrae."
+      ],
+      "cta": "PRUEBA ESTA NOCHE"
+    }
+  }
+}
