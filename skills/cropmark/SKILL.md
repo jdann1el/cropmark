@@ -26,6 +26,10 @@ Read `references/art-direction.md` for original work or a substantial redesign; 
 | Render | `engines/pillow/README.md` or `engines/html/README.md` |
 | Review and delivery | `qa/checklist.md` + `qa/rubric.md` |
 
+For a new direction, fill `briefs/TEMPLATE.md`, run `python3 scripts/draw.py --format <format> --brief <brief> --options 3`, choose a direction with an inventory-based reason, then run `python3 scripts/draw.py` with the same inputs plus `--direction <id> --why "<reason>"` and use its existing style card. The reference library is a hypothesis to test later against frozen briefs with and without the library.
+
+Precedence when modules disagree: brief > style card > format module > typography table > general rules.
+
 ## Working contract
 Record required copy, facts, identity, count, dimensions, editability and permitted changes before design. Check the available image viewer, renderer, fonts, network and imagery tools. Use `templates/project.json` as a compact optional record, not a form the user has to fill.
 
