@@ -7,7 +7,7 @@ Actualizado el 22 de octubre de 2026. Este documento permite continuar el trabaj
 - Repositorio: [`jdann1el/cropmark`](https://github.com/jdann1el/cropmark).
 - Rama de trabajo: `cropmark-art-direction`.
 - Pull request: [#2 — Add art direction workflow and measurable visual craft rules](https://github.com/jdann1el/cropmark/pull/2), abierto como borrador y apilado sobre el PR #1, que tampoco está aceptado.
-- La candidata actual es desarrollo. No se ha fusionado, publicado ni instalado como versión nueva. El estado estable sigue en la rama/base actual.
+- La candidata actual es desarrollo. No se ha fusionado, publicado ni instalado como versión nueva. La versión publicada/instalada sigue siendo v0.4 en `main`; rc5 está en la base del PR #2 y continúa sin aceptar en el PR #1.
 - La producción de recalibración v3 está congelada en `2077f231c765572163a7554a4a0a16f84f1b0533`; la documentación de la respuesta humana se añade en un commit posterior de la misma rama.
 
 Para continuar en otro entorno, abre el PR #2 o cambia a `cropmark-art-direction`. Cada commit nuevo que se suba a esa rama aparecerá en el mismo PR. Un commit es un punto guardado del historial; `push` sube ese punto a GitHub; el PR mantiene el cambio revisable sin publicarlo ni fusionarlo. No hace falta abrir otro issue para guardar este relevo.
