@@ -1,6 +1,6 @@
 {
   "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
-  "overall": "INCOMPLETE: rc2 rejected; open readiness now favorable for ALBA base/UMBRAL, controlled recalibration and new frozen validation remain",
+  "overall": "INCOMPLETE: rc2 rejected; recalibration-v3 human response is partial with 0/17 reference ratings; bounded diagnosis is required before a new freeze",
   "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
   "current_development": "2077f231c765572163a7554a4a0a16f84f1b0533",
   "requirements": [
@@ -39,7 +39,7 @@
     {
       "id": "calibration",
       "requirement": "3development briefs, no skill/rc5/candidate, low and high effort; human fixes visual bar",
-      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted; recalibration-v3 production18runs/48PNGs and local technical audit complete, human review pending",
+      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted; recalibration-v3 production18runs/48PNGs and local technical audit complete; partial human response records9 far,8 close,0 reference across17 quality ratings",
       "status": "FAIL / OPEN"
     },
     {
@@ -63,7 +63,7 @@
     "N4": "human says UMBRAL okay in direct response to reference-level question: accepted for open readiness only;3/3 exhausted; no controlled or release acceptance",
     "P1": "bounded2nativeguide sketches→editable reconstruction completed3/3; local raw-guide/copy/edit checksPASS; fresh critique preserves glyph-weight loss and limited exchange specificity; no human/causal win"
   },
-  "next_required": "Human blind calibration of all18 exposed D1–D3 runs at low+high, then only evidence-backed revisions and a new freeze before six genuinely new release-validation briefs. Preserve original thresholds and losses.",
+  "next_required": "Complete the bounded diagnosis: reconstruct one comparable typographic reference, transfer its visual grammar to new content, then test an original direction. Record cause, changed variable and predicted visual effect; revise the responsible layer before a new candidate freeze. Only then run six genuinely new release-validation briefs. Preserve original thresholds and losses.",
   "post_test_changes": "Optional visual-guide sketch medium with actual real-font feasibility and reconstruction review; role/outer-space consistency preserves headline scale/position freedom.",
   "development3_human": {
     "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
@@ -99,7 +99,7 @@
   },
   "controlled_recalibration_v3": {
     "candidate_commit": "2077f231c765572163a7554a4a0a16f84f1b0533",
-    "status": "PRODUCTION AND LOCAL TECHNICAL AUDIT COMPLETE; human calibration pending",
+    "status": "PRODUCTION AND LOCAL TECHNICAL AUDIT COMPLETE; PARTIAL HUMAN RESPONSE BELOW TARGET (9 FAR, 8 CLOSE, 0 REFERENCE / 17 RATINGS)",
     "contract": "exposed D1–D3, all3conditions at requested low+high; equal optional2nativeguide calls; self-review only; inputs frozen",
     "target_runs": 18,
     "target_final_pngs": 48,
@@ -111,7 +111,14 @@
     "historical_results_not_pooled": true,
     "reported_native_imagegen_calls": 0,
     "blind_gallery": "private local review package; six groups with independent labels",
-    "human_votes": null,
+    "human_ballot": "recalibration-v3-human-feedback.json",
+    "human_ballot_sha256": "31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38",
+    "human_groups_complete": 4,
+    "human_quality_ratings": {"far": 9, "close": 8, "reference": 0},
+    "complete_group_candidate_wins": 0,
+    "human_preferences_missing": ["D3-low", "D3-high"],
+    "human_quality_missing": ["D3-low/B"],
+    "human_visual_readiness": "FAIL / OPEN; exposed development calibration only",
     "inputs_manifest_sha256": "33be534dba7f13681ed93777727fe157bacd244864d18c586b385a7f15eff370",
     "results": "recalibration-v3-results.md"
   },

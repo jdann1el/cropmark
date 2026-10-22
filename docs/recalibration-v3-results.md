@@ -1,6 +1,6 @@
 # Controlled development recalibration v3
 
-Status: all18 runs/48final PNGs complete and locally technically verified; human visual calibration pending. No preference, reference-level approval or creative improvement is inferred from the technical audit. The original rejected rc2 results and final release thresholds remain unchanged.
+Status: all18 runs/48final PNGs complete and locally technically verified; partial human visual calibration received and below the reference bar. No preference, reference-level approval or creative improvement is inferred from the technical audit. The original rejected rc2 results and final release thresholds remain unchanged.
 
 ## Frozen comparison
 
@@ -14,8 +14,12 @@ Coordinator copied every package outside its producer directory, rerendered all4
 
 Post-production verification found an incorrect SVG alphabetic baseline in one candidate package. Its original SVGs/renderer, native-browser failure and correction are retained. The technical-only repair consumes that run's third correction, leaving the canonical PNGs and composition unchanged. Native Codex CUA/Brave verification places the corrected vertical text edges within1px across19layers, while horizontal advance differences reach13px at1080width. Supplementary SVG pixel identity or universal editor fidelity is not claimed. Other supplementary SVGs remain unverified across external editors. No coordinator aesthetic revision or result replacement followed completion.
 
-## Human review
+## Human review — partial, no reference-level ratings
 
 The private viewer includes every run, anonymously randomized A/B/C independently across the six case/effort groups. Mapping stays outside the served gallery. Full originals and common-size feed views are provided; preference can be a tie or none, and each option receives a separate far/close/reference judgment. A test-only browser export verifies completion and download with `human:false` and `test_only:true`; it is excluded from acceptance. The real form starts empty and is not scraped for unsubmitted ratings.
 
-The human review request is pending. D1–D3 were already exposed, and the skill contains development-derived examples, so any future favorable vote here is calibration rather than unseen generalization. No new six-brief final validation may be treated as passed, and no merge, release or installation replacement is justified by this report.
+The human ballot is [`recalibration-v3-human-feedback.json`](recalibration-v3-human-feedback.json), SHA-256 `31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38`. It is partial: four of six groups have a preference response; notes exist for all groups; D3-low and D3-high preferences are blank; D3-low/B has no quality rating. These fields remain unanswered.
+
+Across the17 explicit quality ratings,9 are `far`,8 are `close`, and0 are `reference`. In the four groups with complete preferences, the candidate is not preferred. D1-low ties no-skill and rc5, with rc5 close and the others far. D2-low has no preference and all three are far. D1-high prefers rc5 and rates all three close. D2-high prefers no-skill; no-skill and candidate are close, rc5 is far. D3-low's note calls the candidate cleanest/professional so far but insufficient; this prose does not fill its blank level or preference. D3-high leaves preference blank, rates candidate far and no-skill/rc5 close, and qualitatively favours A/C without a formal selection.
+
+The current result does not establish visual readiness or a causal benefit from high reasoning. Because D1–D3 are exposed development material and examples from them shaped the skill, the ballot is calibration, not unseen generalization. See [diagnosis and proposed next step](relevo-y-diagnostico-2026-10-22.md). Do not repeat the full18-run comparison or close the phase as a PASS. The six-brief final gate, merge, release and installation replacement remain unapproved.
