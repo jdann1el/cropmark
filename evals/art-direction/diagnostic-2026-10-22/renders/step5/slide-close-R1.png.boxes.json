@@ -1,0 +1,298 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "logo",
+      "text": "NOCHE LENTA",
+      "box": [
+        170,
+        62,
+        477,
+        95
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 44,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "RITUALES DE DESCANSO",
+      "box": [
+        170,
+        115,
+        456,
+        133
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 24,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "brand-lockup",
+      "box": [
+        170,
+        62,
+        477,
+        133
+      ],
+      "label": "descriptor aligned left and narrower than wordmark"
+    },
+    {
+      "role": "window-light",
+      "text": "",
+      "box": [
+        128,
+        250,
+        952,
+        1050
+      ],
+      "label": "framed sky, sun and light spill behind descending blind"
+    },
+    {
+      "role": "headline",
+      "text": "Suelta",
+      "box": [
+        170,
+        590,
+        454,
+        665
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "por hoy.",
+      "box": [
+        170,
+        698,
+        548,
+        796
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "Elige un gesto sencillo",
+      "box": [
+        170,
+        973,
+        437,
+        999
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 28,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "para marcar el cierre.",
+      "box": [
+        170,
+        1013,
+        441,
+        1039
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 28,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "GUARDA ESTA PAUSA",
+      "box": [
+        170,
+        1124,
+        443,
+        1142
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 25,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "navigation-arrow",
+      "text": "",
+      "box": [
+        467,
+        1125,
+        496,
+        1142
+      ],
+      "label": "CTA forward cue"
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": 5,
+    "revision": "R1",
+    "slide_role": "close",
+    "frame_px": [
+      1080,
+      1350
+    ],
+    "direction": "artefact-in-scene",
+    "style_card": "text-in-scene",
+    "inventory_item": "last strip of light held by a roller blind",
+    "headline_size_px": 104,
+    "headline_pitch_px": 108,
+    "headline_top_px": 590,
+    "headline_ink_box_px": [
+      170,
+      590,
+      548,
+      796
+    ],
+    "headline_line_boxes_px": [
+      [
+        170,
+        590,
+        454,
+        665
+      ],
+      [
+        170,
+        698,
+        548,
+        796
+      ]
+    ],
+    "headline_color": "#203331",
+    "fabric_color": "#f5efde",
+    "fabric_box_px": [
+      145,
+      296,
+      935,
+      774
+    ],
+    "rail_box_px": [
+      135,
+      774,
+      945,
+      812
+    ],
+    "rail_top_y_px": 774,
+    "occlusion_depth_px": 22,
+    "illustration_source": "drawn in code; no third-party pixels",
+    "image_text_variable": "foreground weighted rail masks the lower part of the last headline line",
+    "shared_left_edge_px": 170,
+    "cord_x_px": 917,
+    "brand_wordmark_ink_box_px": [
+      170,
+      62,
+      477,
+      95
+    ],
+    "descriptor_ink_box_px": [
+      170,
+      115,
+      456,
+      133
+    ],
+    "support_box_px": [
+      170,
+      973,
+      441,
+      1039
+    ],
+    "cta_ink_box_px": [
+      170,
+      1124,
+      443,
+      1142
+    ],
+    "tokens": {
+      "background": "#203331",
+      "headline": "#203331",
+      "fabric": "#f5efde",
+      "accent": "#d9c893"
+    },
+    "copy": {
+      "headline": [
+        "Suelta",
+        "por hoy."
+      ],
+      "support": [
+        "Elige un gesto sencillo",
+        "para marcar el cierre."
+      ],
+      "cta": "GUARDA ESTA PAUSA"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "logo",
+      "text": "NOCHE LENTA",
+      "box": [
+        170,
+        62,
+        477,
+        95
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 44,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "RITUALES DE DESCANSO",
+      "box": [
+        170,
+        115,
+        456,
+        133
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 24,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "brand-lockup",
+      "box": [
+        170,
+        62,
+        477,
+        133
+      ],
+      "label": "descriptor aligned left and narrower than wordmark"
+    },
+    {
+      "role": "window-light",
+      "text": "",
+      "box": [
+        128,
+        250,
+        952,
+        1050
+      ],
+      "label": "framed sky, sun and light spill behind descending blind"
+    },
+    {
+      "role": "headline",
+      "text": "Prueba una",
+      "box": [
+        170,
+        350,
+        693,
+        424
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "rutina sencilla",
+      "box": [
+        170,
+        458,
+        829,
+        533
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "para darle sitio",
+      "box": [
+        170,
+        566,
+        862,
+        664
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "al descanso.",
+      "box": [
+        170,
+        674,
+        730,
+        749
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "size": 104,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "Deja una cosa lista para mañana;",
+      "box": [
+        170,
+        973,
+        583,
+        999
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 28,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "después, apaga lo que te distrae.",
+      "box": [
+        170,
+        1013,
+        577,
+        1041
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 28,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "PRUEBA ESTA NOCHE",
+      "box": [
+        170,
+        1124,
+        441,
+        1143
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 25,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "navigation-arrow",
+      "text": "",
+      "box": [
+        465,
+        1125,
+        494,
+        1142
+      ],
+      "label": "CTA forward cue"
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": 5,
+    "revision": "R1",
+    "slide_role": "inner",
+    "frame_px": [
+      1080,
+      1350
+    ],
+    "direction": "artefact-in-scene",
+    "style_card": "text-in-scene",
+    "inventory_item": "last strip of light held by a roller blind",
+    "headline_size_px": 104,
+    "headline_pitch_px": 108,
+    "headline_top_px": 350,
+    "headline_ink_box_px": [
+      170,
+      350,
+      862,
+      749
+    ],
+    "headline_line_boxes_px": [
+      [
+        170,
+        350,
+        693,
+        424
+      ],
+      [
+        170,
+        458,
+        829,
+        533
+      ],
+      [
+        170,
+        566,
+        862,
+        664
+      ],
+      [
+        170,
+        674,
+        730,
+        749
+      ]
+    ],
+    "headline_color": "#203331",
+    "fabric_color": "#f5efde",
+    "fabric_box_px": [
+      145,
+      296,
+      935,
+      727
+    ],
+    "rail_box_px": [
+      135,
+      727,
+      945,
+      765
+    ],
+    "rail_top_y_px": 727,
+    "occlusion_depth_px": 22,
+    "illustration_source": "drawn in code; no third-party pixels",
+    "image_text_variable": "foreground weighted rail masks the lower part of the last headline line",
+    "shared_left_edge_px": 170,
+    "cord_x_px": 917,
+    "brand_wordmark_ink_box_px": [
+      170,
+      62,
+      477,
+      95
+    ],
+    "descriptor_ink_box_px": [
+      170,
+      115,
+      456,
+      133
+    ],
+    "support_box_px": [
+      170,
+      973,
+      583,
+      1041
+    ],
+    "cta_ink_box_px": [
+      170,
+      1124,
+      441,
+      1143
+    ],
+    "tokens": {
+      "background": "#203331",
+      "headline": "#203331",
+      "fabric": "#f5efde",
+      "accent": "#d9c893"
+    },
+    "copy": {
+      "headline": [
+        "Prueba una",
+        "rutina sencilla",
+        "para darle sitio",
+        "al descanso."
+      ],
+      "support": [
+        "Deja una cosa lista para mañana;",
+        "después, apaga lo que te distrae."
+      ],
+      "cta": "PRUEBA ESTA NOCHE"
+    }
+  }
+}
