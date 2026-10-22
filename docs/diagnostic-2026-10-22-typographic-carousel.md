@@ -80,3 +80,55 @@ Observaciones registradas tras revisar las láminas R3; no introducen otra ronda
 2. **Recorte del motivo.** PAUSA/RITUAL/CALMA ya no sangran ni quedan cortadas por los bordes superior, inferior y derecho como en la referencia. Las cajas finales están contenidas, con unos 130 px de margen vertical y 32–47 px a la derecha; por eso se leen como una segunda columna con peso propio, no como textura de fondo. Las rondas 2 y 3 redujeron tamaño y opacidad, pero la relación alterada era el recorte.
 3. **Escala tipográfica.** El titular cambia de 124 a 72 y luego 112 px, de modo que la serie no sostiene una escala tipográfica estable entre portada, interior y cierre.
 4. **Regla T-6 de John.** No hay justificación forzada ni espacios estirados entre palabras. Las líneas de titular se dibujan con avances normales de fuente y cortes explícitos; no se solicitó justificación en el brief.
+
+## Paso 3 — dos direcciones para NOCHE LENTA
+
+**Pregunta de diseño.** Se comparan dos relaciones entre las mismas palabras y los mismos dibujos: en A, el dibujo completa la frase; en B, la frase queda delante del objeto y lo cruza físicamente. No cambian entre direcciones el copy, la tipografía, los tamaños, la paleta, el eje ni la secuencia de grupos.
+
+**Conceptos y lectura prevista.** A: «Lo pendiente va en…» se completa con una libreta cerrada; «Mañana empieza con esto:» con una lista breve. Se espera una lectura literal, clara y tranquila. B: las mismas dos frases y dibujos se encuentran en la superficie de la libreta/lista; se espera una lectura más táctil y editorial, con mayor recuerdo visual. Se consideró una tercera vía con la luna como reloj, pero se descartó porque daba atmósfera sin mostrar el gesto concreto de guardar o priorizar. La hoja R0 de cuatro cuadros se revisó completa en feed antes de corregir; se conservaron A y B como alternativas comparables.
+
+**Sistema y adaptación.** Se mantienen el marco 1080×1350, el eje x=187 (17,315 %), DM Serif Display Regular a 86 px, Outfit para marca/apoyo/CTA, el fondo `#203331`, la tinta `#f5efde`, el acento `#d9c893`, el orden marca→titular→regla→subline→pastilla y la regla al 102 % del ancho del titular. La pastilla conserva 58 px de alto. La superficie ilustrada usa el mismo verde oscuro `#2b3f3b` en los cuatro cuadros. Las fuentes DM Serif Display y Outfit son las copias locales con licencia SIL Open Font License citadas en Paso 1.
+
+Se adapta el copy, el corte de línea y el objeto que completa cada frase. Las dos ilustraciones (libreta y lista) se dibujaron con formas de Pillow en `render_step3.py`; no hay píxeles de terceros ni activos fotográficos. A sitúa cada dibujo al final del titular. B lo pone bajo el titular; su posición horizontal se ajusta por lámina para que solo la terminación verbal toque el objeto y se conserve la lectura. Se omite la palabra fantasma vertical: en Paso 2 se observó que, contenida, competía como segunda columna, y aquí restaría espacio al gesto ilustrado.
+
+| Titular final | Caja de tinta; % x/y/ancho/alto | Cap / x-height | Pitch / hueco entre cajas | Regla / titular | Dibujo final A / B |
+|---|---|---:|---:|---:|---|
+| Portada, 2 líneas | `[187,324,683,478]`; 17,315 / 24,000 / 45,926 / 11,407 % | 57 / 42 px | 110 / 29 px | 506 / 496 px = 102,02 % | A `[555,440,835,630]`; B `[390,440,670,630]` |
+| Interior, 2 líneas | `[187,324,823,489]`; 17,315 / 24,000 / 58,889 / 12,222 % | 57 / 42 px | 110 / 27 px | 649 / 636 px = 102,04 % | A `[555,440,835,630]`; B `[510,440,790,630]` |
+
+Los titulares, la regla, la subline y la pastilla conservan las mismas cajas en A y B. La separación descriptor→titular es 109 px; regla→subline, 37 px de tinta a tinta; subline→pastilla, 66 px. La ilustración ocupa el espacio visual entre titular y regla. En A, el hueco horizontal de la imagen frente a la última línea es 90 px en portada y 27 px en interior; en B, la imagen intersecta la caja tipográfica aproximadamente 75×38 px en portada y 18×49 px en interior. La medición usa cajas del motor y archivos de fuente, no una segmentación óptica de cada trazo.
+
+**Registro de correcciones.** El máximo de tres rondas por lámina se respetó: A usa una; B portada, dos; B interior, tres.
+
+| Dirección / ronda | Causa; variable principal | Predicción | Efecto observado; antes → después |
+|---|---|---|---|
+| A, R0→R1 (ambas láminas) | El marcador de página quedaba en 3,3:1 y fallaba QA estricto. Variable: color del marcador, `#71847a`→`#d9c893`. | Superar 4,5:1 sin alterar el código tipográfico compartido. | El marcador sube a 8,0:1; las dos láminas pasan. [Portada R0](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-cover-R0.png) / [R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-cover-R1.png); [interior R0](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-inner-R0.png) / [R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-inner-R1.png). |
+| B, R0→R1 (ambas láminas) | El objeto comenzaba demasiado a la izquierda y quedaba detrás de demasiadas letras. Variable: x de la ilustración, 300→390 px en portada y 300→470 px en interior. | Mantener el cruce texto/objeto, pero liberar la mayor parte de las palabras. | La portada recupera legibilidad; en el interior, la etiqueta «MAÑANA» todavía choca con el final de «con esto:». [Portada R0](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R0.png) / [R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R1.png); [interior R0](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R0.png) / [R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R1.png). |
+| B interior, R1→R2 | La etiqueta aún se superponía con las últimas letras. Variable: x de la lista, 470→510 px. | Dejar que el borde del objeto cruce el signo final, con etiqueta y checks fuera de la caja del titular. | «con esto:» se lee completo; la puntuación toca el borde y la lista queda limpia. [Antes](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R1.png) → [después](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R2.png). |
+| B, R1→R2 portada / R2→R3 interior | El mismo fallo del marcador de página, 3,3:1. Variable: su color, `#71847a`→`#d9c893`. | Corregir contraste sin modificar la relación texto/imagen. | 8,0:1; las dos láminas pasan QA estricto. [Portada R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R1.png) / [R2](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R2.png); [interior R2](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R2.png) / [R3](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R3.png). |
+
+**Comparación para cliente.** A ofrece atractivo amplio y lectura inmediata: el objeto responde al titular; su tono es sereno y didáctico, aunque la ilustración puede sentirse añadida al lado. B tiene más carácter editorial y una lectura más táctil; mantiene el tono calmado, con mayor coherencia entre letras y objetos, pero en el interior la interacción final es sutil: la puntuación se encuentra con el borde, no toda la frase se imprime sobre la lista. Elegiría A si prima la comprensión sin esfuerzo; B si prima una firma visual más propia.
+
+**Evaluación honesta y archivos.** Las cuatro láminas finales y la hoja 2×2 se revisaron a tamaño completo y en feed. QA estricto pasó las cuatro a 1080×1350; `design_check.py` pasó los ejes/huecos declarados, los tokens compartidos y los dos cruces intencionales de B. El sistema y la jerarquía se mantienen estables; la debilidad que permanece es la sutileza de B interior y el aspecto esquemático de los dibujos, sin gesto humano. No se forzó una corrección adicional tras agotar las tres rondas de B interior.
+
+- A: [portada R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-cover-R1.png) · [interior R1](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-inner-R1.png)
+- B: [portada R2](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R2.png) · [interior R3](../evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R3.png)
+- [Hoja final 2×2, solo piezas propias](../evals/art-direction/diagnostic-2026-10-22/renders/step3/final-feed-2x2.png) · [QA estricto](../evals/art-direction/diagnostic-2026-10-22/renders/step3/qa/qa-report.json) · [contrato y revisión de ejes/huecos](../evals/art-direction/diagnostic-2026-10-22/renders/step3/layout-contract.json) · [informe del contrato](../evals/art-direction/diagnostic-2026-10-22/renders/step3/design-check-report.json) · [script reproducible](../evals/art-direction/diagnostic-2026-10-22/render_step3.py) · [plan y conceptos](../evals/art-direction/diagnostic-2026-10-22/direction-step3.md)
+
+Comandos finales:
+
+```sh
+python3 evals/art-direction/diagnostic-2026-10-22/render_step3.py --revision R1 --directions A
+python3 evals/art-direction/diagnostic-2026-10-22/render_step3.py --revision R2 --directions B --slides cover
+python3 evals/art-direction/diagnostic-2026-10-22/render_step3.py --revision R3 --directions B --slides inner
+python3 evals/art-direction/diagnostic-2026-10-22/render_step3.py --final-feed
+```
+
+### Revisión externa (orquestador)
+
+Observaciones tras revisar los recortes a tamaño completo. No abren rondas nuevas ni cambian los renders:
+
+1. **Tangencias en B.** Los puntos suspensivos de «va en…» y los dos puntos de «con esto:» coinciden exactamente con el borde de la tarjeta. En tamaño de feed se leen como una colisión accidental, no como interacción física entre texto y objeto; no hay una oclusión real ni una acción compartida.
+2. **Diferencia entre direcciones.** A y B usan el mismo objeto, copy y tipografía; solo cambia la posición horizontal de la tarjeta. Son variantes de colocación más que dos ideas distintas de relación texto-imagen. La pregunta de Paso 3 —si el agente puede inventar una idea visual específica— queda aquí sin respuesta y con resultado negativo.
+3. **Uso de las rondas.** Parte de las rondas se destinó a corregir el contraste QA del marcador de página (la única ronda de A y una de las rondas de B), no a explorar la relación texto-imagen puesta a prueba.
+4. **Artefacto de QA.** `qa.py` dejó una salida en el directorio llamado literalmente `renders/step3/qa-report.json/`, duplicada respecto a `qa/`. Se conserva en disco y queda fuera del commit.

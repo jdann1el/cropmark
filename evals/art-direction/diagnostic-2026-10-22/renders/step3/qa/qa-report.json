@@ -1,0 +1,333 @@
+{
+  "exit_code": 0,
+  "strict": true,
+  "expected_count": 4,
+  "actual_count": 4,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-cover-R1.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"HOY\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"HOY\" contrast 9.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"RITUALES DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"RITUALES DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Lo pendiente\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Lo pendiente\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"va en…\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"va en…\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Escribe una línea.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Escribe una línea.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Suelta el resto por hoy.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Suelta el resto por hoy.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"CIERRA EL DÍA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"CIERRA EL DÍA\" contrast 8.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA  ·  01 / 02\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA  ·  01 / 02\" contrast 8.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-A-inner-R1.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"MAÑANA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"MAÑANA\" contrast 9.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"RITUALES DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"RITUALES DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Mañana empieza\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Mañana empieza\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"con esto:\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"con esto:\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Elige una sola cosa\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Elige una sola cosa\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"para dejar preparada.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"para dejar preparada.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"ELIGE UNA SOLA COSA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"ELIGE UNA SOLA COSA\" contrast 8.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA  ·  02 / 02\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA  ·  02 / 02\" contrast 8.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-cover-R2.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"HOY\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"HOY\" contrast 9.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"RITUALES DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"RITUALES DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Lo pendiente\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Lo pendiente\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"va en…\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"va en…\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Escribe una línea.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Escribe una línea.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Suelta el resto por hoy.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Suelta el resto por hoy.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"CIERRA EL DÍA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"CIERRA EL DÍA\" contrast 8.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA  ·  01 / 02\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA  ·  01 / 02\" contrast 8.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step3/direction-B-inner-R3.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"MAÑANA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"MAÑANA\" contrast 9.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"RITUALES DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"RITUALES DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Mañana empieza\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Mañana empieza\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"con esto:\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"con esto:\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Elige una sola cosa\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Elige una sola cosa\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"para dejar preparada.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"para dejar preparada.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"ELIGE UNA SOLA COSA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"ELIGE UNA SOLA COSA\" contrast 8.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA  ·  02 / 02\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA  ·  02 / 02\" contrast 8.0:1"
+        }
+      ]
+    }
+  ]
+}
