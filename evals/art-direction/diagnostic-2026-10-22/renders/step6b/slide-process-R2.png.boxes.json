@@ -1,0 +1,258 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "logo",
+      "text": "TALLER BARRO",
+      "box": [
+        140,
+        58,
+        446,
+        89
+      ],
+      "fill": [
+        244,
+        233,
+        211
+      ],
+      "size": 42,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        140,
+        112,
+        296,
+        142
+      ],
+      "fill": [
+        244,
+        233,
+        211
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "brand-lockup",
+      "text": "",
+      "box": [
+        140,
+        58,
+        446,
+        142
+      ]
+    },
+    {
+      "role": "shape",
+      "text": "turning wheel and clay coil",
+      "box": [
+        38,
+        330,
+        1042,
+        992
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Del giro",
+      "box": [
+        140,
+        500,
+        448,
+        585
+      ],
+      "fill": [
+        40,
+        58,
+        52
+      ],
+      "size": 90,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "nace el borde.",
+      "box": [
+        140,
+        608,
+        700,
+        673
+      ],
+      "fill": [
+        40,
+        58,
+        52
+      ],
+      "size": 90,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "shape",
+      "text": "foreground clay coil crossing lower headline edge",
+      "box": [
+        150,
+        666,
+        900,
+        680
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "El torno acompaña cada movimiento.",
+      "box": [
+        140,
+        1030,
+        637,
+        1058
+      ],
+      "fill": [
+        244,
+        233,
+        211
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "SIGUE EL PROCESO",
+      "box": [
+        140,
+        1156,
+        391,
+        1176
+      ],
+      "fill": [
+        236,
+        190,
+        136
+      ],
+      "size": 27,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "shape",
+      "text": "CTA underline",
+      "box": [
+        140,
+        1201,
+        186,
+        1207
+      ]
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": "6b",
+    "revision": "R2",
+    "slide_role": "process",
+    "frame_px": [
+      1080,
+      1350
+    ],
+    "direction": "artefact-in-scene",
+    "style_card": "text-in-scene",
+    "inventory_items": [
+      "coiled clay ribbon",
+      "vessel lip",
+      "potter's wheel",
+      "thumbprint"
+    ],
+    "headline_size_px": 90,
+    "headline_pitch_px": 108,
+    "headline_top_px": 500,
+    "headline_line_boxes_px": [
+      [
+        140,
+        500,
+        448,
+        585
+      ],
+      [
+        140,
+        608,
+        700,
+        673
+      ]
+    ],
+    "surface_or_gesture": "headline pressed on visible clay; forming coil crosses lower ink",
+    "layer_order": "clay form, headline on clay, foreground coil",
+    "covered_ink_px": 5,
+    "covered_ink_fraction": 0.077,
+    "feed_check_width_px": 360,
+    "object_carries_headline": true,
+    "shared_left_edge_px": 140,
+    "tokens": {
+      "background": "#293934",
+      "clay": "#e3c79e",
+      "ink": "#283a34",
+      "terra": "#c6704f",
+      "headline_size_px": 90
+    },
+    "support_box_px": [
+      140,
+      1030,
+      637,
+      1058
+    ],
+    "cta_box_px": [
+      140,
+      1156,
+      391,
+      1176
+    ],
+    "illustration_source": "shapes and type drawn in code; bundled OFL fonts; no third-party pixels",
+    "copy": {
+      "headline": [
+        "Del giro",
+        "nace el borde."
+      ],
+      "support": [
+        "El torno acompaña cada movimiento."
+      ],
+      "cta": "SIGUE EL PROCESO"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "logo",
+   "text": "TALLER BARRO",
+   "box": [
+    140,
+    58,
+    446,
+    89
+   ],
+   "fill": [
+    244,
+    233,
+    211
+   ],
+   "size": 42,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "descriptor",
+   "text": "CERÁMICA",
+   "box": [
+    140,
+    112,
+    296,
+    142
+   ],
+   "fill": [
+    244,
+    233,
+    211
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "brand-lockup",
+   "text": "",
+   "box": [
+    140,
+    58,
+    446,
+    142
+   ]
+  },
+  {
+   "role": "shape",
+   "text": "turning wheel and clay coil",
+   "box": [
+    132,
+    312,
+    948,
+    1050
+   ]
+  },
+  {
+   "role": "headline",
+   "text": "Del giro",
+   "box": [
+    196,
+    494,
+    477,
+    571
+   ],
+   "fill": [
+    40,
+    58,
+    52
+   ],
+   "size": 82,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "headline",
+   "text": "nace el borde.",
+   "box": [
+    196,
+    598,
+    706,
+    657
+   ],
+   "fill": [
+    40,
+    58,
+    52
+   ],
+   "size": 82,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "caption",
+   "text": "B · TORNO / TEXTO ALREDEDOR DEL GIRO",
+   "box": [
+    140,
+    1270,
+    599,
+    1290
+   ],
+   "fill": [
+    244,
+    233,
+    211
+   ],
+   "size": 23,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}
