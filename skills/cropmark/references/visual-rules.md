@@ -18,6 +18,16 @@ Apply these to actual renders. See `rulebook.html` for deliberately constructed 
 | R12 Sequence | Repeated layouts without narrative; arbitrary variety | Map slide/post roles; maintain type, palette roles and brand while varying what the argument needs. Integrate the wordmark into the composition; do not default every post to a footer bar. | Repetition is the concept or a comparison requires matched geometry. |
 | R13 Photo craft | Halos, implausible light, wrong perspective/material | Compare source identity and mask on light/dark; match scene light, scale, contact and reflections. | Declared surrealism may bend physics, while identity and edges still need control. |
 | R14 Substance | Clean frame with no specific idea or useful content | Restate the message and the visible device. Recompose or change concept when they do not connect. | Deliberate restraint with a strong typographic or photographic statement. |
+| R15 Headline–object relation | The object and headline read as separate layers, or occlusion removes the phrase | Name affected words, surface/gesture, layer order and intended ink covered; inspect object and complete phrase at 360 px. Adjust scale, measure or layer position before finish. | A deliberate fracture requested by the brief, if the required phrase remains legible. |
+
+## Additional checks from the 21-piece reference study
+
+Use these as diagnostics, not templates. They describe visible craft in a small set, not performance or universal taste.
+
+- **Short-line spacing:** keep headlines ragged; do not justify them or add tracking to force short lines to fill a measure. Opt in only when the brief asks and the style supports it.
+- **Vertical grouping:** as a starting check, keep within-group gaps near 0.3–1 headline cap and the next group gap at least twice the largest within-group gap. Preserve intentional narrative pauses when the whole composition supports them.
+- **Phrase breaks:** avoid ending a line on an article, preposition or conjunction. In a ragged block, inspect shortest ÷ longest line width below 0.4 for a weak break or orphan; do not repair it by stretching the line.
+- **Decoration count:** aim for at most three decorative element types per slide, each with a visible job. If there are more, remove one and compare before restoring it; repeated labels or a deliberate system can justify a larger count.
 
 ## Exceptions are evidence, not permission slips
 Record the relevant brief/reference and the visible purpose. A written explanation cannot rescue a collision or unreadable required content. Distinguish a technical failure from a house preference; no font, colour, serif, gradient, line or palette is inherently an AI detector. Avoid replacing one universal fashion with another.
