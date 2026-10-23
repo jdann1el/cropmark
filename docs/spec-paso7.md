@@ -53,8 +53,8 @@ El principal decide los prompts y realiza el juicio creativo; los subagentes eje
 | T1 — Generar A/B | Entregada | 6 llamadas integradas exitosas y activos copiados a `evals/art-direction/diagnostic-2026-10-22/renders/step7/A/` y `B/`; no hubo reintentos. |
 | T2 — Componer B/feed | Entregada | `render_step7.py` produjo las seis láminas finales 1080 × 1350, bases B y `AB-feed.png` con mosaicos de 360 × 450. |
 | T3 — Diagnóstico | Entregada | `docs/diagnostic-2026-10-23-real-imagery.md`; autorevisión visual del principal, con límites expresos. |
-| T4 — QA/finish | QA ejecutado; no pasa contraste | QA estricto de carrusel verificó dimensiones y titulares, pero devolvió salida 1 por contraste en elementos secundarios. Hash y diff pendientes del cierre principal. |
-| T5 — Verificación independiente | Parcial | El verificador confirma criterios 1–3 y 6; criterio 5 falla por QA. Criterios 4 y 7 quedan pendientes del cierre/commit. |
-| T6 — Integración | Pendiente | Commit/push se ejecuta después de revisar el diff y excluir `step3/qa-report.json/` y `step7/__pycache__/`. |
+| T4 — QA/finish | Completa; QA estricto falla contraste | QA estricto de carrusel verificó dimensiones y titulares, pero devolvió salida 1 por contraste en elementos secundarios. |
+| T5 — Verificación independiente | Completa | El verificador confirma criterios 1–4 y 6–7; criterio 5 permanece FAIL por contraste secundario en QA estricto. |
+| T6 — Integración | Completa | Commits `5cccdf0` y `9a48e68`; push exitoso a `origin/cropmark-reference-library`, cuyo ref local coincide con HEAD. |
 
-La verificación independiente no sustituye el juicio visual del principal ni convierte esta prueba en evidencia de puerta o causalidad.
+La verificación independiente no sustituye el juicio visual del principal ni convierte esta prueba en evidencia de puerta o causalidad. El QA de contraste sigue fallando; no implica aprobación visual ni prueba para la puerta.
