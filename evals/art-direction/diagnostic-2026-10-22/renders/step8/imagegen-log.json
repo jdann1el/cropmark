@@ -1,0 +1,49 @@
+{
+  "task": "Paso 8 B2 text-free photographic bases",
+  "tool": "integrated image_gen",
+  "call_count": 3,
+  "call_limit": 6,
+  "overall_tool_success": true,
+  "failures": [],
+  "prompts_file": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/prompts.txt",
+  "reference_assets_used": false,
+  "images": [
+    {
+      "slide": 1,
+      "prompt_id": "a0c5da06-6b31-4a0a-8f5a-526cf975b674",
+      "tool_success": true,
+      "generated_local_path": "/home/box/.codex/generated_images/01a16d0b-8c78-78b0-9051-ca705694c0b1/exec-a0c5da06-6b31-4a0a-8f5a-526cf975b674.png",
+      "initial_zone_compliance": {
+        "upper_left_dark_wall_for_brand_descriptor_headline": "Compliant: broad dark matte wall is unobstructed by objects; light has a gentle gradient and subtle plaster texture.",
+        "lower_left_pale_table_for_support_cta": "Compliant: open pale tabletop with no objects in the lower-left copy area; mild natural surface marks are visible.",
+        "objects_right_or_lower_right_no_copy_zone_crossing": "Compliant on visual inspection: vessel, hands, wheel, tools, and sponge remain right/lower-right.",
+        "visible_text_logos_watermarks": "None observed."
+      }
+    },
+    {
+      "slide": 2,
+      "prompt_id": "61d49667-3067-45fa-aa43-ca2e1c1e349b",
+      "tool_success": true,
+      "generated_local_path": "/home/box/.codex/generated_images/01a16d0b-8c78-78b0-9051-ca705694c0b1/exec-61d49667-3067-45fa-aa43-ca2e1c1e349b.png",
+      "initial_zone_compliance": {
+        "upper_left_dark_wall_for_brand_descriptor_headline": "Compliant: large dark wall field is clear of objects and suitable as the planned light-ink area.",
+        "lower_left_pale_table_for_support_cta": "Compliant: pale tabletop remains open in the lower-left; wheel rim approaches the lower middle but does not enter the left copy area.",
+        "objects_right_or_lower_right_no_copy_zone_crossing": "Compliant on visual inspection: hands, vessel, wheel, and tools stay on the right/lower-right.",
+        "visible_text_logos_watermarks": "None observed."
+      }
+    },
+    {
+      "slide": 3,
+      "prompt_id": "4b5a5c74-da79-4afd-8b76-2de735857c82",
+      "tool_success": true,
+      "generated_local_path": "/home/box/.codex/generated_images/01a16d0b-8c78-78b0-9051-ca705694c0b1/exec-4b5a5c74-da79-4afd-8b76-2de735857c82.png",
+      "initial_zone_compliance": {
+        "upper_left_dark_wall_for_brand_descriptor_headline": "Compliant: broad dark matte wall area is clear, with a soft highlight and subtle plaster texture.",
+        "lower_left_pale_table_for_support_cta": "Mostly compliant: open pale tabletop with no objects in the lower-left; light clay flecks and natural texture are visible and need contrast review under actual copy.",
+        "objects_right_or_lower_right_no_copy_zone_crossing": "Compliant on visual inspection: vessel, slab, thumbprint, and tool remain on the right/lower-right.",
+        "visible_text_logos_watermarks": "None observed."
+      }
+    }
+  ],
+  "inspection_limit": "Initial visual zone compliance only; no composition, overlay, or contrast measurements performed."
+}

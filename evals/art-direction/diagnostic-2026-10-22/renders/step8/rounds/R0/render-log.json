@@ -1,0 +1,10 @@
+{
+  "round": 0,
+  "cause": "Initial B2 composition from the three inspected generated bases.",
+  "variable": "Measured ink by actual glyph-core pixels; common left edge, headline scale, and quiet-zone placements.",
+  "prediction": "Light ink will clear provisional 3:1 on the dark wall and dark ink will clear 4.5:1 on the pale table; all text stays outside object areas.",
+  "result": "Rendered three 1080×1350 finals with exact brief wording, no tracking or effects.",
+  "before_feed": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step8/rounds/R0/R0-initial-feed-AB2.png",
+  "after_feed": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step8/AB2-feed.png",
+  "correction_rounds_used": 0
+}
