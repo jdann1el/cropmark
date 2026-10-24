@@ -4,6 +4,8 @@ Map `slide / narrative role / required copy / visual device / composition` befor
 
 When a carousel idea depends on a headline–object relation, record the exact words carried or crossed, the object's surface/gesture, layer order, and intended ink occlusion (pixels or fraction). For a descending edge, begin with only the lower part of the final line covered. At 360 px, require both the object and complete phrase to read without a caption. If either fails, correct scale, measure or layer position before extending the set; add texture and finish only after the relation reads.
 
+Default to no overlap with mandatory copy. Only an explicitly requested headline–object relation may cover a small, recorded part of headline ink, with the full phrase readable at 360 px; keep brand, descriptor, support and CTA unobstructed. Correct any accidental cut or tangency by repositioning, not by adding an effect. For Paso8 B2, keep copy overlap at zero.
+
 Resolve the cover and the most demanding interior slide before extending the system. Share palette roles, font roles, margins and brand treatment. Decide where variation helps progression and where repetition helps comparison; neither is compulsory. Typography-only slides can be complete compositions, and a photo is not required to occupy a fixed percentage.
 
 For a panorama, design the whole sequence and inspect every cut independently. Cross-slide objects may bridge frames, while required copy/identity remains legible on each slide. `data-slices="N"` on a wide HTML frame creates N exports. For separate layouts, use one frame per slide.
