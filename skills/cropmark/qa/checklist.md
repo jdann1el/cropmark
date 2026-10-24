@@ -5,8 +5,10 @@ Run strict `qa.py` for the format and expected count. Inspect every full render,
 1. Content: all required words, facts, identities and outputs survive; charts, gestures and before/after do not imply invented proof.
 2. First read: what is understood immediately, and which element leads? For typographic work, the words and their composition can carry the idea.
 3. Specificity: name the subject detail and visual device. A self-score is not evidence of a strong concept.
-4. Composition: crop, gaze, axes, safe zones, spacing, tangencies and intentional bleed/overlap. Apply `../references/visual-rules.md` R01–R14 to observed defects.
+4. Composition: crop, gaze, axes, safe zones, spacing, tangencies and intentional bleed/overlap. Apply `../references/visual-rules.md` R01–R15 to observed defects.
 5. Type: actual fonts and glyphs, meaningful breaks, clear roles, ink bounds and no clipped descenders; required copy remains readable at feed size.
+   - For a headline–object relation, record the words, surface/gesture, layer order and covered-ink fraction; at 360 px check that the object and complete phrase remain clear.
+   - On photographic backgrounds, record local contrast beneath each actual text group using linearized sRGB luminance, P05, median and share below target under glyph cores. Treat about 4.5:1 for small copy and 3:1 for a large headline as provisional design targets, not changes to the existing QA gate. Verify brand, descriptor, headline, support and CTA, including every word, at 360 px.
 6. Image: identity preserved where required; masks, materials, light, scale, perspective and shadows coherent. Inspect critical edges on light/dark.
 7. Sequence: all slides work alone and as a family; variation and repetition serve their roles. Confirm brand, type and palette continuity.
 8. Correction: record image/region, defect, proposed action and observed effect. Re-inspect the whole set after a global change. Use at most three correction rounds after the initial developed set.

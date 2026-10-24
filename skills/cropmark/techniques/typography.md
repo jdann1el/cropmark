@@ -14,6 +14,8 @@ Use declared shared edges and an explicit spacing scale. Containers serving the 
 
 Inspect full size and feed: first read, secondary read, breaks, contrast and meaningful small copy. `../references/visual-rules.md` R03–R09 covers common failures and legitimate exceptions.
 
+For photographic backgrounds, choose ink separately for each actual text group from the measured luminance beneath its glyphs. Use linearized sRGB contrast; target about 4.5:1 for small copy and 3:1 for a large headline. Record P05, median and the share of glyph-core pixels below the applicable target; a passing median or region average cannot establish full-word readability. At 360 px, verify every required block—brand, descriptor, headline, support and CTA—and every word.
+
 ## Resolve groups and their real edges
 
 Before final spacing, identify the actual groups: headline phrase, premise/answer, brand lockup, caption, offer and action. Choose an anchor for each group (shared left/right edge or a deliberate centre) and a containing region. Do not place independent lines by unrelated coordinates and hope they form a system. Words belonging to one phrase should read as one unit; a pair spread across the canvas needs a visible comparison or subject-label relationship.

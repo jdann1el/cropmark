@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "shared_tokens": [
+    "background",
+    "headline",
+    "accent",
+    "headline_size_px"
+  ],
+  "frames": [
+    {
+      "id": "cover",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 32,
+      "tokens": {
+        "background": "#203331",
+        "headline": "#203331",
+        "fabric": "#f5efde",
+        "accent": "#d9c893",
+        "headline_size_px": 96
+      },
+      "elements": [
+        {
+          "id": "brand",
+          "box": [
+            170,
+            62,
+            477,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            170,
+            115,
+            456,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "headline",
+          "box": [
+            170,
+            390,
+            426,
+            570
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "scene",
+          "box": [
+            128,
+            250,
+            952,
+            1050
+          ]
+        },
+        {
+          "id": "support",
+          "box": [
+            170,
+            973,
+            467,
+            1033
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Regular.ttf"
+        },
+        {
+          "id": "cta",
+          "box": [
+            170,
+            1124,
+            379,
+            1143
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "rail",
+          "box": [
+            135,
+            565,
+            945,
+            603
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "brand",
+            "descriptor",
+            "headline",
+            "support",
+            "cta"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "support",
+          "b": "cta",
+          "axis": "y",
+          "min": 40
+        },
+        {
+          "a": "headline",
+          "b": "rail",
+          "axis": "y",
+          "min": 0,
+          "allow_overlap": true,
+          "reason": "Solape físico deliberado sobre una franja baja del último renglón; comprobar frase completa a 360 px."
+        }
+      ]
+    },
+    {
+      "id": "inner",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 32,
+      "tokens": {
+        "background": "#203331",
+        "headline": "#203331",
+        "fabric": "#f5efde",
+        "accent": "#d9c893",
+        "headline_size_px": 96
+      },
+      "elements": [
+        {
+          "id": "brand",
+          "box": [
+            170,
+            62,
+            477,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            170,
+            115,
+            456,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "headline",
+          "box": [
+            170,
+            350,
+            809,
+            731
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "scene",
+          "box": [
+            128,
+            250,
+            952,
+            1050
+          ]
+        },
+        {
+          "id": "support",
+          "box": [
+            170,
+            973,
+            583,
+            1041
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Regular.ttf"
+        },
+        {
+          "id": "cta",
+          "box": [
+            170,
+            1124,
+            441,
+            1143
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "rail",
+          "box": [
+            135,
+            726,
+            945,
+            764
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "brand",
+            "descriptor",
+            "headline",
+            "support",
+            "cta"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "support",
+          "b": "cta",
+          "axis": "y",
+          "min": 40
+        },
+        {
+          "a": "headline",
+          "b": "rail",
+          "axis": "y",
+          "min": 0,
+          "allow_overlap": true,
+          "reason": "Solape físico deliberado sobre una franja baja del último renglón; comprobar frase completa a 360 px."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 32,
+      "tokens": {
+        "background": "#203331",
+        "headline": "#203331",
+        "fabric": "#f5efde",
+        "accent": "#d9c893",
+        "headline_size_px": 96
+      },
+      "elements": [
+        {
+          "id": "brand",
+          "box": [
+            170,
+            62,
+            477,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            170,
+            115,
+            456,
+            133
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "headline",
+          "box": [
+            170,
+            590,
+            519,
+            785
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "scene",
+          "box": [
+            128,
+            250,
+            952,
+            1050
+          ]
+        },
+        {
+          "id": "support",
+          "box": [
+            170,
+            973,
+            441,
+            1039
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Regular.ttf"
+        },
+        {
+          "id": "cta",
+          "box": [
+            170,
+            1124,
+            443,
+            1142
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/Outfit-Bold.ttf"
+        },
+        {
+          "id": "rail",
+          "box": [
+            135,
+            780,
+            945,
+            818
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "brand",
+            "descriptor",
+            "headline",
+            "support",
+            "cta"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "support",
+          "b": "cta",
+          "axis": "y",
+          "min": 40
+        },
+        {
+          "a": "headline",
+          "b": "rail",
+          "axis": "y",
+          "min": 0,
+          "allow_overlap": true,
+          "reason": "Solape físico deliberado sobre una franja baja del último renglón; comprobar frase completa a 360 px."
+        }
+      ]
+    }
+  ]
+}

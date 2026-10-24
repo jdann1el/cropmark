@@ -1,0 +1,65 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "logo",
+   "text": "NOCHE LENTA",
+   "box": [
+    170,
+    70,
+    359,
+    90
+   ],
+   "fill": [
+    245,
+    239,
+    222
+   ],
+   "size": 27,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "descriptor",
+   "text": "RITUALES DE DESCANSO",
+   "box": [
+    170,
+    108,
+    348,
+    118
+   ],
+   "fill": [
+    245,
+    239,
+    222
+   ],
+   "size": 14,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "brand-lockup",
+   "box": [
+    170,
+    70,
+    359,
+    118
+   ],
+   "label": "descriptor aligned left and narrower than wordmark"
+  }
+ ],
+ "text_free": false
+}

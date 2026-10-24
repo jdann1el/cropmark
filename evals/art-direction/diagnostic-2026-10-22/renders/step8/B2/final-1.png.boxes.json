@@ -1,0 +1,124 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "brand",
+   "text": "TALLER BARRO",
+   "box": [
+    112,
+    90,
+    335,
+    112
+   ],
+   "fill": [
+    247,
+    243,
+    232
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "descriptor",
+   "text": "CERÁMICA",
+   "box": [
+    112,
+    128,
+    257,
+    153
+   ],
+   "fill": [
+    247,
+    243,
+    232
+   ],
+   "size": 27,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "headline",
+   "text": "La forma\ntoma cuerpo.",
+   "box": [
+    112,
+    247,
+    592,
+    462
+   ],
+   "fill": [
+    247,
+    243,
+    232
+   ],
+   "size": 108,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "support",
+   "text": "Una pieza empieza\ncon un gesto.",
+   "box": [
+    112,
+    964,
+    401,
+    1039
+   ],
+   "fill": [
+    28,
+    37,
+    33
+   ],
+   "size": 34,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "cta",
+   "text": "EXPLORA EL TALLER",
+   "box": [
+    112,
+    1135,
+    395,
+    1156
+   ],
+   "fill": [
+    28,
+    37,
+    33
+   ],
+   "size": 28,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}

@@ -1,0 +1,124 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "brand",
+   "text": "TALLER BARRO",
+   "box": [
+    110,
+    111,
+    333,
+    136
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 2,
+   "stroke_fill": [
+    29,
+    38,
+    36
+   ]
+  },
+  {
+   "role": "descriptor",
+   "text": "CERÁMICA",
+   "box": [
+    110,
+    146,
+    270,
+    180
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 2,
+   "stroke_fill": [
+    29,
+    38,
+    36
+   ]
+  },
+  {
+   "role": "headline",
+   "text": "Del giro\nnace el borde.",
+   "box": [
+    112,
+    421,
+    685,
+    585
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 92,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "support",
+   "text": "El torno acompaña cada movimiento.",
+   "box": [
+    112,
+    997,
+    692,
+    1029
+   ],
+   "fill": [
+    29,
+    38,
+    36
+   ],
+   "size": 35,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "cta",
+   "text": "SIGUE EL PROCESO",
+   "box": [
+    112,
+    1187,
+    406,
+    1208
+   ],
+   "fill": [
+    29,
+    38,
+    36
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}
