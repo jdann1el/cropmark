@@ -103,3 +103,32 @@ Estos objetivos describen la prueba candidata y no cambian umbrales de QA ni la 
 Tras abrir el feed A/B/B2, las tres finales B2 a 1080 × 1350 y las siete referencias locales, el rol **gpt-6.1-sol / high**, distinto del compositor, prefiere B2 ligeramente sobre A como serie y claramente sobre B por lectura secundaria, calma y coherencia tipográfica. Persisten un esquema repetido izquierda/derecha, marca y CTA poco característicos y una relación texto–objeto principalmente temática; no se declara nivel de referencia. El [diagnóstico del Paso 8](diagnostic-2026-10-24-behance-contrast.md) detalla la evidencia de feed y estas brechas. El QA registrado pasa las tres láminas, pero ni ese pase ni este juicio validan el skill: **CANDIDATO sin validar**, un brief, bases diferentes, sin preferencia humana, aprobación ni inferencia causal. Gate, feedback y estado 0/17 sin cambios.
 
 El verificador T5 independiente (**gpt-6-luna / high**) confirmó QA estricto 3/3 con salida 0 y reporte idéntico a R0; recalculó las quince ternas de contraste y verificó las nueve miniaturas contra sus finales. También confirmó bases idénticas a los originales, hash del feedback intacto y ausencia de assets/CDN de referencia en la entrega. Es evidencia de ejecución y de integridad, no aceptación estética ni pase de puerta.
+
+## Actualización candidata Paso 9 — 2026-10-24
+
+**Estado: CANDIDATO, sin validar.** El juicio visual T4 de Sol quedó registrado, pero no cambia el estado candidato ni las reglas de QA o la puerta. Se mantienen los objetivos propuestos de relación imagen–titular, ritmo de serie, copy pequeño de al menos 14 px visibles a 360 px, titulares de al menos 2× el copy pequeño cuando el brief no nombra otro primer nivel y R16 para contraste local.
+
+### Cambios candidatos relacionados
+
+- formats/carousel.md, formats/thumbnail.md y formats/post.md: progresión de serie, jerarquía, lectura de copy pequeño y transferencia a piezas únicas.
+- techniques/carousel-system.md, story-in-frame.md, typography.md e imagery.md: variación motivada, relación imagen–copy, zonas tranquilas, legibilidad y uso de efectos.
+- references/visual-rules.md: R17/R18 para relación imagen–titular y progresión.
+- qa/checklist.md: evidencia manual de copy y lectura; los umbrales automáticos no se cambiaron.
+
+### Evidencia R0/R1
+
+R0 documentó variación de relaciones en B3 pero fallos de contraste local en siete grupos y un cap de metadata de flyer B de 13.33 px. La QA estricta dio FAIL en carrusel (exit 1) por tres estimaciones de contraste y PASS en thumbnail y flyer. R1 corrige la ubicación/color del copy B3, devuelve la lectura titular→apoyo→CTA en la lámina 2 y ajusta el bloque metadata del flyer B. Los 15 grupos de B3 y los grupos B del flyer y thumbnail pasan sus mediciones de glyph-core; B3 llega a P05 mínimo 4.731:1 para copy pequeño y 4.799:1 para titulares; flyer B metadata 6.773:1, cap 14.33 px; thumbnail B P05 17.579:1 y copy completo legible a 168/320/360. La QA estricta R1 pasa en carrusel, thumbnail B y flyer B, así como en los pares A/B de thumbnail y flyer.
+
+El contador global fue 8/12. Las llamadas 1–7 generaron bases y finales A/B iniciales; la llamada 8 generó una base B de reemplazo para thumbnail R1. El trabajo tipográfico/compositivo correctivo R1 consumió cero llamadas de generación. A permanece raster directo y B editable; el fondo thumbnail B R1 no coincide con el de A ni con B R0.
+
+El diagnóstico Paso 9 contiene causas, variables, predicciones, resultados, rutas de antes/después, todas las medidas de contraste/cap, comandos QA, estudio de referencias y juicio T4.
+
+### Juicio visual final de Sol / T4
+
+Sol prefiere el set B2 para el carrusel: B3 mejora R0, pero sigue denso y por debajo de las referencias. Prefiere B-R1 para la miniatura por cercanía conceptual, aunque sigue siendo menos inmediata a 168 px. Para el flyer prefiere A, cuya jerarquía considera mejor que B-R1. Este juicio de un revisor de modelo no es preferencia humana medida ni prueba causal. Los pares tienen imágenes distintas y la base thumbnail B cambió en R1.
+
+### Límites y estado
+
+El ensayo cubre un carrusel ficticio, una miniatura y un flyer ficticio; no mide preferencias humanas ni demuestra causalidad o fiabilidad. QA técnico no prueba mérito visual ni nivel de referencia. Las observaciones de referencias locales solo guiaron inspección; no se reutilizaron píxeles. El juicio de Sol no es aprobación de puerta.
+
+El candidato permanece **CANDIDATE, sin validar**. El gate, los umbrales de QA y el benchmark no se modificaron ni ejecutaron. El feedback sigue en 0/17 y docs/recalibration-v3-human-feedback.json conserva SHA-256 esperado 31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38. No se concluye que Cropmark causó ninguna diferencia.

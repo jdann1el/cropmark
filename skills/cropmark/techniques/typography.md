@@ -16,6 +16,8 @@ Inspect full size and feed: first read, secondary read, breaks, contrast and mea
 
 For photographic backgrounds, choose ink separately for each actual text group from the measured luminance beneath its glyphs. Use linearized sRGB contrast; target about 4.5:1 for small copy and 3:1 for a large headline. Record P05, median and the share of glyph-core pixels below the applicable target; a passing median or region average cannot establish full-word readability. At 360 px, verify every required block—brand, descriptor, headline, support and CTA—and every word.
 
+Treat the headline as the dominant type mass unless the brief names another first read. At a 360 px-wide feed preview, record visible cap heights and target a headline at least 2× the required small-copy cap height. If the brief names another first read, identify it and record the intended hierarchy for comparison. Keep required small copy at least 14 px high and legible. Preserve the R16 local contrast targets: 4.5:1 for small copy and 3:1 for large headlines. Do not use dark ink on a dark field; keep shadows and strokes off. Correct contrast by changing the background or choosing suitable ink. Keep all copy uncropped and unobscured. Candidate guidance pending validation.
+
 ## Resolve groups and their real edges
 
 Before final spacing, identify the actual groups: headline phrase, premise/answer, brand lockup, caption, offer and action. Choose an anchor for each group (shared left/right edge or a deliberate centre) and a containing region. Do not place independent lines by unrelated coordinates and hope they form a system. Words belonging to one phrase should read as one unit; a pair spread across the canvas needs a visible comparison or subject-label relationship.
