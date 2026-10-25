@@ -1,0 +1,412 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        70,
+        75,
+        515,
+        120
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        70,
+        131,
+        392,
+        188
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Del giro\nnace el borde.",
+      "box": [
+        70,
+        454,
+        612,
+        660
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 116,
+      "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "El torno acompaña\ncada movimiento.",
+      "box": [
+        70,
+        240,
+        570,
+        348
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "SIGUE EL PROCESO",
+      "box": [
+        70,
+        1224,
+        622,
+        1268
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "condition": "B3 Cropmark editable overlay",
+  "source_base": "base-2.png",
+  "crop": {
+    "source": "B3/base-2.png",
+    "source_size": [
+      1122,
+      1402
+    ],
+    "crop_box": [
+      0,
+      0,
+      1122,
+      1402
+    ],
+    "output_size": [
+      1080,
+      1350
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "headline_image_relation": "wheel arc answers a compact lower-left headline; headline scale and position shift from cover",
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        70,
+        60
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 8612,
+        "background_srgb_linear_luminance_p05": 0.27518,
+        "background_srgb_linear_luminance_median": 0.30115,
+        "contrast_p05": 4.894,
+        "contrast_median": 5.285,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.27518,
+          "background_srgb_linear_luminance_median": 0.30115,
+          "contrast_p05": 1.684,
+          "contrast_median": 2.697,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.27518,
+          "background_srgb_linear_luminance_median": 0.30115,
+          "contrast_p05": 4.894,
+          "contrast_median": 5.285,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        70,
+        128
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 6448,
+        "background_srgb_linear_luminance_p05": 0.29677,
+        "background_srgb_linear_luminance_median": 0.484,
+        "contrast_p05": 5.219,
+        "contrast_median": 8.036,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.29677,
+          "background_srgb_linear_luminance_median": 0.484,
+          "contrast_p05": 1.372,
+          "contrast_median": 1.772,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.29677,
+          "background_srgb_linear_luminance_median": 0.484,
+          "contrast_p05": 5.219,
+          "contrast_median": 8.036,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "Del giro nace el borde.",
+      "editable_text": "Del giro\nnace el borde.",
+      "position": [
+        70,
+        425
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 116,
+      "visible_cap_height_px_master": 84,
+      "visible_cap_height_px_at_360": 28.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 14393,
+        "background_srgb_linear_luminance_p05": 0.31883,
+        "background_srgb_linear_luminance_median": 0.47276,
+        "contrast_p05": 5.551,
+        "contrast_median": 7.867,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 14393,
+          "background_srgb_linear_luminance_p05": 0.31883,
+          "background_srgb_linear_luminance_median": 0.47276,
+          "contrast_p05": 1.43,
+          "contrast_median": 1.812,
+          "under_target_percent": 100.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 14393,
+          "background_srgb_linear_luminance_p05": 0.31883,
+          "background_srgb_linear_luminance_median": 0.47276,
+          "contrast_p05": 5.551,
+          "contrast_median": 7.867,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "El torno acompaña cada movimiento.",
+      "editable_text": "El torno acompaña\ncada movimiento.",
+      "position": [
+        70,
+        225
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 7988,
+        "background_srgb_linear_luminance_p05": 0.27168,
+        "background_srgb_linear_luminance_median": 0.53,
+        "contrast_p05": 4.841,
+        "contrast_median": 8.729,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 7988,
+          "background_srgb_linear_luminance_p05": 0.27168,
+          "background_srgb_linear_luminance_median": 0.53,
+          "contrast_p05": 1.42,
+          "contrast_median": 1.633,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 7988,
+          "background_srgb_linear_luminance_p05": 0.27168,
+          "background_srgb_linear_luminance_median": 0.53,
+          "contrast_p05": 4.841,
+          "contrast_median": 8.729,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "cta",
+      "text": "SIGUE EL PROCESO",
+      "editable_text": "SIGUE EL PROCESO",
+      "position": [
+        70,
+        1210
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 9983,
+        "background_srgb_linear_luminance_p05": 0.09984,
+        "background_srgb_linear_luminance_median": 0.25024,
+        "contrast_p05": 2.255,
+        "contrast_median": 4.518,
+        "under_target_percent": 49.765,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 9983,
+          "background_srgb_linear_luminance_p05": 0.09984,
+          "background_srgb_linear_luminance_median": 0.25024,
+          "contrast_p05": 1.77,
+          "contrast_median": 3.154,
+          "under_target_percent": 70.41,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 9983,
+          "background_srgb_linear_luminance_p05": 0.09984,
+          "background_srgb_linear_luminance_median": 0.25024,
+          "contrast_p05": 2.255,
+          "contrast_median": 4.518,
+          "under_target_percent": 49.765,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    }
+  ]
+}

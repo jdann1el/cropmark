@@ -1,0 +1,413 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        70,
+        75,
+        515,
+        120
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        70,
+        131,
+        392,
+        188
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "La forma\ntoma cuerpo.",
+      "box": [
+        70,
+        203,
+        656,
+        463
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 132,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "Una pieza\nempieza con\nun gesto.",
+      "box": [
+        70,
+        570,
+        406,
+        755
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "EXPLORA EL\nTALLER",
+      "box": [
+        70,
+        784,
+        427,
+        888
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "condition": "B3 Cropmark R1",
+  "round": "R1",
+  "source_base": "B3/base-1.png",
+  "crop": {
+    "source": "B3/base-1.png",
+    "source_size": [
+      1122,
+      1402
+    ],
+    "crop_box": [
+      0,
+      0,
+      1122,
+      1402
+    ],
+    "output_size": [
+      1080,
+      1350
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        70,
+        60
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 8612,
+        "background_srgb_linear_luminance_p05": 0.30129,
+        "background_srgb_linear_luminance_median": 0.48761,
+        "contrast_p05": 5.287,
+        "contrast_median": 8.091,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.30129,
+          "background_srgb_linear_luminance_median": 0.48761,
+          "contrast_p05": 1.236,
+          "contrast_median": 1.953,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.30129,
+          "background_srgb_linear_luminance_median": 0.48761,
+          "contrast_p05": 5.287,
+          "contrast_median": 8.091,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        70,
+        128
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 6448,
+        "background_srgb_linear_luminance_p05": 0.43756,
+        "background_srgb_linear_luminance_median": 0.61343,
+        "contrast_p05": 7.337,
+        "contrast_median": 9.984,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.43756,
+          "background_srgb_linear_luminance_median": 0.61343,
+          "contrast_p05": 1.347,
+          "contrast_median": 1.583,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.43756,
+          "background_srgb_linear_luminance_median": 0.61343,
+          "contrast_p05": 7.337,
+          "contrast_median": 9.984,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "La forma toma cuerpo.",
+      "editable_text": "La forma\ntoma cuerpo.",
+      "position": [
+        70,
+        170
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 132,
+      "visible_cap_height_px_master": 95,
+      "visible_cap_height_px_at_360": 31.67,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 19193,
+        "background_srgb_linear_luminance_p05": 0.31545,
+        "background_srgb_linear_luminance_median": 0.56646,
+        "contrast_p05": 5.5,
+        "contrast_median": 9.277,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 19193,
+          "background_srgb_linear_luminance_p05": 0.31545,
+          "background_srgb_linear_luminance_median": 0.56646,
+          "contrast_p05": 1.174,
+          "contrast_median": 1.703,
+          "under_target_percent": 97.958,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 19193,
+          "background_srgb_linear_luminance_p05": 0.31545,
+          "background_srgb_linear_luminance_median": 0.56646,
+          "contrast_p05": 5.5,
+          "contrast_median": 9.277,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "Una pieza empieza con un gesto.",
+      "editable_text": "Una pieza\nempieza con\nun gesto.",
+      "position": [
+        70,
+        555
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 7029,
+        "background_srgb_linear_luminance_p05": 0.45424,
+        "background_srgb_linear_luminance_median": 0.55123,
+        "contrast_p05": 7.588,
+        "contrast_median": 9.048,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 7029,
+          "background_srgb_linear_luminance_p05": 0.45424,
+          "background_srgb_linear_luminance_median": 0.55123,
+          "contrast_p05": 1.411,
+          "contrast_median": 1.746,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 7029,
+          "background_srgb_linear_luminance_p05": 0.45424,
+          "background_srgb_linear_luminance_median": 0.55123,
+          "contrast_p05": 7.588,
+          "contrast_median": 9.048,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "cta",
+      "text": "EXPLORA EL TALLER",
+      "editable_text": "EXPLORA EL\nTALLER",
+      "position": [
+        70,
+        770
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 10083,
+        "background_srgb_linear_luminance_p05": 0.31308,
+        "background_srgb_linear_luminance_median": 0.42321,
+        "contrast_p05": 5.464,
+        "contrast_median": 7.122,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 10083,
+          "background_srgb_linear_luminance_p05": 0.31308,
+          "background_srgb_linear_luminance_median": 0.42321,
+          "contrast_p05": 1.548,
+          "contrast_median": 2.219,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 10083,
+          "background_srgb_linear_luminance_p05": 0.31308,
+          "background_srgb_linear_luminance_median": 0.42321,
+          "contrast_p05": 5.464,
+          "contrast_median": 7.122,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    }
+  ],
+  "headline_image_relation": "rim echo stays above the complete vessel lip; small copy is gathered in the left wall quiet band"
+}

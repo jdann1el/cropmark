@@ -1,0 +1,39 @@
+{
+  "round": "R1",
+  "imagegen_calls": 0,
+  "pieces": [
+    {
+      "piece": "B3 carousel",
+      "correction_passes": 1,
+      "defects_from_R0": [
+        "Support/action on busy crop areas failed local P05 contrast on slides 1–2; slide 3 secondary-copy P05 slightly below target.",
+        "Slide 1 headline glyphs touched the vessel-rim object region by 77 core pixels in the initial R1 placement.",
+        "Slide 2 R0 support/action placement preceded the headline."
+      ],
+      "primary_variable": "secondary-copy placement/color on measured calm surfaces",
+      "prediction": "Moving slide 1 support/action to the clear left wall, placing slide 2 support/action below the headline on the left wall, and using pure white for slide 3 brand/descriptor/support will make every small group P05 >=4.5:1 with no glyph collision.",
+      "token_refinement": "Shifted slide 1 headline up 20px after core-mask check showed 77 pixels in the conservative vessel/rim region; final intersection is zero. Reordered slide 2 headline before support/action.",
+      "result": "All 15 B3 text groups pass core P05; all copy has >=14px visible cap at 360; all headlines are >=2x minimum small-copy cap; no text/text or glyph/key-detail overlaps."
+    },
+    {
+      "piece": "flyer B",
+      "correction_passes": 1,
+      "defect_from_R0": "Subordinate line was 13.33px visible cap at 360 and began with an orphan separator.",
+      "primary_variable": "metadata block hierarchy and size",
+      "prediction": "Set room and date/time as a two-line single block with the separator attached after the room and raise the font to 60px; cap will clear 14px and contrast remains.",
+      "result": "Exact joined copy preserved; `Sala Taller ·` / `14 nov · 21:00`, 14.33px cap, P05 6.773:1, no copy/vinyl collision."
+    },
+    {
+      "piece": "thumbnail B R1",
+      "correction_passes": 1,
+      "defect_from_R0": "R0 thumbnail base was replaced by the new R1 base; first R1 draft clipped line 2 and missed the 40px bottom margin.",
+      "primary_variable": "overlay representation and safe placement",
+      "prediction": "Two-line bold white copy at x52/y480 and 100px keeps the phrase complete, clear of subject/badge zones, and visible at 168/320/360.",
+      "token_refinement": "The initial R1 draft at y628/font128 clipped; moved to y480/font100 within the same pass.",
+      "result": "Full exact phrase visible at 168, 320 and 360; core P05 17.583:1; final glyph bottom leaves 43px."
+    }
+  ],
+  "no_shadow_stroke_or_panel": true,
+  "sources_unchanged": true,
+  "R0_unchanged": true
+}

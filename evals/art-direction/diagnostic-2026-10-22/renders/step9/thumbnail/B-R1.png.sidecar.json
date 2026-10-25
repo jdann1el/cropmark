@@ -1,0 +1,59 @@
+{
+  "condition": "Thumbnail B Cropmark R1",
+  "source_base": "thumbnail/B-base-R1-source.png",
+  "groups": [
+    {
+      "role": "headline",
+      "text": "3 AIs. 1 Portfolio.",
+      "editable_text": "3 AIs.\n1 Portfolio.",
+      "position": [
+        52,
+        480
+      ],
+      "font_file": "BricolageGrotesque-Bold.ttf",
+      "font_size": 100,
+      "visible_cap_height_px_master": 67,
+      "visible_cap_height_px_at_168": 8.79,
+      "ink_srgb": [
+        255,
+        255,
+        255
+      ],
+      "contrast": {
+        "glyph_core_pixels": 19713,
+        "background_srgb_linear_luminance_p05": 0.00854,
+        "background_srgb_linear_luminance_median": 0.00915,
+        "contrast_p05": 17.579,
+        "contrast_median": 17.751,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 19713,
+          "background_srgb_linear_luminance_p05": 0.00854,
+          "background_srgb_linear_luminance_median": 0.00915,
+          "contrast_p05": 17.579,
+          "contrast_median": 17.751,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 19713,
+          "background_srgb_linear_luminance_p05": 0.00854,
+          "background_srgb_linear_luminance_median": 0.00915,
+          "contrast_p05": 1.112,
+          "contrast_median": 1.123,
+          "under_target_percent": 100.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      }
+    }
+  ],
+  "output_sha256": "aa6d891e5227269e5040e40ce2cb5d667a64d824b1c6489673ecd2e8c4770523"
+}

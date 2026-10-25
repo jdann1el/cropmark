@@ -1,0 +1,185 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "event",
+      "text": "Noche de vinilos",
+      "box": [
+        84,
+        298,
+        501,
+        355
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 76,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "venue_date",
+      "text": "Sala Taller ·\n14 nov · 21:00",
+      "box": [
+        86,
+        453,
+        451,
+        566
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "condition": "Flyer B Cropmark R1",
+  "round": "R1",
+  "source_base": "flyer/B-base-source.png",
+  "crop": {
+    "source": "flyer/B-base-source.png",
+    "source_size": [
+      1122,
+      1402
+    ],
+    "crop_box": [
+      0,
+      0,
+      1122,
+      1402
+    ],
+    "output_size": [
+      1080,
+      1350
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "groups": [
+    {
+      "role": "event",
+      "text": "Noche de vinilos",
+      "editable_text": "Noche de vinilos",
+      "position": [
+        84,
+        278
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 76,
+      "visible_cap_height_px_master": 54,
+      "visible_cap_height_px_at_360": 18.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 4207,
+        "background_srgb_linear_luminance_p05": 0.43422,
+        "background_srgb_linear_luminance_median": 0.48431,
+        "contrast_p05": 7.287,
+        "contrast_median": 8.041,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 4207,
+          "background_srgb_linear_luminance_p05": 0.43422,
+          "background_srgb_linear_luminance_median": 0.48431,
+          "contrast_p05": 1.862,
+          "contrast_median": 1.965,
+          "under_target_percent": 100.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 4207,
+          "background_srgb_linear_luminance_p05": 0.43422,
+          "background_srgb_linear_luminance_median": 0.48431,
+          "contrast_p05": 7.287,
+          "contrast_median": 8.041,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "venue_date",
+      "text": "Sala Taller · 14 nov · 21:00",
+      "editable_text": "Sala Taller ·\n14 nov · 21:00",
+      "position": [
+        86,
+        438
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 10936,
+        "background_srgb_linear_luminance_p05": 0.40002,
+        "background_srgb_linear_luminance_median": 0.4394,
+        "contrast_p05": 6.773,
+        "contrast_median": 7.365,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 10936,
+          "background_srgb_linear_luminance_p05": 0.40002,
+          "background_srgb_linear_luminance_median": 0.4394,
+          "contrast_p05": 2.019,
+          "contrast_median": 2.145,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 10936,
+          "background_srgb_linear_luminance_p05": 0.40002,
+          "background_srgb_linear_luminance_median": 0.4394,
+          "contrast_p05": 6.773,
+          "contrast_median": 7.365,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    }
+  ],
+  "metadata_hierarchy": "Sala Taller · / 14 nov · 21:00"
+}

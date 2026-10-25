@@ -1,0 +1,37 @@
+$ python3 skills/cropmark/qa/qa.py carousel --strict --expected-count 3 evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-1.png evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-2.png evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-3.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R0/carousel
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-1.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 8.8:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 10.0:1
+  INFO  "La forma toma cuerpo." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "La forma toma cuerpo." contrast 9.0:1
+  INFO  "Una pieza empieza con un gesto." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  FAIL  "Una pieza empieza con un gesto." contrast 2.5:1
+  INFO  "EXPLORA EL TALLER" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  FAIL  "EXPLORA EL TALLER" contrast 3.4:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-2.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 5.4:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 7.6:1
+  INFO  "Del giro nace el borde." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Del giro nace el borde." contrast 5.7:1
+  INFO  "El torno acompaña cada movimiento." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "El torno acompaña cada movimiento." contrast 8.6:1
+  INFO  "SIGUE EL PROCESO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  FAIL  "SIGUE EL PROCESO" contrast 4.0:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-3.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 4.9:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 4.7:1
+  INFO  "Cada huella deja memoria." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Cada huella deja memoria." contrast 5.3:1
+  INFO  "Un rastro queda en la superficie." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Un rastro queda en la superficie." contrast 5.0:1
+  INFO  "MIRA LAS PIEZAS" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "MIRA LAS PIEZAS" contrast 8.9:1

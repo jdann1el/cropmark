@@ -1,0 +1,44 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "text_free": false,
+  "condition": "A direct imagegen raster; embedded lettering, unknown font; approximate copy regions",
+  "boxes": [
+    {
+      "role": "raster_copy",
+      "text": "Noche de vinilos",
+      "box": [
+        84,
+        304,
+        710,
+        436
+      ],
+      "size": 103,
+      "font_effective": "embedded raster lettering; font unknown",
+      "fill": [
+        27,
+        19,
+        14
+      ]
+    },
+    {
+      "role": "raster_copy",
+      "text": "Sala Taller · 14 nov · 21:00",
+      "box": [
+        121,
+        439,
+        710,
+        509
+      ],
+      "size": 45,
+      "font_effective": "embedded raster lettering; font unknown",
+      "fill": [
+        27,
+        19,
+        14
+      ]
+    }
+  ]
+}

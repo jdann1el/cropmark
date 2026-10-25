@@ -1,0 +1,55 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "event",
+   "text": "Noche de vinilos",
+   "box": [
+    84,
+    298,
+    501,
+    355
+   ],
+   "fill": [
+    38,
+    34,
+    29
+   ],
+   "size": 76,
+   "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "venue_date",
+   "text": "Sala Taller · 14 nov\n· 21:00",
+   "box": [
+    86,
+    452,
+    555,
+    557
+   ],
+   "fill": [
+    38,
+    34,
+    29
+   ],
+   "size": 56,
+   "font_path": "/home/box/Developer/cropmark/evals/art-direction/diagnostic-2026-10-22/renders/step9/package/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}

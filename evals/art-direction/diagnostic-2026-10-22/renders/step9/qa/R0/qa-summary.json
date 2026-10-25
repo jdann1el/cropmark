@@ -1,0 +1,29 @@
+{
+  "carousel": {
+    "status": "FAIL",
+    "exit_code": 1,
+    "expected_count": 3,
+    "actual_count": 3,
+    "command": "python3 skills/cropmark/qa/qa.py carousel --strict --expected-count 3 evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-1.png evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-2.png evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-3.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R0/carousel",
+    "report": "carousel/qa-report.json",
+    "console": "carousel-console.txt"
+  },
+  "thumb": {
+    "status": "PASS",
+    "exit_code": 0,
+    "expected_count": 2,
+    "actual_count": 2,
+    "command": "python3 skills/cropmark/qa/qa.py thumb --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R0/thumb",
+    "report": "thumb/qa-report.json",
+    "console": "thumb-console.txt"
+  },
+  "post": {
+    "status": "PASS",
+    "exit_code": 0,
+    "expected_count": 2,
+    "actual_count": 2,
+    "command": "python3 skills/cropmark/qa/qa.py post --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R0/post",
+    "report": "post/qa-report.json",
+    "console": "post-console.txt"
+  }
+}

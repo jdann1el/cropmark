@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<g id="brand" aria-label="TALLER BARRO" fill="rgb(247,243,232)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="80.00">TALLER BARRO</text>
+</g>
+<g id="descriptor" aria-label="CERÁMICA" fill="rgb(247,243,232)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="148.00">CERÁMICA</text>
+</g>
+<g id="headline" aria-label="Cada huella deja memoria." fill="rgb(247,243,232)" font-family="InstrumentSerif-Regular" font-size="124">
+<text x="70" y="575.00">Cada huella</text>
+<text x="70" y="708.92">deja memoria.</text>
+</g>
+<g id="support" aria-label="Un rastro queda en la superficie." fill="rgb(247,243,232)" font-family="InstrumentSans-Regular" font-size="58">
+<text x="70" y="235.00">Un rastro queda en</text>
+<text x="70" y="297.64">la superficie.</text>
+</g>
+<g id="cta" aria-label="MIRA LAS PIEZAS" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="58">
+<text x="70" y="1195.00">MIRA LAS PIEZAS</text>
+<line x1="70" y1="1261" x2="470" y2="1261" stroke="rgb(38,34,29)" stroke-width="3"/>
+</g>
+</svg>

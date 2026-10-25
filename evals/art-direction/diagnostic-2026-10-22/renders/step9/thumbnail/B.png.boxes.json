@@ -1,0 +1,32 @@
+{
+ "size": [
+  1280,
+  720
+ ],
+ "boxes": [
+  {
+   "role": "headline",
+   "text": "3 AIs. 1 Portfolio.",
+   "box": [
+    66,
+    570,
+    795,
+    640
+   ],
+   "fill": [
+    247,
+    243,
+    232
+   ],
+   "size": 92,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/BricolageGrotesque-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}

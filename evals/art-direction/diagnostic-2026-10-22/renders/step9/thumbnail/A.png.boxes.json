@@ -1,0 +1,27 @@
+{
+  "size": [
+    1280,
+    720
+  ],
+  "text_free": false,
+  "condition": "A direct imagegen raster; embedded lettering, unknown font; approximate copy region",
+  "boxes": [
+    {
+      "role": "raster_copy",
+      "text": "3 AIs. 1 Portfolio.",
+      "box": [
+        54,
+        504,
+        1010,
+        642
+      ],
+      "size": 126,
+      "font_effective": "embedded raster lettering; font unknown",
+      "fill": [
+        247,
+        243,
+        232
+      ]
+    }
+  ]
+}

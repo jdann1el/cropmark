@@ -1,0 +1,74 @@
+[
+  {
+    "path": "rounds/R1/B3/final-1.png",
+    "size_px": [
+      1080,
+      1350
+    ],
+    "sha256": "fb60aaf418d70ee5e500d13c0cee105cb6592de0f8dfcd76064aa76f897f9c40"
+  },
+  {
+    "path": "rounds/R1/B3/final-2.png",
+    "size_px": [
+      1080,
+      1350
+    ],
+    "sha256": "3ed8159dbd30d69fb3a7a1cc1c45a334bd4ffd99ff002863ed287fe476f7916f"
+  },
+  {
+    "path": "rounds/R1/B3/final-3.png",
+    "size_px": [
+      1080,
+      1350
+    ],
+    "sha256": "d3cfe6392eeb7193f6457b1661734ca6d3def546fab530b900dfff31e9fb98f4"
+  },
+  {
+    "path": "rounds/R1/flyer-B.png",
+    "size_px": [
+      1080,
+      1350
+    ],
+    "sha256": "7fd70db983d211488bf957e786ee55b57e15f57cbd291e6e961b59250d9485a6"
+  },
+  {
+    "path": "thumbnail/B-R1.png",
+    "size_px": [
+      1280,
+      720
+    ],
+    "sha256": "aa6d891e5227269e5040e40ce2cb5d667a64d824b1c6489673ecd2e8c4770523"
+  },
+  {
+    "path": "thumbnail/working-thumb-R1.png",
+    "size_px": [
+      320,
+      624
+    ],
+    "sha256": "e6e8b9bb9456969a0dfdb3fe6e0f9e459bba84ec0472f3f53dee3fcce29419e7"
+  },
+  {
+    "path": "rounds/R1/thumbnail/B-R1-168.png",
+    "size_px": [
+      168,
+      94
+    ],
+    "sha256": "116043ee03afc9ab9c88f227ed724d48b63b09bd781bf53e4addb767d1981e02"
+  },
+  {
+    "path": "rounds/R1/thumbnail/B-R1-320.png",
+    "size_px": [
+      320,
+      180
+    ],
+    "sha256": "ac5ee2502bbfe7e81a5503073fa8ec264ac8843cb9a6a93622408140375bfe7d"
+  },
+  {
+    "path": "rounds/R1/thumbnail/B-R1-360.png",
+    "size_px": [
+      360,
+      202
+    ],
+    "sha256": "9cf03aa48205d4530211688db4c55bc1c0c0279d6a0314f3de94cc528822721b"
+  }
+]

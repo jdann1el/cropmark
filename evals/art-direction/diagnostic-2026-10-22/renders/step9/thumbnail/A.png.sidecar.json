@@ -1,0 +1,23 @@
+{
+  "condition": "A direct imagegen raster final; content not retouched",
+  "copy_editability": "embedded raster lettering; original font unknown",
+  "context": "3 AIs. 1 Portfolio.",
+  "source": "thumbnail/A-source.png",
+  "source_size": [
+    1672,
+    941
+  ],
+  "crop_box": [
+    0,
+    0,
+    1672,
+    940
+  ],
+  "output_size": [
+    1280,
+    720
+  ],
+  "operation": "center crop to target aspect ratio then Lanczos resize",
+  "source_sha256": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a",
+  "output_sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1"
+}

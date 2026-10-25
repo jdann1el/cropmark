@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<g id="brand" aria-label="TALLER BARRO" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="60.00">TALLER BARRO</text>
+</g>
+<g id="descriptor" aria-label="CERÁMICA" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="128.00">CERÁMICA</text>
+</g>
+<g id="headline" aria-label="La forma toma cuerpo." fill="rgb(38,34,29)" font-family="InstrumentSerif-Regular" font-size="132">
+<text x="70" y="260.00">La forma</text>
+<text x="70" y="402.56">toma cuerpo.</text>
+</g>
+<g id="support" aria-label="Una pieza empieza con un gesto." fill="rgb(247,243,232)" font-family="InstrumentSans-Regular" font-size="58">
+<text x="70" y="1010.00">Una pieza empieza</text>
+<text x="70" y="1072.64">con un gesto.</text>
+</g>
+<g id="cta" aria-label="EXPLORA EL TALLER" fill="rgb(247,243,232)" font-family="InstrumentSans-Bold" font-size="58">
+<text x="70" y="1216.00">EXPLORA EL TALLER</text>
+</g>
+</svg>

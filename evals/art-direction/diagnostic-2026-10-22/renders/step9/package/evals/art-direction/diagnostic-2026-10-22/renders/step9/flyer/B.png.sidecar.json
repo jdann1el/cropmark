@@ -1,0 +1,132 @@
+{
+  "condition": "B Cropmark editable overlay",
+  "context": "Noche de vinilos · Sala Taller · 14 nov · 21:00",
+  "source_base": "flyer/B-base-source.png",
+  "crop": {
+    "source": "flyer/B-base-source.png",
+    "source_size": [
+      1122,
+      1402
+    ],
+    "crop_box": [
+      0,
+      0,
+      1122,
+      1402
+    ],
+    "output_size": [
+      1080,
+      1350
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "groups": [
+    {
+      "role": "event",
+      "text": "Noche de vinilos",
+      "editable_text": "Noche de vinilos",
+      "position": [
+        84,
+        278
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 76,
+      "visible_cap_height_px_master": 54,
+      "visible_cap_height_px_at_360": 18.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 4207,
+        "background_srgb_linear_luminance_p05": 0.43422,
+        "background_srgb_linear_luminance_median": 0.48431,
+        "contrast_p05": 7.287,
+        "contrast_median": 8.041,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 4207,
+          "background_srgb_linear_luminance_p05": 0.43422,
+          "background_srgb_linear_luminance_median": 0.48431,
+          "contrast_p05": 1.679,
+          "contrast_median": 1.772,
+          "under_target_percent": 100.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 4207,
+          "background_srgb_linear_luminance_p05": 0.43422,
+          "background_srgb_linear_luminance_median": 0.48431,
+          "contrast_p05": 7.287,
+          "contrast_median": 8.041,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "venue_date",
+      "text": "Sala Taller · 14 nov · 21:00",
+      "editable_text": "Sala Taller · 14 nov\n· 21:00",
+      "position": [
+        86,
+        438
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 56,
+      "visible_cap_height_px_master": 40,
+      "visible_cap_height_px_at_360": 13.33,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 9298,
+        "background_srgb_linear_luminance_p05": 0.40223,
+        "background_srgb_linear_luminance_median": 0.44348,
+        "contrast_p05": 6.806,
+        "contrast_median": 7.427,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 9298,
+          "background_srgb_linear_luminance_p05": 0.40223,
+          "background_srgb_linear_luminance_median": 0.44348,
+          "contrast_p05": 1.743,
+          "contrast_median": 1.919,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 9298,
+          "background_srgb_linear_luminance_p05": 0.40223,
+          "background_srgb_linear_luminance_median": 0.44348,
+          "contrast_p05": 6.806,
+          "contrast_median": 7.427,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    }
+  ],
+  "output_sha256": "8b4341e79314ad8e84ff3d39968390576f4ddfff4820d34a4d84db700d2333e3"
+}

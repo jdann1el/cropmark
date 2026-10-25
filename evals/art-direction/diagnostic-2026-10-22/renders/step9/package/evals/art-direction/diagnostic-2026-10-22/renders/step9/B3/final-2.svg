@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<g id="brand" aria-label="TALLER BARRO" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="60.00">TALLER BARRO</text>
+</g>
+<g id="descriptor" aria-label="CERÁMICA" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="60">
+<text x="70" y="128.00">CERÁMICA</text>
+</g>
+<g id="headline" aria-label="Del giro nace el borde." fill="rgb(38,34,29)" font-family="InstrumentSerif-Regular" font-size="116">
+<text x="70" y="425.00">Del giro</text>
+<text x="70" y="550.28">nace el borde.</text>
+</g>
+<g id="support" aria-label="El torno acompaña cada movimiento." fill="rgb(38,34,29)" font-family="InstrumentSans-Regular" font-size="58">
+<text x="70" y="225.00">El torno acompaña</text>
+<text x="70" y="287.64">cada movimiento.</text>
+</g>
+<g id="cta" aria-label="SIGUE EL PROCESO" fill="rgb(38,34,29)" font-family="InstrumentSans-Bold" font-size="58">
+<text x="70" y="1210.00">SIGUE EL PROCESO</text>
+</g>
+</svg>

@@ -1,0 +1,10 @@
+{
+  "package_root": "S9/package",
+  "external_copy": "/tmp/s9-package-edit-test",
+  "standalone_render": "PASS",
+  "localized_edit": "PASS",
+  "edit_changed_only_text_literal": "EXPLORA EL TALLER -> VISITA EL TALLER in temporary package copy",
+  "sidecar_confirmed_text": "VISITA EL TALLER",
+  "edited_render_sha256": "04bdd921c8f5b8e417b469141e269815884c234575d863dcb74eba8d66fbcd0c",
+  "no_project_final_changed": true
+}
