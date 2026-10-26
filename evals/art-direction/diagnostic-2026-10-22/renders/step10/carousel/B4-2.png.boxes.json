@@ -1,0 +1,283 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        76,
+        634,
+        506,
+        678
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        76,
+        687,
+        387,
+        743
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Del giro\nnace el borde.",
+      "box": [
+        76,
+        794,
+        525,
+        967
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 96,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "El torno acompaña\ncada movimiento.",
+      "box": [
+        76,
+        1025,
+        576,
+        1136
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "action",
+      "text": "SIGUE EL PROCESO",
+      "box": [
+        76,
+        1209,
+        622,
+        1253
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "layout": "Process: a full-width action photograph leads, followed by a separate flat teal copy field; the headline and support sit as one compact group in the lower band.",
+  "surface_case": "No typography is placed on a photographed physical surface. Copy stays in separate flat teal graphic regions; image panels contain no type.",
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        76,
+        620
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        77,
+        634,
+        505,
+        678
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        76,
+        685
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        687,
+        386,
+        743
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "Del giro nace el borde.",
+      "editable_text": "Del giro\nnace el borde.",
+      "position": [
+        76,
+        770
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 96,
+      "visible_bbox": [
+        77,
+        794,
+        520,
+        967
+      ],
+      "cap_height_master": 70,
+      "cap_height_at_360": 23.33,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "El torno acompaña cada movimiento.",
+      "editable_text": "El torno acompaña\ncada movimiento.",
+      "position": [
+        76,
+        1010
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        1025,
+        573,
+        1135
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "action",
+      "text": "SIGUE EL PROCESO",
+      "editable_text": "SIGUE EL PROCESO",
+      "position": [
+        76,
+        1195
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        1209,
+        620,
+        1253
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    }
+  ]
+}

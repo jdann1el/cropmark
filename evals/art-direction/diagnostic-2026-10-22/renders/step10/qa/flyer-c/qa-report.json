@@ -1,0 +1,34 @@
+{
+  "exit_code": 0,
+  "strict": true,
+  "expected_count": 1,
+  "actual_count": 1,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step10/flyer/C.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Noche de vinilos\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Noche de vinilos\" contrast 6.9:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"· Sala Taller · 14 nov · 21:00\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"· Sala Taller · 14 nov · 21:00\" contrast 6.2:1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        76,
+        84,
+        506,
+        128
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        76,
+        142,
+        387,
+        198
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "La forma\ntoma cuerpo.",
+      "box": [
+        76,
+        372,
+        440,
+        535
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 82,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "Una pieza\nempieza con\nun gesto.",
+      "box": [
+        78,
+        588,
+        425,
+        786
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 60,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "action",
+      "text": "EXPLORA EL\nTALLER",
+      "box": [
+        76,
+        864,
+        428,
+        975
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "layout": "Hook: the vessel is an upright portrait panel on the right; headline and support share a separate flat teal field on the left, with the support directly resolving the phrase.",
+  "surface_case": "No typography is placed on a photographed physical surface. Copy stays in separate flat teal graphic regions; image panels contain no type.",
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        76,
+        70
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        77,
+        84,
+        505,
+        128
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        76,
+        140
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        142,
+        386,
+        198
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "La forma toma cuerpo.",
+      "editable_text": "La forma\ntoma cuerpo.",
+      "position": [
+        76,
+        350
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 82,
+      "visible_bbox": [
+        76,
+        372,
+        437,
+        534
+      ],
+      "cap_height_master": 59,
+      "cap_height_at_360": 19.67,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "Una pieza empieza con un gesto.",
+      "editable_text": "Una pieza\nempieza con\nun gesto.",
+      "position": [
+        78,
+        572
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 60,
+      "visible_bbox": [
+        80,
+        588,
+        421,
+        786
+      ],
+      "cap_height_master": 43,
+      "cap_height_at_360": 14.33,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "action",
+      "text": "EXPLORA EL TALLER",
+      "editable_text": "EXPLORA EL\nTALLER",
+      "position": [
+        76,
+        850
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        864,
+        425,
+        974
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+== evals/art-direction/diagnostic-2026-10-22/renders/step10/flyer/C.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "Noche de vinilos" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Noche de vinilos" contrast 6.9:1
+  INFO  "· Sala Taller · 14 nov · 21:00" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "· Sala Taller · 14 nov · 21:00" contrast 6.2:1

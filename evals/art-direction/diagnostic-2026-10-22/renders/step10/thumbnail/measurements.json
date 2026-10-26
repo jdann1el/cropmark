@@ -1,0 +1,61 @@
+{
+  "measurement": "same uppercase P glyph; connected-component visible ink bounds; A uses known raster-ink mask in its supplied approximate copy crop, B/C use pixel-difference masks against clean generated bases",
+  "frame_px": [
+    1280,
+    720
+  ],
+  "A": {
+    "box": [
+      443,
+      511,
+      493,
+      637
+    ],
+    "width": 50,
+    "height": 126,
+    "area_px": 4166,
+    "fill_ratio": 0.6613,
+    "method": "visible P glyph component segmented from A raster cream/cyan ink in supplied approximate copy region",
+    "cap_percent_frame_height": 17.5,
+    "cap_px_at_168": 16.54,
+    "weight_metric": "P glyph foreground fill ratio (ink component pixels / glyph bounding box area); C uses a 5px same-ink stroke as integral heavy face weight"
+  },
+  "B-R1": {
+    "box": [
+      117,
+      610,
+      171,
+      676
+    ],
+    "width": 54,
+    "height": 66,
+    "area_px": 2065,
+    "fill_ratio": 0.5794,
+    "method": "visible P glyph component from B-R1 overlay pixel delta against the exact clean source base",
+    "cap_percent_frame_height": 9.167,
+    "cap_px_at_168": 8.66,
+    "weight_metric": "P glyph foreground fill ratio (ink component pixels / glyph bounding box area); C uses a 5px same-ink stroke as integral heavy face weight"
+  },
+  "C": {
+    "box": [
+      159,
+      497,
+      263,
+      640
+    ],
+    "width": 104,
+    "height": 143,
+    "area_px": 9996,
+    "fill_ratio": 0.6721,
+    "method": "visible P glyph component from C overlay pixel delta against the exact clean source base",
+    "cap_percent_frame_height": 19.861,
+    "cap_px_at_168": 18.77,
+    "weight_metric": "P glyph foreground fill ratio (ink component pixels / glyph bounding box area); C uses a 5px same-ink stroke as integral heavy face weight"
+  },
+  "C_minus_A_percent_points": 2.361,
+  "C_minus_B_percent_points": 10.694,
+  "C_weight_metric": "P glyph foreground fill ratio (ink component pixels / glyph bounding box area); C uses a 5px same-ink stroke as integral heavy face weight",
+  "font_license": "Bricolage Grotesque is bundled in skills/cropmark/fonts; OFL license present there.",
+  "call_count_image_gen": 0,
+  "correction_rounds_used": 1
+}

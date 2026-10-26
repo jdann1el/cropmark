@@ -1,0 +1,36 @@
+== evals/art-direction/diagnostic-2026-10-22/renders/step10/carousel/B4-1.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 14.2:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 14.2:1
+  INFO  "La forma toma cuerpo." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "La forma toma cuerpo." contrast 14.2:1
+  INFO  "Una pieza empieza con un gesto." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Una pieza empieza con un gesto." contrast 14.2:1
+  INFO  "EXPLORA EL TALLER" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "EXPLORA EL TALLER" contrast 14.2:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step10/carousel/B4-2.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 14.2:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 14.2:1
+  INFO  "Del giro nace el borde." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Del giro nace el borde." contrast 14.2:1
+  INFO  "El torno acompaña cada movimiento." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "El torno acompaña cada movimiento." contrast 14.2:1
+  INFO  "SIGUE EL PROCESO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "SIGUE EL PROCESO" contrast 14.2:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step10/carousel/B4-3.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "TALLER BARRO" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "TALLER BARRO" contrast 14.2:1
+  INFO  "CERÁMICA" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "CERÁMICA" contrast 14.2:1
+  INFO  "Cada huella deja memoria." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Cada huella deja memoria." contrast 14.2:1
+  INFO  "Un rastro queda en la superficie." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Un rastro queda en la superficie." contrast 14.2:1
+  INFO  "MIRA LAS PIEZAS" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "MIRA LAS PIEZAS" contrast 14.2:1

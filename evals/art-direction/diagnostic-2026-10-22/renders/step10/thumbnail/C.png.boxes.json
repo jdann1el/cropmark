@@ -1,0 +1,95 @@
+{
+  "size": [
+    1280,
+    720
+  ],
+  "text_free": false,
+  "condition": "Paso 10 C; Cropmark/Pillow overlay on generated B-R1 scene base",
+  "copy": "3 AIs. 1 Portfolio.",
+  "scene_concept": "same real generated B-R1 scene: three agents actively adjust one shared portfolio grid",
+  "surface_case": "No plausible surface for this headline; set flat in the dark clean lower-left copy zone, not on the pictured portfolio screen.",
+  "source_base": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-R1-source.png",
+  "source_sha256": "73b6674e64c50f182b9abea23cd3a9191bed134bd852fac0adbcc8464eb51a4b",
+  "crop_operation": "center crop to 16:9 then Lanczos resize to 1280x720",
+  "boxes": [
+    {
+      "role": "headline_kicker",
+      "text": "3 AIs.",
+      "box": [
+        54,
+        385,
+        384,
+        470
+      ],
+      "size": 126,
+      "font_path": "skills/cropmark/fonts/BricolageGrotesque-Bold.ttf",
+      "fill": [
+        247,
+        243,
+        232
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "1 Portfolio.",
+      "box": [
+        54,
+        490,
+        957,
+        652
+      ],
+      "size": 200,
+      "font_path": "skills/cropmark/fonts/BricolageGrotesque-Bold.ttf",
+      "fill": [
+        247,
+        243,
+        232
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "role": "headline_kicker",
+      "text": "3 AIs.",
+      "box": [
+        54,
+        385,
+        384,
+        470
+      ],
+      "font_file": "skills/cropmark/fonts/BricolageGrotesque-Bold.ttf",
+      "font_size": 126,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "1 Portfolio.",
+      "box": [
+        54,
+        490,
+        957,
+        652
+      ],
+      "font_file": "skills/cropmark/fonts/BricolageGrotesque-Bold.ttf",
+      "font_size": 200,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "horizontal_scale": 0.88,
+      "stroke_width": 5
+    }
+  ],
+  "effects": {
+    "shadow": false,
+    "stroke": true,
+    "stroke_treatment": "5px same-ink weight reinforcement; no outline contrast",
+    "text_panel": false
+  },
+  "output_sha256": "11c9093ce20523118d6b753b61a039d0a4d85adb2cc47fcdc0380aeb52074fd0"
+}
