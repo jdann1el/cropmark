@@ -1,0 +1,264 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "ghost-word",
+      "text": "PAUSA",
+      "box": [
+        790,
+        70,
+        1049,
+        1281
+      ],
+      "fill": [
+        113,
+        132,
+        122
+      ],
+      "size": 463,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "opacity": 1
+    },
+    {
+      "role": "logo",
+      "text": "NOCHE LENTA",
+      "box": [
+        187,
+        304,
+        402,
+        323
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 27,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "HÁBITOS DE DESCANSO",
+      "box": [
+        166,
+        339,
+        423,
+        358
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 18,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Baja",
+      "box": [
+        187,
+        498,
+        424,
+        616
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 124,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "el ",
+      "box": [
+        187,
+        630,
+        310,
+        719
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 124,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "día.",
+      "box": [
+        310,
+        621,
+        525,
+        720
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 124,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Italic.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "rule",
+      "text": "",
+      "box": [
+        187,
+        762,
+        532,
+        765
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 3
+    },
+    {
+      "role": "subline",
+      "text": "Una pausa suave al final",
+      "box": [
+        187,
+        802,
+        527,
+        833
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 32,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "de la tarde.",
+      "box": [
+        187,
+        842,
+        349,
+        866
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 32,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "shape",
+      "text": "",
+      "box": [
+        187,
+        952,
+        436,
+        1010
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "outline": [
+        217,
+        200,
+        147
+      ],
+      "stroke_width": 3
+    },
+    {
+      "role": "cta",
+      "text": "SIGUE LEYENDO",
+      "box": [
+        212,
+        972,
+        410,
+        990
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 24,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": 2,
+    "slide_role": "cover",
+    "headline_column_width_px": 450,
+    "headline_ink_width_px": 338,
+    "rule_to_headline_width_pct": 102.07,
+    "ghost_word_size_px": 463,
+    "ghost_word_visible_box_px": [
+      790,
+      70,
+      1049,
+      1281
+    ],
+    "promised_left_inset_px": 187,
+    "canvas_bg": "#203331"
+  }
+}

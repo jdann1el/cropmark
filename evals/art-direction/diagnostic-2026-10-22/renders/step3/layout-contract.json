@@ -1,0 +1,633 @@
+{
+  "version": 1,
+  "frames": [
+    {
+      "id": "direction-A-cover-R1",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 64,
+      "elements": [
+        {
+          "id": "logo",
+          "box": [
+            187,
+            164,
+            402,
+            183
+          ]
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            187,
+            202,
+            439,
+            215
+          ]
+        },
+        {
+          "id": "headline",
+          "box": [
+            187,
+            324,
+            683,
+            478
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "headline-last-line",
+          "box": [
+            187,
+            434,
+            465,
+            478
+          ]
+        },
+        {
+          "id": "rule",
+          "box": [
+            187,
+            672,
+            693,
+            675
+          ]
+        },
+        {
+          "id": "subline",
+          "box": [
+            187,
+            712,
+            488,
+            780
+          ]
+        },
+        {
+          "id": "pill",
+          "box": [
+            187,
+            846,
+            399,
+            904
+          ]
+        },
+        {
+          "id": "page-marker",
+          "box": [
+            187,
+            1138,
+            416,
+            1153
+          ]
+        },
+        {
+          "id": "illustration",
+          "box": [
+            555,
+            440,
+            835,
+            630
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "logo",
+            "descriptor",
+            "headline",
+            "rule",
+            "subline",
+            "pill",
+            "page-marker"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "logo",
+          "b": "descriptor",
+          "axis": "y",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "a": "descriptor",
+          "b": "headline",
+          "axis": "y",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "a": "rule",
+          "b": "subline",
+          "axis": "y",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "a": "subline",
+          "b": "pill",
+          "axis": "y",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "a": "headline-last-line",
+          "b": "illustration",
+          "axis": "x",
+          "min": 90,
+          "max": 90
+        }
+      ],
+      "tokens": {
+        "headline_font": "DM Serif Display Regular",
+        "support_font": "Outfit",
+        "headline_size_px": 86,
+        "frame_bg": "#203331",
+        "headline_ink": "#f5efde",
+        "accent": "#d9c893",
+        "left_inset_px": 187,
+        "rule_ratio_pct": 102.0
+      }
+    },
+    {
+      "id": "direction-A-inner-R1",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 64,
+      "elements": [
+        {
+          "id": "logo",
+          "box": [
+            187,
+            164,
+            402,
+            183
+          ]
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            187,
+            202,
+            439,
+            215
+          ]
+        },
+        {
+          "id": "headline",
+          "box": [
+            187,
+            324,
+            823,
+            489
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "headline-last-line",
+          "box": [
+            187,
+            434,
+            528,
+            489
+          ]
+        },
+        {
+          "id": "rule",
+          "box": [
+            187,
+            672,
+            836,
+            675
+          ]
+        },
+        {
+          "id": "subline",
+          "box": [
+            187,
+            712,
+            487,
+            780
+          ]
+        },
+        {
+          "id": "pill",
+          "box": [
+            187,
+            846,
+            493,
+            904
+          ]
+        },
+        {
+          "id": "page-marker",
+          "box": [
+            187,
+            1138,
+            420,
+            1153
+          ]
+        },
+        {
+          "id": "illustration",
+          "box": [
+            555,
+            440,
+            835,
+            630
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "logo",
+            "descriptor",
+            "headline",
+            "rule",
+            "subline",
+            "pill",
+            "page-marker"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "logo",
+          "b": "descriptor",
+          "axis": "y",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "a": "descriptor",
+          "b": "headline",
+          "axis": "y",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "a": "rule",
+          "b": "subline",
+          "axis": "y",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "a": "subline",
+          "b": "pill",
+          "axis": "y",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "a": "headline-last-line",
+          "b": "illustration",
+          "axis": "x",
+          "min": 27,
+          "max": 27
+        }
+      ],
+      "tokens": {
+        "headline_font": "DM Serif Display Regular",
+        "support_font": "Outfit",
+        "headline_size_px": 86,
+        "frame_bg": "#203331",
+        "headline_ink": "#f5efde",
+        "accent": "#d9c893",
+        "left_inset_px": 187,
+        "rule_ratio_pct": 102.0
+      }
+    },
+    {
+      "id": "direction-B-cover-R2",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 64,
+      "elements": [
+        {
+          "id": "logo",
+          "box": [
+            187,
+            164,
+            402,
+            183
+          ]
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            187,
+            202,
+            439,
+            215
+          ]
+        },
+        {
+          "id": "headline",
+          "box": [
+            187,
+            324,
+            683,
+            478
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "headline-last-line",
+          "box": [
+            187,
+            434,
+            465,
+            478
+          ]
+        },
+        {
+          "id": "rule",
+          "box": [
+            187,
+            672,
+            693,
+            675
+          ]
+        },
+        {
+          "id": "subline",
+          "box": [
+            187,
+            712,
+            488,
+            780
+          ]
+        },
+        {
+          "id": "pill",
+          "box": [
+            187,
+            846,
+            399,
+            904
+          ]
+        },
+        {
+          "id": "page-marker",
+          "box": [
+            187,
+            1138,
+            416,
+            1153
+          ]
+        },
+        {
+          "id": "illustration",
+          "box": [
+            390,
+            440,
+            670,
+            630
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "logo",
+            "descriptor",
+            "headline",
+            "rule",
+            "subline",
+            "pill",
+            "page-marker"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "logo",
+          "b": "descriptor",
+          "axis": "y",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "a": "descriptor",
+          "b": "headline",
+          "axis": "y",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "a": "rule",
+          "b": "subline",
+          "axis": "y",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "a": "subline",
+          "b": "pill",
+          "axis": "y",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "a": "headline-last-line",
+          "b": "illustration",
+          "axis": "x",
+          "min": 0,
+          "allow_overlap": true,
+          "reason": "Cruce deliberado del titular sobre el objeto; verificación visual de legibilidad registrada en Paso 3."
+        }
+      ],
+      "tokens": {
+        "headline_font": "DM Serif Display Regular",
+        "support_font": "Outfit",
+        "headline_size_px": 86,
+        "frame_bg": "#203331",
+        "headline_ink": "#f5efde",
+        "accent": "#d9c893",
+        "left_inset_px": 187,
+        "rule_ratio_pct": 102.0
+      }
+    },
+    {
+      "id": "direction-B-inner-R3",
+      "size": [
+        1080,
+        1350
+      ],
+      "margin": 64,
+      "elements": [
+        {
+          "id": "logo",
+          "box": [
+            187,
+            164,
+            402,
+            183
+          ]
+        },
+        {
+          "id": "descriptor",
+          "box": [
+            187,
+            202,
+            439,
+            215
+          ]
+        },
+        {
+          "id": "headline",
+          "box": [
+            187,
+            324,
+            823,
+            489
+          ],
+          "font_path": "../../../../../skills/cropmark/fonts/DMSerifDisplay-Regular.ttf"
+        },
+        {
+          "id": "headline-last-line",
+          "box": [
+            187,
+            434,
+            528,
+            489
+          ]
+        },
+        {
+          "id": "rule",
+          "box": [
+            187,
+            672,
+            836,
+            675
+          ]
+        },
+        {
+          "id": "subline",
+          "box": [
+            187,
+            712,
+            487,
+            780
+          ]
+        },
+        {
+          "id": "pill",
+          "box": [
+            187,
+            846,
+            493,
+            904
+          ]
+        },
+        {
+          "id": "page-marker",
+          "box": [
+            187,
+            1138,
+            420,
+            1153
+          ]
+        },
+        {
+          "id": "illustration",
+          "box": [
+            510,
+            440,
+            790,
+            630
+          ]
+        }
+      ],
+      "alignments": [
+        {
+          "axis": "left",
+          "elements": [
+            "logo",
+            "descriptor",
+            "headline",
+            "rule",
+            "subline",
+            "pill",
+            "page-marker"
+          ],
+          "tolerance": 0
+        }
+      ],
+      "gaps": [
+        {
+          "a": "logo",
+          "b": "descriptor",
+          "axis": "y",
+          "min": 19,
+          "max": 19
+        },
+        {
+          "a": "descriptor",
+          "b": "headline",
+          "axis": "y",
+          "min": 109,
+          "max": 109
+        },
+        {
+          "a": "rule",
+          "b": "subline",
+          "axis": "y",
+          "min": 37,
+          "max": 37
+        },
+        {
+          "a": "subline",
+          "b": "pill",
+          "axis": "y",
+          "min": 66,
+          "max": 66
+        },
+        {
+          "a": "headline-last-line",
+          "b": "illustration",
+          "axis": "x",
+          "min": 0,
+          "allow_overlap": true,
+          "reason": "Cruce deliberado del titular sobre el objeto; verificación visual de legibilidad registrada en Paso 3."
+        }
+      ],
+      "tokens": {
+        "headline_font": "DM Serif Display Regular",
+        "support_font": "Outfit",
+        "headline_size_px": 86,
+        "frame_bg": "#203331",
+        "headline_ink": "#f5efde",
+        "accent": "#d9c893",
+        "left_inset_px": 187,
+        "rule_ratio_pct": 102.0
+      }
+    }
+  ],
+  "shared_tokens": [
+    "headline_font",
+    "support_font",
+    "headline_size_px",
+    "frame_bg",
+    "headline_ink",
+    "accent",
+    "left_inset_px",
+    "rule_ratio_pct"
+  ]
+}

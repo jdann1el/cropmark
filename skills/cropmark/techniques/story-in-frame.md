@@ -5,5 +5,5 @@ Test: cover the text — what part of the idea is visible? Then uncover it: the 
 3. Faces: one emotion pushed one notch past natural, eyes sharp, gaze to camera or to the object.
 4. Depth: foreground element cut by the frame edge makes it feel close; background tells context; keep the mid-ground hero sharp.
 5. One accent colour that belongs to the story (police red/blue, money green, warning orange).
-6. Text, if any, names the stake in ≤4 words the image can't (time, price, outcome question) — never what the image already shows.
+6. Text, if any, names the stake concisely (often 2–4 words; required copy governs) the image can't (time, price, outcome question) — never what the image already shows.
 Niche starters: car/vlog → stakes stack · horror → single light source + silhouette + empty doorway, 0-3 words · cooking → hands + steam + the hero dish huge, one sensory word · tech duel → two identified products, with no winner implied unless supplied · finance → UI hero · tutorials → hands on tool + tape label.

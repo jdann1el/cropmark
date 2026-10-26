@@ -1,12 +1,7 @@
-# Style: type-behind-subject
-Formats: post, thumbnail, cover
-Best for: Fashion, beauty, wellness, portfolios, magazines
+# Depth between words and subject
 
-## Signature
-Giant word placed behind the subject (subject cutout overlaps the letters), magazine-cover feel, sans + italic serif pair.
+Device: Use partial occlusion to connect identity/message and a subject while keeping required words readable.
 
-## Recipe
-Engine: background → text layer → subject cutout layer (rembg or a generated cutout on flat background).
+Needs: A reliable mask, planned word shapes and a reason for the overlap.
 
-## Avoid
-Covering more than ~30% of the word.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

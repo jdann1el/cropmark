@@ -1,12 +1,7 @@
-# Style: dark-food-punchline
-Formats: post, carousel
-Best for: Cafés, restaurants, bakeries, bars
+# Ritual and appetite
 
-## Signature
-Moody warm food photography (low key, wood, steam), headline in heavy condensed white caps with a humorous punchline, sometimes mixed with a handwritten word; tiny lowercase intro line above.
+Device: Compose a recognisable food moment with a concrete line in the brand voice.
 
-## Recipe
-Prompt: 'moody food photography, [dish], dark wood table, warm side light, shallow depth, top third darker for text, no text'. Fonts: Anton/BebasNeue + Caveat.
+Needs: Appetising real or disclosed conceptual imagery; colour/lighting chosen for the actual scene.
 
-## Avoid
-Bright clinical food shots for this style; puns that need explaining.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

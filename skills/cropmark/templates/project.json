@@ -1,0 +1,11 @@
+{
+  "mode": "original",
+  "contract": {"message": "", "audience": "", "required_copy": [], "identity": [], "outputs": [], "permitted_changes": []},
+  "capabilities": {"image_viewer": null, "renderer": null, "imagery": null, "fonts": [], "budget": null},
+  "references": [],
+  "concepts": [],
+  "sketches": [],
+  "direction": {"idea": "", "device": "", "selection_reason": "", "invariants": []},
+  "reviews": [],
+  "delivery": {"files": [], "reproduction_command": "", "technical_result": null, "visual_status": "unreviewed", "limitations": []}
+}

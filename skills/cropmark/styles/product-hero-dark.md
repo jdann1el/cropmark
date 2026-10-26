@@ -1,14 +1,7 @@
-# Style: product-hero-dark
-Formats: post, carousel, thumbnail
-Best for: Tech gadgets, audio, supplements, cosmetics, premium products
+# Product as the visual event
 
-## Signature
-Dark gradient (navy→black, purple→black), product with rim light + floor reflection, model name large (thin + bold mix), 3-4 tiny spec labels joined by hairlines, small 'discover more' pill.
+Device: Let crop, scale, viewpoint and material light express the product feature. Information labels earn their place through supplied facts.
 
-## Recipe
-Prompt: 'studio product shot, [product] floating at slight angle, rim light edges, deep navy gradient background, glossy reflection, ultra sharp, no text, no logo'. Fonts: InstrumentSans Regular for specs (20-24 px caps, +0.18em), Outfit Bold/Light for name.
+Needs: Faithful product pixels where identity matters. Missing specs are not replaced by mood words.
 
-No specs in the brief? Replace the spec row with 2-3 tracked mood words from the tagline or the category (e.g. "NOOTROPIC · DAILY"), never invented specs.
-
-## Avoid
-Busy backgrounds; specs bigger than the product; invented specs.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

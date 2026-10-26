@@ -1,0 +1,302 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "illustration-label",
+      "text": "HOY",
+      "box": [
+        675,
+        487,
+        719,
+        501
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 20,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "illustration",
+      "text": "",
+      "box": [
+        555,
+        440,
+        835,
+        630
+      ],
+      "label": "libreta cerrada original, vectorial"
+    },
+    {
+      "role": "logo",
+      "text": "NOCHE LENTA",
+      "box": [
+        187,
+        164,
+        402,
+        183
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 27,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "RITUALES DE DESCANSO",
+      "box": [
+        187,
+        202,
+        439,
+        215
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 18,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Lo pendiente",
+      "box": [
+        187,
+        324,
+        683,
+        405
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 86,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "va en…",
+      "box": [
+        187,
+        434,
+        465,
+        478
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 86,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "rule",
+      "text": "",
+      "box": [
+        187,
+        672,
+        693,
+        675
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 3
+    },
+    {
+      "role": "subline",
+      "text": "Escribe una línea.",
+      "box": [
+        187,
+        712,
+        418,
+        736
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "subline",
+      "text": "Suelta el resto por hoy.",
+      "box": [
+        187,
+        752,
+        488,
+        780
+      ],
+      "fill": [
+        245,
+        239,
+        222
+      ],
+      "size": 30,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "pill-shape",
+      "text": "",
+      "box": [
+        187,
+        846,
+        399,
+        904
+      ],
+      "fill": [
+        32,
+        51,
+        49
+      ],
+      "outline": [
+        217,
+        200,
+        147
+      ],
+      "stroke_width": 3
+    },
+    {
+      "role": "cta",
+      "text": "CIERRA EL DÍA",
+      "box": [
+        213,
+        863,
+        372,
+        887
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 22,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "page-marker",
+      "text": "NOCHE LENTA  ·  01 / 02",
+      "box": [
+        187,
+        1138,
+        416,
+        1153
+      ],
+      "fill": [
+        217,
+        200,
+        147
+      ],
+      "size": 18,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "study": {
+    "step": 3,
+    "direction": "A",
+    "relationship": "illustration follows the phrase and supplies its missing referent",
+    "slide_role": "portada",
+    "frame_px": [
+      1080,
+      1350
+    ],
+    "headline_size_px": 86,
+    "headline_ink_width_px": 496,
+    "rule_to_headline_width_pct": 102.02,
+    "illustration_box_px": [
+      555,
+      440,
+      835,
+      630
+    ],
+    "illustration": "libreta: respuesta visual a «va en…»",
+    "illustration_source": "drawn in code; no third-party pixels",
+    "image_text_variable": "illustration placement relative to headline",
+    "revision": "R1",
+    "fixed_comparison_tokens": {
+      "left_inset_px": 187,
+      "headline_font": "DM Serif Display Regular",
+      "support_font": "Outfit Regular",
+      "headline_size_px": 86,
+      "background": "#203331",
+      "headline_colour": "#f5efde",
+      "accent": "#d9c893",
+      "illustration_surface": "#2b3f3b",
+      "page_marker": "#d9c893",
+      "copy": [
+        "Lo pendiente",
+        "va en…"
+      ]
+    }
+  }
+}

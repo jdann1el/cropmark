@@ -1,0 +1,546 @@
+{
+  "checks": [
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "logo: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "descriptor: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "headline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R03",
+      "detail": "headline: declared font file exists (not proof of loading)"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "headline-last-line: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "rule: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "subline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "pill: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "page-marker: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "illustration: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R05",
+      "detail": "left alignment of ['logo', 'descriptor', 'headline', 'rule', 'subline', 'pill', 'page-marker'], tolerance 0"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, minimum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, maximum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, minimum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, maximum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, minimum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, maximum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, minimum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, maximum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "headline-last-line → illustration: gap 90, minimum 90"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-cover-R1",
+      "rule": "R07",
+      "detail": "headline-last-line → illustration: gap 90, maximum 90"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "logo: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "descriptor: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "headline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R03",
+      "detail": "headline: declared font file exists (not proof of loading)"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "headline-last-line: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "rule: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "subline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "pill: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "page-marker: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "illustration: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R05",
+      "detail": "left alignment of ['logo', 'descriptor', 'headline', 'rule', 'subline', 'pill', 'page-marker'], tolerance 0"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, minimum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, maximum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, minimum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, maximum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, minimum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, maximum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, minimum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, maximum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "headline-last-line → illustration: gap 27, minimum 27"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-A-inner-R1",
+      "rule": "R07",
+      "detail": "headline-last-line → illustration: gap 27, maximum 27"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "logo: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "descriptor: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "headline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R03",
+      "detail": "headline: declared font file exists (not proof of loading)"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "headline-last-line: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "rule: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "subline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "pill: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "page-marker: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "illustration: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R05",
+      "detail": "left alignment of ['logo', 'descriptor', 'headline', 'rule', 'subline', 'pill', 'page-marker'], tolerance 0"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, minimum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, maximum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, minimum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, maximum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, minimum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, maximum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, minimum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, maximum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-cover-R2",
+      "rule": "R08",
+      "detail": "declared intentional overlap, measured gap -75; inspect readability"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "logo: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "descriptor: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "headline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R03",
+      "detail": "headline: declared font file exists (not proof of loading)"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "headline-last-line: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "rule: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "subline: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "pill: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "page-marker: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "illustration: content inside declared margin 64"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R05",
+      "detail": "left alignment of ['logo', 'descriptor', 'headline', 'rule', 'subline', 'pill', 'page-marker'], tolerance 0"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, minimum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "logo → descriptor: gap 19, maximum 19"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, minimum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "descriptor → headline: gap 109, maximum 109"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, minimum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "rule → subline: gap 37, maximum 37"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, minimum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R07",
+      "detail": "subline → pill: gap 66, maximum 66"
+    },
+    {
+      "status": "PASS",
+      "frame": "direction-B-inner-R3",
+      "rule": "R08",
+      "detail": "declared intentional overlap, measured gap -18; inspect readability"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token headline_font"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token support_font"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token headline_size_px"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token frame_bg"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token headline_ink"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token accent"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token left_inset_px"
+    },
+    {
+      "status": "PASS",
+      "frame": "set",
+      "rule": "R12",
+      "detail": "shared token rule_ratio_pct"
+    }
+  ],
+  "passed": true,
+  "scope": "declared metadata relationships only; no pixel inference, optical or aesthetic approval"
+}

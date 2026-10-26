@@ -1,0 +1,244 @@
+{
+  "exit_code": 0,
+  "strict": true,
+  "expected_count": 3,
+  "actual_count": 3,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step2/slide-01-R3.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Baja\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Baja\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"el \" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"el \" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"día.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"día.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Una pausa suave al final\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Una pausa suave al final\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"de la tarde.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"de la tarde.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"SIGUE LEYENDO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"SIGUE LEYENDO\" contrast 8.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step2/slide-02-R3.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Prueba una\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Prueba una\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"rutina sencilla\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"rutina sencilla\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"para darle sitio\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"para darle sitio\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"al \" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"al \" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"descanso.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"descanso.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Deja una cosa lista para mañana;\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Deja una cosa lista para mañana;\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"después, apaga lo que te distrae.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"después, apaga lo que te distrae.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"PRUEBA ESTA NOCHE\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"PRUEBA ESTA NOCHE\" contrast 8.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step2/slide-03-R3.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"NOCHE LENTA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"NOCHE LENTA\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"HÁBITOS DE DESCANSO\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Suelta\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Suelta\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"por \" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"por \" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"hoy.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"hoy.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Elige un gesto sencillo\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Elige un gesto sencillo\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"para marcar el cierre.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"para marcar el cierre.\" contrast 11.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"GUARDA ESTA PAUSA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"GUARDA ESTA PAUSA\" contrast 8.0:1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,7 @@
-# Style: luxury-realestate
-Formats: post, carousel
-Best for: Real estate, hotels, architecture, hospitality, luxury
+# Place and scale
 
-## Signature
-Full-bleed blue-hour/sunset architectural photo; serif caps headline (DMSerifDisplay/Gloock) with one word in script (PinyonScript) overlapping; thin spec row with tiny icons separated by '|'; small badge (e.g. 'booking from 10%' only if given); bottom CTA bar with pill button.
+Device: Give the actual architecture/place a distinctive viewpoint and let useful type inhabit its quiet space.
 
-## Recipe
-Prompt: 'architectural photography, [property], blue hour, warm interior lights, wide lens, clean sky upper third, no text'. Text in the sky zone; spec row 20-22 px caps +0.2em.
+Needs: Faithful property imagery and facts; no automatic script accent, badge or spec strip.
 
-## Avoid
-Heavy dark overlays; more than one script word; invented prices.
+Choose when the device carries this brief's idea. Compare another composition before committing. Apply `../references/visual-rules.md` and inspect full/feed renders; a recipe is not evidence of quality.

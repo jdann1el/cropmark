@@ -1,0 +1,126 @@
+{
+  "objective": "Portfolio-level social-design art direction with reproducible editable delivery; no phase closed on technical correctness alone",
+  "overall": "INCOMPLETE: rc2 rejected; recalibration-v3 human response is partial with 0/17 reference ratings; bounded diagnosis is required before a new freeze",
+  "frozen_rc2": "cc36200d787d3500a56734052f669376f9b7e910",
+  "current_development": "2077f231c765572163a7554a4a0a16f84f1b0533",
+  "requirements": [
+    {
+      "id": "workflow",
+      "requirement": "Original3concepts/2sketches/representative before set; short route for faithful edits; max3rounds",
+      "implementation": "present",
+      "behavior": "mixed; N1 follows staged execution, exposed H3 still weak",
+      "status": "QUALITY NOT PROVEN"
+    },
+    {
+      "id": "rules",
+      "requirement": "14 illustrated defect/diagnosis/correction/check/exception rules, no universal font/palette ban",
+      "implementation": "present, resource validation passes",
+      "behavior": "geometric faults controlled; comparative appeal still unproved across formats",
+      "status": "QUALITY NOT PROVEN"
+    },
+    {
+      "id": "research",
+      "requirement": "21-project mechanism atlas; 12 provenance-aware cases; 3 historical before/after studies",
+      "implementation": "present, source/provenance limits retained",
+      "status": "DOCUMENTED; not evidence of efficacy"
+    },
+    {
+      "id": "diagram",
+      "requirement": "Editable creative-flow source, SVG and PNG including bounded correction loop",
+      "implementation": "Mermaid+HTML+SVG+1600x1800PNG updated for representative comparison before extension; self-check+visual inspection pass",
+      "status": "PASS artifact only"
+    },
+    {
+      "id": "compatibility",
+      "requirement": "Retain rc5 render interfaces, fonts and boxes metadata; reproducible editable delivery",
+      "implementation": "frozen hash validator passes; historical103tests; H3/N1 copied render+local edit evidence",
+      "status": "PASS within tested local scope"
+    },
+    {
+      "id": "calibration",
+      "requirement": "3development briefs, no skill/rc5/candidate, low and high effort; human fixes visual bar",
+      "evidence": "initial18runs/48PNGs, rc1 accepted0/3low and1/3high; rc2 subsequent heldout FAIL; no new candidate calibration accepted; recalibration-v3 production18runs/48PNGs and local technical audit complete; partial human response records9 far,8 close,0 reference across17 quality ratings",
+      "status": "FAIL / OPEN"
+    },
+    {
+      "id": "heldout",
+      "requirement": "6new frozen briefs ×3conditions,18runs; ≥5/6 wins against each and ≥5/6 absolute, approved every family",
+      "evidence": "rc2 frozen run completed; human1/6vsbaseline,2/6vsrc5,2/6absolute, no carousel",
+      "status": "FAIL; H1-H6 consumed"
+    },
+    {
+      "id": "publication",
+      "requirement": "Release only after technical/editability and human gate pass",
+      "evidence": "PR#2 draft, no merge/release/install",
+      "status": "WITHHELD correctly; objective not achieved"
+    }
+  ],
+  "current_development_cases": {
+    "H3": "exposed and coordinator-guided; correction3/3, quality unresolved/FAIL coordinator; fresh round2 extension-ready verdict preserved",
+    "N1": "human likes final round3 base with explicit flexibility note: headline may be larger/lower;3/3 exhausted, no fourth render; fixed outer anchors are local, not skill defaults",
+    "N2": "human far; native ready verdict preserved as disagreement;3/3 exhausted, development loss; no fourth revision",
+    "N3": "round2 human positive direction, no new defect; unchanged2/3, function ready and comparative quality unverified; no explicit reference-level approval",
+    "N4": "human says UMBRAL okay in direct response to reference-level question: accepted for open readiness only;3/3 exhausted; no controlled or release acceptance",
+    "P1": "bounded2nativeguide sketches→editable reconstruction completed3/3; local raw-guide/copy/edit checksPASS; fresh critique preserves glyph-weight loss and limited exchange specificity; no human/causal win"
+  },
+  "next_required": "Complete the bounded diagnosis: reconstruct one comparable typographic reference, transfer its visual grammar to new content, then test an original direction. Record cause, changed variable and predicted visual effect; revise the responsible layer before a new candidate freeze. Only then run six genuinely new release-validation briefs. Preserve original thresholds and losses.",
+  "post_test_changes": "Optional visual-guide sketch medium with actual real-font feasibility and reconstruction review; role/outer-space consistency preserves headline scale/position freedom.",
+  "development3_human": {
+    "source_sha256": "379b909216b5d8057d30dcba43d4b061caf18d49a45552fca244484756065d59",
+    "counts": {
+      "far": 1,
+      "close": 2,
+      "reference": 0
+    },
+    "levels": {
+      "N1": "close",
+      "N2": "far",
+      "N3": "close"
+    },
+    "readiness": "FAIL: 0/3 reference-level human acceptance; open development only",
+    "controlled_comparison": false,
+    "heldout_acceptance": false
+  },
+  "development4_chat": {
+    "source_sha256": "12713b94f18f47b6ac07f805064f3433ecc11528924ef17fb9fabba7a2201571",
+    "source": "direct human chat",
+    "explicit_reference_level_votes": null,
+    "qualitative_feedback_received": true,
+    "heldout_acceptance": false
+  },
+  "development4_readiness_chat": {
+    "source_sha256": "d4c286f378be1ac6cb4ab3ee68e57cc260ab09c7e74b4452f1e9d2349351c17c",
+    "basis": "direct human answer to explicit reference-level question",
+    "ALBA": "favorable base with larger/lower-headline flexibility note",
+    "UMBRAL": "okay; open-readiness acceptance",
+    "ascensor": "not mentioned; no new vote inferred",
+    "controlled_comparison": false,
+    "release_approval": false
+  },
+  "controlled_recalibration_v3": {
+    "candidate_commit": "2077f231c765572163a7554a4a0a16f84f1b0533",
+    "status": "PRODUCTION AND LOCAL TECHNICAL AUDIT COMPLETE; PARTIAL HUMAN RESPONSE BELOW TARGET (9 FAR, 8 CLOSE, 0 REFERENCE / 17 RATINGS)",
+    "contract": "exposed D1–D3, all3conditions at requested low+high; equal optional2nativeguide calls; self-review only; inputs frozen",
+    "target_runs": 18,
+    "target_final_pngs": 48,
+    "completed_producer_runs": 18,
+    "coordinator_verified_runs": 18,
+    "coordinator_verified_final_pngs": 48,
+    "interruption": "Native quota interrupted D2 production before observable output; ordinary allowance verified restored; completed results retained",
+    "not_heldout": true,
+    "historical_results_not_pooled": true,
+    "reported_native_imagegen_calls": 0,
+    "blind_gallery": "private local review package; six groups with independent labels",
+    "human_ballot": "recalibration-v3-human-feedback.json",
+    "human_ballot_sha256": "31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38",
+    "human_groups_complete": 4,
+    "human_quality_ratings": {"far": 9, "close": 8, "reference": 0},
+    "complete_group_candidate_wins": 0,
+    "human_preferences_missing": ["D3-low", "D3-high"],
+    "human_quality_missing": ["D3-low/B"],
+    "human_visual_readiness": "FAIL / OPEN; exposed development calibration only",
+    "inputs_manifest_sha256": "33be534dba7f13681ed93777727fe157bacd244864d18c586b385a7f15eff370",
+    "results": "recalibration-v3-results.md"
+  },
+  "focused_development_snapshot": "a8032e56a45f356331da1e3e8e9a7f1ceb5e8993"
+}
