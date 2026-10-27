@@ -1,0 +1,248 @@
+{
+  "file": "thumbnail/final.png",
+  "sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76",
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "ink_delta_threshold_rgb_max": 24,
+  "ink_bbox_components": [
+    {
+      "bbox_xywh": [
+        49,
+        414,
+        44,
+        82
+      ],
+      "area_px": 2508
+    },
+    {
+      "bbox_xywh": [
+        118,
+        414,
+        44,
+        81
+      ],
+      "area_px": 2677
+    },
+    {
+      "bbox_xywh": [
+        165,
+        414,
+        17,
+        81
+      ],
+      "area_px": 1377
+    },
+    {
+      "bbox_xywh": [
+        186,
+        425,
+        43,
+        71
+      ],
+      "area_px": 2206
+    },
+    {
+      "bbox_xywh": [
+        232,
+        481,
+        18,
+        14
+      ],
+      "area_px": 252
+    },
+    {
+      "bbox_xywh": [
+        535,
+        523,
+        27,
+        22
+      ],
+      "area_px": 594
+    },
+    {
+      "bbox_xywh": [
+        379,
+        531,
+        36,
+        130
+      ],
+      "area_px": 3731
+    },
+    {
+      "bbox_xywh": [
+        49,
+        532,
+        45,
+        129
+      ],
+      "area_px": 4056
+    },
+    {
+      "bbox_xywh": [
+        138,
+        532,
+        64,
+        129
+      ],
+      "area_px": 5661
+    },
+    {
+      "bbox_xywh": [
+        332,
+        532,
+        41,
+        130
+      ],
+      "area_px": 3887
+    },
+    {
+      "bbox_xywh": [
+        497,
+        532,
+        27,
+        129
+      ],
+      "area_px": 3483
+    },
+    {
+      "bbox_xywh": [
+        208,
+        550,
+        66,
+        112
+      ],
+      "area_px": 5852
+    },
+    {
+      "bbox_xywh": [
+        283,
+        550,
+        46,
+        111
+      ],
+      "area_px": 3367
+    },
+    {
+      "bbox_xywh": [
+        422,
+        550,
+        66,
+        112
+      ],
+      "area_px": 5852
+    },
+    {
+      "bbox_xywh": [
+        535,
+        551,
+        27,
+        110
+      ],
+      "area_px": 2970
+    },
+    {
+      "bbox_xywh": [
+        570,
+        550,
+        66,
+        112
+      ],
+      "area_px": 5852
+    },
+    {
+      "bbox_xywh": [
+        645,
+        639,
+        27,
+        22
+      ],
+      "area_px": 594
+    }
+  ],
+  "P_crop_xyxy": [
+    90,
+    520,
+    230,
+    680
+  ],
+  "P_visible_bbox_xyxy": [
+    138,
+    532,
+    202,
+    661
+  ],
+  "P_ink_fill": 0.6857,
+  "subject_boxes_xyxy": {
+    "portfolio_board": [
+      665,
+      29,
+      1228,
+      426
+    ],
+    "robot_left": [
+      529,
+      190,
+      694,
+      412
+    ],
+    "robot_right": [
+      1094,
+      144,
+      1214,
+      465
+    ],
+    "robot_low": [
+      980,
+      322,
+      1159,
+      478
+    ]
+  },
+  "headline_boxes_xyxy": {
+    "kicker": [
+      48,
+      412,
+      256,
+      500
+    ],
+    "main": [
+      48,
+      522,
+      681,
+      670
+    ]
+  },
+  "gap_estimates_px": {
+    "portfolio_board": 100,
+    "left_robot": 110,
+    "right_robot": 374,
+    "low_robot": 300
+  },
+  "minimum_gap_px_estimate": 100,
+  "overlap_count": 0,
+  "edge_clearance_px_min_estimate": 48,
+  "duration_zone_intersections": 0,
+  "readability_visual": {
+    "168": "3 AIs. 1 Portfolio.; three interacting robots and one shared board identifiable, redesign activity recognizable at small but visible thumbnail scale",
+    "320": "exact phrase readable",
+    "360": "exact phrase readable"
+  },
+  "pass_checks": {
+    "canvas_copy": true,
+    "min_subject_gap_ge32": true,
+    "zero_overlap": true,
+    "edges_ge40": false,
+    "duration_zone_zero": true,
+    "common_P_cap_ge126": true,
+    "P_fill_ge0.6613": true,
+    "kicker_cap_ge10_at_168": true
+  },
+  "measurement_limit": "Subject boxes are hand-fit from visible final pixels. Gap figures are Euclidean estimates from the drawn boxes; edge clearance is directly visible. The main P component is 129 px tall and fill is component area/bbox area. Glyph-core contrast not independently measured for this piece.",
+  "common_P_visible_cap_px": 129,
+  "common_P_cap_at_168_px": 16.93,
+  "kicker_cap_at_168_px_estimate": 10.76,
+  "minimum_subject_edge_clearance_px": 29,
+  "safe_zone_result": "FAIL: portfolio board top edge at y=29 px (<40 px requirement)"
+}

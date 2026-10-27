@@ -1,0 +1,170 @@
+{
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "final_sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76",
+  "clean_background_sha256": "c785c1e1e66fab5f5c792403d0ec956ea9d679d8ee07ffc428d98844c5449a31",
+  "source_sha256": "27a74064a0e4bda097d7a7292e620c7838f9043c1bbf2eaeba14ea2e29d37ae9",
+  "source_dimensions_px": [
+    1672,
+    941
+  ],
+  "ink_boxes_alpha_ge_0_5": {
+    "kicker": [
+      49,
+      414,
+      250,
+      496
+    ],
+    "main": [
+      49,
+      523,
+      672,
+      662
+    ]
+  },
+  "subject_boxes_and_gaps_px": {
+    "portfolio-board": {
+      "bbox": [
+        620,
+        48,
+        1206,
+        467
+      ],
+      "min_ink_gap": 82.76
+    },
+    "agent-left": {
+      "bbox": [
+        536,
+        193,
+        691,
+        407
+      ],
+      "min_ink_gap": 117.0
+    },
+    "agent-right": {
+      "bbox": [
+        1072,
+        141,
+        1220,
+        457
+      ],
+      "min_ink_gap": 441.69
+    },
+    "agent-lower": {
+      "bbox": [
+        988,
+        330,
+        1174,
+        479
+      ],
+      "min_ink_gap": 356.43
+    }
+  },
+  "minimum_subject_gap_px": 82.76,
+  "minimum_subject_gap_at_168_px": 10.86,
+  "minimum_subject_gap_at_360_px": 23.28,
+  "overlap_count": 0,
+  "closest_pair": "portfolio-board",
+  "essential_ink_edge_clearance_px": 50,
+  "key_subject_edge_clearance_px": 48,
+  "duration_zone": {
+    "rect": [
+      1049.6,
+      612,
+      1280,
+      720
+    ],
+    "ink_intersection_pixels": 0,
+    "subject_bbox_intersections": []
+  },
+  "headline_metrics": {
+    "common_glyph": "P",
+    "common_glyph_measurement": {
+      "box_local": [
+        6,
+        0,
+        68,
+        129
+      ],
+      "width": 62,
+      "height": 129,
+      "area_px": 5467,
+      "fill_ratio": 0.6835,
+      "threshold": "alpha >= 0.5"
+    },
+    "cap_px_at_168": 16.93,
+    "cap_percent_height": 17.917,
+    "fill_ratio": 0.6835,
+    "kicker_cap_px_at_168": 10.76
+  },
+  "contrast": {
+    "kicker": {
+      "p05": 15.488,
+      "median": 15.894,
+      "share_below_3": 0.0,
+      "share_below_4_5": 0.0,
+      "core_pixels": 8024
+    },
+    "main": {
+      "p05": 15.355,
+      "median": 16.035,
+      "share_below_3": 0.0,
+      "share_below_4_5": 0.0,
+      "core_pixels": 42941
+    }
+  },
+  "visual_reading": {
+    "168px_transcription": "3 AIs. 1 Portfolio.",
+    "168px_story_read": "Three distinct robots around one large shared portfolio grid.",
+    "360px_story_read": "Three robots point to and adjust different grid areas on the same portfolio board.",
+    "display": "unzoomed native preview"
+  },
+  "style_choice": {
+    "jev_recommendation": "UI-hero (score 61.4; confidence 0.46) over text-in-scene (49.3; 0.372). Treated as focal shared portfolio board; no UI card, shadow, new interface copy or metric added. Flat type and all spec constraints govern."
+  },
+  "requirements": {
+    "one_1280x720_final": "PASS",
+    "exact_copy": "PASS",
+    "minimum_32px_gap": "PASS",
+    "zero_subject_overlap": "PASS",
+    "common_P_cap_at_least_126px": "PASS",
+    "P_fill_at_least_0_6613": "PASS",
+    "3_AIs_cap_at_least_10px_at_168": "PASS",
+    "type_edge_margin_at_least_40px": "PASS",
+    "subject_edge_margin_at_least_40px": "PASS",
+    "duration_zone_clear": "PASS",
+    "contrast": "PASS",
+    "required_ink_clipped_or_occluded_pixels": 0,
+    "drop_shadow": false,
+    "natural_left_alignment": true
+  },
+  "previews": {
+    "168": {
+      "size_px": [
+        168,
+        95
+      ],
+      "resampling": "Lanczos",
+      "sharpening": false
+    },
+    "320": {
+      "size_px": [
+        320,
+        180
+      ],
+      "resampling": "Lanczos",
+      "sharpening": false
+    },
+    "360": {
+      "size_px": [
+        360,
+        203
+      ],
+      "resampling": "Lanczos",
+      "sharpening": false
+    }
+  },
+  "measure_uncertainty": "Subject boxes/polygons are builder annotations from the clean rendered scene; no pixel classifier used because robot and board edges blend into their connected shadows. Raster-control segmentation uncertainty is not applicable to this editable candidate."
+}

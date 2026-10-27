@@ -1,0 +1,89 @@
+{
+  "file": "flyer/final.png",
+  "sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+  "canvas_px": [
+    1080,
+    1350
+  ],
+  "independent_clean_source": "flyer/clean-source-crop.png",
+  "corners_TL_TR_BR_BL_px": {
+    "TL": [
+      37,
+      230
+    ],
+    "TR": [
+      602,
+      301
+    ],
+    "BR": [
+      611,
+      845
+    ],
+    "BL": [
+      83,
+      795
+    ]
+  },
+  "edge_lengths_L_R_px": [
+    566.9,
+    544.1
+  ],
+  "top_bottom_edge_angles_degrees": [
+    7.16,
+    5.41
+  ],
+  "keystone_ratio": 0.0402,
+  "baseline_fits_and_rectified_residual": "not independently resolved to 1 degree / 3 px; full independent line-baseline fit needed",
+  "corner_residual_against_builder": "not reported as independent numeric because my fit is manual and uncertainty is approximately 3 px",
+  "insets": "visual estimate; title and metadata are close to sleeve left/top edges, no measured plane-coordinate proof of 5%",
+  "content_visual": "Noche de / Vinilos; Sala Taller · 14 nov · 21:00; 2 separators, none leading/trailing; grooves/platter/tonearm visible",
+  "title_cap_at_360": "visual pass approx 34 px",
+  "metadata_cap_at_360": "visual borderline approx 13 px; requirement 14 px not demonstrated",
+  "conservative_ratio": "not independently measured",
+  "material": "appears pigment-like with grain visible; paired crops present at 100%",
+  "technical_status": "FAIL: title baseline angle unresolved/below 5 degrees; corner residual, projected line residual and projected caps/ratio not fully established; metadata visual cap estimate 13 px <14 px.",
+  "independently_rectified_text_ink_bounds_1000px_plane": {
+    "horizontal_inset_px": [
+      60.3,
+      58.8
+    ],
+    "vertical_inset_px": [
+      120.3,
+      219.1
+    ],
+    "required_each_side": 50,
+    "result": "PASS"
+  },
+  "glyph_core_contrast_linear_srgb_P05_median_share_below_4_5": {
+    "title_line_1": {
+      "core_pixels": 9922,
+      "P05": 6.45,
+      "median": 7.1,
+      "share_below_4_5_percent": 0.0,
+      "share_below_3_percent": 0.0
+    },
+    "title_line_2": {
+      "core_pixels": 9288,
+      "P05": 6.19,
+      "median": 6.78,
+      "share_below_4_5_percent": 0.0,
+      "share_below_3_percent": 0.0
+    },
+    "metadata": {
+      "core_pixels": 3905,
+      "P05": 5.71,
+      "median": 6.16,
+      "share_below_4_5_percent": 0.0,
+      "share_below_3_percent": 0.0
+    }
+  },
+  "metadata_cap_at_360_visual_estimate_px": 13,
+  "required_metadata_cap_at_360_px": 14,
+  "baseline_fit_observation": {
+    "title_line_1_visible_bottom_envelope_angle_deg_estimate": 3.76,
+    "metadata_visible_bottom_envelope_angle_deg_estimate": 5.71,
+    "algorithm": "per-column bottommost changed pixels in hand-bounded word regions; title line separation uncertain",
+    "result": "FAIL / independently unresolved because title estimate is below 5 degrees and fit residuals were not established"
+  },
+  "contrast_method": "Final integrated ink versus clean-source-crop; alpha-core threshold >=0.98; linearized sRGB"
+}

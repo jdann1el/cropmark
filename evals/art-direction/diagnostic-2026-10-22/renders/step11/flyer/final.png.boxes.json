@@ -1,0 +1,132 @@
+{
+  "canvas_px": [
+    1080,
+    1350
+  ],
+  "condition": "Paso 11 flyer candidate, physical sleeve ink integration",
+  "copy": {
+    "title": "Noche de vinilos",
+    "metadata": "Sala Taller · 14 nov · 21:00"
+  },
+  "clean_source": "flyer/clean-source-crop.png",
+  "clean_source_sha256": "56103b4debc58ca81d63c4e93e22047c76149b86c8f456d49be7533777d0e762",
+  "plane_transform": "rectified 1000x1000 sleeve plane to four recorded final sleeve corners; masks rendered at 2x; one perspective mapping for both type groups",
+  "font_files": {
+    "title": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+    "metadata": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf"
+  },
+  "ink_srgb": [
+    38,
+    22,
+    14
+  ],
+  "groups": [
+    {
+      "role": "event_title",
+      "text": "Noche de vinilos",
+      "line_breaks": [
+        "Noche de",
+        "vinilos"
+      ],
+      "mask": "title-ink-mask.png",
+      "box": [
+        110,
+        314,
+        552,
+        581
+      ],
+      "projected_quad": [
+        [
+          104.52,
+          309.38
+        ],
+        [
+          550.27,
+          364.01
+        ],
+        [
+          555.51,
+          595.56
+        ],
+        [
+          122.44,
+          548.3
+        ]
+      ],
+      "effect": "translucent pigment integration; no shadow/stroke/panel"
+    },
+    {
+      "role": "event_metadata",
+      "text": "Sala Taller · 14 nov · 21:00",
+      "mask": "metadata-ink-mask.png",
+      "box": [
+        105,
+        639,
+        579,
+        728
+      ],
+      "projected_quad": [
+        [
+          103.37,
+          636.91
+        ],
+        [
+          578.2,
+          686.28
+        ],
+        [
+          579.06,
+          729.0
+        ],
+        [
+          106.82,
+          681.07
+        ]
+      ],
+      "effect": "translucent pigment integration; no shadow/stroke/panel"
+    }
+  ],
+  "drop_shadow_layers": 0,
+  "opaque_backing_panels": 0,
+  "output_sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "event_title",
+      "text": "Noche de vinilos",
+      "box": [
+        110,
+        314,
+        552,
+        581
+      ],
+      "size": 260,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "fill": [
+        38,
+        22,
+        14
+      ]
+    },
+    {
+      "role": "event_metadata",
+      "text": "Sala Taller · 14 nov · 21:00",
+      "box": [
+        105,
+        639,
+        579,
+        728
+      ],
+      "size": 108,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "fill": [
+        38,
+        22,
+        14
+      ]
+    }
+  ]
+}

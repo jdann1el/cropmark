@@ -1,0 +1,17 @@
+{
+  "slide": 3,
+  "session": "p11-baseline",
+  "source_path": "carousel-3-source.png",
+  "source_sha256": "a6745f6aa8da6c12caaef783c338ba5e1d398f8e6314634b341e8dd46a7ab666",
+  "source_dimensions": [
+    1122,
+    1402
+  ],
+  "normalized_path": "carousel-3.png",
+  "normalized_sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef",
+  "normalized_dimensions": [
+    1080,
+    1350
+  ],
+  "normalization": "Aspect/size normalization only: resize from 1122x1402 to 1080x1350 with Lanczos resampling; no retouching."
+}

@@ -1,0 +1,17 @@
+{
+  "thumb": {
+    "A": "NO-SKILL direct raster · Paso 9 A",
+    "B": "Paso 10 winner · C",
+    "C": "Paso 11 candidate"
+  },
+  "flyer": {
+    "A": "NO-SKILL direct raster · Paso 9 A",
+    "B": "Paso 10 winner · A (duplicate of A)",
+    "C": "Paso 11 candidate"
+  },
+  "carousel": {
+    "A": "NO-SKILL direct raster · revised brief",
+    "B": "Paso 10 winner B2 · historical copy",
+    "C": "Paso 11 candidate"
+  }
+}

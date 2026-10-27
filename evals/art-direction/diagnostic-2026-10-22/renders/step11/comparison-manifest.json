@@ -1,0 +1,457 @@
+{
+  "boards": [
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumb-board.png",
+      "sha256": "674796c6edbfb47d2b245eef323fa6c26e8a87ecef4e3657540078ce40dd243d",
+      "size_px": [
+        3840,
+        768
+      ],
+      "cell_px": [
+        1280,
+        720
+      ],
+      "label_band_px": 48,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png",
+          "source_sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1",
+          "cell_px": [
+            0,
+            48,
+            1280,
+            768
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png",
+          "source_sha256": "11c9093ce20523118d6b753b61a039d0a4d85adb2cc47fcdc0380aeb52074fd0",
+          "cell_px": [
+            1280,
+            48,
+            2560,
+            768
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/final.png",
+          "source_sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76",
+          "cell_px": [
+            2560,
+            48,
+            3840,
+            768
+          ],
+          "row": 1,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumb-board-360.png",
+      "sha256": "90c816f0c0640aa2dc278d9ef0ec1fcc0b92b3d802cbfec91cb448990d19be7e",
+      "size_px": [
+        1080,
+        227
+      ],
+      "cell_px": [
+        360,
+        203
+      ],
+      "label_band_px": 24,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png",
+          "source_sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1",
+          "cell_px": [
+            0,
+            24,
+            360,
+            227
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png",
+          "source_sha256": "11c9093ce20523118d6b753b61a039d0a4d85adb2cc47fcdc0380aeb52074fd0",
+          "cell_px": [
+            360,
+            24,
+            720,
+            227
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/final.png",
+          "source_sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76",
+          "cell_px": [
+            720,
+            24,
+            1080,
+            227
+          ],
+          "row": 1,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer-board.png",
+      "sha256": "5a06626d044ace0653652bcac543fd51ac44d27f12e6135c4831b6fb70a5850d",
+      "size_px": [
+        3240,
+        1398
+      ],
+      "cell_px": [
+        1080,
+        1350
+      ],
+      "label_band_px": 48,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+          "cell_px": [
+            0,
+            48,
+            1080,
+            1398
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+          "cell_px": [
+            1080,
+            48,
+            2160,
+            1398
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/final.png",
+          "source_sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+          "cell_px": [
+            2160,
+            48,
+            3240,
+            1398
+          ],
+          "row": 1,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer-board-360.png",
+      "sha256": "2ca5ff8bd0ee4a172e91440c3b76e28809294142b5ccc0ceb90fa16ffd0842c6",
+      "size_px": [
+        1080,
+        474
+      ],
+      "cell_px": [
+        360,
+        450
+      ],
+      "label_band_px": 24,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+          "cell_px": [
+            0,
+            24,
+            360,
+            474
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+          "cell_px": [
+            360,
+            24,
+            720,
+            474
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/final.png",
+          "source_sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+          "cell_px": [
+            720,
+            24,
+            1080,
+            474
+          ],
+          "row": 1,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel-board.png",
+      "sha256": "de0961495b3a22061baec86fd6dc2e69cb045fb40c901abea1872fc9927f33af",
+      "size_px": [
+        3240,
+        4194
+      ],
+      "cell_px": [
+        1080,
+        1350
+      ],
+      "label_band_px": 48,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1.png",
+          "source_sha256": "438809b8065dbfa508be246525c740cd974a9afbbc9dbbb366e34e6908cab264",
+          "cell_px": [
+            0,
+            48,
+            1080,
+            1398
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2.png",
+          "source_sha256": "102ead37415881a8cbe86185a926e4c688a462a4d2800f556df78bf3bed6cee2",
+          "cell_px": [
+            1080,
+            48,
+            2160,
+            1398
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3.png",
+          "source_sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef",
+          "cell_px": [
+            2160,
+            48,
+            3240,
+            1398
+          ],
+          "row": 1,
+          "column": 3
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-1.png",
+          "source_sha256": "95c4478d563cb3ca9c05da3f85735434ebc2be46222c3c6c1be834df6e071371",
+          "cell_px": [
+            0,
+            1446,
+            1080,
+            2796
+          ],
+          "row": 2,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-2.png",
+          "source_sha256": "734c76e892d9ab5b56ef5d99e7adee0edbef1cf97ed8b83c11543dadb0d748c9",
+          "cell_px": [
+            1080,
+            1446,
+            2160,
+            2796
+          ],
+          "row": 2,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-3.png",
+          "source_sha256": "aba567c8a7c46d444e8763008628b0deeba01800a919ad1a9ae73f2a5b8cd8e3",
+          "cell_px": [
+            2160,
+            1446,
+            3240,
+            2796
+          ],
+          "row": 2,
+          "column": 3
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-1.png",
+          "source_sha256": "2386ea2f0e0c1bd653e4b3e8755da6ad431112871fb6e8c64089682c0f348930",
+          "cell_px": [
+            0,
+            2844,
+            1080,
+            4194
+          ],
+          "row": 3,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-2.png",
+          "source_sha256": "4c1365b66b0f71b3ff8aad68baf5ec998d19c7544550558593a1323e0b3ca862",
+          "cell_px": [
+            1080,
+            2844,
+            2160,
+            4194
+          ],
+          "row": 3,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-3.png",
+          "source_sha256": "cec7640d708ec147116439a00e1bd361f3f1ff346dc00cb992921d9384524948",
+          "cell_px": [
+            2160,
+            2844,
+            3240,
+            4194
+          ],
+          "row": 3,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel-board-360.png",
+      "sha256": "a3888eed67efd0a4fc6338522800fd1818ca2cd7a8583b619cc5083f5096f607",
+      "size_px": [
+        1080,
+        1422
+      ],
+      "cell_px": [
+        360,
+        450
+      ],
+      "label_band_px": 24,
+      "cells": [
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1.png",
+          "source_sha256": "438809b8065dbfa508be246525c740cd974a9afbbc9dbbb366e34e6908cab264",
+          "cell_px": [
+            0,
+            24,
+            360,
+            474
+          ],
+          "row": 1,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2.png",
+          "source_sha256": "102ead37415881a8cbe86185a926e4c688a462a4d2800f556df78bf3bed6cee2",
+          "cell_px": [
+            360,
+            24,
+            720,
+            474
+          ],
+          "row": 1,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3.png",
+          "source_sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef",
+          "cell_px": [
+            720,
+            24,
+            1080,
+            474
+          ],
+          "row": 1,
+          "column": 3
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-1.png",
+          "source_sha256": "95c4478d563cb3ca9c05da3f85735434ebc2be46222c3c6c1be834df6e071371",
+          "cell_px": [
+            0,
+            498,
+            360,
+            948
+          ],
+          "row": 2,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-2.png",
+          "source_sha256": "734c76e892d9ab5b56ef5d99e7adee0edbef1cf97ed8b83c11543dadb0d748c9",
+          "cell_px": [
+            360,
+            498,
+            720,
+            948
+          ],
+          "row": 2,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-3.png",
+          "source_sha256": "aba567c8a7c46d444e8763008628b0deeba01800a919ad1a9ae73f2a5b8cd8e3",
+          "cell_px": [
+            720,
+            498,
+            1080,
+            948
+          ],
+          "row": 2,
+          "column": 3
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-1.png",
+          "source_sha256": "2386ea2f0e0c1bd653e4b3e8755da6ad431112871fb6e8c64089682c0f348930",
+          "cell_px": [
+            0,
+            972,
+            360,
+            1422
+          ],
+          "row": 3,
+          "column": 1
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-2.png",
+          "source_sha256": "4c1365b66b0f71b3ff8aad68baf5ec998d19c7544550558593a1323e0b3ca862",
+          "cell_px": [
+            360,
+            972,
+            720,
+            1422
+          ],
+          "row": 3,
+          "column": 2
+        },
+        {
+          "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-3.png",
+          "source_sha256": "cec7640d708ec147116439a00e1bd361f3f1ff346dc00cb992921d9384524948",
+          "cell_px": [
+            720,
+            972,
+            1080,
+            1422
+          ],
+          "row": 3,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "flyer_cells_1_2_identical": true,
+  "historical_B2_copy_disclosed": true,
+  "blind_key_sha256": "37650b01fb134fec9117eaa51a569d40d95d2e73123ebceb533d2d5e4d4fa139"
+}

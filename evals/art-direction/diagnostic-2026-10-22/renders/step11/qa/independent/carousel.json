@@ -1,0 +1,374 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "preview_px": [
+        360,
+        450
+      ],
+      "empty_cells": 138,
+      "empty_percent": 27.6,
+      "largest_4_connected_empty_component_cells": 86,
+      "largest_component_percent": 17.2,
+      "thresholds_percent": {
+        "empty_cells_max": 35,
+        "largest_component_max": 20
+      },
+      "subject_polygon_preview_px": [
+        [
+          220,
+          100
+        ],
+        [
+          286,
+          106
+        ],
+        [
+          313,
+          168
+        ],
+        [
+          347,
+          182
+        ],
+        [
+          353,
+          303
+        ],
+        [
+          317,
+          327
+        ],
+        [
+          246,
+          312
+        ],
+        [
+          217,
+          278
+        ],
+        [
+          203,
+          205
+        ]
+      ],
+      "text_group_rectangles_preview_px_before_8px_expansion": [
+        [
+          22,
+          17,
+          176,
+          64
+        ],
+        [
+          22,
+          76,
+          218,
+          157
+        ],
+        [
+          22,
+          174,
+          224,
+          222
+        ]
+      ],
+      "segmentation_note": "Manual tight subject polygons and visible-copy boxes; no full-photo occupancy labeling."
+    },
+    {
+      "slide": 2,
+      "preview_px": [
+        360,
+        450
+      ],
+      "empty_cells": 144,
+      "empty_percent": 28.8,
+      "largest_4_connected_empty_component_cells": 124,
+      "largest_component_percent": 24.8,
+      "thresholds_percent": {
+        "empty_cells_max": 35,
+        "largest_component_max": 20
+      },
+      "subject_polygon_preview_px": [
+        [
+          132,
+          176
+        ],
+        [
+          275,
+          174
+        ],
+        [
+          354,
+          284
+        ],
+        [
+          356,
+          369
+        ],
+        [
+          273,
+          355
+        ],
+        [
+          168,
+          329
+        ],
+        [
+          126,
+          282
+        ]
+      ],
+      "text_group_rectangles_preview_px_before_8px_expansion": [
+        [
+          22,
+          17,
+          176,
+          64
+        ],
+        [
+          22,
+          258,
+          226,
+          338
+        ],
+        [
+          22,
+          364,
+          230,
+          420
+        ]
+      ],
+      "segmentation_note": "Manual tight subject polygons and visible-copy boxes; no full-photo occupancy labeling."
+    },
+    {
+      "slide": 3,
+      "preview_px": [
+        360,
+        450
+      ],
+      "empty_cells": 97,
+      "empty_percent": 19.4,
+      "largest_4_connected_empty_component_cells": 57,
+      "largest_component_percent": 11.4,
+      "thresholds_percent": {
+        "empty_cells_max": 35,
+        "largest_component_max": 20
+      },
+      "subject_polygon_preview_px": [
+        [
+          188,
+          314
+        ],
+        [
+          360,
+          309
+        ],
+        [
+          360,
+          450
+        ],
+        [
+          202,
+          450
+        ],
+        [
+          176,
+          405
+        ]
+      ],
+      "text_group_rectangles_preview_px_before_8px_expansion": [
+        [
+          22,
+          17,
+          176,
+          64
+        ],
+        [
+          22,
+          76,
+          218,
+          157
+        ],
+        [
+          22,
+          174,
+          223,
+          222
+        ],
+        [
+          22,
+          395,
+          192,
+          423
+        ]
+      ],
+      "segmentation_note": "Manual tight subject polygons and visible-copy boxes; no full-photo occupancy labeling."
+    }
+  ],
+  "photo_coverage": {
+    "1": 100,
+    "2": 100,
+    "3": 100
+  },
+  "photo_edges_reached": {
+    "1": [
+      "top",
+      "right",
+      "bottom",
+      "left"
+    ],
+    "2": [
+      "top",
+      "right",
+      "bottom",
+      "left"
+    ],
+    "3": [
+      "top",
+      "right",
+      "bottom",
+      "left"
+    ]
+  },
+  "closing_subject_bbox_preview_px": [
+    176,
+    132,
+    360,
+    450
+  ],
+  "closing_subject_bbox_area_percent_estimate": 36.1,
+  "trace_diameter_px_360_estimate": 25,
+  "trace_diameter_px_master_estimate": 75,
+  "cta_pixels": [
+    0,
+    0,
+    1
+  ],
+  "removed_strings_pixel_count": {
+    "EXPLORA EL TALLER": 0,
+    "SIGUE EL PROCESO": 0
+  },
+  "cta_style": "one unboxed final CTA with underline; slides 1 and 2 have no apparent action",
+  "relationships": [
+    "slide 1 cream headline on teal negative field with active hand/pot on right",
+    "slide 2 dark headline crosses teal/table transition adjacent to wheel, low contrast",
+    "slide 3 cream headline relates to large vessel/trace area on right"
+  ],
+  "caps": "visual check: headline and support readable except slide 2 first line low contrast; numerical glyph-core caps not certified",
+  "safe_edges": "pixel review indicates text/group inset >=64 master for headline groups; CTA bottom inset approx 72px master, pass visually; other key-detail 24px clearance not fully certified",
+  "technical_status": "FAIL: slide 2 headline glyph-core P05 1.05:1 below 3:1; slide 1 descriptor P05 4.16:1 below 4.5:1; slide 2 largest empty component 24.8% above 20%; closing trace estimate 75px master below 90px; descriptor cap, slide 3 hierarchy ratio and 64px top inset fail.",
+  "glyph_core_contrast_linear_srgb_P05_median_share_below_4_5": {
+    "1": {
+      "brand": {
+        "core_pixels": 539,
+        "P05": 5.82,
+        "median": 11.77,
+        "share_below_4_5_percent": 1.3,
+        "share_below_3_percent": 0.0
+      },
+      "descriptor": {
+        "core_pixels": 367,
+        "P05": 4.16,
+        "median": 8.8,
+        "share_below_4_5_percent": 10.08,
+        "share_below_3_percent": 0.0
+      },
+      "headline": {
+        "core_pixels": 1190,
+        "P05": 6.96,
+        "median": 10.27,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "support": {
+        "core_pixels": 487,
+        "P05": 10.63,
+        "median": 12.49,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      }
+    },
+    "2": {
+      "brand": {
+        "core_pixels": 537,
+        "P05": 8.33,
+        "median": 12.74,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "descriptor": {
+        "core_pixels": 366,
+        "P05": 9.47,
+        "median": 11.63,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "headline": {
+        "core_pixels": 1176,
+        "P05": 1.05,
+        "median": 8.63,
+        "share_below_4_5_percent": 23.81,
+        "share_below_3_percent": 23.3
+      },
+      "support": {
+        "core_pixels": 574,
+        "P05": 8.39,
+        "median": 9.82,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      }
+    },
+    "3": {
+      "brand": {
+        "core_pixels": 536,
+        "P05": 11.2,
+        "median": 12.91,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "descriptor": {
+        "core_pixels": 366,
+        "P05": 11.7,
+        "median": 13.03,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "headline": {
+        "core_pixels": 1216,
+        "P05": 12.77,
+        "median": 13.93,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "support": {
+        "core_pixels": 501,
+        "P05": 13.39,
+        "median": 14.74,
+        "share_below_4_5_percent": 0.0,
+        "share_below_3_percent": 0.0
+      },
+      "cta": {
+        "core_pixels": 738,
+        "P05": 8.02,
+        "median": 9.89,
+        "share_below_4_5_percent": 0.68,
+        "share_below_3_percent": 0.0
+      }
+    }
+  },
+  "font_cap_checks_at_360": {
+    "brand": 14.33,
+    "descriptor": 13.33,
+    "slides_1_2_headline": 30.67,
+    "slide3_headline": 28.67,
+    "support": 15.33,
+    "cta": 14.0,
+    "headline_support_ratio_slide3": 1.87,
+    "result": "descriptor below 14px and slide3 headline/support ratio below 2.0"
+  },
+  "safe_margin_observation_master_px": {
+    "brand_top": 60,
+    "required_minimum": 64,
+    "result": "FAIL"
+  }
+}

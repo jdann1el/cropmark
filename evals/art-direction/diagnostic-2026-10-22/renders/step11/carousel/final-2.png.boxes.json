@@ -1,0 +1,93 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        72,
+        60,
+        517,
+        105
+      ],
+      "size": 60,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        72,
+        129,
+        373,
+        183
+      ],
+      "size": 56,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Del giro / nace el borde.",
+      "box": [
+        72,
+        780,
+        670,
+        998
+      ],
+      "size": 128,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "fill": [
+        29,
+        39,
+        35
+      ]
+    },
+    {
+      "role": "support",
+      "text": "El torno acompaña cada movimiento.",
+      "box": [
+        72,
+        1096,
+        624,
+        1218
+      ],
+      "size": 64,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "fill": [
+        29,
+        39,
+        35
+      ]
+    }
+  ],
+  "copy": {
+    "headline": [
+      "Del giro",
+      "nace el borde."
+    ],
+    "support": [
+      "El torno acompaña",
+      "cada movimiento."
+    ],
+    "photo": "base-2.png",
+    "relation": "Dark serif headline sits on the pale worktable below the hands and turning rim."
+  },
+  "effects": {
+    "shadow": false,
+    "outline": false,
+    "panel": false
+  }
+}

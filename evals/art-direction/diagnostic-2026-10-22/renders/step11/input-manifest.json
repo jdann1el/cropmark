@@ -1,0 +1,419 @@
+{
+  "audit_date": "2026-10-26",
+  "task": "T1",
+  "starting_git_status": [
+    "?? docs/spec-paso11.md",
+    "?? evals/art-direction/diagnostic-2026-10-22/renders/step11/",
+    "?? evals/art-direction/diagnostic-2026-10-22/renders/step3/qa-report.json/"
+  ],
+  "protected_feedback_sha256": "31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38",
+  "ledger_state": {
+    "call_count": 3,
+    "ordinals": [
+      1,
+      2,
+      3
+    ],
+    "statuses": [
+      "success",
+      "success",
+      "success"
+    ],
+    "logged_output_hash_matches": true,
+    "missing_output_paths": []
+  },
+  "budget": {
+    "global_cap": 6,
+    "used_at_T1": 3,
+    "remaining_at_T1": 3,
+    "next_ordinal": 4
+  },
+  "baseline_normalization_check": {
+    "1": {
+      "exact_lanczos_resize_pixel_match": true
+    },
+    "2": {
+      "exact_lanczos_resize_pixel_match": true
+    },
+    "3": {
+      "exact_lanczos_resize_pixel_match": true
+    }
+  },
+  "files": [
+    {
+      "path": "docs/spec-paso11.md",
+      "exists": true,
+      "sha256": "e798ca53ed835b5b6e3c2dda6193cd98d6dec783423b1cc0bcd0cdc895d150c4",
+      "bytes": 38223
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/imagegen-log.json",
+      "exists": true,
+      "sha256": "2876ad925674693e74a3b1fe6ff74373fa9c3b069decc1e51cbc28384b1af7e0",
+      "bytes": 2882
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/brief.md",
+      "exists": true,
+      "sha256": "c49d1070f64eb53330bc0900c399322c9cf41d34b44e1139d8405e9db2f54382",
+      "bytes": 749
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/prompts.md",
+      "exists": true,
+      "sha256": "db4fa934b6ef042da8bff4306cb3ff4f58367c336cbbfe48fa96bc6a3bfff2aa",
+      "bytes": 1658
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/session-scope.md",
+      "exists": true,
+      "sha256": "a85146630b6c331d4d273fa82800b34b5fa1c3d3b7649c89435eecc0cbf31f24",
+      "bytes": 411
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/frozen-manifest.json",
+      "exists": true,
+      "sha256": "b9a41791dbdd315afe3ddbdb7d326c7aa0fa5c53c9dc6abbb983ae131c4bedd9",
+      "bytes": 965
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/slide-1-provenance.json",
+      "exists": true,
+      "sha256": "23541c82231ba40866cade203721bdd3f8f3145874d2837ad0c4d8f796a14b77",
+      "bytes": 536
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/slide-2-provenance.json",
+      "exists": true,
+      "sha256": "c1707046c705796e9ed5270523233c3a473674e2f37a0f1c400acfc2c1bee377",
+      "bytes": 536
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/slide-3-provenance.json",
+      "exists": true,
+      "sha256": "d0d56e77b015a87969c377cd3de17bb186d76274b3022f292ee859f9a424cb44",
+      "bytes": 536
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1-source.png",
+      "exists": true,
+      "sha256": "18ed3fb25747436e36f301604a9d21849908a5a18a14d235feb17092252dcb2f",
+      "bytes": 1925286,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1.png",
+      "exists": true,
+      "sha256": "438809b8065dbfa508be246525c740cd974a9afbbc9dbbb366e34e6908cab264",
+      "bytes": 1693169,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2-source.png",
+      "exists": true,
+      "sha256": "fa0c73314e9804b900ea7baebdf595d8e9a0bfab7e8adb99d7fdde1bc235b4fa",
+      "bytes": 1885318,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2.png",
+      "exists": true,
+      "sha256": "102ead37415881a8cbe86185a926e4c688a462a4d2800f556df78bf3bed6cee2",
+      "bytes": 1656501,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3-source.png",
+      "exists": true,
+      "sha256": "a6745f6aa8da6c12caaef783c338ba5e1d398f8e6314634b341e8dd46a7ab666",
+      "bytes": 2671720,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3.png",
+      "exists": true,
+      "sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef",
+      "bytes": 2319551,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/prompts.md",
+      "exists": true,
+      "sha256": "4c0c043c8312c8b1b136912a2c9366364a8164eaa40a48c710e488d5764b0369",
+      "bytes": 7572
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/imagegen-log.json",
+      "exists": true,
+      "sha256": "173a75ef64966e61288a7577acd937810f481d608a478317663ae8d78fb6cdcf",
+      "bytes": 6217
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/render_s9.py",
+      "exists": true,
+      "sha256": "ae8bcf2a8ca55a7983a28e0bba04aedd1985cd4389f9952172c2c3ed390741af",
+      "bytes": 15067
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A-source.png",
+      "exists": true,
+      "sha256": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a",
+      "bytes": 1959648,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png",
+      "exists": true,
+      "sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1",
+      "bytes": 1177589,
+      "dimensions_px": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A-source.png",
+      "exists": true,
+      "sha256": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f",
+      "bytes": 2221534,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+      "exists": true,
+      "sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+      "bytes": 1996385,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-R1-source.png",
+      "exists": true,
+      "sha256": "73b6674e64c50f182b9abea23cd3a9191bed134bd852fac0adbcc8464eb51a4b",
+      "bytes": 1938239,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png",
+      "exists": true,
+      "sha256": "11c9093ce20523118d6b753b61a039d0a4d85adb2cc47fcdc0380aeb52074fd0",
+      "bytes": 1067453,
+      "dimensions_px": [
+        1280,
+        720
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/render_thumb_c.py",
+      "exists": true,
+      "sha256": "382909084fa2f50a29c31ab45238adc823cd099b14c4f4cea8bf75e330043b40",
+      "bytes": 7278
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/measurements.json",
+      "exists": true,
+      "sha256": "7a62a5e84e61baae5aa99900253b63601ebfc25a46cdeec55153e5ff56cbd58c",
+      "bytes": 2160
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B-base-source.png",
+      "exists": true,
+      "sha256": "36f958385a4b80410f3abf9a07ce80fe29cf951cf528122f43979258ac875ba4",
+      "bytes": 1968122,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-1.png",
+      "exists": true,
+      "sha256": "059e0148eb67c88eb7145e74801117f9fad35aac9a58b1e1af37e186e40ed0f5",
+      "bytes": 2182379,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-2.png",
+      "exists": true,
+      "sha256": "1331993640fc41d760953591045c35da31c8f0882935abe056d45613cd125493",
+      "bytes": 2191959,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-3.png",
+      "exists": true,
+      "sha256": "cd86487b090851d37e2b3011eaf13a4419f71767461d3aae3d859b42001d5bce",
+      "bytes": 2089041,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-1.png",
+      "exists": true,
+      "sha256": "95c4478d563cb3ca9c05da3f85735434ebc2be46222c3c6c1be834df6e071371",
+      "bytes": 1938030,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-2.png",
+      "exists": true,
+      "sha256": "734c76e892d9ab5b56ef5d99e7adee0edbef1cf97ed8b83c11543dadb0d748c9",
+      "bytes": 1961743,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-3.png",
+      "exists": true,
+      "sha256": "aba567c8a7c46d444e8763008628b0deeba01800a919ad1a9ae73f2a5b8cd8e3",
+      "bytes": 1833147,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/prompts.txt",
+      "exists": true,
+      "sha256": "90d46fdf0233536bca7b603f2dafb4f913edacd213e2ed052a6132b53bc79969",
+      "bytes": 1475
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/slide-1.png",
+      "exists": true,
+      "sha256": "8b6e091eeee66de16471c83b219ceb1b0e7d0f027114307857d50c6b476087d2",
+      "bytes": 2080281,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/slide-2.png",
+      "exists": true,
+      "sha256": "49601233208b4157d0b568dc74ccc778fafea82ba678d3f00feef5ddf0f2603a",
+      "bytes": 1956469,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/slide-3.png",
+      "exists": true,
+      "sha256": "09599fb1f58746cc536392b5c79ffe1e70eefb435cdaa78e4256b612ffdf46d8",
+      "bytes": 2453689,
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/final-1.png",
+      "exists": true,
+      "sha256": "46687c5159fbc2657e7dcc88b7f8480980254e678ce583dac3bf12cfc9fcd6b5",
+      "bytes": 1831924,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/final-2.png",
+      "exists": true,
+      "sha256": "69d485bf7a7d889f0db50f9fe7baf0a95d2e62fece7c8bb0b59cbbe3a29bbbc7",
+      "bytes": 1731330,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step7/A/final-3.png",
+      "exists": true,
+      "sha256": "ec6b0d41bfbf2fdecb5c6b11bedbd931dd8369184dc5882401f61c7f5b89e545",
+      "bytes": 2195523,
+      "dimensions_px": [
+        1080,
+        1350
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "docs/recalibration-v3-human-feedback.json",
+      "exists": true,
+      "sha256": "31a2b18ad793fe67de21dd4605c8bd801c19a1cba3c229de9286e4ecbd32fb38",
+      "bytes": 2589
+    }
+  ],
+  "legacy_direct_control_normalization": {
+    "thumbnail_A_source_to_A_png": "exact pixel match using render_s9.py ImageOps.fit, center crop, Lanczos, 1280x720",
+    "flyer_A_source_to_A_png": "exact pixel match using render_s9.py ImageOps.fit, center crop, Lanczos, 1080x1350"
+  }
+}
