@@ -1,0 +1,93 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        72,
+        60,
+        517,
+        105
+      ],
+      "size": 60,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        72,
+        129,
+        373,
+        183
+      ],
+      "size": 56,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "La forma / toma cuerpo.",
+      "box": [
+        72,
+        240,
+        641,
+        472
+      ],
+      "size": 128,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    },
+    {
+      "role": "support",
+      "text": "Una pieza empieza con un gesto.",
+      "box": [
+        76,
+        535,
+        620,
+        666
+      ],
+      "size": 64,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "fill": [
+        250,
+        246,
+        231
+      ]
+    }
+  ],
+  "copy": {
+    "headline": [
+      "La forma",
+      "toma cuerpo."
+    ],
+    "support": [
+      "Una pieza empieza",
+      "con un gesto."
+    ],
+    "photo": "base-1.png",
+    "relation": "Cream serif headline on teal wall; vessel and working hand fill the right half."
+  },
+  "effects": {
+    "shadow": false,
+    "outline": false,
+    "panel": false
+  }
+}

@@ -1,0 +1,770 @@
+[
+  {
+    "slide": 1,
+    "base": "base-1.png",
+    "size": [
+      1080,
+      1350
+    ],
+    "groups": {
+      "brand": {
+        "text": "TALLER BARRO",
+        "position": [
+          112,
+          82
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 30,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.0346,
+              "background_luminance_median": 0.0461,
+              "contrast_p05": 5.82,
+              "contrast_median": 9.86,
+              "under_target_percent": 0.16
+            },
+            "dark": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.0346,
+              "background_luminance_median": 0.0461,
+              "contrast_p05": 1.27,
+              "contrast_median": 1.44,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1926,
+            "background_luminance_p05": 0.0346,
+            "background_luminance_median": 0.0461,
+            "contrast_p05": 5.82,
+            "contrast_median": 9.86,
+            "under_target_percent": 0.16
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "descriptor": {
+        "text": "CERÁMICA",
+        "position": [
+          112,
+          126
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 27,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.0459,
+              "background_luminance_median": 0.0787,
+              "contrast_p05": 4.53,
+              "contrast_median": 7.36,
+              "under_target_percent": 4.51
+            },
+            "dark": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.0459,
+              "background_luminance_median": 0.0787,
+              "contrast_p05": 1.44,
+              "contrast_median": 1.93,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1154,
+            "background_luminance_p05": 0.0459,
+            "background_luminance_median": 0.0787,
+            "contrast_p05": 4.53,
+            "contrast_median": 7.36,
+            "under_target_percent": 4.51
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "headline": {
+        "text": "La forma toma cuerpo.",
+        "position": [
+          112,
+          220
+        ],
+        "font": "InstrumentSerif-Regular.ttf",
+        "font_size": 108,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 12391,
+              "background_luminance_p05": 0.0245,
+              "background_luminance_median": 0.0494,
+              "contrast_p05": 6.88,
+              "contrast_median": 9.53,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 12391,
+              "background_luminance_p05": 0.0245,
+              "background_luminance_median": 0.0494,
+              "contrast_p05": 1.11,
+              "contrast_median": 1.49,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 12391,
+            "background_luminance_p05": 0.0245,
+            "background_luminance_median": 0.0494,
+            "contrast_p05": 6.88,
+            "contrast_median": 9.53,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 3.0
+      },
+      "support": {
+        "text": "Una pieza empieza con un gesto.",
+        "position": [
+          112,
+          956
+        ],
+        "font": "InstrumentSans-Regular.ttf",
+        "font_size": 34,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 2056,
+              "background_luminance_p05": 0.6172,
+              "background_luminance_median": 0.6779,
+              "contrast_p05": 1.18,
+              "contrast_median": 1.3,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 2056,
+              "background_luminance_p05": 0.6172,
+              "background_luminance_median": 0.6779,
+              "contrast_p05": 9.99,
+              "contrast_median": 10.9,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 2056,
+            "background_luminance_p05": 0.6172,
+            "background_luminance_median": 0.6779,
+            "contrast_p05": 9.99,
+            "contrast_median": 10.9,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "cta": {
+        "text": "EXPLORA EL TALLER",
+        "position": [
+          112,
+          1128
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 28,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 2237,
+              "background_luminance_p05": 0.5001,
+              "background_luminance_median": 0.562,
+              "contrast_p05": 1.44,
+              "contrast_median": 1.55,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 2237,
+              "background_luminance_p05": 0.5001,
+              "background_luminance_median": 0.562,
+              "contrast_p05": 8.24,
+              "contrast_median": 9.16,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 2237,
+            "background_luminance_p05": 0.5001,
+            "background_luminance_median": 0.562,
+            "contrast_p05": 8.24,
+            "contrast_median": 9.16,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      }
+    },
+    "boxes_file": "final-1.png.boxes.json"
+  },
+  {
+    "slide": 2,
+    "base": "base-2.png",
+    "size": [
+      1080,
+      1350
+    ],
+    "groups": {
+      "brand": {
+        "text": "TALLER BARRO",
+        "position": [
+          112,
+          82
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 30,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.029,
+              "background_luminance_median": 0.0374,
+              "contrast_p05": 8.45,
+              "contrast_median": 10.83,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.029,
+              "background_luminance_median": 0.0374,
+              "contrast_p05": 1.18,
+              "contrast_median": 1.31,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1926,
+            "background_luminance_p05": 0.029,
+            "background_luminance_median": 0.0374,
+            "contrast_p05": 8.45,
+            "contrast_median": 10.83,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "descriptor": {
+        "text": "CERÁMICA",
+        "position": [
+          112,
+          126
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 27,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.033,
+              "background_luminance_median": 0.0446,
+              "contrast_p05": 8.99,
+              "contrast_median": 10.0,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.033,
+              "background_luminance_median": 0.0446,
+              "contrast_p05": 1.24,
+              "contrast_median": 1.42,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1154,
+            "background_luminance_p05": 0.033,
+            "background_luminance_median": 0.0446,
+            "contrast_p05": 8.99,
+            "contrast_median": 10.0,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "headline": {
+        "text": "Del giro nace el borde.",
+        "position": [
+          112,
+          220
+        ],
+        "font": "InstrumentSerif-Regular.ttf",
+        "font_size": 108,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 12637,
+              "background_luminance_p05": 0.0167,
+              "background_luminance_median": 0.0257,
+              "contrast_p05": 11.14,
+              "contrast_median": 12.52,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 12637,
+              "background_luminance_p05": 0.0167,
+              "background_luminance_median": 0.0257,
+              "contrast_p05": 1.01,
+              "contrast_median": 1.13,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 12637,
+            "background_luminance_p05": 0.0167,
+            "background_luminance_median": 0.0257,
+            "contrast_p05": 11.14,
+            "contrast_median": 12.52,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 3.0
+      },
+      "support": {
+        "text": "El torno acompaña cada movimiento.",
+        "position": [
+          112,
+          956
+        ],
+        "font": "InstrumentSans-Regular.ttf",
+        "font_size": 34,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 2320,
+              "background_luminance_p05": 0.534,
+              "background_luminance_median": 0.5819,
+              "contrast_p05": 1.39,
+              "contrast_median": 1.5,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 2320,
+              "background_luminance_p05": 0.534,
+              "background_luminance_median": 0.5819,
+              "contrast_p05": 8.74,
+              "contrast_median": 9.46,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 2320,
+            "background_luminance_p05": 0.534,
+            "background_luminance_median": 0.5819,
+            "contrast_p05": 8.74,
+            "contrast_median": 9.46,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "cta": {
+        "text": "SIGUE EL PROCESO",
+        "position": [
+          112,
+          1128
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 28,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 2117,
+              "background_luminance_p05": 0.5019,
+              "background_luminance_median": 0.5657,
+              "contrast_p05": 1.4,
+              "contrast_median": 1.54,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 2117,
+              "background_luminance_p05": 0.5019,
+              "background_luminance_median": 0.5657,
+              "contrast_p05": 8.26,
+              "contrast_median": 9.22,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 2117,
+            "background_luminance_p05": 0.5019,
+            "background_luminance_median": 0.5657,
+            "contrast_p05": 8.26,
+            "contrast_median": 9.22,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      }
+    },
+    "boxes_file": "final-2.png.boxes.json"
+  },
+  {
+    "slide": 3,
+    "base": "base-3.png",
+    "size": [
+      1080,
+      1350
+    ],
+    "groups": {
+      "brand": {
+        "text": "TALLER BARRO",
+        "position": [
+          112,
+          82
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 30,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.0338,
+              "background_luminance_median": 0.0544,
+              "contrast_p05": 6.2,
+              "contrast_median": 9.07,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 1926,
+              "background_luminance_p05": 0.0338,
+              "background_luminance_median": 0.0544,
+              "contrast_p05": 1.26,
+              "contrast_median": 1.56,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1926,
+            "background_luminance_p05": 0.0338,
+            "background_luminance_median": 0.0544,
+            "contrast_p05": 6.2,
+            "contrast_median": 9.07,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "descriptor": {
+        "text": "CERÁMICA",
+        "position": [
+          112,
+          126
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 27,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.0474,
+              "background_luminance_median": 0.0624,
+              "contrast_p05": 7.22,
+              "contrast_median": 8.43,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 1154,
+              "background_luminance_p05": 0.0474,
+              "background_luminance_median": 0.0624,
+              "contrast_p05": 1.46,
+              "contrast_median": 1.68,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1154,
+            "background_luminance_p05": 0.0474,
+            "background_luminance_median": 0.0624,
+            "contrast_p05": 7.22,
+            "contrast_median": 8.43,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "headline": {
+        "text": "Cada huella deja memoria.",
+        "position": [
+          112,
+          220
+        ],
+        "font": "InstrumentSerif-Regular.ttf",
+        "font_size": 108,
+        "fill": [
+          247,
+          243,
+          232
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "light",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 15947,
+              "background_luminance_p05": 0.0203,
+              "background_luminance_median": 0.0296,
+              "contrast_p05": 9.33,
+              "contrast_median": 11.9,
+              "under_target_percent": 0.0
+            },
+            "dark": {
+              "glyph_core_pixels": 15947,
+              "background_luminance_p05": 0.0203,
+              "background_luminance_median": 0.0296,
+              "contrast_p05": 1.05,
+              "contrast_median": 1.19,
+              "under_target_percent": 100.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 15947,
+            "background_luminance_p05": 0.0203,
+            "background_luminance_median": 0.0296,
+            "contrast_p05": 9.33,
+            "contrast_median": 11.9,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 3.0
+      },
+      "support": {
+        "text": "Un rastro queda en la superficie.",
+        "position": [
+          112,
+          956
+        ],
+        "font": "InstrumentSans-Regular.ttf",
+        "font_size": 34,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 2013,
+              "background_luminance_p05": 0.4403,
+              "background_luminance_median": 0.5641,
+              "contrast_p05": 1.32,
+              "contrast_median": 1.54,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 2013,
+              "background_luminance_p05": 0.4403,
+              "background_luminance_median": 0.5641,
+              "contrast_p05": 7.34,
+              "contrast_median": 9.19,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 2013,
+            "background_luminance_p05": 0.4403,
+            "background_luminance_median": 0.5641,
+            "contrast_p05": 7.34,
+            "contrast_median": 9.19,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      },
+      "cta": {
+        "text": "MIRA LAS PIEZAS",
+        "position": [
+          112,
+          1128
+        ],
+        "font": "InstrumentSans-Bold.ttf",
+        "font_size": 28,
+        "fill": [
+          28,
+          37,
+          33
+        ],
+        "effects": {
+          "shadow": false,
+          "outline": false,
+          "plate": false
+        },
+        "contrast": {
+          "selected": "dark",
+          "candidates": {
+            "light": {
+              "glyph_core_pixels": 1944,
+              "background_luminance_p05": 0.4721,
+              "background_luminance_median": 0.5317,
+              "contrast_p05": 1.46,
+              "contrast_median": 1.63,
+              "under_target_percent": 100.0
+            },
+            "dark": {
+              "glyph_core_pixels": 1944,
+              "background_luminance_p05": 0.4721,
+              "background_luminance_median": 0.5317,
+              "contrast_p05": 7.82,
+              "contrast_median": 8.71,
+              "under_target_percent": 0.0
+            }
+          },
+          "selected_metrics": {
+            "glyph_core_pixels": 1944,
+            "background_luminance_p05": 0.4721,
+            "background_luminance_median": 0.5317,
+            "contrast_p05": 7.82,
+            "contrast_median": 8.71,
+            "under_target_percent": 0.0
+          }
+        },
+        "target_ratio": 4.5
+      }
+    },
+    "boxes_file": "final-3.png.boxes.json"
+  }
+]

@@ -1,0 +1,6 @@
+== evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png
+  OK    size (1280, 720) (want 1280x720)
+  INFO  "3 AIs." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "3 AIs." contrast 11.0:1
+  INFO  "1 Portfolio." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "1 Portfolio." contrast 15.9:1

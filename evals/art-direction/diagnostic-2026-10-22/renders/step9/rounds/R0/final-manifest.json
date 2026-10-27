@@ -1,0 +1,58 @@
+[
+  {
+    "path": "B3/final-1.png",
+    "dimensions_px": [
+      1080,
+      1350
+    ],
+    "sha256": "53403040e94c37d74ca4041a7fe80c0a318131730cde716945d746a1af26d6c2"
+  },
+  {
+    "path": "B3/final-2.png",
+    "dimensions_px": [
+      1080,
+      1350
+    ],
+    "sha256": "b61f9c2cb79a30ba1d5e550769d9297f8a2a036eef5292d70241f2c83c348339"
+  },
+  {
+    "path": "B3/final-3.png",
+    "dimensions_px": [
+      1080,
+      1350
+    ],
+    "sha256": "27c2e94de1dfbed5316ea4a16b401a28542ef64a34f167c0d6554b4aaa2db190"
+  },
+  {
+    "path": "thumbnail/A.png",
+    "dimensions_px": [
+      1280,
+      720
+    ],
+    "sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1"
+  },
+  {
+    "path": "thumbnail/B.png",
+    "dimensions_px": [
+      1280,
+      720
+    ],
+    "sha256": "a5d74ed09bd91d896f8faf2e29e0bfa1286725e968768425731f6f2821dcdf90"
+  },
+  {
+    "path": "flyer/A.png",
+    "dimensions_px": [
+      1080,
+      1350
+    ],
+    "sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90"
+  },
+  {
+    "path": "flyer/B.png",
+    "dimensions_px": [
+      1080,
+      1350
+    ],
+    "sha256": "8b4341e79314ad8e84ff3d39968390576f4ddfff4820d34a4d84db700d2333e3"
+  }
+]

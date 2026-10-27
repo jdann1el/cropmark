@@ -1,0 +1,26 @@
+{
+  "session": "p11-baseline",
+  "images": [
+    {
+      "slide": 1,
+      "source_path": "carousel-1-source.png",
+      "source_sha256": "18ed3fb25747436e36f301604a9d21849908a5a18a14d235feb17092252dcb2f",
+      "normalized_path": "carousel-1.png",
+      "normalized_sha256": "438809b8065dbfa508be246525c740cd974a9afbbc9dbbb366e34e6908cab264"
+    },
+    {
+      "slide": 2,
+      "source_path": "carousel-2-source.png",
+      "source_sha256": "fa0c73314e9804b900ea7baebdf595d8e9a0bfab7e8adb99d7fdde1bc235b4fa",
+      "normalized_path": "carousel-2.png",
+      "normalized_sha256": "102ead37415881a8cbe86185a926e4c688a462a4d2800f556df78bf3bed6cee2"
+    },
+    {
+      "slide": 3,
+      "source_path": "carousel-3-source.png",
+      "source_sha256": "a6745f6aa8da6c12caaef783c338ba5e1d398f8e6314634b341e8dd46a7ab666",
+      "normalized_path": "carousel-3.png",
+      "normalized_sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef"
+    }
+  ]
+}

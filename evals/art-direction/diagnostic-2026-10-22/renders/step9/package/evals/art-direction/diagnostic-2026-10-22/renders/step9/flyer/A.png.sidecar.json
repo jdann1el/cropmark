@@ -1,0 +1,23 @@
+{
+  "condition": "A direct imagegen raster final; content not retouched",
+  "copy_editability": "embedded raster lettering; original font unknown",
+  "context": "Noche de vinilos · Sala Taller · 14 nov · 21:00",
+  "source": "flyer/A-source.png",
+  "source_size": [
+    1122,
+    1402
+  ],
+  "crop_box": [
+    0,
+    0,
+    1122,
+    1402
+  ],
+  "output_size": [
+    1080,
+    1350
+  ],
+  "operation": "center crop to target aspect ratio then Lanczos resize",
+  "source_sha256": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f",
+  "output_sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90"
+}

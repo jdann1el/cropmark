@@ -1,0 +1,166 @@
+{
+  "created": "2026-10-27",
+  "scope": "all regular files under renders/step11/package/",
+  "files": [
+    {
+      "path": "package/README.md",
+      "sha256": "32c7a40703bc8d49924b38e447a96d688911f8ecd556722f4cbab1a8fb8d7093",
+      "size_bytes": 926
+    },
+    {
+      "path": "package/baseline/carousel-1-source.png",
+      "sha256": "18ed3fb25747436e36f301604a9d21849908a5a18a14d235feb17092252dcb2f",
+      "size_bytes": 1925286
+    },
+    {
+      "path": "package/baseline/carousel-1.png",
+      "sha256": "438809b8065dbfa508be246525c740cd974a9afbbc9dbbb366e34e6908cab264",
+      "size_bytes": 1693169
+    },
+    {
+      "path": "package/baseline/carousel-2-source.png",
+      "sha256": "fa0c73314e9804b900ea7baebdf595d8e9a0bfab7e8adb99d7fdde1bc235b4fa",
+      "size_bytes": 1885318
+    },
+    {
+      "path": "package/baseline/carousel-2.png",
+      "sha256": "102ead37415881a8cbe86185a926e4c688a462a4d2800f556df78bf3bed6cee2",
+      "size_bytes": 1656501
+    },
+    {
+      "path": "package/baseline/carousel-3-source.png",
+      "sha256": "a6745f6aa8da6c12caaef783c338ba5e1d398f8e6314634b341e8dd46a7ab666",
+      "size_bytes": 2671720
+    },
+    {
+      "path": "package/baseline/carousel-3.png",
+      "sha256": "1f3fb80bc2274a0de485ea6b07dbb9af24b4748619c8daf32ee8fbb449a055ef",
+      "size_bytes": 2319551
+    },
+    {
+      "path": "package/baseline/flyer-A-source.png",
+      "sha256": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f",
+      "size_bytes": 2221534
+    },
+    {
+      "path": "package/baseline/flyer-A.png",
+      "sha256": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+      "size_bytes": 1996385
+    },
+    {
+      "path": "package/baseline/thumbnail-A-source.png",
+      "sha256": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a",
+      "size_bytes": 1959648
+    },
+    {
+      "path": "package/baseline/thumbnail-A.png",
+      "sha256": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1",
+      "size_bytes": 1177589
+    },
+    {
+      "path": "package/carousel/final-1.png",
+      "sha256": "2386ea2f0e0c1bd653e4b3e8755da6ad431112871fb6e8c64089682c0f348930",
+      "size_bytes": 1896697
+    },
+    {
+      "path": "package/carousel/final-2.png",
+      "sha256": "4c1365b66b0f71b3ff8aad68baf5ec998d19c7544550558593a1323e0b3ca862",
+      "size_bytes": 1894595
+    },
+    {
+      "path": "package/carousel/final-3.png",
+      "sha256": "cec7640d708ec147116439a00e1bd361f3f1ff346dc00cb992921d9384524948",
+      "size_bytes": 1559386
+    },
+    {
+      "path": "package/carousel/render.py",
+      "sha256": "9ae693478a56cc960c43bf247bca211033b72b40f07ce919ebcf2967712a2ed4",
+      "size_bytes": 8536
+    },
+    {
+      "path": "package/carousel/sources/base-1.png",
+      "sha256": "059e0148eb67c88eb7145e74801117f9fad35aac9a58b1e1af37e186e40ed0f5",
+      "size_bytes": 2182379
+    },
+    {
+      "path": "package/carousel/sources/base-2.png",
+      "sha256": "1331993640fc41d760953591045c35da31c8f0882935abe056d45613cd125493",
+      "size_bytes": 2191959
+    },
+    {
+      "path": "package/carousel/sources/base-3.png",
+      "sha256": "cd86487b090851d37e2b3011eaf13a4419f71767461d3aae3d859b42001d5bce",
+      "size_bytes": 2089041
+    },
+    {
+      "path": "package/flyer/clean-source-crop.png",
+      "sha256": "56103b4debc58ca81d63c4e93e22047c76149b86c8f456d49be7533777d0e762",
+      "size_bytes": 1576000
+    },
+    {
+      "path": "package/flyer/final.png",
+      "sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+      "size_bytes": 1590499
+    },
+    {
+      "path": "package/flyer/plane-plan.json",
+      "sha256": "6dac0fdc55f9119cb4348cefd77e3d739b95d4fbb62e87d0a212031a02437e77",
+      "size_bytes": 4265
+    },
+    {
+      "path": "package/flyer/render.py",
+      "sha256": "bf99dc81e8d964c163b4fe690dedfe6a4a193676f870f0f908f0a7f5c98ed9fe",
+      "size_bytes": 15692
+    },
+    {
+      "path": "package/fonts/Anton-Regular.ttf",
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+      "size_bytes": 170812
+    },
+    {
+      "path": "package/fonts/InstrumentSans-Bold.ttf",
+      "sha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+      "size_bytes": 68084
+    },
+    {
+      "path": "package/fonts/InstrumentSans-Regular.ttf",
+      "sha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+      "size_bytes": 68028
+    },
+    {
+      "path": "package/fonts/InstrumentSerif-Regular.ttf",
+      "sha256": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99",
+      "size_bytes": 69312
+    },
+    {
+      "path": "package/fonts/licenses/Anton-OFL.txt",
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "size_bytes": 4484
+    },
+    {
+      "path": "package/fonts/licenses/InstrumentSans-OFL.txt",
+      "sha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5",
+      "size_bytes": 4403
+    },
+    {
+      "path": "package/fonts/licenses/InstrumentSerif-OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "size_bytes": 4405
+    },
+    {
+      "path": "package/thumbnail/base-r1-edited-source.png",
+      "sha256": "27a74064a0e4bda097d7a7292e620c7838f9043c1bbf2eaeba14ea2e29d37ae9",
+      "size_bytes": 1882384
+    },
+    {
+      "path": "package/thumbnail/final.png",
+      "sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76",
+      "size_bytes": 893763
+    },
+    {
+      "path": "package/thumbnail/render.py",
+      "sha256": "640bddcbbf20889177aa53a00673a6f20604eea1ffb877110dbb4be6a395e9f4",
+      "size_bytes": 12028
+    }
+  ]
+}

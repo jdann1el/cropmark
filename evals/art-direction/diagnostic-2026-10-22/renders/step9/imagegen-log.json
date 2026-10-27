@@ -1,0 +1,118 @@
+{
+  "global_call_cap": 12,
+  "baseline_calls_planned": 7,
+  "correction_calls_reserved": 5,
+  "calls": [
+    {
+      "global_call": 1,
+      "asset": "B3 slide 1 text-free base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-29cf9f8b-375b-4367-b1c3-986e7e887dfb.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "inspection": "Substantial vessel with complete rising rim and clay coil; calm upper-left and left-center copy field and clear bottom strip. No text, logos, or letter-like marks visible.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-1.png",
+      "sha256": "9ae4c28605cb34e73aa4315fce8a6fe56c925f7df681a739a6881b98793a7736"
+    },
+    {
+      "global_call": 2,
+      "asset": "B3 slide 2 text-free base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-fbdef95c-083c-4aa7-8bd8-eaa584cf0e4d.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "inspection": "Wheel arc and forming vessel with hands on right; calm left copy field and bottom band. Hands look plausible, rim and wheel remain visible; no text, logos, or letter-like marks.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-2.png",
+      "sha256": "53a4770a4f0808d2cbe098494ec49a738a31143eb45011f8800e90b84ddd7bda"
+    },
+    {
+      "global_call": 3,
+      "asset": "B3 slide 3 text-free base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-80351eeb-6d5f-454a-8a40-db644e142698.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "inspection": "Macro clay surface on right with clear thumbprint and incised trace; quiet left field and bottom strip. Detail remains sharp; no text, logos, or letter-like marks.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-3.png",
+      "sha256": "822e4782ec32dfb6294bd508d1e4fb6128846870706d9fd05010be9fc5f1e7f4"
+    },
+    {
+      "global_call": 4,
+      "asset": "Thumbnail A direct final",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-3557382b-534a-417b-bb89-f880733d644a.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "inspection": "Three distinct generic glowing agent tokens face one blank folio across a split; exact overlay 3 AIs. 1 Portfolio. is fully legible. No extra words or obvious third-party logos; the brain, robot, and geometric token icons are generic. Text reaches across the lower half; downstream small-size review remains pending.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A-source.png",
+      "sha256": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a"
+    },
+    {
+      "global_call": 5,
+      "asset": "Thumbnail B clean base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-96a9e5be-cc28-4150-b574-91c9e4af46b4.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "inspection": "Three distinct abstract tokens face one blank folio across the split; quiet dark lower-left/center band is clear for editable copy. No text, labels, or obvious logo marks; silhouettes and folio remain unobscured.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-source.png",
+      "sha256": "d17139ed2ed66be89409644e8ff504145727478b6c6d285029345a37cba7c014"
+    },
+    {
+      "global_call": 6,
+      "asset": "Flyer A direct final",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-45c02264-fe31-4a44-85e5-5334ecda3187.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "inspection": "Vinyl grooves, turntable and tonearm are recognizable; the sleeve carries the exact supplied string in correct order and spelling, with no extra words or obvious logos. Copy and main objects are within frame; downstream 360px review remains pending.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A-source.png",
+      "sha256": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f"
+    },
+    {
+      "global_call": 7,
+      "asset": "Flyer B clean base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-6d3e3102-2a00-4079-9809-3351dc7ec53d.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "inspection": "Blank cream sleeve on upper-left/center-left with calm usable surface; grooved vinyl, platter, and tonearm visible lower-right. No text, labels, or obvious logos.",
+      "copied_to": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B-base-source.png",
+      "sha256": "36f958385a4b80410f3abf9a07ce80fe29cf951cf528122f43979258ac875ba4"
+    },
+    {
+      "global_call": 8,
+      "asset": "Thumbnail B R1 replacement base",
+      "status": "success",
+      "generated_path": "/home/box/.codex/generated_images/01a16ecc-24af-73d2-a651-c18f72257333/exec-53c3b4f1-caed-4aed-b2de-d897290676ec.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "inspection": "Three distinct assistant robots visibly interact with one shared open portfolio grid; clear card-reposition, column-adjust, and spacing gestures make redesign action recognizable. Broad calm dark navy lower-left band is clear; no text, logos, or readable interface marks. No outcome claim implied.",
+      "copied_to": "thumbnail/B-base-R1-source.png",
+      "sha256": "73b6674e64c50f182b9abea23cd3a9191bed134bd852fac0adbcc8464eb51a4b",
+      "byte_identical": true
+    }
+  ],
+  "pending_work": [
+    "T2b: copy generated assets byte-for-byte into S9 piece folders and record hashes/dimensions",
+    "R1 thumbnail B base is available for low-mechanical copy"
+  ],
+  "global_calls_used": 8,
+  "correction_calls_remaining": 4
+}

@@ -1,0 +1,13 @@
+$ python3 skills/cropmark/qa/qa.py post --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R0/post
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "Noche de vinilos" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Noche de vinilos" contrast 7.0:1
+  INFO  "Sala Taller · 14 nov · 21:00" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Sala Taller · 14 nov · 21:00" contrast 7.4:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B.png
+  OK    size (1080, 1350) (want 1080x1350)
+  INFO  "Noche de vinilos" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Noche de vinilos" contrast 8.1:1
+  INFO  "Sala Taller · 14 nov · 21:00" contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "Sala Taller · 14 nov · 21:00" contrast 7.6:1

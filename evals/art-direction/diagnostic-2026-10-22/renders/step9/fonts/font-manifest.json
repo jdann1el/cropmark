@@ -1,0 +1,26 @@
+{
+  "source": "skills/cropmark/fonts (bundled Cropmark OFL assets)",
+  "files": [
+    {
+      "file": "InstrumentSerif-Regular.ttf",
+      "sha256": "56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99"
+    },
+    {
+      "file": "InstrumentSans-Bold.ttf",
+      "sha256": "444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf"
+    },
+    {
+      "file": "InstrumentSans-Regular.ttf",
+      "sha256": "a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87"
+    },
+    {
+      "file": "BricolageGrotesque-Bold.ttf",
+      "sha256": "a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d"
+    }
+  ],
+  "licenses": [
+    "InstrumentSerif-OFL.txt",
+    "InstrumentSans-OFL.txt",
+    "BricolageGrotesque-OFL.txt"
+  ]
+}

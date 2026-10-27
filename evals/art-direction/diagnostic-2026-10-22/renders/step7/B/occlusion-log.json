@@ -1,0 +1,44 @@
+[
+  {
+    "slide": 1,
+    "headline": "La forma / toma cuerpo.",
+    "occluded_ink_fraction": 0.0384,
+    "mask_count": 1,
+    "source": "base-1.png",
+    "output": "slide-1.png",
+    "headline_box": [
+      112,
+      240,
+      656,
+      425
+    ]
+  },
+  {
+    "slide": 2,
+    "headline": "Del giro / nace el borde.",
+    "occluded_ink_fraction": 0.0363,
+    "mask_count": 1,
+    "source": "base-2.png",
+    "output": "slide-2.png",
+    "headline_box": [
+      112,
+      421,
+      685,
+      585
+    ]
+  },
+  {
+    "slide": 3,
+    "headline": "Cada huella / deja memoria.",
+    "occluded_ink_fraction": 0.0,
+    "mask_count": 0,
+    "source": "base-3.png",
+    "output": "slide-3.png",
+    "headline_box": [
+      112,
+      380,
+      703,
+      566
+    ]
+  }
+]

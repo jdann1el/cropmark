@@ -1,0 +1,580 @@
+{
+  "piece": "carousel B4",
+  "source": "Step 8 B2 generated bases; no image_gen calls",
+  "rounds_used": 1,
+  "slides": [
+    {
+      "slide": 1,
+      "final": "B4-1.png",
+      "relation": "Hook: the vessel is an upright portrait panel on the right; headline and support share a separate flat teal field on the left, with the support directly resolving the phrase.",
+      "photo_source": "base-1.png",
+      "photo_box": [
+        550,
+        180,
+        1030,
+        1140
+      ],
+      "surface_case": "flat copy field separate from photo; no photographed surface carries type",
+      "headline_bbox": [
+        76,
+        372,
+        437,
+        534
+      ],
+      "support_bbox": [
+        80,
+        588,
+        421,
+        786
+      ],
+      "headline_to_support_gap_px": 54,
+      "headline_cap_px_master": 59,
+      "headline_to_support_gap_cap_ratio": 0.915,
+      "small_copy_caps_at_360": [
+        14.33,
+        14.0
+      ],
+      "copy_groups": [
+        {
+          "role": "brand",
+          "text": "TALLER BARRO",
+          "editable_text": "TALLER BARRO",
+          "position": [
+            76,
+            70
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            77,
+            84,
+            505,
+            128
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "descriptor",
+          "text": "CERÁMICA",
+          "editable_text": "CERÁMICA",
+          "position": [
+            76,
+            140
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            142,
+            386,
+            198
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "headline",
+          "text": "La forma toma cuerpo.",
+          "editable_text": "La forma\ntoma cuerpo.",
+          "position": [
+            76,
+            350
+          ],
+          "font_file": "InstrumentSerif-Regular.ttf",
+          "font_size": 82,
+          "visible_bbox": [
+            76,
+            372,
+            437,
+            534
+          ],
+          "cap_height_master": 59,
+          "cap_height_at_360": 19.67,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "support",
+          "text": "Una pieza empieza con un gesto.",
+          "editable_text": "Una pieza\nempieza con\nun gesto.",
+          "position": [
+            78,
+            572
+          ],
+          "font_file": "InstrumentSans-Regular.ttf",
+          "font_size": 60,
+          "visible_bbox": [
+            80,
+            588,
+            421,
+            786
+          ],
+          "cap_height_master": 43,
+          "cap_height_at_360": 14.33,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "action",
+          "text": "EXPLORA EL TALLER",
+          "editable_text": "EXPLORA EL\nTALLER",
+          "position": [
+            76,
+            850
+          ],
+          "font_file": "InstrumentSans-Regular.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            864,
+            425,
+            974
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        }
+      ],
+      "headline_support_copy_exact": true,
+      "action_treatment": "plain text"
+    },
+    {
+      "slide": 2,
+      "final": "B4-2.png",
+      "relation": "Process: a full-width action photograph leads, followed by a separate flat teal copy field; the headline and support sit as one compact group in the lower band.",
+      "photo_source": "base-2.png",
+      "photo_box": [
+        0,
+        0,
+        1080,
+        590
+      ],
+      "surface_case": "flat copy field separate from photo; no photographed surface carries type",
+      "headline_bbox": [
+        77,
+        794,
+        520,
+        967
+      ],
+      "support_bbox": [
+        78,
+        1025,
+        573,
+        1135
+      ],
+      "headline_to_support_gap_px": 58,
+      "headline_cap_px_master": 70,
+      "headline_to_support_gap_cap_ratio": 0.829,
+      "small_copy_caps_at_360": [
+        14.0,
+        14.0
+      ],
+      "copy_groups": [
+        {
+          "role": "brand",
+          "text": "TALLER BARRO",
+          "editable_text": "TALLER BARRO",
+          "position": [
+            76,
+            620
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            77,
+            634,
+            505,
+            678
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "descriptor",
+          "text": "CERÁMICA",
+          "editable_text": "CERÁMICA",
+          "position": [
+            76,
+            685
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            687,
+            386,
+            743
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "headline",
+          "text": "Del giro nace el borde.",
+          "editable_text": "Del giro\nnace el borde.",
+          "position": [
+            76,
+            770
+          ],
+          "font_file": "InstrumentSerif-Regular.ttf",
+          "font_size": 96,
+          "visible_bbox": [
+            77,
+            794,
+            520,
+            967
+          ],
+          "cap_height_master": 70,
+          "cap_height_at_360": 23.33,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "support",
+          "text": "El torno acompaña cada movimiento.",
+          "editable_text": "El torno acompaña\ncada movimiento.",
+          "position": [
+            76,
+            1010
+          ],
+          "font_file": "InstrumentSans-Regular.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            1025,
+            573,
+            1135
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "action",
+          "text": "SIGUE EL PROCESO",
+          "editable_text": "SIGUE EL PROCESO",
+          "position": [
+            76,
+            1195
+          ],
+          "font_file": "InstrumentSans-Regular.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            1209,
+            620,
+            1253
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        }
+      ],
+      "headline_support_copy_exact": true,
+      "action_treatment": "plain text"
+    },
+    {
+      "slide": 3,
+      "final": "B4-3.png",
+      "relation": "Close: the clay trace is isolated in an offset upper-left photograph window while the large phrase and support resolve below on a flat teal field; only the final action receives a fine underline/arrow.",
+      "photo_source": "base-3.png",
+      "photo_box": [
+        550,
+        145,
+        1030,
+        585
+      ],
+      "surface_case": "flat copy field separate from photo; no photographed surface carries type",
+      "headline_bbox": [
+        79,
+        674,
+        563,
+        875
+      ],
+      "support_bbox": [
+        83,
+        910,
+        577,
+        1031
+      ],
+      "headline_to_support_gap_px": 35,
+      "headline_cap_px_master": 73,
+      "headline_to_support_gap_cap_ratio": 0.479,
+      "small_copy_caps_at_360": [
+        14.0,
+        14.0
+      ],
+      "copy_groups": [
+        {
+          "role": "brand",
+          "text": "TALLER BARRO",
+          "editable_text": "TALLER BARRO",
+          "position": [
+            76,
+            70
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            77,
+            84,
+            505,
+            128
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "descriptor",
+          "text": "CERÁMICA",
+          "editable_text": "CERÁMICA",
+          "position": [
+            76,
+            140
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            78,
+            142,
+            386,
+            198
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "headline",
+          "text": "Cada huella deja memoria.",
+          "editable_text": "Cada huella\ndeja memoria.",
+          "position": [
+            76,
+            650
+          ],
+          "font_file": "InstrumentSerif-Regular.ttf",
+          "font_size": 100,
+          "visible_bbox": [
+            79,
+            674,
+            563,
+            875
+          ],
+          "cap_height_master": 73,
+          "cap_height_at_360": 24.33,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "support",
+          "text": "Un rastro queda en la superficie.",
+          "editable_text": "Un rastro queda en\nla superficie.",
+          "position": [
+            78,
+            895
+          ],
+          "font_file": "InstrumentSans-Regular.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            83,
+            910,
+            577,
+            1031
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": false
+        },
+        {
+          "role": "action",
+          "text": "MIRA LAS PIEZAS",
+          "editable_text": "MIRA LAS PIEZAS",
+          "position": [
+            76,
+            1180
+          ],
+          "font_file": "InstrumentSans-Bold.ttf",
+          "font_size": 58,
+          "visible_bbox": [
+            79,
+            1194,
+            563,
+            1238
+          ],
+          "cap_height_master": 42,
+          "cap_height_at_360": 14.0,
+          "ink_srgb": [
+            247,
+            243,
+            232
+          ],
+          "contrast_ratio_on_flat_field": 14.177,
+          "effects": {
+            "shadow": false,
+            "stroke": false,
+            "panel": false
+          },
+          "underline": true
+        }
+      ],
+      "headline_support_copy_exact": true,
+      "action_treatment": "thin underline and open arrow"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "round": "R1",
+  "piece": "flyer",
+  "defect": "R0 sleeve top edge slopes down-right while bottom edge slopes up-right; the required same-sign visible angle check fails.",
+  "affected_region": "Record sleeve outline and surrounding whole photograph.",
+  "principal_change": "Re-render the clean scene from a more oblique physical camera orientation so the sleeve is a coherent perspective quadrilateral with both horizontal edges sloping down-right; keep the whole photograph coherent.",
+  "expected_effect": "Top and bottom sleeve edges both exceed 5 degrees with the same slope sign; sleeve-side keystone reaches at least 4 percent; all corners remain visible.",
+  "actual_image": "flyer/rounds/R0/clean-source.png",
+  "observed_result": "R1 output retained at flyer/rounds/R1/clean-source.png and visually inspected. The top edge slopes down-right; the bottom edge still slopes up-right, so it does not fix the same-sign requirement. The generated photo is preserved and not selected as the T7 clean source.",
+  "call_ordinal": 6
+}

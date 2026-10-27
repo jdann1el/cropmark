@@ -1,0 +1,25 @@
+{
+  "required_title": "Noche de vinilos",
+  "rendered_title": "Noche de vinilos",
+  "title_lines": [
+    "Noche de",
+    "vinilos"
+  ],
+  "required_metadata": "Sala Taller · 14 nov · 21:00",
+  "rendered_metadata": "Sala Taller · 14 nov · 21:00",
+  "separator_character": "·",
+  "separator_count": 2,
+  "leading_or_trailing_separator_lines": [],
+  "isolated_separator": false,
+  "slash_characters": 0,
+  "missing_or_extra_words": [],
+  "text_rendered_into_plane": "PASS",
+  "copy_content": "PASS",
+  "metadata_line_rectified_ink_bbox": [
+    119,
+    1400,
+    1886,
+    1562
+  ],
+  "metadata_chars": 28
+}

@@ -1,0 +1,139 @@
+{
+  "assets": [
+    {
+      "asset": "B3 slide 1 text-free base",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-1.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "sha256": "9ae4c28605cb34e73aa4315fce8a6fe56c925f7df681a739a6881b98793a7736"
+    },
+    {
+      "asset": "B3 slide 2 text-free base",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-2.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "sha256": "53a4770a4f0808d2cbe098494ec49a738a31143eb45011f8800e90b84ddd7bda"
+    },
+    {
+      "asset": "B3 slide 3 text-free base",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/base-3.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "sha256": "822e4782ec32dfb6294bd508d1e4fb6128846870706d9fd05010be9fc5f1e7f4"
+    },
+    {
+      "asset": "Thumbnail A direct final",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A-source.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "sha256": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a"
+    },
+    {
+      "asset": "Thumbnail B clean base",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-source.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "sha256": "d17139ed2ed66be89409644e8ff504145727478b6c6d285029345a37cba7c014"
+    },
+    {
+      "asset": "Flyer A direct final",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A-source.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "sha256": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f"
+    },
+    {
+      "asset": "Flyer B clean base",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B-base-source.png",
+      "dimensions_px": [
+        1122,
+        1402
+      ],
+      "sha256": "36f958385a4b80410f3abf9a07ce80fe29cf951cf528122f43979258ac875ba4"
+    },
+    {
+      "asset": "Thumbnail B R1 source",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-R1-source.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "sha256": "73b6674e64c50f182b9abea23cd3a9191bed134bd852fac0adbcc8464eb51a4b"
+    },
+    {
+      "asset": "R1 comparative sheet: carousel-AB3-feed.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/carousel-AB3-feed.png",
+      "dimensions_px": [
+        1212,
+        1434
+      ],
+      "sha256": "e983f5749b48bc3f60dce2d90aee73f9575a6d3c34098d8bff8eff5f5f25f926"
+    },
+    {
+      "asset": "R1 comparative sheet: thumb-AB.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumb-AB.png",
+      "dimensions_px": [
+        2560,
+        720
+      ],
+      "sha256": "e44c7af24371548e8ab3b235783caeeedc9965827cda72b84881f4715c3e4b84"
+    },
+    {
+      "asset": "R1 comparative sheet: thumb-AB-360.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumb-AB-360.png",
+      "dimensions_px": [
+        720,
+        203
+      ],
+      "sha256": "5eb81e23048180f5c847aa02d0dc6767ab56a24db121c6693e725001807ec964"
+    },
+    {
+      "asset": "R1 comparative sheet: thumb-AB-320.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumb-AB-320.png",
+      "dimensions_px": [
+        640,
+        180
+      ],
+      "sha256": "c0a727f75ddda16c29f3a7455add4ab5a09e4aac53340b01bb788b9a449b30e7"
+    },
+    {
+      "asset": "R1 comparative sheet: thumb-AB-168.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumb-AB-168.png",
+      "dimensions_px": [
+        336,
+        95
+      ],
+      "sha256": "e61f0eb839ee881dbbccc64572c0bc0ead9664e817b9a3ace4e0f3425aa3be72"
+    },
+    {
+      "asset": "R1 comparative sheet: flyer-AB.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer-AB.png",
+      "dimensions_px": [
+        2160,
+        1350
+      ],
+      "sha256": "837022339acb9979fcf8e98344a23893483e0466be8e51382a99f26bb3843a89"
+    },
+    {
+      "asset": "R1 comparative sheet: flyer-AB-360.png",
+      "repo_path": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer-AB-360.png",
+      "dimensions_px": [
+        720,
+        450
+      ],
+      "sha256": "e5016870fc01fcd42cc75b9fa33d8b872c4fc91834a9cf34612acb2c6d16c6b6"
+    }
+  ]
+}

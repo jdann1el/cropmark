@@ -1,0 +1,9 @@
+$ python3 skills/cropmark/qa/qa.py thumb --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-R1.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R1/thumb-pair
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png
+  OK    size (1280, 720) (want 1280x720)
+  INFO  "3 AIs. 1 Portfolio." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "3 AIs. 1 Portfolio." contrast 15.9:1
+== evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-R1.png
+  OK    size (1280, 720) (want 1280x720)
+  INFO  "3 AIs. 1 Portfolio." contrast uses surrounding-background estimate; inspect photo/gradient visually
+  OK    "3 AIs. 1 Portfolio." contrast 17.8:1

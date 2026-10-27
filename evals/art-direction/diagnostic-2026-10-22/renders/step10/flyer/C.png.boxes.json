@@ -1,0 +1,47 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "text_free": false,
+  "condition": "C2: editable text projected onto sleeve plane",
+  "copy": "Noche de vinilos · Sala Taller · 14 nov · 21:00",
+  "boxes": [
+    {
+      "role": "headline",
+      "text": "Noche de vinilos",
+      "box": [
+        101,
+        179,
+        638,
+        404
+      ],
+      "size": 124,
+      "font_effective": "BricolageGrotesque-Bold.ttf",
+      "fill": [
+        59,
+        44,
+        36
+      ],
+      "method": "glyph mask projected with sleeve homography"
+    },
+    {
+      "role": "metadata",
+      "text": "· Sala Taller · 14 nov · 21:00",
+      "box": [
+        91,
+        556,
+        701,
+        634
+      ],
+      "size": 64,
+      "font_effective": "InstrumentSans-Regular.ttf",
+      "fill": [
+        59,
+        44,
+        36
+      ],
+      "method": "glyph mask projected with sleeve homography"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "round": "R3",
+  "piece": "carousel",
+  "defect": "Initial contact sheet showed tight headline/support spacing; slide 3's thumb impression lacked enough feed-size emphasis.",
+  "affected_region": "Slides 1–3 type groups; slide 3 crop and closing subject.",
+  "principal_change": "Reposition support copy for clear separation, move slide 2's support lower, and crop the existing B2 slide-3 clean photograph toward the ceramic trace. Keep a single unboxed underlined CTA on slide 3.",
+  "expected_effect": "Distinct image–headline relationships, one action only, and a closing trace that remains identifiable at 360 px without text collision.",
+  "actual_image": "carousel/final-{1,2,3}.png",
+  "observed_result": "Rendered and viewed the full 360 px contact sheet. Copy is separated and the enlarged trace reads visibly at feed size. The 90 px master trace threshold was not independently measured; this remains a verifier gate. No image generation used.",
+  "imagegen_calls": 0,
+  "correction_rounds_used": 3
+}

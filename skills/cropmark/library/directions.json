@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "directions": [
+    {
+      "id": "stakes-stack",
+      "name": "Tres planos, una apuesta",
+      "formats": [
+        "thumbnail"
+      ],
+      "device": "stakes stack",
+      "idea": "La promesa se vuelve una escena de tres planos: quién está dentro, qué objeto importa y qué contexto pone algo en juego. Busca en el inventario una persona, un objeto y una consecuencia visual; no añadas copy que repita la escena.",
+      "inventory_prompts": [
+        "la persona con una reacción real",
+        "el objeto que cambia la situación",
+        "el riesgo o resultado permitido por el brief"
+      ],
+      "composition": {
+        "thumbnail": "Persona y coche/objeto ocupan lados opuestos; la cara queda en un tercio exterior y gesto/mirada conecta los dos héroes [E, A-4, refs 01/04]; cara 15–32%W o 68–85%W y 35–62%H cuando hay un solo host [M, A-1/A-2].",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "not studied — compose from formats/carousel.md"
+      },
+      "needs": [
+        "face-photo",
+        "product-photo"
+      ],
+      "styles": [
+        "cinematic-stakes"
+      ],
+      "seenIn": [
+        "bh01-car-niche",
+        "bh04-youtube-oblozhki"
+      ],
+      "tones": [
+        "loud",
+        "warm"
+      ],
+      "avoid_when": "El brief no aporta una persona, un objeto concreto o una consecuencia visual que pueda mostrarse sin inventar una afirmación.",
+      "pitfalls": "No repitas una plantilla de cara recortada en todas las piezas; deja claros los dos héroes y evita props que no expliquen la apuesta (styles/cinematic-stakes.md).",
+      "set_continuity": null,
+      "evidence": "2 exemplars (01, 04; thumbnail). Face placement is detector-measured [M, A-1/A-2]; two-hero relation is estimated [E, A-4]. No post/carousel study."
+    },
+    {
+      "id": "face-plus-proof",
+      "name": "Una persona y una prueba",
+      "formats": [
+        "thumbnail"
+      ],
+      "device": "stakes stack",
+      "idea": "Una persona sostiene o mira una prueba visible —una pantalla, saldo o gráfico real— y un titular breve nombra qué está en juego. Pregunta qué objeto del inventario demuestra la idea de forma verificable.",
+      "inventory_prompts": [
+        "la persona o gesto propio del brief",
+        "la prueba visual disponible (screenshot/product UI)",
+        "el único número o resultado permitido"
+      ],
+      "composition": {
+        "thumbnail": "Persona en un tercio exterior; stack de 2 líneas y 2–5 palabras más un objeto de prueba en el lado opuesto; mano/mirada enlaza ambos [M/E, A-1/A-4, ref 03].",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "not studied — compose from formats/carousel.md"
+      },
+      "needs": [
+        "face-photo",
+        "screenshot"
+      ],
+      "styles": [
+        "ui-hero"
+      ],
+      "seenIn": [
+        "bh03-trading-thumbnails"
+      ],
+      "tones": [
+        "techy",
+        "loud"
+      ],
+      "avoid_when": "No existe una persona adecuada o el brief no permite mostrar una prueba real; no inventes cifras, saldos ni resultados.",
+      "pitfalls": "La UI debe parecer una prueba auténtica y no un panel decorativo; no copies el glow ni cifras de trading (styles/ui-hero.md; ref 03).",
+      "set_continuity": null,
+      "evidence": "1 exemplar (03; thumbnail), face position/size [M, A-1/A-2] and the proof-object relation [E, A-4]. No post/carousel study."
+    },
+    {
+      "id": "split-contrast",
+      "name": "Dos mitades que se responden",
+      "formats": [
+        "thumbnail",
+        "carousel"
+      ],
+      "device": "contrast",
+      "idea": "Dos estados o fuerzas ocupan zonas distintas y la costura entre ellas hace legible la diferencia. Busca dos elementos reales del inventario que se puedan comparar sin añadir un ganador que el brief no afirma.",
+      "inventory_prompts": [
+        "el antes y después",
+        "dos objetos o condiciones en contraste",
+        "la división visual que pertenece al tema"
+      ],
+      "composition": {
+      "thumbnail": "Divide 50/50 entre rostro y título/escena o amenaza; deja los ojos despejados [E, ref 02, A-4].",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "Fotografía a sangre dividida por una costura vertical (65/35 o 25/75); el seam varía y el header/bloque de copy permanece fijo [E, C-1/C-5, ref 05]. La fuente 05 fuerza-justifica líneas cortas; esa operación no se transfiere por defecto [T-6]."
+      },
+      "needs": [
+        "face-photo",
+        "product-photo"
+      ],
+      "styles": [
+        "split-transformation",
+        "horror-mystery"
+      ],
+      "seenIn": [
+        "bh02-viral-horror",
+        "bh05-laguna"
+      ],
+      "tones": [
+        "loud",
+        "editorial"
+      ],
+      "avoid_when": "La comparación es inventada, el brief pide una sola idea o la diferencia no se entiende sin explicación extensa.",
+      "pitfalls": "La costura debe expresar una diferencia real; no tapes ojos ni fuerces la justificación para rellenar una mitad (styles/split-transformation.md; ref 05).",
+      "set_continuity": "En carrusel, conservar las posiciones del header y del grupo de texto; dejar que cambie la división de imagen si ayuda a la comparación.",
+      "evidence": "2 references: 02 thumbnail [E, A-4]; 05 carousel [E, C-1/C-5]. Both are mixed; ref 05 documents forced-justification as a counter-pattern [T-6]."
+    },
+    {
+      "id": "object-metaphor",
+      "name": "Un objeto, una transformación",
+      "formats": [
+        "post"
+      ],
+      "device": "absurd placement",
+      "idea": "Un objeto que pertenece al tema cambia de una sola manera imposible y expresa el mensaje sin convertirse en una colección de símbolos. Pregunta qué cosa del inventario podría transformarse para hacer visible la tensión.",
+      "inventory_prompts": [
+        "el objeto que identifica al sujeto",
+        "su material o función",
+        "la tensión concreta del mensaje"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "Un objeto centrado ocupa ≈35–45%H sobre un campo de un solo tono; texto editorial pequeño y estrecho, con ≈70% del canvas vacío [E, F-1/F-2, ref 10].",
+        "carousel": "not studied — compose from formats/carousel.md"
+      },
+      "needs": [
+        "gen-image"
+      ],
+      "styles": [
+        "surreal-object"
+      ],
+      "seenIn": [
+        "bh10-object-study",
+        "bh09-blu-black"
+      ],
+      "tones": [
+        "premium",
+        "warm"
+      ],
+      "avoid_when": "El mensaje exige una lista, varios datos o una cara reconocible; una metáfora no debe sustituir información obligatoria.",
+      "pitfalls": "Usa una sola transformación y una sola luz con sombra de contacto; no tomes los objetos-metáfora de la referencia ni añadas props explicativos (styles/surreal-object.md; refs 09/10).",
+      "set_continuity": null,
+      "evidence": "1 exemplar (10; post, presentation boards, weight 0.7) plus partial object/mascot evidence (09; carousel). Post geometry [E, F-1/F-2]."
+    },
+    {
+      "id": "product-monument",
+      "name": "El producto como acontecimiento",
+      "formats": [
+        "post",
+        "carousel"
+      ],
+      "device": "product-hero",
+      "idea": "El producto ocupa el lugar de la imagen y el texto se ordena alrededor de su detalle reconocible. Pregunta qué rasgo real del producto merece escala, borde o una base física.",
+      "inventory_prompts": [
+        "el producto real y su silueta",
+        "el detalle que lo diferencia",
+        "las especificaciones aprobadas y sus unidades"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "Un producto grande (≥50% del área o sangrando por ≥2 bordes), título en el 25–35% superior y hasta cuatro chips simétricos que no cubran el detalle [E, B-1/B-2/B-3, refs 13/18].",
+        "carousel": "Repetir la relación producto grande + título arriba + especificaciones; cuando exista CTA, compartir baseline con URL/badges [E, B-1/B-4, refs 06/13/18]."
+      },
+      "needs": [
+        "product-photo",
+        "screenshot"
+      ],
+      "styles": [
+        "product-hero-dark",
+        "ui-hero"
+      ],
+      "seenIn": [
+        "bh06-earthquake-app",
+        "bh13-next-gen-gadget",
+        "bh17-savory-spot",
+        "bh18-commercial-gadgets"
+      ],
+      "tones": [
+        "techy",
+        "premium",
+        "loud"
+      ],
+      "avoid_when": "No existe foto, screenshot o dibujo honesto del producto, o el brief no aporta especificaciones verificables.",
+      "pitfalls": "Producto/UI no equivale a decoración: conserva su detalle clave; verifica todos los chips y alineaciones. Ref 17 es counter-example por decoración excesiva y colisión con el plato (B-3, E-4; styles/product-hero-dark.md).",
+      "set_continuity": "Mantener el producto como primer foco, la jerarquía de specs y el tratamiento de luz; variar el producto/ángulo solo cuando la secuencia lo justifique.",
+      "evidence": "3 references in family B (06, 13, 18; tags B-1…B-4); ref 17 is a food counter-example for excess decoration and product collision [E-1/E-4]."
+    },
+    {
+      "id": "brand-asset-huge",
+      "name": "La marca como forma",
+      "formats": [
+        "post",
+        "carousel"
+      ],
+      "device": "brand-asset-huge",
+      "idea": "Un recurso de marca propio —forma, símbolo, palabra o patrón— se vuelve la imagen y hace que el copy acompañe. Usa solo un activo que el cliente haya proporcionado; si no existe, busca un objeto del inventario en otra dirección.",
+      "inventory_prompts": [
+        "el símbolo o forma aprobada de marca",
+        "el gesto visual que el cliente ya usa",
+        "el producto que puede convivir con ese activo"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "El activo propio puede sangrar por uno o varios bordes; el copy queda pequeño cuando el asset ya identifica la pieza [E, G-1/G-2, refs 15/20].",
+        "carousel": "Repetir el asset de marca y una paleta limitada; se puede cruzar delante/detrás de una ventana fotográfica [E, G-1/G-3/G-4, refs 16/20/21]."
+      },
+      "needs": [
+        "brand-asset"
+      ],
+      "styles": [
+        "brand-color-block",
+        "brand-shape-mask"
+      ],
+      "seenIn": [
+        "bh09-blu-black",
+        "bh15-crove",
+        "bh16-top-brasil",
+        "bh20-coca-cola-concept",
+        "bh21-blu-main"
+      ],
+      "tones": [
+        "loud",
+        "premium",
+        "warm"
+      ],
+      "avoid_when": "No hay activo de marca autorizado o el encargo busca una idea de contenido independiente de la identidad.",
+      "pitfalls": "No reconstruyas ni uses marcas ajenas; evita que el logo grande compita con un segundo titular (U-11, G-1/G-2; styles/brand-shape-mask.md).",
+      "set_continuity": "Mantener el activo, la paleta y su escala; alternar foto/tipo solo si el sistema lo sostiene.",
+      "evidence": "5 references across G-brand, E-food and C-editorial; strongest crop/overlap evidence is 20 [E, G-1/G-4], with 15/16/09/21 as related brand-asset cases."
+    },
+    {
+      "id": "type-is-the-image",
+      "name": "La frase ocupa el escenario",
+      "formats": [
+        "carousel"
+      ],
+      "device": "type-as-image",
+      "idea": "La tipografía se convierte en el foco mediante escala, ritmo o collage subordinado, no por adornos añadidos. Busca una frase del inventario que soporte lectura a gran tamaño y un corte que preserve su sentido.",
+      "inventory_prompts": [
+        "la frase más propia del brief",
+        "la palabra que puede tomar escala",
+        "un artefacto o recorte que apoye sin repetir el copy"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "Usar headline condensado/grotesk en una measure amplia, con leading apretado; collage monocromo/duotono puede quedar detrás [E, C-2/C-4, refs 08/11/21]. No forzar la justificación por defecto [T-6]."
+      },
+      "needs": [
+        "none"
+      ],
+      "styles": [
+        "editorial-maximal-yellow",
+        "zine-collage"
+      ],
+      "seenIn": [
+        "bh08-fabio-malvezzi",
+        "bh11-estudio-mona",
+        "bh21-blu-main"
+      ],
+      "tones": [
+        "loud",
+        "editorial"
+      ],
+      "avoid_when": "El copy es demasiado largo o factual para una frase protagonista, o la legibilidad depende de justificar líneas cortas.",
+      "pitfalls": "Las líneas no deben perder la unidad de frase; collage y micro-labels se vuelven ruido sin patrón. T-6 queda opt-in por petición explícita del brief.",
+      "set_continuity": "Mantener la familia tipográfica, jerarquía y una pauta de color; alternar láminas con y sin imagen solo cuando la secuencia sostenga el cambio.",
+      "evidence": "3 carousel references: 08, 11 and 21 [E, C-2/C-4]; all three include forced-justification counter-examples [C-6/T-6]."
+    },
+    {
+      "id": "frame-system",
+      "name": "Marco fijo, contenido variable",
+      "formats": [
+        "carousel"
+      ],
+      "device": "frame system",
+      "idea": "Un header/footer constante crea una estructura de campaña mientras la prueba o el color cambia dentro del marco. Busca qué dato real puede repetirse como chrome sin convertirse en un adorno.",
+      "inventory_prompts": [
+        "nombre/tema que debe acompañar cada slide",
+        "número de página o CTA real",
+        "el contenido que cambia para demostrar cada paso"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "Header/footer pequeños en la misma posición sobre todas las slides; reservar el área interior al contenido y mantener la secuencia dentro de una paleta [M/E, C-1/C-5, refs 06/08/12/14]."
+      },
+      "needs": [
+        "none"
+      ],
+      "styles": [
+        "cinematic-editorial",
+        "zine-collage"
+      ],
+      "seenIn": [
+        "bh06-earthquake-app",
+        "bh08-fabio-malvezzi",
+        "bh12-verdent-real-estate",
+        "bh14-mind-body"
+      ],
+      "tones": [
+        "techy",
+        "editorial",
+        "calm"
+      ],
+      "avoid_when": "No hay información real que necesite repetirse o el contenido necesita ocupar el marco completo en cada slide.",
+      "pitfalls": "El chrome debe tener función y respetar un eje; si la plantilla gana al contenido, reduce sus piezas (C-1/U-3; refs 06/08/12/14).",
+      "set_continuity": "Fijar posiciones y márgenes del header/footer; variar la imagen, campo de color o prueba de cada slide.",
+      "evidence": "4 carousel references: 08 margins [M, C-1], 12 OCR frame [M], 06 app footer and 14 repeated cue [E, C-1/C-5]."
+    },
+    {
+      "id": "photo-quiet-zone",
+      "name": "Copy en la zona tranquila",
+      "formats": [
+        "post",
+        "carousel"
+      ],
+      "device": "reveal",
+      "idea": "La foto contiene el espacio para el mensaje: el copy se coloca donde la imagen ya es calmada y la fotografía completa lo que las palabras no dicen. Busca una foto propia con una región legible antes de pensar en una caja.",
+      "inventory_prompts": [
+        "una foto propia o autorizada",
+        "la zona visual uniforme de esa foto",
+        "el detalle que el copy no debería tapar"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "Titular sobre la región más tranquila de una foto full-bleed, sin caja; elegir primero la zona y usar solo oscurecimiento local si hace falta [E, D-3, ref 07].",
+        "carousel": "Mantener grade/tipografía y mover el bloque de texto para seguir el área calma de cada foto; conservar chrome cuando exista [E, E-2/C-5, refs 12/14/19]."
+      },
+      "needs": [
+        "product-photo"
+      ],
+      "styles": [
+        "cinematic-editorial",
+        "luxury-realestate",
+        "dark-food-punchline"
+      ],
+      "seenIn": [
+        "bh07-nutricionista",
+        "bh12-verdent-real-estate",
+        "bh14-mind-body",
+        "bh19-kings-cafe"
+      ],
+      "tones": [
+        "calm",
+        "warm",
+        "premium"
+      ],
+      "avoid_when": "No existe una foto propia/licenciada con suficiente región tranquila o la imagen no añade información al mensaje.",
+      "pitfalls": "Selecciona y encuadra la imagen antes de añadir overlays; una caja puede competir y el texto no debe tapar cara/producto (D-3/U-8; styles/cinematic-editorial.md).",
+      "set_continuity": "Mantener tratamiento de foto y tipografía; permitir que la posición del bloque siga el área calma de cada foto.",
+      "evidence": "4 4:5 campaign references: 07 photo posts [E, D-3], 12/19 photo-led sequences [E, C-5/E-2], 14 includes photo examples [E, D-3]."
+    },
+    {
+      "id": "artefact-in-scene",
+      "name": "El objeto real lleva el texto",
+      "formats": [
+        "thumbnail",
+        "post",
+        "carousel"
+      ],
+      "device": "absurd placement",
+      "idea": "El texto se imprime, aparece o se sostiene sobre un artefacto que ya pertenece al mundo del sujeto. Busca una superficie real del inventario —señal, recibo, etiqueta, pantalla— que pueda llevar esa información sin parecer una caja añadida.",
+      "inventory_prompts": [
+        "un recibo, ticket, señal, menú o etiqueta real",
+        "una pantalla autorizada",
+        "la frase funcional que debe aparecer ahí"
+      ],
+      "composition": {
+        "thumbnail": "Texto breve integrado en una señal del escenario, con el objeto y la escena legibles [E, ref 02, 02-02].",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "Usar un recibo o tarjeta física como soporte de copy; el artefacto debe pertenecer a la escena [E, C-4, refs 09-03/19-06]."
+      },
+      "needs": [
+        "none"
+      ],
+      "styles": [
+        "text-in-scene"
+      ],
+      "seenIn": [
+        "bh02-viral-horror",
+        "bh09-blu-black",
+        "bh19-kings-cafe"
+      ],
+      "tones": [
+        "editorial",
+        "warm",
+        "loud"
+      ],
+      "avoid_when": "El cliente no tiene un artefacto propio y la alternativa obligaría a inventar interfaz, copy funcional o señalética.",
+      "pitfalls": "No conviertas un panel genérico en un objeto; perspectiva, mano/contacto o material deben dejar claro por qué ese texto está allí (C-4; styles/text-in-scene.md).",
+      "set_continuity": null,
+      "evidence": "3 specific examples: sign in 02-02, held browser card in 09-03, receipt in 19-06 [E, C-4 for the two 4:5 examples]."
+    },
+    {
+      "id": "across-the-swipe",
+      "name": "Una forma que continúa",
+      "formats": [
+        "carousel"
+      ],
+      "device": "reveal",
+      "idea": "Una palabra, imagen o frase continúa entre slides y convierte el gesto de avanzar en parte del argumento. Busca un elemento suficientemente simple para seguir legible en cada corte y en la hoja de feed.",
+      "inventory_prompts": [
+        "una palabra clave",
+        "una imagen o línea que pueda continuar",
+        "el momento de cambio entre dos slides"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "Cortar una palabra/frase por el borde derecho o hacer que un solo término atraviese varias slides; verificar lectura individual y de conjunto [E, C-5, refs 08/14]."
+      },
+      "needs": [
+        "none"
+      ],
+      "styles": [
+        "seamless-panorama"
+      ],
+      "seenIn": [
+        "bh08-fabio-malvezzi",
+        "bh14-mind-body"
+      ],
+      "tones": [
+        "editorial",
+        "loud"
+      ],
+      "avoid_when": "Cada slide debe funcionar como mensaje independiente o el corte vuelve ilegible el copy obligatorio.",
+      "pitfalls": "No uses continuidad como efecto sin propósito; conserva un fragmento comprensible en cada slide y revisa el feed completo (C-5; styles/seamless-panorama.md).",
+      "set_continuity": "La palabra/imagen continúa sobre el mismo eje o plano; el color y la tipografía mantienen la conexión entre slides.",
+      "evidence": "2 carousel references: cropped text continuation in 08 and «LOADING» across three slides in 14 [E, C-5]."
+    },
+    {
+      "id": "duel",
+      "name": "Dos fuerzas, una decisión",
+      "formats": [
+        "thumbnail",
+        "post",
+        "carousel"
+      ],
+      "device": "duel",
+      "idea": "Dos objetos o fuerzas se miran de frente y el espacio entre ellos hace visible una diferencia o decisión. Busca dos elementos presentes en el inventario y deja que el brief, no la composición, determine si uno gana.",
+      "inventory_prompts": [
+        "dos productos, estados o fuerzas nombrados en el brief",
+        "la diferencia real entre ambos",
+        "el objeto o gesto que conecta su tensión"
+      ],
+      "composition": {
+        "thumbnail": "not studied — compose from formats/thumbnail.md",
+        "post": "not studied — compose from formats/post.md",
+        "carousel": "not studied — compose from formats/carousel.md"
+      },
+      "needs": [
+        "none"
+      ],
+      "styles": [
+        "split-transformation",
+        "horror-mystery"
+      ],
+      "seenIn": [],
+      "tones": [
+        "loud",
+        "techy",
+        "editorial"
+      ],
+      "avoid_when": "El encargo solo nombra un sujeto, no aporta una diferencia verificable o no permite insinuar un ganador.",
+      "pitfalls": "No inventes un conflicto o ganador; dos focos deben distinguirse y la mirada/gesto debe establecer una relación. Es un recurso de techniques/story-in-frame.md, no un layout estudiado.",
+      "set_continuity": "En una secuencia, conservar la relación de lados mientras la comparación avanza; solo aplica si el brief contiene una comparación real.",
+      "evidence": "No studied reference. The device «duel» is already named in techniques/story-in-frame.md; all composition must be composed from formats/<f>.md."
+    }
+  ]
+}

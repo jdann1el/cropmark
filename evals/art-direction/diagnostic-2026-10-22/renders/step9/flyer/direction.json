@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "input": {
+    "format": "post",
+    "brief": "/home/box/Developer/cropmark/skills/cropmark/briefs/example-noche-vinilos-flyer-test.md",
+    "brief_text": "# Cropmark brief — Noche de vinilos flyer (fictional test)\n\nFictional test brief for a fictional Barcelona event. Preserve the full exact copy; do not add facts or claims.\n\n## 1. Job\n\n- Format: post 1080×1350\n- Platform: Instagram feed flyer\n- Language: Spanish\n- Number of pieces: 2 flyer conditions, A and B\n- A/B wanted? yes; compare execution method while holding concept, scene premise, and exact copy constant.\n  - A: one direct image_gen call produces the final raster flyer, including the complete exact supplied copy; no Cropmark skill instructions in the generation prompt.\n  - B: one image_gen text-free base with no letters/logos, then Cropmark code overlay using the same exact copy and premise.\n\n## 2. Copy given, verbatim\n\n- Title / only flyer copy: `Noche de vinilos · Sala Taller · 14 nov · 21:00`\n- Headline: `Noche de vinilos · Sala Taller · 14 nov · 21:00`\n- Supporting copy: none\n- CTA: none\n- Word-cap reference: preserve the exact string and separators; add no other copy.\n\n## 3. Facts allowed\n\nThis is a fictional test. The only allowed copy is the exact supplied string. Add no address, price, year, availability, performers, or other claim.\n\n## 4. Assets that really exist\n\nNo supplied image asset. Use `gen-image`. A is direct image_gen output as the final raster with exact copy requested. B is a text-free image_gen conceptual vinyl-listening base without letters, logos or watermark, then exact Cropmark code overlay using a bundled OFL font. Preserve both generation prompts and outputs.\n\n## 5. Brand locks\n\n- Fixed colours: none\n- Fixed fonts: none; B uses a bundled OFL font and records its file\n- Other identity constraints: fictional test only; no real venue identity or performer likeness\n- Keep in draw: none\n\n```yaml\ncolors: []\ntypography: []\n```\n\n## 6. Subject inventory (8–12 items)\n\nConceptual objects only; do not imply real event logistics beyond the supplied copy.\n\n1. Vinyl record with visible grooves\n2. Turntable platter\n3. Tonearm and stylus\n4. Record sleeve without lettering\n5. Listening chair\n6. Pool of warm lamplight\n7. Hands selecting a record\n8. Circular motion in the record grooves\n\n## 7. Anti-references\n\n- Nearest real competitor/feed, if known: none supplied\n- What this piece must not resemble: a real club announcement with invented address, lineup, price, year, or availability\n\n## 8. Draw\n\n```sh\npython3 skills/cropmark/scripts/draw.py --format post --brief skills/cropmark/briefs/example-noche-vinilos-flyer-test.md --have gen-image --seed 20261026 --options 3\n```\n\n- Seed and three dealt options: to be replaced with the actual post-finalization deal.\n- Chosen direction and one-line reason naming its inventory item: to be recorded from the actual deal.\n- Redraws and reasons, if any: none before generation.\n\n## 9. Idea sentence + competitor test\n\n“In this piece, **the vinyl record's grooves** become **the visual rhythm of a listening event**.” Do not let the idea imply performers or event details not in the copy.\n\n## 10. Concept (3 lines)\n\n- Idea: the physical record and listening gesture make the fictional event legible without extra claims.\n- What the image shows without reading: a grooved record on a turntable, with no visible interface text.\n- Style card selected from the direction: to be recorded from the actual deal.\n\n## 11. Hooks / variants\n\n1. Oversized grooves become the main visual rhythm around the copy.\n2. A hand selects one blank sleeve beside the turntable.\n3. A tonearm and record form a focused listening scene.\n- Selected hook: to be recorded from the actual deal; A and B use the same hook and copy, with only the generation/overlay method changing.\n- For A/B, A is one direct image_gen final raster; B is a text-free image_gen base plus exact Cropmark overlay. No seed rerolls as variants.\n\n## 12. Carousel page plan\n\nNot applicable.\n\n- Set-continuity device: not applicable.\n\n## 13. Log (fill at delivery)\n\n- Direction sheet path and seed: `evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/direction.md`; record deal seed and choice after finalizing this brief.\n- Reference IDs consulted; local images viewed?: no reference pixels; record any read-only visual study separately.\n- Rubric scores: not used as approval evidence\n- Fixes made: none before generation\n- Images used and their sources: none yet; A planned direct image_gen final, B planned text-free image_gen base and exact Cropmark text overlay.\n",
+    "have": [
+      "gen-image"
+    ],
+    "keep": [],
+    "tone": null,
+    "avoid": []
+  },
+  "seed": 20261026,
+  "dealt_options": [
+    "object-metaphor",
+    "duel",
+    "artefact-in-scene"
+  ],
+  "deal_notes": [
+    "Fewer than 3 fresh directions remained; recent picks were allowed to fill the deal."
+  ],
+  "choice": {
+    "direction": "artefact-in-scene",
+    "style": "text-in-scene"
+  },
+  "reason": "La funda de vinilo sin letras del inventario es un soporte plausible para la cadena exacta del evento; mantiene el disco reconocible y reserva la jerarquía para la sala, fecha y hora sin añadir datos.",
+  "redraw_count": 0,
+  "redraw_reasons": []
+}

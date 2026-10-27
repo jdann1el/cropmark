@@ -1,0 +1,1947 @@
+{
+  "version": 1,
+  "studied": "2026-10-22",
+  "source_note": "Cards summarize the 21 Behance project-page studies in per-reference-notes.md, dated 2026-10-22. The 220 studied images were reviewed on contact sheets; measurements retain their source precision and M/E confidence. Tradeoffs and transfer notes are editorial readings, not claims by the designers. No performance/CTR evidence is available. Creator authors are left null because the notes do not verify author attribution.",
+  "refs": [
+    {
+      "n": 1,
+      "id": "bh01-car-niche",
+      "title": "Car Niche YouTube Thumbnails",
+      "url": "https://www.behance.net/gallery/237633435/Car-Niche-YouTube-Thumbnails",
+      "seen": "01-01…01-12; 12 of 16 modules, 1400×788 thumbnails",
+      "formats": [
+        "thumbnail"
+      ],
+      "family": "A-thumbnail",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una persona de reacción y un coche ocupan lados opuestos; la escena compuesta convierte la reacción y el vehículo en una sola historia de riesgo o velocidad.",
+      "device": "stakes stack",
+      "hero": "Composición compuesta en tres planos: persona recortada en primer plano, coche al otro lado y cielo/escena detrás. En primeros planos la cara queda cerca del borde superior y el torso sangra por abajo [E].",
+      "type": "No hay texto en las miniaturas estudiadas.",
+      "colour": "Cada pieza usa un tono saturado dominante para el coche frente a cielo complementario o neutro.",
+      "imagery": "Recortes de persona, coche y props con saturación, claridad y luz de borde coordinadas.",
+      "text": "Sin copy en la miniatura; props y expresión narran.",
+      "containers": null,
+      "carousel": null,
+      "measured": [
+        {
+          "what": "lienzo",
+          "value": "1400×788 px, 16:9",
+          "conf": "M"
+        },
+        {
+          "what": "centro x de cara",
+          "value": "≈ 19–27%W",
+          "conf": "M"
+        },
+        {
+          "what": "altura de cara",
+          "value": "≈ 44–48%H",
+          "conf": "M"
+        },
+        {
+          "what": "coche en composiciones divididas",
+          "value": "≈ 55–60%W",
+          "conf": "E"
+        },
+        {
+          "what": "ojos desde arriba",
+          "value": "≈ 30–40%H",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose two large heroes over extra on-image text.",
+        "Chose repeated close-up framing over variation across the set."
+      ],
+      "borrow": {
+        "composition": "Place a human and a relevant object on opposing sides; let gaze or gesture connect them.",
+        "imagery": "Build depth with a sharp foreground subject, a clear mid-ground object and a quieter scene behind.",
+        "text": "Let the scene carry the premise when the brief does not require copy."
+      },
+      "do_not_take": [
+        "The repeated creator face, specific cars, props or composite scenes.",
+        "Do not add arrows or badges; none appear in the studied thumbnails."
+      ],
+      "weak_spots": [
+        "The same head template repeats across the set."
+      ],
+      "rules": [
+        "A-1",
+        "A-2",
+        "A-3",
+        "A-4",
+        "U-8",
+        "U-9"
+      ],
+      "styles": [
+        "cinematic-stakes"
+      ],
+      "directions": [
+        "stakes-stack"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh01-car-niche",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 2,
+      "id": "bh02-viral-horror",
+      "title": "Viral Horror YouTube Thumbnail Design Collection 2026",
+      "url": "https://www.behance.net/gallery/249818269/Viral-Horror-YouTube-Thumbnail-Design-Collection-2026",
+      "seen": "02-01…02-12; thumbnail examples 02-02, 02-03, 02-10, 02-11; boards, mockups and cover/outro also viewed",
+      "formats": [
+        "thumbnail"
+      ],
+      "family": "A-thumbnail",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una cara amenazada y una señal o escena de peligro se reparten el marco; el contraste frío/cálido hace que el texto parezca pertenecer a la escena.",
+      "device": "contrast",
+      "hero": "Mitad para cara y mitad para título/escena; las miniaturas alternan la cara a izquierda o derecha y mantienen despejado su rostro.",
+      "type": "Titular de dos líneas con display de terror y sans condensada; a veces una tercera línea serif menor.",
+      "colour": "Fondo azul desaturado con texto cálido naranja/amarillo y blanco.",
+      "imagery": "Recorte de persona con luz de borde azul sobre una casa embrujada desaturada; una señal puede llevar el texto.",
+      "text": "Dos líneas y, en ocasiones, una sublínea; el rótulo de escena puede sustituir texto superpuesto.",
+      "containers": "En 02-02 el texto se integra en una señal de la escena.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "centro x de cara",
+          "value": "27%W (02-03); 79%W (02-02/02-10)",
+          "conf": "M"
+        },
+        {
+          "what": "altura de cara",
+          "value": "49%H (02-03); 62%H (02-02/02-10)",
+          "conf": "M"
+        },
+        {
+          "what": "margen derecho del bloque",
+          "value": "≈ 4.5%W",
+          "conf": "E"
+        },
+        {
+          "what": "cap por línea principal",
+          "value": "≈ 11–14%H",
+          "conf": "E"
+        },
+        {
+          "what": "sublínea serif respecto a línea 2",
+          "value": "≈ 45%",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a hard split between face and scene over a single blended focal point.",
+        "Chose warm display colour against a cool setting to separate the title."
+      ],
+      "borrow": {
+        "composition": "Give the face and the threat opposite halves; keep the face's eyes clear.",
+        "type": "Use a short display stack and make a smaller subline genuinely secondary.",
+        "imagery": "Use a sign or object in the scene when it can carry a short label naturally."
+      },
+      "do_not_take": [
+        "The fake wounds, horror lettering, specific haunted-house imagery or dashed-arrow presentation-board treatment.",
+        "Do not infer permission for stretched justification from the presentation styling."
+      ],
+      "weak_spots": [
+        "The logo-plus-card presentation board uses a dashed-arrow cliché."
+      ],
+      "rules": [
+        "A-1",
+        "A-2",
+        "A-4",
+        "U-8"
+      ],
+      "styles": [
+        "horror-mystery",
+        "text-in-scene"
+      ],
+      "directions": [
+        "split-contrast",
+        "artefact-in-scene"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh02-viral-horror",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 3,
+      "id": "bh03-trading-thumbnails",
+      "title": "Professional High-CTR Trading YouTube Thumbnail Designs",
+      "url": "https://www.behance.net/gallery/251321841/Professional-High-CTR-Trading-YouTube-Thumbnail-Designs",
+      "seen": "03-01…03-07; all 7 modules, thumbnails 03-02…03-06",
+      "formats": [
+        "thumbnail"
+      ],
+      "family": "A-thumbnail",
+      "role": "exemplar",
+      "weight": 1,
+      "idea": "Una persona mira o sostiene un único objeto de prueba —pantalla, saldo o gráfico— y el titular breve nombra la apuesta.",
+      "device": "stakes stack",
+      "hero": "Persona en un tercio exterior, con el stack tipográfico y un objeto de prueba al lado contrario; la mano o la mirada conectan ambos.",
+      "type": "Dos líneas, 2–5 palabras, sans condensada pesada; una línea puede cambiar a color de acento sin cambiar de tamaño.",
+      "colour": "Una familia azul/navy o verde/negro más un color de alerta para pérdida o ganancia.",
+      "imagery": "Una persona, un objeto UI creíble y una composición de alto contraste; teléfono sostenido por la mano en 03-04.",
+      "text": "Titular corto; las cifras son el hook cuando están permitidas por el brief.",
+      "containers": "Etiqueta «AI TRADING» en caja blanca redondeada; tarjetas de saldo/P&L como UI de prueba.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "centro x de cara",
+          "value": "23–27%W o 72–82%W",
+          "conf": "M"
+        },
+        {
+          "what": "altura de cara",
+          "value": "35–50%H",
+          "conf": "M"
+        },
+        {
+          "what": "centro y de cara",
+          "value": "31–48%H",
+          "conf": "M"
+        },
+        {
+          "what": "cap por línea principal",
+          "value": "≈ 10–11%H",
+          "conf": "E"
+        },
+        {
+          "what": "margen derecho",
+          "value": "≈ 5.8%W",
+          "conf": "E"
+        },
+        {
+          "what": "cap dentro de etiqueta / alto de caja",
+          "value": "≈ 60%",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose one proof object over a collection of decorative finance symbols.",
+        "Chose a very short title and a real-looking interface over explanatory body copy."
+      ],
+      "borrow": {
+        "composition": "Put one proof object opposite the person and connect them with gaze or hand.",
+        "imagery": "Show a real interface fragment or a specific object rather than an abstract chart ornament.",
+        "text": "Keep a numeric hook only when the brief supplies that exact figure."
+      },
+      "do_not_take": [
+        "Trading claims, balances, profit/loss figures, platform logos or fake performance numbers.",
+        "Do not add a glow or shadow as a substitute for a legible focal point."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "A-1",
+        "A-2",
+        "A-4",
+        "U-8",
+        "T-1"
+      ],
+      "styles": [
+        "ui-hero"
+      ],
+      "directions": [
+        "face-plus-proof"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh03-trading-thumbnails",
+        "count_studied": 7
+      },
+      "x": {}
+    },
+    {
+      "n": 4,
+      "id": "bh04-youtube-oblozhki",
+      "title": "YouTube Thumbnail oblozhki (RU)",
+      "url": "https://www.behance.net/gallery/251415753/Youtube-Thumbnail-oblozhki-tub-prevju-tub-23",
+      "seen": "04-01…04-12; 12 of 18 modules, including thumbnails 04-02…04-12; 04-01 cover strip",
+      "formats": [
+        "thumbnail"
+      ],
+      "family": "A-thumbnail",
+      "role": "exemplar",
+      "weight": 1,
+      "idea": "Un rostro o grupo y un objeto acercado a cámara crean profundidad; el texto ocupa una banda que evita los ojos.",
+      "device": "stakes stack",
+      "hero": "Composiciones variadas con cara central o en tercio exterior, objeto en perspectiva forzada y fondo cinematográfico desenfocado.",
+      "type": "Cuando aparece, copy de 2–4 palabras en sans pesada blanca con extrusión/sombra o en una barra blanca inclinada roja.",
+      "colour": "Grade cinematográfico; texto blanco o rojo con blanco sobre la escena.",
+      "imagery": "Sujeto nítido, fondo borroso, objeto acercado a la lente y mirada hacia ese objeto.",
+      "text": "El texto aparece en aproximadamente la mitad de las miniaturas; cae en banda superior o inferior.",
+      "containers": "Barra roja/blanca que entra sangrando desde el borde en 04-09.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "altura de cara central",
+          "value": "78%H (04-03)",
+          "conf": "M"
+        },
+        {
+          "what": "cobertura conjunta de caras y objeto",
+          "value": "≥ 50% del marco",
+          "conf": "E"
+        },
+        {
+          "what": "padding vertical de barra de texto",
+          "value": "≈ 15%",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a strong foreground object over an even, flat scene.",
+        "Chose text bands outside the eyes over placing the headline across the face."
+      ],
+      "borrow": {
+        "composition": "Use one deliberate depth break toward the viewer and keep the gaze/gesture pointed into the frame.",
+        "imagery": "Keep the subject sharp and let the background establish context.",
+        "text": "Use a short phrase in a band that does not cover eyes."
+      },
+      "do_not_take": [
+        "Specific game objects, badges, Russian copy or 3D extrusions as a default treatment.",
+        "Do not add the presentation-board arrows."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "A-1",
+        "A-2",
+        "A-3",
+        "A-4",
+        "U-8",
+        "U-9"
+      ],
+      "styles": [
+        "cinematic-stakes"
+      ],
+      "directions": [
+        "stakes-stack"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh04-youtube-oblozhki",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 5,
+      "id": "bh05-laguna",
+      "title": "social media carrousel · LAGUNA",
+      "url": "https://www.behance.net/gallery/256750629/social-media-carrousel-_-LAGUNA______",
+      "seen": "05-01 presentation; 05-02…05-05, four 1400×1750 posts",
+      "formats": [
+        "carousel"
+      ],
+      "family": "C-editorial-carousel",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una costura fotográfica que cambia de posición mantiene el sistema en movimiento mientras el encabezado y el bloque de texto fijan continuidad.",
+      "device": "contrast",
+      "hero": "Fotografía a sangre dividida por una costura vertical dura; el porcentaje de cada lado cambia entre láminas.",
+      "type": "Titular de dos líneas en grotesca pesada, última palabra en cursiva; cuerpo de 4–5 líneas a menor tamaño.",
+      "colour": "Fotografía documental en blanco y negro más una foto saturada; texto blanco.",
+      "imagery": "Fotos a sangre con seam variable; microetiquetas flotan como textura.",
+      "text": "Titular y cuerpo abajo a la izquierda; ambas líneas de copy aparecen justificadas a la fuerza en las muestras anotadas.",
+      "containers": null,
+      "carousel": "El seam cambia; el running header y el bloque titular/cuerpo permanecen abajo a la izquierda.",
+      "measured": [
+        {
+          "what": "lienzo",
+          "value": "1400×1750 px, 4:5",
+          "conf": "M"
+        },
+        {
+          "what": "seam",
+          "value": "65/35 (05-03); 25/75 con foto inset (05-04)",
+          "conf": "E"
+        },
+        {
+          "what": "posición de header",
+          "value": "≈ 4.5–5%H arriba y ≈ 5.5%W a los lados",
+          "conf": "E"
+        },
+        {
+          "what": "márgenes de texto",
+          "value": "L ≈ 5.4–5.9%W; B ≈ 4.4–9.8%",
+          "conf": "M"
+        },
+        {
+          "what": "cuerpo respecto al titular",
+          "value": "≈ 0.4×",
+          "conf": "E"
+        },
+        {
+          "what": "medida de línea justificada",
+          "value": "~55%W",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a changing photo seam over a changing chrome system.",
+        "Chose forced justification for a fashion-editorial effect; the source notes flag the resulting wide gaps as a reading cost."
+      ],
+      "borrow": {
+        "composition": "Keep the header and text group fixed while the photo seam changes from slide to slide.",
+        "type": "A single italic word can punctuate an otherwise consistent sans headline.",
+        "imagery": "Use the photographic seam as the slide-to-slide variation."
+      },
+      "do_not_take": [
+        "The LAGUNA brand, its copy, photographs or exact photo split.",
+        "Forced justification is off by default; the studied wide gaps are counter-evidence, not a default to transfer."
+      ],
+      "weak_spots": [
+        "Forced justification stretches short lines and breaks phrases into large word gaps."
+      ],
+      "rules": [
+        "U-1",
+        "U-3",
+        "U-6",
+        "C-1",
+        "C-5",
+        "C-6",
+        "T-6",
+        "T-7"
+      ],
+      "styles": [
+        "cinematic-editorial",
+        "zine-collage"
+      ],
+      "directions": [
+        "split-contrast"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh05-laguna",
+        "count_studied": 5
+      },
+      "x": {}
+    },
+    {
+      "n": 6,
+      "id": "bh06-earthquake-app",
+      "title": "Earthquake Application Social Media Designs (ZATU)",
+      "url": "https://www.behance.net/gallery/232190967/Earthquake-Application-Social-Media-Designs",
+      "seen": "06-01 overview; 06-02…06-04 (3:4, 1080×1440); 06-05…06-11 (4:5); 06-08 mockup; 06-12 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "B-product",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "La interfaz del producto se vuelve la prueba visual central; una jerarquía repetible mantiene titulares, detalles de app y CTA legibles.",
+      "device": "frame system",
+      "hero": "Producto/app en el centro-derecha bajo un stack de titular y cuerpo; CTA y badges de tienda comparten la fila inferior.",
+      "type": "Tres niveles: headline de tres líneas, cuerpo breve y CTA/badges; navy y cyan destacan una frase clave.",
+      "colour": "Navy y cyan en titular, UI clara, con símbolo de fondo pálido en algunas láminas.",
+      "imagery": "Teléfono/interfaz de app como héroe; badges de App Store y Google Play como elementos funcionales.",
+      "text": "Titular arriba a la izquierda, cuerpo debajo y CTA de dos líneas al pie.",
+      "containers": "Tarjetas de notificación/chat con radio y sombra, avatar y dos líneas; padding basado en la altura de línea.",
+      "carousel": "El sistema de titular/cuerpo, UI de producto y fila CTA/store badges se repite a través de la campaña.",
+      "measured": [
+        {
+          "what": "lienzo de algunas láminas",
+          "value": "1080×1440 px, 3:4 (06-02…06-04)",
+          "conf": "M"
+        },
+        {
+          "what": "margen izquierdo de texto",
+          "value": "5.2–5.8%W",
+          "conf": "M"
+        },
+        {
+          "what": "margen superior de titular",
+          "value": "≈ 9–13%",
+          "conf": "E"
+        },
+        {
+          "what": "cap headline / cuerpo",
+          "value": "≈ 6–7%W / ≈ 2.3%W",
+          "conf": "E"
+        },
+        {
+          "what": "relación cap headline:cuerpo",
+          "value": "≈ 2.7–3.3×",
+          "conf": "E"
+        },
+        {
+          "what": "radio de tarjeta a 1080",
+          "value": "≈ 16–20px",
+          "conf": "E"
+        },
+        {
+          "what": "padding tarjeta",
+          "value": "≈ 1× altura de línea",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose an app UI hero and fixed footer row over an abstract earthquake illustration.",
+        "Chose dense feature evidence, but the review slide shows the risk of putting too much copy in a centred card."
+      ],
+      "borrow": {
+        "composition": "Keep the product UI central-right and align the CTA with the store badges on a shared bottom row.",
+        "type": "Use one highlighted phrase within a consistent three-level type system.",
+        "containers": "Give every notification card a deliberate text-safe inset."
+      },
+      "do_not_take": [
+        "ZATU name, interface, store marks or earthquake claims.",
+        "Do not copy the dense centred review card or allow body copy to meet the canvas edge."
+      ],
+      "weak_spots": [
+        "06-06 review card has a long centred italic paragraph and reads as dense/template-like.",
+        "06-07 bottom body text is cut by the canvas edge (bottom margin ≈ 0)."
+      ],
+      "rules": [
+        "B-4",
+        "C-1",
+        "C-5",
+        "T-1",
+        "T-2",
+        "T-4",
+        "U-1"
+      ],
+      "styles": [
+        "ui-hero",
+        "brand-color-block"
+      ],
+      "directions": [
+        "frame-system",
+        "product-monument"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh06-earthquake-app",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 7,
+      "id": "bh07-nutricionista",
+      "title": "Design Social Media Nutricionista (Tatiana Lamarca)",
+      "url": "https://www.behance.net/gallery/255909345/Design-Social-Media-Nutricionista",
+      "seen": "07-01/02/03/06/07/08: six 4:5 posts; 07-04/05/09: presentation strips",
+      "formats": [
+        "post"
+      ],
+      "family": "D-wellness",
+      "role": "exemplar",
+      "weight": 1,
+      "idea": "Un stack de marca, titular serif y apoyo sans convierte una idea de bienestar en una lectura calma; en las piezas fotográficas el copy ocupa la zona visual más tranquila.",
+      "device": "frame system",
+      "hero": "Columna centrada o izquierda sobre color plano, o copy integrado directamente en la zona calma de una foto a sangre.",
+      "type": "Serif en el titular y sans en el apoyo; una palabra cursiva puede enfatizarse sin cambiar su tamaño.",
+      "colour": "Oliva y crema en piezas planas; blanco/crema sobre foto, con un acento lima ocasional.",
+      "imagery": "Fotos cenitales de comida o de rutina; texto sobre la región uniforme, sin caja.",
+      "text": "Lockup de marca sobre titular; regla que iguala el ancho del titular; sub sans y CTA.",
+      "containers": "Pill de CTA delineada; palabra fantasma vertical de fondo en 07-02.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "inset izquierdo 07-02",
+          "value": "≈ 17%W",
+          "conf": "E"
+        },
+        {
+          "what": "ancho de columna 07-02",
+          "value": "≈ 41%W",
+          "conf": "E"
+        },
+        {
+          "what": "leading del titular 07-02",
+          "value": "≈ 1.05",
+          "conf": "E"
+        },
+        {
+          "what": "sub/headline x-height",
+          "value": "≈ 0.45×",
+          "conf": "E"
+        },
+        {
+          "what": "cap / alto de pill",
+          "value": "≈ 33%",
+          "conf": "E"
+        },
+        {
+          "what": "padding horizontal de pill",
+          "value": "≈ 2× cap",
+          "conf": "E"
+        },
+        {
+          "what": "opacidad de ghost word",
+          "value": "~10%",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a deep inset and restrained type stack on flat slides over filling the canvas.",
+        "Chose the calmest photo region over an overlay card."
+      ],
+      "borrow": {
+        "composition": "On flat color, keep a narrow column with a generous inset; on photos, select the calm region before adding type.",
+        "type": "Pair a characterful serif headline with sans support and a single italic emphasis word.",
+        "containers": "Keep the rule tied to headline width and size the CTA pill around its cap height."
+      },
+      "do_not_take": [
+        "Tatiana Lamarca's wordmark, nutrition claims/data, exact copy or the ghost word «glicemia».",
+        "Do not centre a descriptor if it breaks the text group's shared axis."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "U-2",
+        "U-3",
+        "U-6",
+        "U-11",
+        "D-1",
+        "D-2",
+        "D-3",
+        "D-4",
+        "T-4",
+        "T-5"
+      ],
+      "styles": [
+        "cinematic-editorial",
+        "brand-color-block",
+        "text-in-scene"
+      ],
+      "directions": [
+        "photo-quiet-zone"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh07-nutricionista",
+        "count_studied": 9
+      },
+      "x": {}
+    },
+    {
+      "n": 8,
+      "id": "bh08-fabio-malvezzi",
+      "title": "Fabio Malvezzi · Psicanálise Social Media",
+      "url": "https://www.behance.net/gallery/255595473/Fabio-Malvezzi-Psicanalise-Social-Media",
+      "seen": "08-01…08-12; 12 of 37 slides, all 4:5 at 1080×1350",
+      "formats": [
+        "carousel"
+      ],
+      "family": "C-editorial-carousel",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "El frame fijo de encabezado y pie sostiene una secuencia que alterna campos de color, tipografía de gran escala y recortes monocromos.",
+      "device": "frame system",
+      "hero": "Área de contenido entre dos filas de chrome en tres columnas; en láminas tipográficas el titular puede ocupar casi toda la medida.",
+      "type": "Neo-grotesca para titulares/cuerpo y display condensada gastada en algunas piezas; titulares de 90%W y leading apretado.",
+      "colour": "Rosa, rojo, crema y negro con fotografía/collage en blanco y negro.",
+      "imagery": "Recortes B/N halftone y bordes de papel roto que pueden pasar detrás del tipo.",
+      "text": "Header de nombre/disciplina/registro y footer con handle/teléfono/copyright; secuencias de texto pueden continuar cortadas por el borde derecho.",
+      "containers": "Barras censoras rojas y recortes de collage alrededor o detrás del texto.",
+      "carousel": "Header/footer en posiciones fijas; el fondo alterna dentro de la paleta y un texto puede continuar entre láminas.",
+      "measured": [
+        {
+          "what": "lienzo",
+          "value": "1080×1350 px, 4:5",
+          "conf": "M"
+        },
+        {
+          "what": "márgenes OCR header/footer",
+          "value": "L 4.9%; T 4.9–5.2%; R 4.9–5.0%; B 4.6–4.9%",
+          "conf": "M"
+        },
+        {
+          "what": "display measure",
+          "value": "90%W",
+          "conf": "E"
+        },
+        {
+          "what": "leading display",
+          "value": "≈ 0.85–0.9",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose fixed chrome over varying slide furniture.",
+        "Chose collage overlap and large type, with the risk that forced justification introduces large gaps in some slides."
+      ],
+      "borrow": {
+        "composition": "Lock the header/footer positions across the set and vary the content field between them.",
+        "imagery": "Use monochrome/duotone cutouts around type when the type must remain the strongest read.",
+        "text": "A deliberately cropped phrase can signal continuation across slides."
+      },
+      "do_not_take": [
+        "Fabio Malvezzi's identity, patient/psychoanalytic copy, portraits or clinical references.",
+        "Forced justification is off by default; the wide-gap examples are a documented counter-pattern."
+      ],
+      "weak_spots": [
+        "08-03 and 08-05 force-justify and create wide word gaps on short lines."
+      ],
+      "rules": [
+        "U-1",
+        "U-6",
+        "C-1",
+        "C-2",
+        "C-4",
+        "C-5",
+        "C-6",
+        "T-6",
+        "T-7"
+      ],
+      "styles": [
+        "zine-collage",
+        "editorial-maximal-yellow",
+        "text-in-scene"
+      ],
+      "directions": [
+        "type-is-the-image",
+        "frame-system",
+        "across-the-swipe"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh08-fabio-malvezzi",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 9,
+      "id": "bh09-blu-black",
+      "title": "Social Media Suplemento Nootrópico · Campanha Black (BLU)",
+      "url": "https://www.behance.net/gallery/246336897/Social-Media-Suplemento-Nootropico-Campanha-Black",
+      "seen": "09-01 cover; 09-02…09-11 4:5; 09-12 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "G-brand",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una mascota u objeto grande comparte el trabajo con un stack condensado; etiquetas microscópicas repiten la identidad y elevan el riesgo de ruido.",
+      "device": "brand-asset-huge",
+      "hero": "Mascota/objeto grande junto a un titular condensado de 55–60%W; texto y figura se mantienen dentro de una paleta de campaña.",
+      "type": "Caps condensadas ultracondensadas; pesos light/black contrastan dentro de una misma línea y tamaño.",
+      "colour": "Azul eléctrico, magenta, blanco y negro, con tratamiento duotono/halftone.",
+      "imagery": "Oso azul, collage de cerebro o figura en duotono; microetiquetas a lo largo de los bordes.",
+      "text": "Headline stack breve; word vertical magenta en 09-02; tarjeta de descuento sostenida por la mascota en 09-03.",
+      "containers": "Tarjeta de navegador «40% OFF» como objeto sostenido, no caja flotante.",
+      "carousel": "Paleta y proporciones de etiqueta repetidas; marca y tipo permanecen coherentes en la campaña.",
+      "measured": [
+        {
+          "what": "ancho del stack de titular",
+          "value": "≈ 55–60%W",
+          "conf": "E"
+        },
+        {
+          "what": "leading",
+          "value": "≈ 0.9–0.95",
+          "conf": "E"
+        },
+        {
+          "what": "wordmark BLU",
+          "value": "≈ 15–20%W",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose mascot/object and tight type over a quiet photographic campaign.",
+        "Chose repeated micro-labels for brand texture, with clutter risk when their pattern is not held consistently."
+      ],
+      "borrow": {
+        "composition": "Use one brand-owned subject and keep the repeating labels at a fixed scale and position.",
+        "type": "Emphasize a key phrase with weight while holding size and line rhythm.",
+        "containers": "Make a card or offer label physically belong to the depicted subject."
+      },
+      "do_not_take": [
+        "BLU name, bear, product imagery, colours or supplement claims.",
+        "Do not scatter labels without a repeatable pattern; avoid forcing short headline lines to fit a bar."
+      ],
+      "weak_spots": [
+        "Micro-label clutter can look random without the strict palette and repeated pattern."
+      ],
+      "rules": [
+        "C-2",
+        "C-4",
+        "C-5",
+        "C-6",
+        "F-1",
+        "G-1",
+        "G-3",
+        "T-6"
+      ],
+      "styles": [
+        "surreal-object",
+        "editorial-maximal-yellow",
+        "brand-color-block"
+      ],
+      "directions": [
+        "object-metaphor",
+        "brand-asset-huge",
+        "artefact-in-scene"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh09-blu-black",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 10,
+      "id": "bh10-object-study",
+      "title": "Object Study · Conceptual Surrealism Series",
+      "url": "https://www.behance.net/gallery/255585437/Object-Study-Conceptual-Surrealism-Series",
+      "seen": "10-01 cover; 10-02…10-11 tall boards (4:5 post plus text below); 10-12 outro",
+      "formats": [
+        "post"
+      ],
+      "family": "F-conceptual",
+      "role": "exemplar",
+      "weight": 0.7,
+      "idea": "Un objeto cotidiano cambiado de una sola manera imposible expresa la idea; el titular nombra la metáfora sin competir con ella.",
+      "device": "absurd placement",
+      "hero": "Un objeto surreal centrado y con sombra de contacto sobre un único campo, dejando mucho espacio alrededor.",
+      "type": "Kicker, cita de dos líneas, sub y meta pequeños; comillas grandes colgadas fuera del bloque.",
+      "colour": "Un tono de fondo saturado —sobre todo rojo—, texto blanco y color natural del objeto.",
+      "imagery": "Un objeto fotorrealista, una luz principal y sombra de contacto; viñeta radial suave.",
+      "text": "Kicker «EDITORIAL SERIES | CREATIVE STORY», cita, sub, fecha/meta y chip de autor; wording específico no transferible.",
+      "containers": "Chip de autor; iconos mínimos de bookmark/menu en algunas láminas.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "alto del objeto",
+          "value": "≈ 35–45% de la altura del post",
+          "conf": "E"
+        },
+        {
+          "what": "lienzo vacío",
+          "value": "≈ 70%",
+          "conf": "E"
+        },
+        {
+          "what": "cap kicker",
+          "value": "≈ 1.6%H",
+          "conf": "E"
+        },
+        {
+          "what": "cap headline de cita",
+          "value": "≈ 4%H, 2 líneas",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose one impossible object over multiple supporting props.",
+        "Chose a small editorial text block over a large headline; the object carries the hook."
+      ],
+      "borrow": {
+        "composition": "Centre one subject-specific object on a field and let negative space hold the metaphor.",
+        "imagery": "Ground the object with one contact shadow and one key light.",
+        "text": "Keep editorial copy secondary and hang punctuation optically where the line needs it."
+      },
+      "do_not_take": [
+        "The padlock/flower, radio/birds, pencil/dove, camera/tree metaphors or the kicker wording.",
+        "Do not reproduce the presentation board format or decorative editorial-app icons."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "U-6",
+        "U-8",
+        "U-9",
+        "F-1",
+        "F-2",
+        "F-3"
+      ],
+      "styles": [
+        "surreal-object"
+      ],
+      "directions": [
+        "object-metaphor"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh10-object-study",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 11,
+      "id": "bh11-estudio-mona",
+      "title": "Estúdio MONA · Branding (estudiomonaco)",
+      "url": "https://www.behance.net/gallery/238972491/Estudio-MONA-Branding-estudiomonaco",
+      "seen": "11-01 overview; 11-02…11-12, twelve 4:5 modules",
+      "formats": [
+        "carousel"
+      ],
+      "family": "C-editorial-carousel",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una secuencia tipográfica usa un eje, contraste de peso y collage B/N para que una sola frase o lista sea el evento visual.",
+      "device": "type-as-image",
+      "hero": "Bloque titular ligeramente bajo el centro; el header comparte eje izquierdo con el headline y deja la parte superior aireada.",
+      "type": "Grotesca pesada de tracking negativo; italic serif para énfasis y palabras destacadas con highlight que sigue la x-height.",
+      "colour": "Amarillo, crema y negro con grano; cutouts B/N.",
+      "imagery": "Recortes monocromos de personas y objetos insertados detrás o junto al tipo.",
+      "text": "Lead-in subrayado, headline de hasta cuatro líneas; algunas listas tienen lead bold y hanging indent.",
+      "containers": "Sticker/shape crema que abraza el titular en 11-08; highlights ajustados a palabra.",
+      "carousel": "Header y sistema tipográfico reaparecen; el campo de color alterna en la secuencia.",
+      "measured": [
+        {
+          "what": "márgenes del header 11-12",
+          "value": "L 9.2%W; R 9.2%W; T ≈ 9%H",
+          "conf": "E"
+        },
+        {
+          "what": "cap headline",
+          "value": "≈ 6%H",
+          "conf": "E"
+        },
+        {
+          "what": "leading headline",
+          "value": "≈ 0.88",
+          "conf": "E"
+        },
+        {
+          "what": "headline:lead-in",
+          "value": "≈ 2.2×",
+          "conf": "E"
+        },
+        {
+          "what": "espacio superior vacío",
+          "value": "≈ 35% del canvas",
+          "conf": "E"
+        },
+        {
+          "what": "longitud de línea en lista",
+          "value": "≈ 30–35 caracteres",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a single left axis and a large below-centre type block over a top-heavy title.",
+        "Chose collage and hand-drawn marks for texture, with forced justification as a reading cost in 11-10."
+      ],
+      "borrow": {
+        "composition": "Use one shared left edge for the running header and headline; reserve large empty space only when it supports the composition.",
+        "type": "Pair an italic emphasis word with a consistent sans sentence at the same size.",
+        "imagery": "Keep cutouts monochrome and subordinate to the headline."
+      },
+      "do_not_take": [
+        "Estúdio MONA identity, its copy, hand-drawn lettering, or exact sticker shapes.",
+        "Forced justification is off by default; the note on 11-10 records a counter-pattern."
+      ],
+      "weak_spots": [
+        "11-10 force-justifies a five-line statement and creates wide gaps."
+      ],
+      "rules": [
+        "U-3",
+        "U-6",
+        "C-2",
+        "C-3",
+        "C-4",
+        "C-6",
+        "D-5",
+        "T-6",
+        "T-7"
+      ],
+      "styles": [
+        "zine-collage",
+        "editorial-maximal-yellow"
+      ],
+      "directions": [
+        "type-is-the-image"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh11-estudio-mona",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 12,
+      "id": "bh12-verdent-real-estate",
+      "title": "Real Estate Social Media Campaign (Verdent)",
+      "url": "https://www.behance.net/gallery/255702997/Real-Estate-Social-Media-Campaign",
+      "seen": "12-01 cover; 12-02…12-09 at 1080×1350; 12-10 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "C-editorial-carousel",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Una foto de arquitectura a sangre ofrece una región de cielo para el titular; las filas de header y CTA fijan el marco.",
+      "device": "frame system",
+      "hero": "Foto arquitectónica a sangre, con título en el tercio superior y filas de microcopy en el borde alto e inferior.",
+      "type": "Titular serif caps de dos líneas, palabra script superpuesta y sub sans; la superposición de script es un cliché marcado en las notas.",
+      "colour": "La foto guía el campo; texto blanco y acento script dorado.",
+      "imagery": "Villas, torres o escaleras; las zonas de cielo y los cambios de hora del día sostienen el copy.",
+      "text": "Fila superior de tres labels; bloque titular; QR/CTA al pie con chip booking.",
+      "containers": "Panel translúcido redondeado con tres columnas de icono/label en 12-06; pill de booking.",
+      "carousel": "Fotografía y tratamiento cambian, mientras las posiciones de fila alta y footer se repiten.",
+      "measured": [
+        {
+          "what": "lienzo",
+          "value": "1080×1350 px, 4:5",
+          "conf": "M"
+        },
+        {
+          "what": "márgenes OCR 12-02",
+          "value": "L 4.8%; T 4.6%; R 4.7%; B 4.8%",
+          "conf": "M"
+        },
+        {
+          "what": "fila de labels desde arriba",
+          "value": "≈ 4.6%H",
+          "conf": "E"
+        },
+        {
+          "what": "márgenes laterales de fila",
+          "value": "≈ 4.7%W",
+          "conf": "E"
+        },
+        {
+          "what": "titular",
+          "value": "2 líneas",
+          "conf": "E"
+        },
+        {
+          "what": "titular:sub",
+          "value": "≈ 3–4×",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a photo's quiet sky for the headline over an opaque title panel.",
+        "Chose a fixed CTA/footer frame while the architectural image changes."
+      ],
+      "borrow": {
+        "composition": "Place the headline in a calm photo region and repeat a small top/footer frame across the set.",
+        "imagery": "Choose architecture crops with enough uniform sky or wall for the title.",
+        "containers": "Use equal spacing and padding for multi-column facts inside a translucent panel."
+      },
+      "do_not_take": [
+        "Verdent name, property claims, QR, booking price or exact real-estate photography.",
+        "Avoid script-over-serif overlap and repeated duplicate slides."
+      ],
+      "weak_spots": [
+        "The script-overlap treatment is a template cliché.",
+        "12-03 and 12-04 are duplicates."
+      ],
+      "rules": [
+        "U-1",
+        "U-8",
+        "D-3",
+        "B-4",
+        "C-1",
+        "C-5",
+        "T-1"
+      ],
+      "styles": [
+        "luxury-realestate",
+        "cinematic-editorial"
+      ],
+      "directions": [
+        "frame-system",
+        "photo-quiet-zone"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh12-verdent-real-estate",
+        "count_studied": 10
+      },
+      "x": {}
+    },
+    {
+      "n": 13,
+      "id": "bh13-next-gen-gadget",
+      "title": "Next-Gen Gadget Advertising Social Media Campaign",
+      "url": "https://www.behance.net/gallery/255619127/Next-Gen-Gadget-Advertising-Social-Media-Campaign",
+      "seen": "13-01 cover; 13-02…13-07, six 4:5 modules; 13-08 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "B-product",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "El teléfono ocupa y sangra por el borde inferior/derecho; la pila de marca y specs queda arriba, separada de su detalle distintivo.",
+      "device": "product-hero",
+      "hero": "Teléfono/cámara como producto dominante en la zona baja, cortado por borde; texto en cielo/espacio superior sin tocar el producto.",
+      "type": "Stack centrado de tres niveles, regla corta; specs pequeñas en chips.",
+      "colour": "Campo azul/navy, texto blanco, color del producto y un acento verde opcional.",
+      "imagery": "Foto o cutout de un producto por lámina; antes/después documenta relighting.",
+      "text": "Marca + modelo + sub; dos specs laterales y CTA inferior.",
+      "containers": "Chips de especificación/pill CTA; 13-02 registra texto que desborda una chip.",
+      "carousel": "Sistema de producto grande y stack de título/specs se repite con distintos gadgets.",
+      "measured": [
+        {
+          "what": "lienzo de campaña",
+          "value": "4:5",
+          "conf": "M"
+        },
+        {
+          "what": "stack 13-03, cap de niveles",
+          "value": "4.6%H / 7.4%H / 2.2%H",
+          "conf": "E"
+        },
+        {
+          "what": "regla 13-03",
+          "value": "≈ 11%W",
+          "conf": "E"
+        },
+        {
+          "what": "distancia chips laterales 13-03",
+          "value": "≈ 7.1%W y ≈ 7.8%W",
+          "conf": "E"
+        },
+        {
+          "what": "teléfono",
+          "value": "lower 60%",
+          "conf": "E"
+        },
+        {
+          "what": "margen pill inferior",
+          "value": "11.2%W a cada lado; ≈ 5%H inferior",
+          "conf": "E"
+        },
+        {
+          "what": "cámara 13-02",
+          "value": "≈ 65% del canvas; sangra por izquierda e inferior",
+          "conf": "E"
+        },
+        {
+          "what": "márgenes OCR",
+          "value": "L 4.7–8.9%W; B 4.9–8.2%W",
+          "conf": "M"
+        }
+      ],
+      "tradeoffs": [
+        "Chose one oversized product and a quiet title zone over a full-bleed product UI collage.",
+        "Chose small spec chips and a baseline CTA row, with overflow in one chip showing the cost of poor fit."
+      ],
+      "borrow": {
+        "composition": "Let one product dominate and bleed off edges while the title stays in an open region.",
+        "type": "Set a compact brand/model/spec hierarchy in the upper part of the frame.",
+        "containers": "Mirror spec chips and align URL/secondary plus CTA on a shared footer baseline."
+      },
+      "do_not_take": [
+        "Xiaomi/Vivo/ZEISS names, marks, product photography or specifications.",
+        "Do not allow chip text to meet or cross its edge; do not borrow the exact CTA placement without checking its axis."
+      ],
+      "weak_spots": [
+        "13-02 «Telephoto Lens» overflows its chip; right inner padding is ≈ 0 while left is ≈ 25px.",
+        "The second line in the BlueVolt/Battery chip is misaligned."
+      ],
+      "rules": [
+        "B-1",
+        "B-2",
+        "B-3",
+        "B-4",
+        "B-5",
+        "U-8",
+        "U-9",
+        "T-1",
+        "T-2"
+      ],
+      "styles": [
+        "product-hero-dark",
+        "ui-hero"
+      ],
+      "directions": [
+        "product-monument"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh13-next-gen-gadget",
+        "count_studied": 8
+      },
+      "x": {}
+    },
+    {
+      "n": 14,
+      "id": "bh14-mind-body",
+      "title": "Mind & Body Social Media Design (Polina, multi-client portfolio)",
+      "url": "https://www.behance.net/gallery/255741403/Mind-Body-Social-Media-Design",
+      "seen": "14-01…14-12; boards of 4:5 slides, stories and ads across CANNGO, WOWBODY and VedMa",
+      "formats": [
+        "carousel"
+      ],
+      "family": "C-editorial-carousel",
+      "role": "mixed",
+      "weight": 0.7,
+      "idea": "El chrome repetido —logo, tag pill y cue de swipe— deja que las marcas y los diagramas cambien sin perder la continuidad de campaña.",
+      "device": "frame system",
+      "hero": "Piezas tipográficas y de producto con logo/tag en cabecera y cue en el pie; un título «LOADING» cruza tres cuadros.",
+      "type": "Neo-grotesca con palabra clave en dos tonos o mezcla de serif italic y sans; 2–3 niveles.",
+      "colour": "Paleta limitada por cliente; ejemplos: verde/lima/crema y salvia/crema/naranja/negro.",
+      "imagery": "Hojas de té macro, árbol recortado y fútbol; un panel frosted inset aparece en una lámina.",
+      "text": "Cue de desplazamiento persistente; etiqueta pill puede alojar una palabra del titular.",
+      "containers": "Frosted card inset; pill outline que abraza una palabra con padding pequeño.",
+      "carousel": "Logo/tag y cue se mantienen; el wordmark «LOADING» se extiende tres cuadros en una pieza.",
+      "measured": [
+        {
+          "what": "chrome superior",
+          "value": "≈ 5% de margen",
+          "conf": "E"
+        },
+        {
+          "what": "inset panel frosted",
+          "value": "≈ 4%",
+          "conf": "E"
+        },
+        {
+          "what": "headline:body",
+          "value": "≈ 4–6×",
+          "conf": "E"
+        },
+        {
+          "what": "body text",
+          "value": "≈ 1.6%H",
+          "conf": "E"
+        },
+        {
+          "what": "word pill vertical/horizontal padding",
+          "value": "≈ 0.25× cap / ≈ 0.4× cap",
+          "conf": "E"
+        },
+        {
+          "what": "LOADING",
+          "value": "3 slides",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose fixed campaign chrome over identical slide compositions.",
+        "Chose client-specific palettes and type mixes, with weaker precision because the source is a multi-client presentation board."
+      ],
+      "borrow": {
+        "composition": "Keep the repeated logo/tag and swipe cue in fixed positions while varying the content.",
+        "type": "Let an outlined pill carry one word only when the word is part of the headline.",
+        "carousel": "A single word or image can span a few slides when it remains readable as a feed sequence."
+      },
+      "do_not_take": [
+        "CANNGO, WOWBODY, VedMa identity, copy, logos, assets or health claims.",
+        "Do not transfer tiny body text without checking it at feed size."
+      ],
+      "weak_spots": [
+        "The material is a multi-client presentation board, so individual slide measurements are less precise.",
+        "Body copy is very small (≈ 1.6%H)."
+      ],
+      "rules": [
+        "C-1",
+        "C-3",
+        "C-5",
+        "D-2",
+        "D-3",
+        "D-4",
+        "T-1"
+      ],
+      "styles": [
+        "brand-color-block",
+        "split-transformation",
+        "seamless-panorama"
+      ],
+      "directions": [
+        "frame-system",
+        "photo-quiet-zone",
+        "across-the-swipe"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh14-mind-body",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 15,
+      "id": "bh15-crove",
+      "title": "CROVÉ (bakery & coffee brand identity)",
+      "url": "https://www.behance.net/gallery/254858659/CROVE",
+      "seen": "15-01…15-07 and 15-12 identity/mockups; 15-08…15-11 social posts (810×1080)",
+      "formats": [
+        "post"
+      ],
+      "family": "E-food",
+      "role": "exemplar",
+      "weight": 1,
+      "idea": "La propia marca ocupa el primer plano y el producto alimentario queda debajo; la composición evita competir con un segundo titular.",
+      "device": "brand-asset-huge",
+      "hero": "Wordmark centrado y descriptor/regla/icono en el tercio superior; producto recortado centrado bajo él con sombra y blob.",
+      "type": "Lockup grande arriba; tagline muy pequeña al pie; no hay headline rival.",
+      "colour": "Azul ultramarino y blanco, con tint azul claro y colores naturales de comida.",
+      "imagery": "Cup, cheesecake o croissant en cutout sobre forma orgánica y sombra suave.",
+      "text": "La marca puede ser el titular en el post de reconocimiento.",
+      "containers": null,
+      "carousel": null,
+      "measured": [
+        {
+          "what": "lienzo social",
+          "value": "810×1080 px, 3:4",
+          "conf": "M"
+        },
+        {
+          "what": "wordmark",
+          "value": "≈ 55%W",
+          "conf": "E"
+        },
+        {
+          "what": "lockup superior",
+          "value": "≈ 30%H",
+          "conf": "E"
+        },
+        {
+          "what": "tagline",
+          "value": "≈ 1.5%H",
+          "conf": "E"
+        },
+        {
+          "what": "colores cuantizados",
+          "value": "8–10 colores significativos",
+          "conf": "M"
+        }
+      ],
+      "tradeoffs": [
+        "Chose brand recognition over an additional headline.",
+        "Chose a grounded cutout with one blob and shadow over a scene full of props."
+      ],
+      "borrow": {
+        "composition": "When the brand itself is the subject, give it the headline position and leave the product as the second read.",
+        "imagery": "Ground a food cutout with a soft shadow and one backing shape.",
+        "colour": "Hold a narrow brand palette and let the food retain its natural tones."
+      },
+      "do_not_take": [
+        "CROVÉ name, wordmark, logo icon, exact product photos or slogan.",
+        "Do not add a second headline to a brand-first post."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "U-6",
+        "U-8",
+        "U-9",
+        "U-11",
+        "E-1",
+        "E-3",
+        "E-4",
+        "G-1"
+      ],
+      "styles": [
+        "food-hero",
+        "brand-color-block"
+      ],
+      "directions": [
+        "brand-asset-huge"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh15-crove",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 16,
+      "id": "bh16-top-brasil",
+      "title": "Design para Social Media · Proteção Veicular (Top Brasil)",
+      "url": "https://www.behance.net/gallery/237223849/Design-para-Social-Media-Protecao-Veicular",
+      "seen": "16-01 cover; 16-02…16-09, 4:5; 16-10…16-12, stories",
+      "formats": [
+        "post",
+        "story"
+      ],
+      "family": "G-brand",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Un símbolo de marca ampliado y recortado puede repetir la identidad; en la grilla, una frase completa se reparte entre tarjetas en límites de frase.",
+      "device": "brand-asset-huge",
+      "hero": "Símbolo a gran escala como fragmentos geométricos de fondo; la grilla 2×3 alterna una tarjeta de texto y una de foto.",
+      "type": "Sans geométrica redondeada con pesos light/bold dentro de la frase, sin cambiar tamaños.",
+      "colour": "Naranja, charcoal y off-white; el sistema mantiene un acento corporativo.",
+      "imagery": "Fotos emparejadas con tiles de texto; fragmentos del símbolo en el fondo.",
+      "text": "Una frase atraviesa tres tiles, cortada por cláusulas; en stories aparecen dos bubbles solapadas.",
+      "containers": "Tiles redondeados, badges circulares en gutter y dos speech bubbles con padding igual.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "márgenes exteriores 16-02",
+          "value": "7.2%W izquierda y 7.3%W derecha",
+          "conf": "E"
+        },
+        {
+          "what": "gutter",
+          "value": "≈ 2.4%W",
+          "conf": "E"
+        },
+        {
+          "what": "radio de tile",
+          "value": "≈ 3%W",
+          "conf": "E"
+        },
+        {
+          "what": "wordmark inferior",
+          "value": "≈ 25%W",
+          "conf": "E"
+        },
+        {
+          "what": "leading headline en story",
+          "value": "≈ 1.05",
+          "conf": "E"
+        },
+        {
+          "what": "padding de bubble",
+          "value": "≈ 1× altura de línea",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a strict orange/charcoal identity over changing palette per slide.",
+        "Chose phrase-level splitting across containers over a single full-width text panel."
+      ],
+      "borrow": {
+        "composition": "Repeat a brand shape at large scale and split multi-panel copy only at complete phrase boundaries.",
+        "containers": "Align padding between sibling bubbles and use the gutter to connect related tiles.",
+        "type": "Use weight contrast within a sentence without changing the font size."
+      },
+      "do_not_take": [
+        "Top Brasil logo/asterisk, vehicle-protection claims, orange brand assets or exact tile copy.",
+        "Do not split a line mid-phrase or add more photo tiles/icons to already busy slides."
+      ],
+      "weak_spots": [
+        "16-05 and 16-07 are busy with multiple photo tiles, icons and text."
+      ],
+      "rules": [
+        "U-6",
+        "U-7",
+        "U-11",
+        "T-1",
+        "T-2",
+        "T-7",
+        "G-1",
+        "G-3"
+      ],
+      "styles": [
+        "brand-shape-mask",
+        "brand-color-block"
+      ],
+      "directions": [
+        "brand-asset-huge"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh16-top-brasil",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 17,
+      "id": "bh17-savory-spot",
+      "title": "Social Media Food Brand (Savory Spot)",
+      "url": "https://www.behance.net/gallery/255528723/Social-Media-Food-Brand",
+      "seen": "17-01.png, the only module: one 3×3 board of nine ≈4:5 feed posts",
+      "formats": [
+        "post"
+      ],
+      "family": "E-food",
+      "role": "counter-example",
+      "weight": 0.5,
+      "idea": "Un cutout de plato grande y una placa definen el producto, pero la acumulación de badges, props y etiquetas lo convierte en un ejemplo útil de exceso de plantilla.",
+      "device": "product-hero",
+      "hero": "Plato centrado o desplazado, apoyado en plato/cuenco; el nombre grande del plato y las etiquetas orbitan alrededor.",
+      "type": "Nombre del plato en caps condensadas, ghost word y varias etiquetas de CTA/precio.",
+      "colour": "Maroon y mustard como colores de marca, con blanco y color natural de comida.",
+      "imagery": "Dish cutout y verduras voladoras; placa/cuenco marca una silueta limpia.",
+      "text": "Nombre del plato, precio, ORDER NOW y datos web/teléfono.",
+      "containers": "Price badge solapado con el borde del producto y CTA tipo brush stroke.",
+      "carousel": null,
+      "measured": [
+        {
+          "what": "formato de los posts",
+          "value": "≈ 4:5",
+          "conf": "E"
+        },
+        {
+          "what": "altura del dish",
+          "value": "≥ 45% de la altura del canvas",
+          "conf": "E"
+        },
+        {
+          "what": "solapamiento de price badge",
+          "value": "≈ 25% del borde del dish",
+          "conf": "E"
+        },
+        {
+          "what": "activos decorativos",
+          "value": "5–8 por post",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a strict two-colour identity and a clear food silhouette, but added too many decorative types.",
+        "Chose a badge overlapping the product edge rather than floating alone; the motif still risks crowding the food."
+      ],
+      "borrow": {
+        "composition": "Keep the dish dominant and use its plate as a clear silhouette.",
+        "containers": "If a price badge is brief-approved, attach it to the product edge instead of floating it separately."
+      },
+      "do_not_take": [
+        "Savory Spot name, prices, contact details, food images, badge/brush artwork or the overall template.",
+        "Do not transfer the 5–8 decoration types or let the headline collide with the dish."
+      ],
+      "weak_spots": [
+        "The decoration count is high and reads as a generic template.",
+        "«FRIES» collides with the bowl in some examples."
+      ],
+      "rules": [
+        "U-6",
+        "U-8",
+        "E-1",
+        "E-4",
+        "E-5"
+      ],
+      "styles": [
+        "food-hero",
+        "promo-mid"
+      ],
+      "directions": [
+        "product-monument"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh17-savory-spot",
+        "count_studied": 1
+      },
+      "x": {}
+    },
+    {
+      "n": 18,
+      "id": "bh18-commercial-gadgets",
+      "title": "COMMERCIAL GADGETS · Visual Manipulation Design",
+      "url": "https://www.behance.net/gallery/255300899/COMMERCIAL-GADGETS-Visual-Manipulation-Design",
+      "seen": "18-01 cover; 18-02…18-05 4:5 posts; 18-06…18-08 before/after; 18-09…18-11 billboard mockups; 18-12 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "B-product",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "Un producto diagonal o elevado en pedestal demuestra construcción y especificaciones; un header y CTA solo funcionan cuando comparten eje y baseline.",
+      "device": "product-hero",
+      "hero": "Producto en mano que sangra por abajo/derecha, o producto centrado sobre plinth con columna lateral de specs.",
+      "type": "Stack alineado a la derecha con grotesca/sans; sub pequeño y puntos verdes como acento.",
+      "colour": "Neutro oscuro + blanco + un acento verde; variante azul-violeta + blanco.",
+      "imagery": "Producto sostenido en mano, relighting fuerte o cutout sobre plinth.",
+      "text": "Fila superior de tres términos, titular/sub, dos features y CTA al pie.",
+      "containers": "Specs con iconos y labels en columna; CTA pill inferior.",
+      "carousel": "Sistema de producto y paleta de campaña se mantienen; el contenido varía entre producto diagonal y pedestal.",
+      "measured": [
+        {
+          "what": "margen superior de fila",
+          "value": "≈ 4.3%H",
+          "conf": "E"
+        },
+        {
+          "what": "márgenes laterales de fila",
+          "value": "≈ 5.5%W y ≈ 5.4%W",
+          "conf": "E"
+        },
+        {
+          "what": "leading",
+          "value": "≈ 0.95",
+          "conf": "E"
+        },
+        {
+          "what": "sub/headline cap",
+          "value": "≈ 0.25×",
+          "conf": "E"
+        },
+        {
+          "what": "bullet column",
+          "value": "≈ 6%W",
+          "conf": "E"
+        },
+        {
+          "what": "desalineación headline/bullets",
+          "value": "≈ 4.5%W frente a ≈ 5.9%W",
+          "conf": "E"
+        },
+        {
+          "what": "CTA centrado sin eje",
+          "value": "x ≈ 22–46%W",
+          "conf": "E"
+        },
+        {
+          "what": "icon box / label cap",
+          "value": "≈ 1.8×",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose a dramatic held product or plinth over an abstract technology scene.",
+        "Chose energetic lighting, but one layout loses polish where the headline, bullets and CTA do not share a clear axis."
+      ],
+      "borrow": {
+        "composition": "Let a real hand or plinth ground the product and keep specs in a separate column.",
+        "type": "Align the title and detail column to a deliberate common edge.",
+        "containers": "Place footer information and CTA on a shared baseline when the content supports it."
+      },
+      "do_not_take": [
+        "Gadget brands, product claims, exact renders, misaligned CTA or the blue-violet gradient treatment.",
+        "Do not treat the misalignment as a transferable layout device."
+      ],
+      "weak_spots": [
+        "18-02 headline and bullets start at different x positions; the CTA is centred on nothing."
+      ],
+      "rules": [
+        "B-1",
+        "B-2",
+        "B-4",
+        "B-5",
+        "U-3",
+        "U-8",
+        "U-9",
+        "U-10",
+        "T-1"
+      ],
+      "styles": [
+        "product-hero-dark",
+        "ui-hero"
+      ],
+      "directions": [
+        "product-monument"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh18-commercial-gadgets",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 19,
+      "id": "bh19-kings-cafe",
+      "title": "Kings Café Bar (@kingscafeoficial)",
+      "url": "https://www.behance.net/gallery/247786495/Kings-Caf-Bar-kingscafeoficial",
+      "seen": "19-01 overview; 19-02…19-12, twelve 4:5 slides",
+      "formats": [
+        "carousel"
+      ],
+      "family": "E-food",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "La foto cálida de comida o café define una zona para el titular; en una lámina, un recibo real convierte el menú en parte de la escena.",
+      "device": "contrast",
+      "hero": "Foto grainy a sangre con texto condensado en la zona más calma; algunas slides usan un panel crema/oscuro sobre la foto.",
+      "type": "Caps condensadas crema sobre foto y grotesca lowercase para apoyo; el tamaño del headline cambia con longitud de copy.",
+      "colour": "Grade cálido naranja/marrón con texto crema, sin acento adicional.",
+      "imagery": "Fotos de comida/café cálidas, desenfocadas o con motion blur; recibo de papel como soporte de texto en 19-06.",
+      "text": "Statements de 4–9 líneas; ubicación cambia para coincidir con región tranquila de la foto.",
+      "containers": "Panel sólido con padding estrecho; recibo como contenedor físico de menú.",
+      "carousel": "Mismo grade y sistema tipográfico; posición del copy cambia según el área calma de cada foto.",
+      "measured": [
+        {
+          "what": "líneas de texto habituales",
+          "value": "4–9 líneas",
+          "conf": "E"
+        },
+        {
+          "what": "19-07 statement",
+          "value": "5 líneas de caps justificadas",
+          "conf": "E"
+        },
+        {
+          "what": "posición de texto en 19-10",
+          "value": "top 40%",
+          "conf": "E"
+        },
+        {
+          "what": "padding de panel",
+          "value": "≈ 1× cap",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose photo-following text placement over a fixed headline position.",
+        "Chose a physical receipt in one slide to make menu copy feel present in the café scene."
+      ],
+      "borrow": {
+        "composition": "Move the text block to the photograph's calm area while keeping the grade/type system stable.",
+        "imagery": "Use one full-bleed food photo as the visual field and retain its warm texture.",
+        "containers": "A real paper artefact can carry functional copy when the brief contains one."
+      },
+      "do_not_take": [
+        "The café's handle, menu claims, photographs, copy or receipt design.",
+        "Forced justification is off by default; the ruled, stretched lines are a documented counter-pattern."
+      ],
+      "weak_spots": [
+        "19-07's forced justification creates large word gaps in short phrases."
+      ],
+      "rules": [
+        "C-1",
+        "C-2",
+        "C-5",
+        "C-6",
+        "E-2",
+        "E-3",
+        "T-6",
+        "T-7"
+      ],
+      "styles": [
+        "dark-food-punchline",
+        "cinematic-editorial",
+        "text-in-scene"
+      ],
+      "directions": [
+        "photo-quiet-zone",
+        "artefact-in-scene"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh19-kings-cafe",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 20,
+      "id": "bh20-coca-cola-concept",
+      "title": "Social Media Coca-Cola (concept)",
+      "url": "https://www.behance.net/gallery/256034897/Social-Media-Coca-Cola",
+      "seen": "20-01 cover; 20-02 strip; 20-03…20-11 4:5 slides; 20-12 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "G-brand",
+      "role": "exemplar",
+      "weight": 1,
+      "idea": "La escritura y la cinta propias de la marca se vuelven el elemento gráfico principal y se cruzan por delante/detrás de fotos de estilo de vida o packshots.",
+      "device": "brand-asset-huge",
+      "hero": "Ribbon/script de marca enorme y recortado por uno a tres bordes, en relación con foto enmarcada o packshot.",
+      "type": "Copy pequeño en caps tracked; el wordmark suele ser secundario porque la cinta ya hace de firma.",
+      "colour": "Rojo, blanco y negro más fotografía; sin otra familia cromática.",
+      "imagery": "Lifestyle o packshot; ventanas sólidas negras pueden enmarcar y ser cruzadas por el asset de marca.",
+      "text": "Titulares de 2–3 líneas con un ejemplo hero de palabra dividida; texto puede rodear la tapa.",
+      "containers": "Ventana/banda fotográfica cruzada por el ribbon.",
+      "carousel": "Rojo/blanco/negro, script/ribbon y escala pequeña del copy se repiten en la campaña.",
+      "measured": [
+        {
+          "what": "bordes de sangrado del asset",
+          "value": "1–3 edges",
+          "conf": "E"
+        },
+        {
+          "what": "cap de copy",
+          "value": "≈ 2.5–3.5%H",
+          "conf": "E"
+        },
+        {
+          "what": "wordmark",
+          "value": "≈ 7–10%W",
+          "conf": "E"
+        },
+        {
+          "what": "banda lateral 20-03",
+          "value": "20%W",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose the brand's own graphic asset over an oversized headline.",
+        "Chose logo-small hierarchy because the ribbon/script already identifies the brand."
+      ],
+      "borrow": {
+        "composition": "Let a brand-owned shape or wordmark cross the edge of a photo window to make the image/type relationship do the work.",
+        "type": "Keep the supporting copy small when the brand asset is already the hero.",
+        "colour": "Use only colours that belong to the brand system."
+      },
+      "do_not_take": [
+        "Coca-Cola script, ribbon, bottle, colour lockup, slogans or campaign photography.",
+        "Never substitute another brand's recognizable asset for an original visual idea."
+      ],
+      "weak_spots": [],
+      "rules": [
+        "U-6",
+        "U-7",
+        "U-11",
+        "G-1",
+        "G-2",
+        "G-3",
+        "G-4"
+      ],
+      "styles": [
+        "brand-shape-mask",
+        "brand-color-block"
+      ],
+      "directions": [
+        "brand-asset-huge"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh20-coca-cola-concept",
+        "count_studied": 12
+      },
+      "x": {}
+    },
+    {
+      "n": 21,
+      "id": "bh21-blu-main",
+      "title": "Social Media Suplemento Nootrópico (BLU, main campaign)",
+      "url": "https://www.behance.net/gallery/246338085/Social-Media-Suplemento-Nootropico",
+      "seen": "21-01 cover; 21-02…21-11 4:5 slides; 21-12 outro",
+      "formats": [
+        "carousel"
+      ],
+      "family": "G-brand",
+      "role": "mixed",
+      "weight": 1,
+      "idea": "La paleta de marca, la mascota y los elementos tipográficos repetidos crean continuidad entre láminas fotográficas y láminas tipográficas.",
+      "device": "type-as-image",
+      "hero": "Mascota/collage y titulares condensados alternan con slides de texto sobre blanco; highlight bars ocupan la medida del copy.",
+      "type": "Caps condensadas; palabras clave en barras; algunas frases presentan justificación forzada y gaps muy grandes.",
+      "colour": "Azul eléctrico, magenta, blanco y negro, mantenidos a través de la serie.",
+      "imagery": "Oso/collage B/W o duotono, etiquetas de borde y barras de color.",
+      "text": "Titulares, lista con bullets en panel azul y headlines desplazados a izquierda/derecha.",
+      "containers": "Barra tape magenta muy ajustada y panel azul con padding basado en line height.",
+      "carousel": "Mascota, paleta, escala condensada y micro-labels repiten el sistema de la campaña 09.",
+      "measured": [
+        {
+          "what": "alto de barras magenta en 21-07",
+          "value": "132px a 1080",
+          "conf": "M"
+        },
+        {
+          "what": "padding vertical de barra",
+          "value": "≈ 3–5% de la altura de barra",
+          "conf": "E"
+        },
+        {
+          "what": "márgenes de barra",
+          "value": "≈ 8.7%W izquierda y ≈ 8.1%W derecha",
+          "conf": "E"
+        },
+        {
+          "what": "inset de texto en barra",
+          "value": "≈ 20px izquierda / ≈ 15px derecha; ≈ 0.15× alto de barra",
+          "conf": "M"
+        },
+        {
+          "what": "paleta efectiva",
+          "value": "4 colores",
+          "conf": "E"
+        }
+      ],
+      "tradeoffs": [
+        "Chose campaign repetition and a compact palette over varying each slide's art direction.",
+        "Chose tight tape bars for emphasis, but forced justification still creates large gaps inside short phrases."
+      ],
+      "borrow": {
+        "composition": "Repeat one or two brand elements and vary whether the slide is image-led or type-led.",
+        "type": "Use a tight highlight bar only when its padding respects the glyphs and copy remains ragged by default.",
+        "containers": "Treat a bar as a tape with equal, measured top/bottom padding; a panel uses line-height-based padding."
+      },
+      "do_not_take": [
+        "BLU name, mascot, labels, product photographs, claims or exact bar artwork.",
+        "Forced justification is off by default; do not stretch short phrases to fit a bar."
+      ],
+      "weak_spots": [
+        "21-07 force-justifies both short lines, producing an internal word gap up to the width of the bar."
+      ],
+      "rules": [
+        "C-2",
+        "C-3",
+        "C-4",
+        "C-5",
+        "C-6",
+        "G-1",
+        "G-3",
+        "T-1",
+        "T-6",
+        "T-7"
+      ],
+      "styles": [
+        "editorial-maximal-yellow",
+        "type-behind-subject",
+        "brand-color-block"
+      ],
+      "directions": [
+        "type-is-the-image",
+        "brand-asset-huge"
+      ],
+      "author": null,
+      "source": "Behance",
+      "studied": "2026-10-22",
+      "images": {
+        "committed": false,
+        "cache_key": "bh21-blu-main",
+        "count_studied": 12
+      },
+      "x": {}
+    }
+  ]
+}

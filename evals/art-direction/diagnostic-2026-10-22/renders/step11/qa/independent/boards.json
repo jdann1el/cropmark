@@ -1,0 +1,544 @@
+{
+  "session": "p11-verify-20261026-155908Z",
+  "candidate_final_dimensions": {
+    "thumbnail": [
+      1280,
+      720
+    ],
+    "flyer": [
+      1080,
+      1350
+    ],
+    "carousel": [
+      [
+        1080,
+        1350
+      ],
+      [
+        1080,
+        1350
+      ],
+      [
+        1080,
+        1350
+      ]
+    ]
+  },
+  "board_checks": [
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumb-board.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        3840,
+        768
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            48,
+            1280,
+            768
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            1280,
+            48,
+            2560,
+            768
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/final.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            2560,
+            48,
+            3840,
+            768
+          ]
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumb-board-360.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        1080,
+        227
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            24,
+            360,
+            227
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step10/thumbnail/C.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            360,
+            24,
+            720,
+            227
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/final.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            720,
+            24,
+            1080,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer-board.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        3240,
+        1398
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            48,
+            1080,
+            1398
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            1080,
+            48,
+            2160,
+            1398
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/final.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            2160,
+            48,
+            3240,
+            1398
+          ]
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer-board-360.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        1080,
+        474
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            24,
+            360,
+            474
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            360,
+            24,
+            720,
+            474
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/final.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            720,
+            24,
+            1080,
+            474
+          ]
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel-board.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        3240,
+        4194
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            48,
+            1080,
+            1398
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            1080,
+            48,
+            2160,
+            1398
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            2160,
+            48,
+            3240,
+            1398
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            1446,
+            1080,
+            2796
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            1080,
+            1446,
+            2160,
+            2796
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            2160,
+            1446,
+            3240,
+            2796
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            2844,
+            1080,
+            4194
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            1080,
+            2844,
+            2160,
+            4194
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            2160,
+            2844,
+            3240,
+            4194
+          ]
+        }
+      ]
+    },
+    {
+      "path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel-board-360.png",
+      "sha256_match": true,
+      "dimensions_px": [
+        1080,
+        1422
+      ],
+      "dimensions_match": true,
+      "label_band_outside_art": true,
+      "cells": [
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            24,
+            360,
+            474
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            360,
+            24,
+            720,
+            474
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            720,
+            24,
+            1080,
+            474
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            498,
+            360,
+            948
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            360,
+            498,
+            720,
+            948
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/final-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            720,
+            498,
+            1080,
+            948
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-1.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            0,
+            972,
+            360,
+            1422
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-2.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            360,
+            972,
+            720,
+            1422
+          ]
+        },
+        {
+          "source": "evals/art-direction/diagnostic-2026-10-22/renders/step11/carousel/final-3.png",
+          "source_hash_match": true,
+          "cell_matches_expected": true,
+          "cell_xyxy": [
+            720,
+            972,
+            1080,
+            1422
+          ]
+        }
+      ]
+    }
+  ],
+  "preview_checks": [
+    {
+      "master": "thumbnail/final.png",
+      "preview": "thumbnail/final-168.png",
+      "dims_px": [
+        168,
+        95
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "thumbnail/final.png",
+      "preview": "thumbnail/final-320.png",
+      "dims_px": [
+        320,
+        180
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "thumbnail/final.png",
+      "preview": "thumbnail/final-360.png",
+      "dims_px": [
+        360,
+        203
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "flyer/final.png",
+      "preview": "flyer/final-360.png",
+      "dims_px": [
+        360,
+        450
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "carousel/final-1.png",
+      "preview": "carousel/final-1-360.png",
+      "dims_px": [
+        360,
+        450
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "carousel/final-2.png",
+      "preview": "carousel/final-2-360.png",
+      "dims_px": [
+        360,
+        450
+      ],
+      "lanczos_pixel_match": true
+    },
+    {
+      "master": "carousel/final-3.png",
+      "preview": "carousel/final-3-360.png",
+      "dims_px": [
+        360,
+        450
+      ],
+      "lanczos_pixel_match": true
+    }
+  ],
+  "direct_control_normalization_checks": [
+    {
+      "control": "thumbnail",
+      "source_hash": "f9dccd716e68b698df332970069358ee49d13090b2c5534bb617e535a657858a",
+      "normalized_hash": "141cccd49f5124ae5ed7514bd6fd9c0ddb3a79776424069c08996b9e2a0e0be1",
+      "normalization_pixel_match": true
+    },
+    {
+      "control": "flyer",
+      "source_hash": "76565aa408da02828f77856dee40bd1c3c07fcf7369e18e0241e1d50020cc73f",
+      "normalized_hash": "502b79f8247897271787728f5dfd1d22ec0bbaff5ef4520c29cc5a5067189d90",
+      "normalization_pixel_match": true
+    }
+  ],
+  "flyer_duplicate_cells_identical": true,
+  "historical_B2_copy_disclosed": true,
+  "baseline_carousel_matching_revised_copy_and_lanczos": true,
+  "imagegen_calls": {
+    "logged": 6,
+    "ordinals": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "all_success": true,
+    "all_output_hashes_match": true,
+    "used": 6,
+    "cap": 6
+  },
+  "correction_rounds": {
+    "recorded": 3,
+    "rounds": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "cap": 3,
+    "within_cap": true
+  },
+  "package_missing": true,
+  "reproduction_missing": true,
+  "handoff_manifest_missing": true,
+  "anonymous_first_read_before_key": true,
+  "reference_ids_available": [],
+  "absolute_reference_level": "unverified"
+}

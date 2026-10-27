@@ -1,0 +1,79 @@
+{
+  "condition": "B Cropmark editable overlay",
+  "context": "3 AIs. 1 Portfolio.",
+  "source_base": "thumbnail/B-base-source.png",
+  "crop": {
+    "source": "thumbnail/B-base-source.png",
+    "source_size": [
+      1672,
+      941
+    ],
+    "crop_box": [
+      0,
+      0,
+      1672,
+      940
+    ],
+    "output_size": [
+      1280,
+      720
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "groups": [
+    {
+      "role": "headline",
+      "text": "3 AIs. 1 Portfolio.",
+      "editable_text": "3 AIs. 1 Portfolio.",
+      "position": [
+        66,
+        553
+      ],
+      "font_file": "BricolageGrotesque-Bold.ttf",
+      "font_size": 92,
+      "visible_cap_height_px_master": 62,
+      "visible_cap_height_px_at_360": 20.67,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast": {
+        "glyph_core_pixels": 16774,
+        "background_srgb_linear_luminance_p05": 0.00241,
+        "background_srgb_linear_luminance_median": 0.00368,
+        "contrast_p05": 16.887,
+        "contrast_median": 17.642,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 16774,
+          "background_srgb_linear_luminance_p05": 0.00241,
+          "background_srgb_linear_luminance_median": 0.00368,
+          "contrast_p05": 16.887,
+          "contrast_median": 17.642,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 16774,
+          "background_srgb_linear_luminance_p05": 0.00241,
+          "background_srgb_linear_luminance_median": 0.00368,
+          "contrast_p05": 1.185,
+          "contrast_median": 1.238,
+          "under_target_percent": 100.0,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    }
+  ],
+  "output_sha256": "a5d74ed09bd91d896f8faf2e29e0bfa1286725e968768425731f6f2821dcdf90"
+}

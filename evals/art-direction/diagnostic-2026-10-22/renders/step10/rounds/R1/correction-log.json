@@ -1,0 +1,27 @@
+{
+  "round": "R1",
+  "global_imagegen_calls": 0,
+  "corrections": [
+    {
+      "piece": "thumbnail C1",
+      "issue": "The measured P-glyph fill ratio in C was 0.6557, just below A's 0.6613 weight reference.",
+      "action": "Increased same-ink weight reinforcement from 4 px to 5 px; kept shadows off and retained the measured large cap height.",
+      "result": "C's fill ratio is 0.6721, above A at 0.6613 and B-R1 at 0.5794; C cap is 19.861% of frame height and 18.77 px at 168 px width.",
+      "imagegen_calls": 0
+    },
+    {
+      "piece": "flyer C2",
+      "issue": "An isolated divider dot looked like a stray mark; metadata was exactly at the minimum feed cap size.",
+      "action": "Attached the supplied separator to the metadata line, kept the two metadata separators inline, increased title and metadata type, and horizontally fitted metadata within the measured safe plane.",
+      "result": "No metadata line ends with a middle dot; title cap 82 px and metadata cap 46 px on the rectified plane (27.33 px and 15.33 px at 360), ratio 1.78. Text remains inside the 5% safe inset.",
+      "imagegen_calls": 0
+    },
+    {
+      "piece": "carousel B4 slide 1",
+      "issue": "Headline-to-support gap was 62 px, exceeding the frozen 59 px headline-cap limit.",
+      "action": "Moved the support group upward by 8 px.",
+      "result": "Gap is 54 px against 59 px headline cap; strict carousel QA passes.",
+      "imagegen_calls": 0
+    }
+  ]
+}

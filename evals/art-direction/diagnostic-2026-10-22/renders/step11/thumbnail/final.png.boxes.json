@@ -1,0 +1,94 @@
+{
+  "size": [
+    1280,
+    720
+  ],
+  "canvas_px": [
+    1280,
+    720
+  ],
+  "copy": "3 AIs. 1 Portfolio.",
+  "condition": "Paso 11 candidate thumbnail; editable Pillow overlay on candidate clean scene",
+  "source_base": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/base-r1-edited-source.png",
+  "source_sha256": "27a74064a0e4bda097d7a7292e620c7838f9043c1bbf2eaeba14ea2e29d37ae9",
+  "crop_operation": "center-fit generated 16:9 source to 1280x720; scale scene to 92%; centered on a sampled deep-navy canvas",
+  "font_file": "skills/cropmark/fonts/Anton-Regular.ttf",
+  "ink_srgb": [
+    247,
+    243,
+    232
+  ],
+  "groups": [
+    {
+      "role": "headline_kicker",
+      "text": "3 AIs.",
+      "box": [
+        49,
+        414,
+        250,
+        496
+      ],
+      "font_size": 95,
+      "ink_mask": "kicker-mask.png"
+    },
+    {
+      "role": "headline",
+      "text": "1 Portfolio.",
+      "box": [
+        49,
+        523,
+        672,
+        662
+      ],
+      "font_size": 150,
+      "ink_mask": "main-mask.png"
+    }
+  ],
+  "boxes": [
+    {
+      "role": "headline_kicker",
+      "text": "3 AIs.",
+      "box": [
+        49,
+        414,
+        250,
+        496
+      ],
+      "size": 95,
+      "font_path": "skills/cropmark/fonts/Anton-Regular.ttf",
+      "fill": [
+        247,
+        243,
+        232
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "1 Portfolio.",
+      "box": [
+        49,
+        523,
+        672,
+        662
+      ],
+      "size": 150,
+      "font_path": "skills/cropmark/fonts/Anton-Regular.ttf",
+      "fill": [
+        247,
+        243,
+        232
+      ]
+    }
+  ],
+  "effects": {
+    "drop_shadow": false,
+    "stroke": false,
+    "backing_panel": false
+  },
+  "background_scale": 0.92,
+  "background_offset_px": [
+    51,
+    29
+  ],
+  "output_sha256": "1cdb27fee92701352d7a03cbad9bbc1bff86099eef6ed02268b8d5196ea57a76"
+}

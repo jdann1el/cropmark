@@ -1,0 +1,111 @@
+{
+  "baseline": "Step 9 flyer A; John's preference is perspective-warped printed lettering.",
+  "correction_rounds_used": 1,
+  "source_asset": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B-base-source.png",
+  "source_sha256": "36f958385a4b80410f3abf9a07ce80fe29cf951cf528122f43979258ac875ba4",
+  "source_size_px": [
+    1122,
+    1402
+  ],
+  "final_size_px": [
+    1080,
+    1350
+  ],
+  "surface": "blank matte cream sleeve; type is on its photographed plane",
+  "corner_measurement": "long Canny/Hough edge fits intersected; source pixel coordinates",
+  "corners_source_px": [
+    [
+      31.010000228881836,
+      144.36000061035156
+    ],
+    [
+      743.9600219726562,
+      128.16000366210938
+    ],
+    [
+      774.2899780273438,
+      787.3599853515625
+    ],
+    [
+      62.04999923706055,
+      840.0700073242188
+    ]
+  ],
+  "corners_final_px": [
+    [
+      29.849197387695312,
+      139.00570678710938
+    ],
+    [
+      716.1112670898438,
+      123.40656280517578
+    ],
+    [
+      745.3058471679688,
+      758.1569213867188
+    ],
+    [
+      59.727272033691406,
+      808.9119262695312
+    ]
+  ],
+  "rectified_plane_px": [
+    720,
+    680
+  ],
+  "safe_inset_ratio": 0.05,
+  "homography_rectified_to_final": [
+    [
+      1.0095221612094076,
+      0.04388369436381128,
+      29.849197387695312
+    ],
+    [
+      -0.012208094097107701,
+      0.9849905398691864,
+      139.00570678710938
+    ],
+    [
+      7.688015981738737e-05,
+      -1.9984352081974883e-06,
+      1.0
+    ]
+  ],
+  "inverse_homography_final_to_rectified": [
+    [
+      0.9903134714561953,
+      -0.04416836112667277,
+      -23.42040802914831
+    ],
+    [
+      0.02301211008056708,
+      1.012384930249618,
+      -141.41417578606882
+    ],
+    [
+      -7.608946916158803e-05,
+      5.418856339829557e-06,
+      1.0
+    ]
+  ],
+  "corner_roundtrip_residual_px": 3.003837006606072e-14,
+  "integration": "multiply-style warm dark brown print; local sleeve luminance and grain modulate ink alpha; no shadow/stroke/panel; the separator before Sala Taller is attached to the metadata line, with no isolated divider dot",
+  "headline": {
+    "editable_text": "Noche de\\nvinilos",
+    "font": "BricolageGrotesque-Bold.ttf",
+    "font_px_rectified": 124,
+    "cap_px_rectified": 82,
+    "cap_px_feed360_approx": 27.33
+  },
+  "metadata": {
+    "editable_text": "· Sala Taller · 14 nov · 21:00",
+    "font": "InstrumentSans-Regular.ttf",
+    "font_px_rectified": 64,
+    "cap_px_rectified": 46,
+    "cap_px_feed360_approx": 15.33,
+    "horizontal_compression": 0.8897126969416126
+  },
+  "title_metadata_cap_ratio": 1.7826086956521738,
+  "candidate_claim": "visual appearance requires judge review; geometric projection metrics are recorded, not a universal validated rule",
+  "output_sha256": "7b108da1afd4c421af44f421cc2a51d3fb79b12b921b3a5de846c433344fa3db"
+}

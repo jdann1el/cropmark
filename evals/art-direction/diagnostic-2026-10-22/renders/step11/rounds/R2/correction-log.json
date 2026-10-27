@@ -1,0 +1,12 @@
+{
+  "round": "R2",
+  "piece": "flyer",
+  "defect": "R1 still has opposing sleeve top/bottom slopes after the last available generation call; only ordinal 6 was available and the shared imagegen budget is now exhausted.",
+  "affected_region": "Whole flyer photograph and sleeve plane.",
+  "principal_change": "Apply one measured projective homography to the entire photograph using the sleeve plane corner targets; no local sleeve or text-only warp. Inspect whole-scene coherence and key-detail safety before approving.",
+  "expected_effect": "Sleeve top and bottom edges both visibly slope down-right by at least 5 degrees; independently measurable side-length keystone remains at least 4%; vinyl, platter and tonearm stay recognizable and the full scene remains inside the frame.",
+  "actual_image": "flyer/clean-source.png (selected R2 v2); earlier prototypes remain at flyer/rounds/R2/",
+  "observed_result": "The first two R2 prototypes were rejected for scene distortion/edge-replication. Parameterized whole-scene homography v2 was selected: the entire image is transformed once and uniformly fit; 100% inspection shows no edge-replication band, the sleeve corners remain visible, and vinyl grooves/platter/tonearm remain recognizable. Builder edge metrics pass; T15 must remeasure independently.",
+  "imagegen_calls": 0,
+  "status": "PASS at builder level; independent verification pending"
+}

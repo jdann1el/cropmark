@@ -1,0 +1,319 @@
+{
+  "method": "B2 clean base photographs with editable Pillow text overlays; no image generation.",
+  "slides": [
+    {
+      "slide": 1,
+      "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-1.png",
+      "source_sha256": "059e0148eb67c88eb7145e74801117f9fad35aac9a58b1e1af37e186e40ed0f5",
+      "final": "final-1.png",
+      "sha256": "2386ea2f0e0c1bd653e4b3e8755da6ad431112871fb6e8c64089682c0f348930",
+      "size": [
+        1080,
+        1350
+      ],
+      "copy": {
+        "brand": "TALLER BARRO",
+        "descriptor": "CERÁMICA",
+        "headline": "La forma / toma cuerpo.",
+        "support": "Una pieza empieza con un gesto.",
+        "cta": null
+      },
+      "fonts": {
+        "headline": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+          "nominal_px": 128,
+          "H_cap_px": 92
+        },
+        "brand": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 60,
+          "H_cap_px": 43
+        },
+        "descriptor": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 56,
+          "H_cap_px": 40
+        },
+        "support": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+          "nominal_px": 64,
+          "H_cap_px": 46
+        },
+        "cta": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 58,
+          "H_cap_px": 42
+        }
+      },
+      "positions": {
+        "brand": [
+          72,
+          60
+        ],
+        "descriptor": [
+          72,
+          129
+        ],
+        "headline": [
+          72,
+          240
+        ],
+        "support": [
+          76,
+          535
+        ],
+        "cta": null
+      },
+      "ink_boxes_px": {
+        "brand": [
+          72,
+          60,
+          517,
+          105
+        ],
+        "descriptor": [
+          72,
+          129,
+          373,
+          183
+        ],
+        "headline": [
+          72,
+          240,
+          641,
+          472
+        ],
+        "support": [
+          76,
+          535,
+          620,
+          666
+        ],
+        "cta": null
+      },
+      "headline_relationship": "Cream serif headline on teal wall; vessel and working hand fill the right half.",
+      "effects": {
+        "shadow": false,
+        "outline": false,
+        "panel": false,
+        "cta_filled_container": false
+      }
+    },
+    {
+      "slide": 2,
+      "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-2.png",
+      "source_sha256": "1331993640fc41d760953591045c35da31c8f0882935abe056d45613cd125493",
+      "final": "final-2.png",
+      "sha256": "4c1365b66b0f71b3ff8aad68baf5ec998d19c7544550558593a1323e0b3ca862",
+      "size": [
+        1080,
+        1350
+      ],
+      "copy": {
+        "brand": "TALLER BARRO",
+        "descriptor": "CERÁMICA",
+        "headline": "Del giro / nace el borde.",
+        "support": "El torno acompaña cada movimiento.",
+        "cta": null
+      },
+      "fonts": {
+        "headline": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+          "nominal_px": 128,
+          "H_cap_px": 92
+        },
+        "brand": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 60,
+          "H_cap_px": 43
+        },
+        "descriptor": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 56,
+          "H_cap_px": 40
+        },
+        "support": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+          "nominal_px": 64,
+          "H_cap_px": 46
+        },
+        "cta": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 58,
+          "H_cap_px": 42
+        }
+      },
+      "positions": {
+        "brand": [
+          72,
+          60
+        ],
+        "descriptor": [
+          72,
+          129
+        ],
+        "headline": [
+          72,
+          780
+        ],
+        "support": [
+          72,
+          1096
+        ],
+        "cta": null
+      },
+      "ink_boxes_px": {
+        "brand": [
+          72,
+          60,
+          517,
+          105
+        ],
+        "descriptor": [
+          72,
+          129,
+          373,
+          183
+        ],
+        "headline": [
+          72,
+          780,
+          670,
+          998
+        ],
+        "support": [
+          72,
+          1096,
+          624,
+          1218
+        ],
+        "cta": null
+      },
+      "headline_relationship": "Dark serif headline sits on the pale worktable below the hands and turning rim.",
+      "effects": {
+        "shadow": false,
+        "outline": false,
+        "panel": false,
+        "cta_filled_container": false
+      }
+    },
+    {
+      "slide": 3,
+      "source": "evals/art-direction/diagnostic-2026-10-22/renders/step8/B2/base-3.png",
+      "source_sha256": "cd86487b090851d37e2b3011eaf13a4419f71767461d3aae3d859b42001d5bce",
+      "final": "final-3.png",
+      "sha256": "cec7640d708ec147116439a00e1bd361f3f1ff346dc00cb992921d9384524948",
+      "size": [
+        1080,
+        1350
+      ],
+      "copy": {
+        "brand": "TALLER BARRO",
+        "descriptor": "CERÁMICA",
+        "headline": "Cada huella / deja memoria.",
+        "support": "Un rastro queda en la superficie.",
+        "cta": "MIRA LAS PIEZAS"
+      },
+      "fonts": {
+        "headline": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+          "nominal_px": 128,
+          "H_cap_px": 92
+        },
+        "brand": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 60,
+          "H_cap_px": 43
+        },
+        "descriptor": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 56,
+          "H_cap_px": 40
+        },
+        "support": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+          "nominal_px": 64,
+          "H_cap_px": 46
+        },
+        "cta": {
+          "file": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+          "nominal_px": 58,
+          "H_cap_px": 42
+        }
+      },
+      "positions": {
+        "brand": [
+          72,
+          60
+        ],
+        "descriptor": [
+          72,
+          129
+        ],
+        "headline": [
+          72,
+          240
+        ],
+        "support": [
+          76,
+          535
+        ],
+        "cta": [
+          72,
+          1194
+        ]
+      },
+      "ink_boxes_px": {
+        "brand": [
+          72,
+          60,
+          517,
+          105
+        ],
+        "descriptor": [
+          72,
+          129,
+          373,
+          183
+        ],
+        "headline": [
+          72,
+          240,
+          662,
+          477
+        ],
+        "support": [
+          76,
+          535,
+          544,
+          670
+        ],
+        "cta": [
+          72,
+          1194,
+          559,
+          1238
+        ]
+      },
+      "headline_relationship": "Cream serif headline on teal wall, visually answered by the enlarged thumbprint trace below-right.",
+      "effects": {
+        "shadow": false,
+        "outline": false,
+        "panel": false,
+        "cta_filled_container": false
+      }
+    }
+  ],
+  "cta_count_by_slide": [
+    0,
+    0,
+    1
+  ],
+  "removed_strings_occurrences": {
+    "EXPLORA EL TALLER": 0,
+    "SIGUE EL PROCESO": 0
+  },
+  "minimum_margin_px": 64,
+  "photo_mask": "each full-bleed source image; slide 3 fitted crop",
+  "relationships_distinct": true
+}

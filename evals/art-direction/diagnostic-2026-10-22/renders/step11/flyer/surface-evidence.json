@@ -1,0 +1,355 @@
+{
+  "canvas_px": [
+    1080,
+    1350
+  ],
+  "final_sha256": "69efc88d02188959c633b1496c64615ece51fadc0959ae1c38c73ef00871a84d",
+  "clean_source_sha256": "56103b4debc58ca81d63c4e93e22047c76149b86c8f456d49be7533777d0e762",
+  "source_dimensions_px": [
+    1080,
+    1350
+  ],
+  "preview": {
+    "path": "flyer/final-360.png",
+    "size_px": [
+      360,
+      450
+    ],
+    "resampling": "Lanczos",
+    "sharpening": false
+  },
+  "content": {
+    "title": "Noche de vinilos",
+    "metadata": "Sala Taller · 14 nov · 21:00",
+    "separator_count": 2,
+    "lines_start_or_end_with_separator": false,
+    "slash_printed": false,
+    "copy_check": "PASS"
+  },
+  "plane": {
+    "corners_px": {
+      "TL": [
+        37.28,
+        229.86
+      ],
+      "TR": [
+        601.59,
+        301.29
+      ],
+      "BR": [
+        610.52,
+        845.05
+      ],
+      "BL": [
+        83.71,
+        795.05
+      ]
+    },
+    "homography_rectified_plane_to_final": [
+      [
+        0.5841027579199897,
+        0.052342533639620624,
+        37.28451156616211
+      ],
+      [
+        0.08134737475766328,
+        0.6213482267008954,
+        229.8583984375
+      ],
+      [
+        3.291437850093122e-05,
+        7.062856221465275e-05,
+        1.0
+      ]
+    ],
+    "edge_metrics": {
+      "top_angle_degrees": 7.214,
+      "bottom_angle_degrees": 5.422,
+      "top_bottom_slope_signs": [
+        "down-right",
+        "down-right"
+      ],
+      "left_edge_length_px": 567.1,
+      "right_edge_length_px": 543.84,
+      "keystone_ratio": 0.041
+    },
+    "builder_plane_status": "PASS",
+    "text_ink_outside_plane_pixels": 0,
+    "rectified_plane_insets_px": {
+      "left": 59.5,
+      "top": 120.0,
+      "right": 57.0,
+      "bottom": 219.0
+    },
+    "min_inset_ratio": 0.057
+  },
+  "typography": {
+    "title_font": "InstrumentSerif-Regular.ttf",
+    "metadata_font": "InstrumentSerif-Regular.ttf",
+    "title_cap_tests_H": [
+      {
+        "glyph": "H",
+        "rectified_box_px": [
+          115.0,
+          120.5,
+          247.0,
+          307.5
+        ],
+        "projected_quad_px": [
+          [
+            109.42,
+            310.27
+          ],
+          [
+            184.79,
+            319.51
+          ],
+          [
+            191.92,
+            428.23
+          ],
+          [
+            117.55,
+            419.58
+          ]
+        ],
+        "cap_height_min_px": 108.96,
+        "cap_height_max_px": 109.61,
+        "cap_height_mean_px": 109.28
+      },
+      {
+        "glyph": "H",
+        "rectified_box_px": [
+          115.0,
+          340.5,
+          247.0,
+          527.5
+        ],
+        "projected_quad_px": [
+          [
+            118.97,
+            438.58
+          ],
+          [
+            193.16,
+            447.13
+          ],
+          [
+            200.09,
+            552.63
+          ],
+          [
+            126.86,
+            544.62
+          ]
+        ],
+        "cap_height_min_px": 105.73,
+        "cap_height_max_px": 106.34,
+        "cap_height_mean_px": 106.03
+      }
+    ],
+    "metadata_cap_test_H": {
+      "glyph": "H",
+      "rectified_box_px": [
+        57.0,
+        700.0,
+        112.0,
+        778.0
+      ],
+      "projected_quad_px": [
+        [
+          101.98,
+          636.76
+        ],
+        [
+          132.31,
+          639.92
+        ],
+        [
+          135.48,
+          682.37
+        ],
+        [
+          105.32,
+          679.3
+        ]
+      ],
+      "cap_height_min_px": 42.57,
+      "cap_height_max_px": 42.67,
+      "cap_height_mean_px": 42.62
+    },
+    "title_min_cap_px": 105.73,
+    "title_max_cap_px": 109.61,
+    "metadata_min_cap_px": 42.57,
+    "metadata_max_cap_px": 42.67,
+    "conservative_title_metadata_ratio": 2.484,
+    "title_over_metadata_ratio_ge_2_25": "PASS",
+    "title_cap_at_360": 35.24,
+    "metadata_cap_at_360": 14.19,
+    "final_letter_crosscheck": {
+      "title_N_caps": [
+        110.4,
+        107.13
+      ],
+      "metadata_S_cap": 43.69
+    }
+  },
+  "baselines": [
+    {
+      "text": "Noche de",
+      "rectified_baseline_y": 377.5,
+      "projected_samples_start_mid_end_px": [
+        [
+          117.73,
+          459.45
+        ],
+        [
+          340.09,
+          484.83
+        ],
+        [
+          556.91,
+          509.58
+        ]
+      ],
+      "visible_angle_degrees": 6.511,
+      "midpoint_deviation_px": 0.0,
+      "inverse_projected_y_error_px": 0.0
+    },
+    {
+      "text": "vinilos",
+      "rectified_baseline_y": 597.5,
+      "projected_samples_start_mid_end_px": [
+        [
+          126.99,
+          583.33
+        ],
+        [
+          287.35,
+          600.52
+        ],
+        [
+          444.82,
+          617.39
+        ]
+      ],
+      "visible_angle_degrees": 6.117,
+      "midpoint_deviation_px": 0.0,
+      "inverse_projected_y_error_px": 0.0
+    },
+    {
+      "text": "Sala Taller · 14 nov · 21:00",
+      "rectified_baseline_y": 807.0,
+      "projected_samples_start_mid_end_px": [
+        [
+          105.45,
+          694.9
+        ],
+        [
+          346.62,
+          719.18
+        ],
+        [
+          581.28,
+          742.82
+        ]
+      ],
+      "visible_angle_degrees": 5.751,
+      "midpoint_deviation_px": 0.0,
+      "inverse_projected_y_error_px": 0.0
+    }
+  ],
+  "type_ink_frame_edge_clearance_px": 105,
+  "contrast": {
+    "title": {
+      "p05": 6.275,
+      "median": 6.919,
+      "share_below_3": 0.0,
+      "share_below_4_5": 0.0,
+      "core_pixels": 19302,
+      "core_alpha_threshold": 0.98
+    },
+    "metadata": {
+      "p05": 5.707,
+      "median": 6.153,
+      "share_below_3": 0.0,
+      "share_below_4_5": 0.0,
+      "core_pixels": 3929,
+      "core_alpha_threshold": 0.98
+    },
+    "thresholds": "title P05 >=3:1; metadata P05 >=4.5:1",
+    "status": "PASS"
+  },
+  "material_integration": {
+    "method": "dark warm pigment at 92% maximum opacity, modulated by local sleeve luminance; underlying paper tone and grain remain visible in the integrated ink.",
+    "paired_100_percent_crops": {
+      "light": {
+        "region_px": [
+          110,
+          314,
+          350,
+          484
+        ],
+        "size_px": [
+          240,
+          170
+        ],
+        "clean_mean_srgb": 191.48,
+        "clean_path": "flyer/crops/light-clean.png",
+        "printed_path": "flyer/crops/light-printed.png",
+        "resized": false
+      },
+      "midtone": {
+        "region_px": [
+          110,
+          362,
+          370,
+          532
+        ],
+        "size_px": [
+          260,
+          170
+        ],
+        "clean_mean_srgb": 190.38,
+        "clean_path": "flyer/crops/midtone-clean.png",
+        "printed_path": "flyer/crops/midtone-printed.png",
+        "resized": false
+      },
+      "darker": {
+        "region_px": [
+          105,
+          604,
+          425,
+          739
+        ],
+        "size_px": [
+          320,
+          135
+        ],
+        "clean_mean_srgb": 179.99,
+        "clean_path": "flyer/crops/darker-clean.png",
+        "printed_path": "flyer/crops/darker-printed.png",
+        "resized": false
+      }
+    },
+    "drop_shadow_layers": 0,
+    "strokes": 0,
+    "opaque_panels": 0
+  },
+  "requirements": {
+    "1080x1350": "PASS",
+    "exact_copy_and_two_separators": "PASS",
+    "visible_sleeve_top_bottom_angles": "PASS",
+    "keystone_ge_4_percent": "PASS",
+    "ink_inside_plane": "PASS",
+    "5_percent_insets": "PASS",
+    "image_edge_ink_margin_ge_64": "PASS",
+    "projected_title_cap_ge_32_at_360": "PASS",
+    "projected_metadata_cap_ge_14_at_360": "PASS",
+    "cap_ratio_ge_2_25": "PASS",
+    "contrast": "PASS",
+    "drop_shadows_zero": "PASS",
+    "record_and_tonearm": "builder visual PASS; fresh verifier pending"
+  },
+  "uncertainty": "Builder sleeve corner fit uncertainty ±3 px from the transformed source edges. Fresh independent edge fit and material judgment are required in T15."
+}

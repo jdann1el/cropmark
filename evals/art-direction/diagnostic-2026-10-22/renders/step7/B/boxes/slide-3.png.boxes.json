@@ -1,0 +1,124 @@
+{
+ "size": [
+  1080,
+  1350
+ ],
+ "boxes": [
+  {
+   "role": "brand",
+   "text": "TALLER BARRO",
+   "box": [
+    110,
+    111,
+    333,
+    136
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 2,
+   "stroke_fill": [
+    29,
+    38,
+    36
+   ]
+  },
+  {
+   "role": "descriptor",
+   "text": "CERÁMICA",
+   "box": [
+    110,
+    146,
+    270,
+    180
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 2,
+   "stroke_fill": [
+    29,
+    38,
+    36
+   ]
+  },
+  {
+   "role": "headline",
+   "text": "Cada huella\ndeja memoria.",
+   "box": [
+    112,
+    380,
+    703,
+    566
+   ],
+   "fill": [
+    250,
+    244,
+    231
+   ],
+   "size": 92,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/DMSerifDisplay-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "support",
+   "text": "Un rastro queda en la superficie.",
+   "box": [
+    112,
+    996,
+    611,
+    1029
+   ],
+   "fill": [
+    29,
+    38,
+    36
+   ],
+   "size": 35,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Regular.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "role": "cta",
+   "text": "MIRA LAS PIEZAS",
+   "box": [
+    112,
+    1187,
+    370,
+    1208
+   ],
+   "fill": [
+    29,
+    38,
+    36
+   ],
+   "size": 30,
+   "font_path": "/home/box/Developer/cropmark/skills/cropmark/engines/pillow/../../fonts/Outfit-Bold.ttf",
+   "stroke_width": 0,
+   "stroke_fill": [
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "text_free": false
+}

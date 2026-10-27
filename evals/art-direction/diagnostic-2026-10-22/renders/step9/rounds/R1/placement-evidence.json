@@ -1,0 +1,435 @@
+[
+  {
+    "piece": "B3 slide 1",
+    "final": "rounds/R1/B3/final-1.png",
+    "canvas": [
+      1080,
+      1350
+    ],
+    "key_subject_bounds_source": "Conservative rectangles drawn from visual inspection of the source crop; mask intersection counts use actual R1 glyph-core pixels.",
+    "groups": [
+      {
+        "role": "brand",
+        "text": "TALLER BARRO",
+        "glyph_box_px": [
+          70,
+          75,
+          515,
+          120
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "descriptor",
+        "text": "CERÁMICA",
+        "glyph_box_px": [
+          70,
+          131,
+          392,
+          188
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "headline",
+        "text": "La forma toma cuerpo.",
+        "glyph_box_px": [
+          70,
+          203,
+          656,
+          463
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 31.67,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "support",
+        "text": "Una pieza empieza con un gesto.",
+        "glyph_box_px": [
+          70,
+          570,
+          406,
+          755
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "cta",
+        "text": "EXPLORA EL TALLER",
+        "glyph_box_px": [
+          70,
+          784,
+          427,
+          888
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      }
+    ],
+    "text_box_overlaps": [],
+    "no_text_clip": true,
+    "no_text_text_collision": true,
+    "no_key_subject_collision": true,
+    "subject_zones": {
+      "vessel_and_rim": [
+        430,
+        480,
+        1080,
+        1200
+      ],
+      "clay_coil": [
+        0,
+        930,
+        310,
+        1230
+      ],
+      "tools_shelf": [
+        840,
+        50,
+        1080,
+        460
+      ]
+    }
+  },
+  {
+    "piece": "B3 slide 2",
+    "final": "rounds/R1/B3/final-2.png",
+    "canvas": [
+      1080,
+      1350
+    ],
+    "key_subject_bounds_source": "Conservative rectangles drawn from visual inspection of the source crop; mask intersection counts use actual R1 glyph-core pixels.",
+    "groups": [
+      {
+        "role": "brand",
+        "text": "TALLER BARRO",
+        "glyph_box_px": [
+          70,
+          75,
+          515,
+          120
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "descriptor",
+        "text": "CERÁMICA",
+        "glyph_box_px": [
+          70,
+          131,
+          392,
+          188
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "headline",
+        "text": "Del giro nace el borde.",
+        "glyph_box_px": [
+          70,
+          289,
+          612,
+          495
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 28.0,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "support",
+        "text": "El torno acompaña cada movimiento.",
+        "glyph_box_px": [
+          70,
+          515,
+          570,
+          623
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "cta",
+        "text": "SIGUE EL PROCESO",
+        "glyph_box_px": [
+          70,
+          649,
+          356,
+          754
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      }
+    ],
+    "text_box_overlaps": [],
+    "no_text_clip": true,
+    "no_text_text_collision": true,
+    "no_key_subject_collision": true,
+    "subject_zones": {
+      "hand_and_vessel": [
+        700,
+        240,
+        1080,
+        1050
+      ],
+      "wheel": [
+        250,
+        770,
+        1080,
+        1350
+      ]
+    }
+  },
+  {
+    "piece": "B3 slide 3",
+    "final": "rounds/R1/B3/final-3.png",
+    "canvas": [
+      1080,
+      1350
+    ],
+    "key_subject_bounds_source": "Conservative rectangles drawn from visual inspection of the source crop; mask intersection counts use actual R1 glyph-core pixels.",
+    "groups": [
+      {
+        "role": "brand",
+        "text": "TALLER BARRO",
+        "glyph_box_px": [
+          70,
+          95,
+          515,
+          140
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "descriptor",
+        "text": "CERÁMICA",
+        "glyph_box_px": [
+          70,
+          151,
+          392,
+          208
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "headline",
+        "text": "Cada huella deja memoria.",
+        "glyph_box_px": [
+          70,
+          606,
+          680,
+          851
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 29.67,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "support",
+        "text": "Un rastro queda en la superficie.",
+        "glyph_box_px": [
+          70,
+          250,
+          573,
+          369
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "cta",
+        "text": "MIRA LAS PIEZAS",
+        "glyph_box_px": [
+          70,
+          1209,
+          557,
+          1253
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 70,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.0,
+        "cap_px_at_168": null
+      }
+    ],
+    "text_box_overlaps": [],
+    "no_text_clip": true,
+    "no_text_text_collision": true,
+    "no_key_subject_collision": true,
+    "subject_zones": {
+      "thumbprint_and_trace": [
+        740,
+        250,
+        1080,
+        1190
+      ]
+    }
+  },
+  {
+    "piece": "flyer B",
+    "final": "rounds/R1/flyer-B.png",
+    "canvas": [
+      1080,
+      1350
+    ],
+    "key_subject_bounds_source": "Conservative rectangles drawn from visual inspection of the source crop; mask intersection counts use actual R1 glyph-core pixels.",
+    "groups": [
+      {
+        "role": "event",
+        "text": "Noche de vinilos",
+        "glyph_box_px": [
+          84,
+          298,
+          501,
+          355
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 84,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 18.0,
+        "cap_px_at_168": null
+      },
+      {
+        "role": "venue_date",
+        "text": "Sala Taller · 14 nov · 21:00",
+        "glyph_box_px": [
+          86,
+          453,
+          451,
+          566
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 86,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": 14.33,
+        "cap_px_at_168": null
+      }
+    ],
+    "text_box_overlaps": [],
+    "no_text_clip": true,
+    "no_text_text_collision": true,
+    "no_key_subject_collision": true,
+    "subject_zones": {
+      "vinyl_turntable": [
+        450,
+        710,
+        1080,
+        1250
+      ]
+    }
+  },
+  {
+    "piece": "thumbnail B R1",
+    "final": "thumbnail/B-R1.png",
+    "canvas": [
+      1280,
+      720
+    ],
+    "key_subject_bounds_source": "Conservative rectangles drawn from visual inspection of the source crop; mask intersection counts use actual R1 glyph-core pixels.",
+    "groups": [
+      {
+        "role": "headline",
+        "text": "3 AIs. 1 Portfolio.",
+        "glyph_box_px": [
+          52,
+          506,
+          560,
+          677
+        ],
+        "within_canvas": true,
+        "minimum_edge_clearance_px": 43,
+        "core_glyph_pixels_in_key_subject_bounds": {},
+        "key_subject_clear": true,
+        "cap_px_at_360": null,
+        "cap_px_at_168": 8.79
+      }
+    ],
+    "text_box_overlaps": [],
+    "no_text_clip": true,
+    "no_text_text_collision": true,
+    "no_key_subject_collision": true,
+    "subject_zones": {
+      "folio": [
+        380,
+        0,
+        1230,
+        550
+      ],
+      "left_robot": [
+        300,
+        100,
+        580,
+        520
+      ],
+      "right_robot": [
+        1030,
+        40,
+        1280,
+        670
+      ]
+    }
+  }
+]

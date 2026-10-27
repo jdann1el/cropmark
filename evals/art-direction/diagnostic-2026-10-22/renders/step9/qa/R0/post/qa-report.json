@@ -1,0 +1,59 @@
+{
+  "exit_code": 0,
+  "strict": true,
+  "expected_count": 2,
+  "actual_count": 2,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Noche de vinilos\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Noche de vinilos\" contrast 7.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Sala Taller · 14 nov · 21:00\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Sala Taller · 14 nov · 21:00\" contrast 7.4:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/B.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Noche de vinilos\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Noche de vinilos\" contrast 8.1:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Sala Taller · 14 nov · 21:00\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Sala Taller · 14 nov · 21:00\" contrast 7.6:1"
+        }
+      ]
+    }
+  ]
+}

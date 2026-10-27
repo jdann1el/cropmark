@@ -1,0 +1,158 @@
+{
+  "task": "T7",
+  "status": "PASS — approved clean source uses a measured whole-scene homography; all frozen sleeve plane geometry checks pass on builder measurements.",
+  "selected_provisional_source": "flyer/clean-source-crop.png",
+  "selected_source_sha256": "56103b4debc58ca81d63c4e93e22047c76149b86c8f456d49be7533777d0e762",
+  "source_origin": "flyer/rounds/R1/clean-source.png",
+  "origin_sha256": "f3c562042b3b595f2d4eb589986ea72b3e4350f2c9bd41cbefdbed52c0c4c5c3",
+  "normalization": "R2 whole-scene homography of R1 generated photo, full-bound expansion, uniform Lanczos fit to 1080x1350, then a uniform 1.15x crop/reframe to 1080x1350 with crop box [49.3043, 88.0435, 988.4348, 1261.9565]. No local sleeve editing or lettering.",
+  "annotation_image": "flyer/plane-annotations.png",
+  "coordinates_origin": "top-left; corners ordered TL, TR, BR, BL",
+  "builder_fitted_corners_master_px": {
+    "TL": [
+      37.284511566162124,
+      229.85840148925786
+    ],
+    "TR": [
+      601.5864196777343,
+      301.2890258789063
+    ],
+    "BR": [
+      610.5152740478514,
+      845.0545654296875
+    ],
+    "BL": [
+      83.71441917419435,
+      795.0531494140625
+    ]
+  },
+  "corner_fit_uncertainty_px": 3.0,
+  "fit_method": "R1 clean source visible outer paper edges, carried through the recorded whole-scene homography and final uniform fit; no hidden-edge extrapolation.",
+  "source_corner_fit_px": {
+    "TL": [
+      123.0,
+      270.0
+    ],
+    "TR": [
+      755.0,
+      350.0
+    ],
+    "BR": [
+      765.0,
+      872.0
+    ],
+    "BL": [
+      144.0,
+      990.0
+    ]
+  },
+  "target_corner_fit_before_final_fit_px": {
+    "TL": [
+      123.0,
+      270.0
+    ],
+    "TR": [
+      755.0,
+      350.0
+    ],
+    "BR": [
+      765.0,
+      959.0
+    ],
+    "BL": [
+      175.0,
+      903.0
+    ]
+  },
+  "homography_source_to_target": [
+    [
+      0.6727705073638611,
+      0.06464587226955433,
+      19.740371912610247
+    ],
+    [
+      -0.13099797531263416,
+      0.9325674760570389,
+      27.614597911054314
+    ],
+    [
+      -0.0004011783177088182,
+      9.07846010166075e-05,
+      1.0
+    ]
+  ],
+  "whole_scene_homography_source_to_expanded_canvas": [
+    [
+      0.6798875598396417,
+      0.06303531970251115,
+      2.000000208508684
+    ],
+    [
+      -0.21872739590957238,
+      0.9524201951466382,
+      246.293964976484
+    ],
+    [
+      -0.0004011783177088182,
+      9.07846010166075e-05,
+      1.0
+    ]
+  ],
+  "expanded_canvas_px": [
+    1391,
+    1974
+  ],
+  "uniform_fit": {
+    "scale": 0.7764198418404026,
+    "resized_px": [
+      1080,
+      1533
+    ],
+    "center_crop_left_top_px": [
+      0.0,
+      91.5
+    ],
+    "resampling": "Lanczos"
+  },
+  "edge_metrics": {
+    "top_angle_degrees": 7.214,
+    "bottom_angle_degrees": 5.422,
+    "top_bottom_slope_signs": [
+      "down-right",
+      "down-right"
+    ],
+    "left_edge_length_px": 567.1,
+    "right_edge_length_px": 543.84,
+    "keystone_ratio": 0.041
+  },
+  "acceptance": {
+    "top_abs_angle_ge_5": "PASS",
+    "bottom_abs_angle_ge_5": "PASS",
+    "same_slope_sign": "PASS",
+    "keystone_ge_0_04": "PASS"
+  },
+  "visual_decision": "R2 v2 whole-scene reframe and approved 1.15x crop were inspected at 100%. The full sleeve remains visible, copy face is larger, and record grooves/platter/tonearm remain recognizable. No sleeve corner was altered locally; T15 must independently fit the visible edges.",
+  "T8_transform_plan": {
+    "text_fit": "Map editable type from the rectified sleeve plane through the same recorded plane homography. Do not alter the source photo after this point.",
+    "plane_inset": "At least 5% of rectified sleeve width and height on every side.",
+    "residual_status": "Builder plane fit; verifier must independently fit visible sleeve edges in T15."
+  },
+  "imagegen_budget": {
+    "used": 6,
+    "cap": 6,
+    "remaining": 0
+  },
+  "correction_rounds_used": 2,
+  "approved_crop": {
+    "source": "flyer/clean-source.png",
+    "crop_box_px": [
+      49.30434782608694,
+      88.0434782608695,
+      988.4347826086957,
+      1261.9565217391305
+    ],
+    "scale_to_master": 1.15,
+    "resampling": "Lanczos",
+    "visual_review": "all four sleeve corners remain visible; vinyl grooves, platter and tonearm remain recognizable."
+  }
+}

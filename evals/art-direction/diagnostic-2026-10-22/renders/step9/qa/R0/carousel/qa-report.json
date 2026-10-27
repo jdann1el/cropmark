@@ -1,0 +1,156 @@
+{
+  "exit_code": 1,
+  "strict": true,
+  "expected_count": 3,
+  "actual_count": 3,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-1.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"TALLER BARRO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"TALLER BARRO\" contrast 8.8:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"CERÁMICA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"CERÁMICA\" contrast 10.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"La forma toma cuerpo.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"La forma toma cuerpo.\" contrast 9.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Una pieza empieza con un gesto.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "FAIL",
+          "message": "\"Una pieza empieza con un gesto.\" contrast 2.5:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"EXPLORA EL TALLER\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "FAIL",
+          "message": "\"EXPLORA EL TALLER\" contrast 3.4:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-2.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"TALLER BARRO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"TALLER BARRO\" contrast 5.4:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"CERÁMICA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"CERÁMICA\" contrast 7.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Del giro nace el borde.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Del giro nace el borde.\" contrast 5.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"El torno acompaña cada movimiento.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"El torno acompaña cada movimiento.\" contrast 8.6:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"SIGUE EL PROCESO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "FAIL",
+          "message": "\"SIGUE EL PROCESO\" contrast 4.0:1"
+        }
+      ]
+    },
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/B3/final-3.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1080, 1350) (want 1080x1350)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"TALLER BARRO\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"TALLER BARRO\" contrast 4.9:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"CERÁMICA\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"CERÁMICA\" contrast 4.7:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Cada huella deja memoria.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Cada huella deja memoria.\" contrast 5.3:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"Un rastro queda en la superficie.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"Un rastro queda en la superficie.\" contrast 5.0:1"
+        },
+        {
+          "level": "INFO",
+          "message": "\"MIRA LAS PIEZAS\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"MIRA LAS PIEZAS\" contrast 8.9:1"
+        }
+      ]
+    }
+  ]
+}

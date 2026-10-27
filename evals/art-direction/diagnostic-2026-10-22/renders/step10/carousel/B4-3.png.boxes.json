@@ -1,0 +1,283 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        76,
+        84,
+        506,
+        128
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        76,
+        142,
+        387,
+        198
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Cada huella\ndeja memoria.",
+      "box": [
+        76,
+        674,
+        568,
+        875
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 100,
+      "font_path": "skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "Un rastro queda en\nla superficie.",
+      "box": [
+        78,
+        910,
+        581,
+        1032
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "action",
+      "text": "MIRA LAS PIEZAS",
+      "box": [
+        76,
+        1194,
+        563,
+        1238
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "layout": "Close: the clay trace is isolated in an offset upper-left photograph window while the large phrase and support resolve below on a flat teal field; only the final action receives a fine underline/arrow.",
+  "surface_case": "No typography is placed on a photographed physical surface. Copy stays in separate flat teal graphic regions; image panels contain no type.",
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        76,
+        70
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        77,
+        84,
+        505,
+        128
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        76,
+        140
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        78,
+        142,
+        386,
+        198
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "Cada huella deja memoria.",
+      "editable_text": "Cada huella\ndeja memoria.",
+      "position": [
+        76,
+        650
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 100,
+      "visible_bbox": [
+        79,
+        674,
+        563,
+        875
+      ],
+      "cap_height_master": 73,
+      "cap_height_at_360": 24.33,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "Un rastro queda en la superficie.",
+      "editable_text": "Un rastro queda en\nla superficie.",
+      "position": [
+        78,
+        895
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        83,
+        910,
+        577,
+        1031
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "action",
+      "text": "MIRA LAS PIEZAS",
+      "editable_text": "MIRA LAS PIEZAS",
+      "position": [
+        76,
+        1180
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_bbox": [
+        79,
+        1194,
+        563,
+        1238
+      ],
+      "cap_height_master": 42,
+      "cap_height_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast_ratio_on_flat_field": 14.177,
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "panel": false
+      },
+      "underline": true
+    }
+  ]
+}

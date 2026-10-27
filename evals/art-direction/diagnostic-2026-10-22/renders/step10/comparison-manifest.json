@@ -1,0 +1,46 @@
+{
+  "imagegen_calls_for_paso10": 0,
+  "thumbnail_order": [
+    "Paso 9 A",
+    "Paso 9 B-R1",
+    "Paso 10 C"
+  ],
+  "flyer_order": [
+    "Paso 9 A",
+    "Paso 10 C"
+  ],
+  "carousel_rows": [
+    "B2",
+    "B4"
+  ],
+  "outputs": {
+    "thumb-ABC.png": [
+      3840,
+      720
+    ],
+    "thumb-ABC-360.png": [
+      1080,
+      203
+    ],
+    "thumb-ABC-168.png": [
+      504,
+      95
+    ],
+    "flyer-AC.png": [
+      2160,
+      1350
+    ],
+    "flyer-AC-360.png": [
+      720,
+      450
+    ],
+    "carousel-B2B4-feed.png": [
+      3240,
+      2700
+    ],
+    "carousel-B2B4-feed-360.png": [
+      1080,
+      900
+    ]
+  }
+}

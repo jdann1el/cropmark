@@ -1,0 +1,96 @@
+[
+  {
+    "ordinal": 1,
+    "purpose": "Slide 1 — form",
+    "condition": "NO-SKILL baseline",
+    "prompt": "Create one finished 1080x1350 px (4:5 portrait) Instagram carousel slide for the fictional ceramics studio TALLER BARRO. Show a ceramic form taking shape as the central subject. Include all of this Spanish text, spelled exactly, in the finished image: brand “TALLER BARRO”; descriptor “CERÁMICA”; headline on two lines “La forma” and “toma cuerpo.”; support “Una pieza empieza con un gesto.” Do not print slash characters. Do not add a call to action or any other text.",
+    "references": "none",
+    "session": "p11-baseline",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-1-source.png",
+    "sha256": "18ed3fb25747436e36f301604a9d21849908a5a18a14d235feb17092252dcb2f",
+    "remaining_budget": 5
+  },
+  {
+    "ordinal": 2,
+    "purpose": "Slide 2 — process, pottery wheel",
+    "condition": "NO-SKILL baseline",
+    "prompt": "Create one finished 1080x1350 px (4:5 portrait) Instagram carousel slide for the fictional ceramics studio TALLER BARRO. Show the pottery wheel process, with the turning clay forming a vessel's rim, as the central subject. Include all of this Spanish text, spelled exactly, in the finished image: brand “TALLER BARRO”; descriptor “CERÁMICA”; headline on two lines “Del giro” and “nace el borde.”; support “El torno acompaña cada movimiento.” Do not print slash characters. Do not add a call to action or any other text.",
+    "references": "none",
+    "session": "p11-baseline",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-2-source.png",
+    "sha256": "fa0c73314e9804b900ea7baebdf595d8e9a0bfab7e8adb99d7fdde1bc235b4fa",
+    "remaining_budget": 4
+  },
+  {
+    "ordinal": 3,
+    "purpose": "Slide 3 — trace and close",
+    "condition": "NO-SKILL baseline",
+    "prompt": "Create one finished 1080x1350 px (4:5 portrait) Instagram carousel slide for the fictional ceramics studio TALLER BARRO. Show a ceramic surface with visible traces or marks as the central subject, closing the carousel. Include all of this Spanish text, spelled exactly, in the finished image: brand “TALLER BARRO”; descriptor “CERÁMICA”; headline on two lines “Cada huella” and “deja memoria.”; support “Un rastro queda en la superficie.”; the sole call to action “MIRA LAS PIEZAS”. Do not print slash characters. Do not add any other text.",
+    "references": "none",
+    "session": "p11-baseline",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/baseline/carousel-3-source.png",
+    "sha256": "a6745f6aa8da6c12caaef783c338ba5e1d398f8e6314634b341e8dd46a7ab666",
+    "remaining_budget": 3
+  },
+  {
+    "ordinal": 4,
+    "purpose": "T6 candidate thumbnail clean-scene reframe to preserve all three agents and shared portfolio while creating a copy zone",
+    "condition": "Paso 11 candidate asset; not baseline",
+    "prompt": "Edit the supplied 16:9 editorial scene for a thumbnail about three AI agents redesigning one shared portfolio. Preserve the same dark navy, warm ivory and restrained electric-blue photographic style and the same central story: exactly three distinct assistant robots actively adjusting the same large blank portfolio grid. Recompose the scene so every robot head, torso, limb and the entire portfolio board are fully visible inside the image with clear space around them. Place the complete board and all three robots in the upper-right and center-right portion of the frame, leaving a broad, uninterrupted dark navy area across the lower-left for later large flat headline typography. Keep all scene subjects at least 40 px from the frame edges in the final 1280x720 crop, and keep the lower-right corner free for a video-duration marker. The three robots must remain visibly distinct and visibly interact with different parts of the one shared portfolio; do not delete, hide, merge or crop any agent. The portfolio remains blank except for a simple grid of image rectangles with no readable interface. Keep all text, letters, numbers, logos, labels, metrics, arrows, badges and watermarks out of the image. Do not add a text panel, artificial glow, cast shadow, or extra focal object. Preserve a connected believable studio scene rather than separate cards.",
+    "references": [
+      "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-base-R1-source.png"
+    ],
+    "reference_sha256": "73b6674e64c50f182b9abea23cd3a9191bed134bd852fac0adbcc8464eb51a4b",
+    "session": "p11-builder",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/thumbnail/base-r1-edited-source.png",
+    "sha256": "27a74064a0e4bda097d7a7292e620c7838f9043c1bbf2eaeba14ea2e29d37ae9",
+    "remaining_budget": 2,
+    "generated_path": "/home/box/.codex/generated_images/01a177ab-ea37-7613-a217-dae4a3047a93/exec-43d5d964-429d-40b7-aec5-a1cb8c90e2e4.png",
+    "dimensions_px": [
+      1672,
+      941
+    ]
+  },
+  {
+    "ordinal": 5,
+    "purpose": "T7 candidate clean flyer scene: natural sleeve plane with visible oblique angle and keystone",
+    "condition": "Paso 11 candidate asset; not baseline",
+    "prompt": "Create a refined vertical 4:5 editorial photograph for a fictional Barcelona vinyl listening event poster. Show one large completely blank matte cream record sleeve resting on a dark wood table in a warm, intimate listening room. Photograph from a clearly oblique three-quarter camera angle so the sleeve is visibly in perspective rather than front-on: all four sleeve corners are visible; its top and bottom edges both slope down toward the right by about 7–9 degrees; its right edge is visibly shorter than its left edge by at least 6 percent. Keep the sleeve face broad, evenly lit, and free of objects so later type can be printed on it. Place a recognizable black vinyl record with clear grooves on a turntable in the lower-right, with platter and tonearm visible and not hidden by the sleeve. Warm amber practical light, deep burgundy and walnut shadows, tactile paper grain, sophisticated analog editorial photography. Preserve believable object proportions, coherent camera perspective across the sleeve, table, record and room. The sleeve must have crisp, complete, unobstructed outer edges and no folds or glare that hide a corner. No text, letters, numbers, logos, labels, markings, graphic symbols, watermark, or text-like shapes anywhere.",
+    "references": "none",
+    "session": "p11-builder",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/rounds/R0/clean-source.png",
+    "sha256": "6687822ed8b8dd19c50981e3166e1617777a242bafbb4f4e465ade957d30b89c",
+    "remaining_budget": 1,
+    "generated_path": "/home/box/.codex/generated_images/01a177ab-ea37-7613-a217-dae4a3047a93/exec-bf2893e9-9187-4706-b267-1e49e81ff270.png",
+    "dimensions_px": [
+      1122,
+      1402
+    ]
+  },
+  {
+    "ordinal": 6,
+    "purpose": "T7 R1 correction: fix the sleeve plane edge slopes in the candidate clean flyer scene",
+    "condition": "Paso 11 candidate asset correction; not baseline",
+    "prompt": "Edit this vertical 4:5 editorial photograph of a blank record sleeve in a warm vinyl listening room. Keep the same restrained amber light, matte cream sleeve, dark wood table, black grooved vinyl, platter and visible tonearm. Correct the sleeve to read as one physically coherent flat rectangular plane in three-quarter perspective: all four crisp sleeve corners visible; both the top edge and the bottom edge must slope down toward the right by about 7 degrees, with the same slope sign; the right side edge should be visibly shorter than the left edge by about 6 percent. The current sleeve edges oppose each other, so change the camera/sleeve perspective coherently rather than only shifting one corner. Keep the record, tonearm, table, room and sleeve in a believable shared photographic space with natural object proportions. Keep the sleeve face large, matte and unobstructed for later printing. Do not add any text, letters, numbers, logos, labels, markings, symbols, watermarks, graphic panels or text-like marks.",
+    "references": [
+      "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/rounds/R0/clean-source.png"
+    ],
+    "reference_sha256": "6687822ed8b8dd19c50981e3166e1617777a242bafbb4f4e465ade957d30b89c",
+    "session": "p11-builder",
+    "correction_round": "R1",
+    "status": "success",
+    "output_path": "evals/art-direction/diagnostic-2026-10-22/renders/step11/flyer/rounds/R1/clean-source.png",
+    "sha256": "f3c562042b3b595f2d4eb589986ea72b3e4350f2c9bd41cbefdbed52c0c4c5c3",
+    "remaining_budget": 0,
+    "generated_path": "/home/box/.codex/generated_images/01a177ab-ea37-7613-a217-dae4a3047a93/exec-5bf7f37c-08f7-46cd-aa2b-12cd780a3835.png",
+    "dimensions_px": [
+      1122,
+      1402
+    ]
+  }
+]

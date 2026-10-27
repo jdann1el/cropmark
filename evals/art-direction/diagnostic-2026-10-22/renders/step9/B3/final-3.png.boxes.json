@@ -1,0 +1,412 @@
+{
+  "size": [
+    1080,
+    1350
+  ],
+  "boxes": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "box": [
+        70,
+        95,
+        515,
+        140
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "box": [
+        70,
+        151,
+        392,
+        208
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 60,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "headline",
+      "text": "Cada huella\ndeja memoria.",
+      "box": [
+        70,
+        606,
+        680,
+        851
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 124,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSerif-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "support",
+      "text": "Un rastro queda en\nla superficie.",
+      "box": [
+        70,
+        250,
+        573,
+        369
+      ],
+      "fill": [
+        247,
+        243,
+        232
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Regular.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "role": "cta",
+      "text": "MIRA LAS PIEZAS",
+      "box": [
+        70,
+        1209,
+        557,
+        1253
+      ],
+      "fill": [
+        38,
+        34,
+        29
+      ],
+      "size": 58,
+      "font_path": "/home/box/Developer/cropmark/skills/cropmark/fonts/InstrumentSans-Bold.ttf",
+      "stroke_width": 0,
+      "stroke_fill": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text_free": false,
+  "condition": "B3 Cropmark editable overlay",
+  "source_base": "base-3.png",
+  "crop": {
+    "source": "B3/base-3.png",
+    "source_size": [
+      1122,
+      1402
+    ],
+    "crop_box": [
+      0,
+      0,
+      1122,
+      1402
+    ],
+    "output_size": [
+      1080,
+      1350
+    ],
+    "operation": "center crop to target aspect ratio then Lanczos resize"
+  },
+  "headline_image_relation": "headline sits beside the thumbprint trace as a material echo; mid-left placement differs from slides 1 and 2",
+  "groups": [
+    {
+      "role": "brand",
+      "text": "TALLER BARRO",
+      "editable_text": "TALLER BARRO",
+      "position": [
+        70,
+        80
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast": {
+        "glyph_core_pixels": 8612,
+        "background_srgb_linear_luminance_p05": 0.11878,
+        "background_srgb_linear_luminance_median": 0.1424,
+        "contrast_p05": 4.375,
+        "contrast_median": 4.922,
+        "under_target_percent": 13.307,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.11878,
+          "background_srgb_linear_luminance_median": 0.1424,
+          "contrast_p05": 4.375,
+          "contrast_median": 4.922,
+          "under_target_percent": 13.307,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 8612,
+          "background_srgb_linear_luminance_p05": 0.11878,
+          "background_srgb_linear_luminance_median": 0.1424,
+          "contrast_p05": 2.54,
+          "contrast_median": 2.895,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "descriptor",
+      "text": "CERÁMICA",
+      "editable_text": "CERÁMICA",
+      "position": [
+        70,
+        148
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 60,
+      "visible_cap_height_px_master": 43,
+      "visible_cap_height_px_at_360": 14.33,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast": {
+        "glyph_core_pixels": 6448,
+        "background_srgb_linear_luminance_p05": 0.12965,
+        "background_srgb_linear_luminance_median": 0.15126,
+        "contrast_p05": 4.309,
+        "contrast_median": 4.705,
+        "under_target_percent": 27.885,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.12965,
+          "background_srgb_linear_luminance_median": 0.15126,
+          "contrast_p05": 4.309,
+          "contrast_median": 4.705,
+          "under_target_percent": 27.885,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 6448,
+          "background_srgb_linear_luminance_p05": 0.12965,
+          "background_srgb_linear_luminance_median": 0.15126,
+          "contrast_p05": 2.704,
+          "contrast_median": 3.029,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "headline",
+      "text": "Cada huella deja memoria.",
+      "editable_text": "Cada huella\ndeja memoria.",
+      "position": [
+        70,
+        575
+      ],
+      "font_file": "InstrumentSerif-Regular.ttf",
+      "font_size": 124,
+      "visible_cap_height_px_master": 89,
+      "visible_cap_height_px_at_360": 29.67,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast": {
+        "glyph_core_pixels": 21192,
+        "background_srgb_linear_luminance_p05": 0.11982,
+        "background_srgb_linear_luminance_median": 0.13051,
+        "contrast_p05": 4.329,
+        "contrast_median": 5.246,
+        "under_target_percent": 0.0,
+        "target": 3.0
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 21192,
+          "background_srgb_linear_luminance_p05": 0.11982,
+          "background_srgb_linear_luminance_median": 0.13051,
+          "contrast_p05": 4.329,
+          "contrast_median": 5.246,
+          "under_target_percent": 0.0,
+          "target": 3.0
+        },
+        "dark": {
+          "glyph_core_pixels": 21192,
+          "background_srgb_linear_luminance_p05": 0.11982,
+          "background_srgb_linear_luminance_median": 0.13051,
+          "contrast_p05": 2.556,
+          "contrast_median": 2.716,
+          "under_target_percent": 75.047,
+          "target": 3.0
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "support",
+      "text": "Un rastro queda en la superficie.",
+      "editable_text": "Un rastro queda en\nla superficie.",
+      "position": [
+        70,
+        235
+      ],
+      "font_file": "InstrumentSans-Regular.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        247,
+        243,
+        232
+      ],
+      "contrast": {
+        "glyph_core_pixels": 6936,
+        "background_srgb_linear_luminance_p05": 0.11582,
+        "background_srgb_linear_luminance_median": 0.14418,
+        "contrast_p05": 4.267,
+        "contrast_median": 4.868,
+        "under_target_percent": 21.929,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 6936,
+          "background_srgb_linear_luminance_p05": 0.11582,
+          "background_srgb_linear_luminance_median": 0.14418,
+          "contrast_p05": 4.267,
+          "contrast_median": 4.868,
+          "under_target_percent": 21.929,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 6936,
+          "background_srgb_linear_luminance_p05": 0.11582,
+          "background_srgb_linear_luminance_median": 0.14418,
+          "contrast_p05": 2.495,
+          "contrast_median": 2.922,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": false
+    },
+    {
+      "role": "cta",
+      "text": "MIRA LAS PIEZAS",
+      "editable_text": "MIRA LAS PIEZAS",
+      "position": [
+        70,
+        1195
+      ],
+      "font_file": "InstrumentSans-Bold.ttf",
+      "font_size": 58,
+      "visible_cap_height_px_master": 42,
+      "visible_cap_height_px_at_360": 14.0,
+      "ink_srgb": [
+        38,
+        34,
+        29
+      ],
+      "contrast": {
+        "glyph_core_pixels": 9054,
+        "background_srgb_linear_luminance_p05": 0.4723,
+        "background_srgb_linear_luminance_median": 0.6217,
+        "contrast_p05": 7.86,
+        "contrast_median": 10.109,
+        "under_target_percent": 0.0,
+        "target": 4.5
+      },
+      "candidate_contrast": {
+        "light": {
+          "glyph_core_pixels": 9054,
+          "background_srgb_linear_luminance_p05": 0.4723,
+          "background_srgb_linear_luminance_median": 0.6217,
+          "contrast_p05": 1.195,
+          "contrast_median": 1.41,
+          "under_target_percent": 100.0,
+          "target": 4.5
+        },
+        "dark": {
+          "glyph_core_pixels": 9054,
+          "background_srgb_linear_luminance_p05": 0.4723,
+          "background_srgb_linear_luminance_median": 0.6217,
+          "contrast_p05": 7.86,
+          "contrast_median": 10.109,
+          "under_target_percent": 0.0,
+          "target": 4.5
+        }
+      },
+      "effects": {
+        "shadow": false,
+        "stroke": false,
+        "text_panel": false
+      },
+      "underline": true
+    }
+  ]
+}

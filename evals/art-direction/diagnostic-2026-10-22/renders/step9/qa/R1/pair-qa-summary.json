@@ -1,0 +1,20 @@
+{
+  "thumb-pair": {
+    "status": "PASS",
+    "exit_code": 0,
+    "expected_count": 2,
+    "actual_count": 2,
+    "command": "python3 skills/cropmark/qa/qa.py thumb --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-R1.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R1/thumb-pair",
+    "report": "thumb-pair/qa-report.json",
+    "console": "thumb-pair-console.txt"
+  },
+  "post-pair": {
+    "status": "PASS",
+    "exit_code": 0,
+    "expected_count": 2,
+    "actual_count": 2,
+    "command": "python3 skills/cropmark/qa/qa.py post --strict --expected-count 2 evals/art-direction/diagnostic-2026-10-22/renders/step9/flyer/A.png evals/art-direction/diagnostic-2026-10-22/renders/step9/rounds/R1/flyer-B.png --out evals/art-direction/diagnostic-2026-10-22/renders/step9/qa/R1/post-pair",
+    "report": "post-pair/qa-report.json",
+    "console": "post-pair-console.txt"
+  }
+}

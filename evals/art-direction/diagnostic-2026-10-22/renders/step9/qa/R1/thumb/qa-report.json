@@ -1,0 +1,26 @@
+{
+  "exit_code": 0,
+  "strict": true,
+  "expected_count": 1,
+  "actual_count": 1,
+  "scope": "technical metadata checks; visual, semantic and fidelity review required",
+  "files": [
+    {
+      "file": "evals/art-direction/diagnostic-2026-10-22/renders/step9/thumbnail/B-R1.png",
+      "findings": [
+        {
+          "level": "OK",
+          "message": "size (1280, 720) (want 1280x720)"
+        },
+        {
+          "level": "INFO",
+          "message": "\"3 AIs. 1 Portfolio.\" contrast uses surrounding-background estimate; inspect photo/gradient visually"
+        },
+        {
+          "level": "OK",
+          "message": "\"3 AIs. 1 Portfolio.\" contrast 17.8:1"
+        }
+      ]
+    }
+  ]
+}
